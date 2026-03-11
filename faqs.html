@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQs — Little Moment Studio | Balloon Styling Sittingbourne Kent</title>
+  <meta name="description" content="Frequently asked questions about Little Moment Studio — balloon styling, baby showers and first birthdays in Sittingbourne & Kent. Booking, deposits, travel and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ── TOKENS ── */
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --bg3:       #FFFFFF;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-lt: #E6D8C3;
+      --accent-dk: #A8885A;
+      --border:    rgba(74,74,74,0.10);
+      --shadow:    0 2px 10px rgba(74,74,74,0.06), 0 12px 36px rgba(74,74,74,0.08);
+      --shadow-sm: 0 1px 4px rgba(74,74,74,0.06), 0 4px 16px rgba(74,74,74,0.06);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+      --r:         16px;
+      --max:       1200px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-b); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font-family: inherit; }
+    .container { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+    /* ── BUTTONS ── */
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 30px; border-radius: 50px; font-size: 14px; font-weight: 500; letter-spacing: 0.03em; cursor: pointer; border: none; transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 16px rgba(216,196,165,0.35); }
+    .btn-primary:hover { background: var(--accent-lt); box-shadow: 0 8px 24px rgba(216,196,165,0.45); }
+    .btn-secondary { background: rgba(255,255,255,0.9); color: var(--text); border: 1px solid var(--border); box-shadow: var(--shadow-sm); }
+    .btn-secondary:hover { background: #fff; box-shadow: var(--shadow); }
+
+    /* ── TOP BAR ── */
+    .topbar { background: var(--text); color: rgba(255,255,255,0.8); padding: 10px 0; font-size: 13px; }
+    .topbar .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .topbar-left { display: flex; align-items: center; gap: 24px; }
+    .topbar-link { display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.7); transition: color 0.2s ease; }
+    .topbar-link:hover { color: #fff; }
+    .topbar-cta { background: var(--accent); color: #fff; padding: 6px 18px; border-radius: 50px; font-size: 12px; font-weight: 500; letter-spacing: 0.04em; transition: background 0.2s ease; }
+    .topbar-cta:hover { background: var(--accent-lt); }
+    @media (max-width: 600px) { .topbar-link span { display: none; } .topbar-left { gap: 12px; } }
+
+    /* ── NAV ── */
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(250,247,242,0.93); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); transition: box-shadow 0.3s ease; }
+    .nav.scrolled { box-shadow: 0 2px 20px rgba(74,74,74,0.08); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 100px; }
+    .nav-logo img { height: 88px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--muted); transition: color 0.2s ease; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 0; height: 1px; background: var(--accent); transition: width 0.25s ease; }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-book { font-size: 13px; padding: 10px 24px; }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 8px; }
+    .nav-hamburger span { display: block; width: 24px; height: 1.5px; background: var(--text); }
+    @media (max-width: 900px) { .nav-links, .nav-book { display: none; } .nav-hamburger { display: flex; } }
+    .nav-mobile { display: none; position: fixed; inset: 0; background: var(--bg); z-index: 200; flex-direction: column; align-items: center; justify-content: center; }
+    .nav-mobile.open { display: flex; }
+    .nav-mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; font-size: 32px; cursor: pointer; color: var(--text); line-height: 1; }
+    .nav-mobile-links { list-style: none; text-align: center; display: flex; flex-direction: column; gap: 4px; }
+    .nav-mobile-links a { font-family: var(--font-h); font-size: 30px; font-weight: 400; color: var(--text); display: block; padding: 8px 0; transition: color 0.2s ease; }
+    .nav-mobile-links a:hover { color: var(--accent); }
+    .nav-mobile-cta { margin-top: 32px; }
+
+    /* ── PAGE HEADER ── */
+    .page-header { padding: 72px 0 56px; text-align: center; }
+    .page-header-eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-dk); margin-bottom: 20px; }
+    .page-header-eyebrow::before, .page-header-eyebrow::after { content: ''; display: block; width: 32px; height: 1px; background: var(--accent); }
+    .page-header h1 { font-family: var(--font-h); font-size: clamp(36px, 5vw, 60px); font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; color: var(--text); margin-bottom: 16px; }
+    .page-header h1 em { font-style: italic; color: var(--accent-dk); }
+    .page-header p { font-size: 17px; color: var(--muted); max-width: 520px; margin: 0 auto; }
+
+    /* ── FAQ LAYOUT ── */
+    .faq-page { padding: 0 0 96px; }
+    .faq-layout { display: grid; grid-template-columns: 240px 1fr; gap: 64px; align-items: start; }
+    @media (max-width: 900px) { .faq-layout { grid-template-columns: 1fr; } }
+
+    /* ── SIDEBAR NAV ── */
+    .faq-nav { position: sticky; top: 120px; }
+    .faq-nav-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dk); margin-bottom: 16px; }
+    .faq-nav-links { list-style: none; display: flex; flex-direction: column; gap: 2px; }
+    .faq-nav-links a { display: block; font-size: 14px; color: var(--muted); padding: 8px 12px; border-radius: 8px; transition: all 0.2s ease; border-left: 2px solid transparent; }
+    .faq-nav-links a:hover { color: var(--text); background: var(--bg2); }
+    .faq-nav-links a.active { color: var(--accent-dk); background: var(--bg2); border-left-color: var(--accent-dk); font-weight: 500; }
+    @media (max-width: 900px) { .faq-nav { display: none; } }
+
+    /* ── FAQ SECTIONS ── */
+    .faq-sections { min-width: 0; }
+    .faq-section { margin-bottom: 56px; }
+    .faq-section:last-child { margin-bottom: 0; }
+    .faq-section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .faq-section-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 18px; }
+    .icon-booking { background: var(--secondary); }
+    .icon-travel { background: var(--primary); }
+    .icon-design { background: var(--accent-lt); }
+    .icon-day { background: #E8F4E8; }
+    .icon-balloons { background: #F4E8F4; }
+    .faq-section-title { font-family: var(--font-h); font-size: 22px; font-weight: 500; color: var(--text); }
+
+    /* ── ACCORDION ── */
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-of-type { border-top: 1px solid var(--border); }
+    .faq-question { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; background: none; border: none; cursor: pointer; text-align: left; }
+    .faq-question-text { font-size: 16px; font-weight: 500; color: var(--text); line-height: 1.4; }
+    .faq-question:hover .faq-question-text { color: var(--accent-dk); }
+    .faq-chevron { width: 20px; height: 20px; flex-shrink: 0; color: var(--accent); transition: transform 0.3s ease; }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+    .faq-answer { display: none; padding: 0 0 20px; }
+    .faq-item.open .faq-answer { display: block; }
+    .faq-answer p { font-size: 16px; color: var(--muted); line-height: 1.8; margin-bottom: 12px; }
+    .faq-answer p:last-child { margin-bottom: 0; }
+    .faq-answer ul { list-style: none; margin: 8px 0 12px; display: flex; flex-direction: column; gap: 6px; }
+    .faq-answer ul li { font-size: 16px; color: var(--muted); line-height: 1.7; padding-left: 20px; position: relative; }
+    .faq-answer ul li::before { content: '·'; position: absolute; left: 6px; color: var(--accent-dk); font-weight: bold; }
+    .faq-answer strong { color: var(--text); font-weight: 600; }
+
+    /* ── CTA BLOCK ── */
+    .faq-cta { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); border-radius: 20px; padding: 56px 48px; text-align: center; margin-top: 64px; }
+    .faq-cta h2 { font-family: var(--font-h); font-size: clamp(24px, 3vw, 36px); font-weight: 500; color: var(--text); margin-bottom: 12px; }
+    .faq-cta p { color: var(--muted); font-size: 17px; margin-bottom: 28px; }
+    .faq-cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    @media (max-width: 640px) { .faq-cta { padding: 40px 24px; } }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    /* ── FOOTER ── */
+    .footer { background: var(--text); color: rgba(255,255,255,0.75); padding: 64px 0 0; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    @media (max-width: 900px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .footer-top { grid-template-columns: 1fr; } }
+    .footer-brand-name { font-family: var(--font-h); font-size: 22px; color: #fff; margin-bottom: 4px; }
+    .footer-brand-tag { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .footer-brand-desc { font-size: 14px; line-height: 1.7; max-width: 280px; margin-bottom: 24px; }
+    .footer-socials { display: flex; gap: 10px; }
+    .footer-social { width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.15); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.6); transition: background 0.2s ease, color 0.2s ease; }
+    .footer-social:hover { background: var(--accent); color: #fff; }
+    .footer-col h4 { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; margin-bottom: 16px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-links a { font-size: 14px; color: rgba(255,255,255,0.6); transition: color 0.2s ease; }
+    .footer-links a:hover { color: #fff; }
+    .footer-ci { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; margin-bottom: 10px; color: rgba(255,255,255,0.6); }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; font-size: 13px; gap: 16px; flex-wrap: wrap; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { color: rgba(255,255,255,0.45); transition: color 0.2s ease; }
+    .footer-bottom-links a:hover { color: rgba(255,255,255,0.65); }
+  </style>
+
+  <!-- FAQ Schema for Google rich snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I secure my booking?",
+        "acceptedAnswer": { "@type": "Answer", "text": "To confirm your date, we ask for a 25% non-refundable booking deposit at the time of enquiry. The remaining balance is due 14 days before your event." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is your cancellation policy?",
+        "acceptedAnswer": { "@type": "Answer", "text": "If you cancel more than 14 days before your event, your balance is refunded in full and only the booking deposit is retained. If you cancel within 14 days of your event, the deposit is retained and no further charge is made." }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do you travel to?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We are based at Forum Shopping Centre in Sittingbourne and currently cover a 10-mile radius, taking in Faversham, Newington, Rainham, Gillingham and surrounding areas." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a travel charge?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Travel within our 10-mile area is included in your quote with no hidden extras." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:07700900123" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span>07700 900 123</span>
+      </a>
+      <a href="mailto:hello@littlemomentstudio.co.uk" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>hello@littlemomentstudio.co.uk</span>
+      </a>
+    </div>
+    <a href="index.html#contact" class="topbar-cta">Book Your Celebration →</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="Little Moment Studio">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.html#packages">Packages</a></li>
+        <li><a href="index.html#how">How It Works</a></li>
+        <li><a href="faqs.html" class="active">FAQs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn-primary nav-book">Book Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="nav-mobile" id="mobileNav">
+  <button class="nav-mobile-close" id="mobileClose" aria-label="Close">×</button>
+  <ul class="nav-mobile-links">
+    <li><a href="index.html#services" onclick="closeNav()">Services</a></li>
+    <li><a href="gallery.html" onclick="closeNav()">Gallery</a></li>
+    <li><a href="index.html#packages" onclick="closeNav()">Packages</a></li>
+    <li><a href="index.html#how" onclick="closeNav()">How It Works</a></li>
+    <li><a href="faqs.html" onclick="closeNav()">FAQs</a></li>
+    <li><a href="index.html#contact" onclick="closeNav()">Contact</a></li>
+  </ul>
+  <a href="index.html#contact" class="btn btn-primary nav-mobile-cta" onclick="closeNav()">Book Your Celebration</a>
+</div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-eyebrow">Your Questions Answered</div>
+    <h1>Frequently Asked <em>Questions</em></h1>
+    <p>Everything you need to know before booking your celebration. Can't find what you're looking for? Just get in touch — we're always happy to help.</p>
+  </div>
+</div>
+
+<!-- FAQ CONTENT -->
+<section class="faq-page">
+  <div class="container">
+    <div class="faq-layout">
+
+      <!-- SIDEBAR -->
+      <nav class="faq-nav">
+        <div class="faq-nav-label">Jump to</div>
+        <ul class="faq-nav-links">
+          <li><a href="#booking" class="active">Booking &amp; Deposits</a></li>
+          <li><a href="#travel">Travel &amp; Area</a></li>
+          <li><a href="#design">The Design Process</a></li>
+          <li><a href="#day">On the Day</a></li>
+          <li><a href="#balloons">The Balloons</a></li>
+        </ul>
+      </nav>
+
+      <!-- FAQ SECTIONS -->
+      <div class="faq-sections">
+
+        <!-- SECTION 1: BOOKING & DEPOSITS -->
+        <div class="faq-section reveal" id="booking">
+          <div class="faq-section-header">
+            <div class="faq-section-icon icon-booking">🎀</div>
+            <h2 class="faq-section-title">Booking &amp; Deposits</h2>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">How do I secure my booking?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>To confirm your date, we ask for a 25% non-refundable booking deposit at the time of enquiry. Once received, your date is reserved and we begin planning your celebration together. The remaining balance is due 14 days before your event.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">Why is the deposit non-refundable?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Once your booking is confirmed, we begin sourcing your bespoke materials, reserving your date in our calendar, and dedicating design time to your celebration. The deposit covers this work and ensures your date isn't offered to anyone else.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">What is your cancellation policy?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>We completely understand that life doesn't always go to plan. If you need to cancel:</p>
+              <ul>
+                <li><strong>More than 14 days before your event</strong> — your balance is refunded in full; only the booking deposit is retained.</li>
+                <li><strong>Within 14 days of your event</strong> — as materials will have been ordered and preparations made, the deposit is retained and no further charge is made.</li>
+              </ul>
+              <p>In some circumstances, we may be able to transfer your booking to a new date, subject to availability — just get in touch and we'll do our very best to help.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">Can I pay in instalments?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Please get in touch and we'll see what we can arrange.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- SECTION 2: TRAVEL -->
+        <div class="faq-section reveal" id="travel">
+          <div class="faq-section-header">
+            <div class="faq-section-icon icon-travel">📍</div>
+            <h2 class="faq-section-title">Travel &amp; Area Covered</h2>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">Where do you travel to?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>We're based at Forum Shopping Centre in Sittingbourne and currently cover a 10-mile radius — taking in Faversham, Newington, Rainham, Gillingham and surrounding areas. If you're just outside our area, do get in touch as we'll always try to help where we can.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">Is there a travel charge?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Travel within our 10-mile area is included in your quote — no hidden extras.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">Do you set up at home or at a venue?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Both! We're happy to come to your home, a hired venue, a village hall — wherever your celebration is taking place. Just let us know the details when you enquire and we'll factor everything in.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- SECTION 3: DESIGN PROCESS (coming soon placeholder) -->
+        <div class="faq-section reveal" id="design">
+          <div class="faq-section-header">
+            <div class="faq-section-icon icon-design">✨</div>
+            <h2 class="faq-section-title">The Design Process</h2>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">More questions coming soon…</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>We're adding more answers here shortly. In the meantime, please don't hesitate to <a href="index.html#contact" style="color: var(--accent-dk); text-decoration: underline;">get in touch</a> with any questions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 4: ON THE DAY (coming soon placeholder) -->
+        <div class="faq-section reveal" id="day">
+          <div class="faq-section-header">
+            <div class="faq-section-icon icon-day">🎉</div>
+            <h2 class="faq-section-title">On the Day</h2>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">More questions coming soon…</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>We're adding more answers here shortly. In the meantime, please don't hesitate to <a href="index.html#contact" style="color: var(--accent-dk); text-decoration: underline;">get in touch</a> with any questions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 5: THE BALLOONS (coming soon placeholder) -->
+        <div class="faq-section reveal" id="balloons">
+          <div class="faq-section-header">
+            <div class="faq-section-icon icon-balloons">🎈</div>
+            <h2 class="faq-section-title">The Balloons</h2>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">More questions coming soon…</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>We're adding more answers here shortly. In the meantime, please don't hesitate to <a href="index.html#contact" style="color: var(--accent-dk); text-decoration: underline;">get in touch</a> with any questions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="faq-cta reveal">
+          <h2>Still Have a <em>Question?</em></h2>
+          <p>We'd love to hear from you. Drop us a message and we'll get back to you as soon as possible.</p>
+          <div class="faq-cta-btns">
+            <a href="index.html#contact" class="btn btn-primary">Send Us a Message →</a>
+            <a href="tel:07700900123" class="btn btn-secondary">Call Us</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Little Moment Studio</div>
+        <div class="footer-brand-tag">Celebration Styling · Sittingbourne</div>
+        <p class="footer-brand-desc">Premium celebration styling for baby showers, first birthdays and children's celebrations across Sittingbourne and Kent.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" aria-label="Instagram">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#services">Baby Showers</a></li>
+          <li><a href="index.html#services">First Birthdays</a></li>
+          <li><a href="index.html#services">Balloon Installations</a></li>
+          <li><a href="index.html#packages">Backdrop &amp; Prop Hire</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#packages">Our Packages</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          07700 900 123
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@littlemomentstudio.co.uk
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Forum Shopping Centre,<br>Sittingbourne, ME10 3DL
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Little Moment Studio. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Nav scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // Mobile nav
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+  document.getElementById('mobileClose').addEventListener('click', closeNav);
+  function closeNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  // Accordion
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      // Close all
+      document.querySelectorAll('.faq-item.open').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      // Open clicked if it was closed
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Scroll reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Sidebar active state
+  const sections = document.querySelectorAll('.faq-section');
+  const navLinks = document.querySelectorAll('.faq-nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 160) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  }, { passive: true });
+</script>
+</body>
+</html>
