@@ -114,11 +114,27 @@ Last updated: 13 March 2026
 
 ---
 
+## Birthday Balloons Kent (birthday-balloons-kent.html)
+
+**Status:** ✅ Created — 13 March 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Birthday Balloons Kent \| First Birthday & Party Balloon Styling \| Little Moment Studio |
+| **Meta description** | Beautiful birthday balloon styling across Kent. First birthday balloons, kids' party balloon garlands, milestone celebrations & balloon arches. Based in Sittingbourne, serving all of Kent. |
+| **H1** | Birthday Balloon Styling Across Kent |
+| **Target keywords** | birthday balloons Kent, first birthday balloons Kent, kids party balloons Kent, milestone birthday balloons |
+| **Schema** | ✅ Service JSON-LD (provider: Little Moment Studio, areaServed: Kent) |
+| **Sections** | Intro with image, showcase gallery (3 images), ages/occasions (4 cards), mini FAQ (4 questions), CTA strip |
+| **Internal links** | Links to gallery.html, faqs.html, index.html#contact |
+| **Canonical** | https://littlemomentstudio.co.uk/birthday-balloons-kent.html |
+
+---
+
 ## Planned Landing Pages
 
 | Page | Target Keywords | Status |
 |------|----------------|--------|
-| `/birthday-balloons-kent.html` | birthday balloons Kent, first birthday balloons Kent | ⬜ Not started |
 | `/balloon-garlands-kent.html` | balloon garland Kent, balloon arch Kent | ⬜ Not started |
 | `/wedding-balloons-kent.html` | wedding balloons Kent, wedding balloon arch Kent | ⬜ Not started |
 | `/corporate-event-balloons-kent.html` | event balloons Kent, corporate balloon decor Kent | ⬜ Not started |
