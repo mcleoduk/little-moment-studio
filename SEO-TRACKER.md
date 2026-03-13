@@ -131,11 +131,27 @@ Last updated: 13 March 2026
 
 ---
 
+## Balloon Garlands & Arches Kent (balloon-garlands-kent.html)
+
+**Status:** ✅ Created — 13 March 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Balloon Garlands & Arches Kent \| Organic Balloon Displays \| Little Moment Studio |
+| **Meta description** | Stunning balloon garlands and balloon arches across Kent. Organic garlands, statement arches & flowing balloon displays for every celebration. Based in Sittingbourne, serving all of Kent. |
+| **H1** | Balloon Garlands & Arches Across Kent |
+| **Target keywords** | balloon garland Kent, balloon arch Kent, organic balloon garland, balloon display Kent |
+| **Schema** | ✅ Service JSON-LD (provider: Little Moment Studio, areaServed: Kent) |
+| **Sections** | Intro with image, 3 garland styles (organic/arch/cascading), showcase gallery (2 images), occasions (3 cards), mini FAQ (4 questions), CTA strip |
+| **Internal links** | Links to gallery.html, faqs.html, index.html#contact |
+| **Canonical** | https://littlemomentstudio.co.uk/balloon-garlands-kent.html |
+
+---
+
 ## Planned Landing Pages
 
 | Page | Target Keywords | Status |
 |------|----------------|--------|
-| `/balloon-garlands-kent.html` | balloon garland Kent, balloon arch Kent | ⬜ Not started |
 | `/wedding-balloons-kent.html` | wedding balloons Kent, wedding balloon arch Kent | ⬜ Not started |
 | `/corporate-event-balloons-kent.html` | event balloons Kent, corporate balloon decor Kent | ⬜ Not started |
 

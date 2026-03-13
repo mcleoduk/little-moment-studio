@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balloon Garlands &amp; Arches Kent | Organic Balloon Displays | Little Moment Studio</title>
+  <meta name="description" content="Stunning balloon garlands and balloon arches across Kent. Organic garlands, statement arches &amp; flowing balloon displays for every celebration. Based in Sittingbourne, serving all of Kent.">
+  <link rel="canonical" href="https://littlemomentstudio.co.uk/balloon-garlands-kent.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Balloon Garlands & Arches Kent",
+    "description": "Beautiful balloon garlands and arches across Kent. Organic garlands, statement arches and flowing balloon displays for baby showers, birthdays and celebrations.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Little Moment Studio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Forum Shopping Centre",
+        "addressLocality": "Sittingbourne",
+        "addressRegion": "Kent",
+        "postalCode": "ME10 3DL",
+        "addressCountry": "GB"
+      }
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Kent"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ── TOKENS ── */
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --bg3:       #FFFFFF;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-dk: #A8885A;
+      --accent-lt: #E6D8C3;
+      --border:    rgba(74,74,74,0.10);
+      --shadow:    0 2px 10px rgba(74,74,74,0.06), 0 12px 36px rgba(74,74,74,0.08);
+      --shadow-sm: 0 1px 4px rgba(74,74,74,0.06), 0 4px 16px rgba(74,74,74,0.06);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+      --r:         16px;
+      --max:       1200px;
+    }
+
+    /* ── RESET ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-b); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font-family: inherit; }
+
+    .container { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+    /* ── TOPBAR ── */
+    .topbar { background: var(--text); color: rgba(255,255,255,0.8); padding: 10px 0; font-size: 13px; }
+    .topbar .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .topbar-left { display: flex; align-items: center; gap: 24px; }
+    .topbar-link { display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.7); transition: color 0.2s ease; }
+    .topbar-link:hover { color: #fff; }
+    .topbar-cta { background: var(--accent); color: #fff; padding: 6px 18px; border-radius: 50px; font-size: 12px; font-weight: 500; letter-spacing: 0.04em; transition: background 0.2s ease; }
+    .topbar-cta:hover { background: var(--accent-lt); }
+    @media (max-width: 600px) { .topbar-link span { display: none; } .topbar-left { gap: 12px; } }
+
+    /* ── NAV ── */
+    .nav { background: var(--bg); padding: 16px 0; position: sticky; top: 0; z-index: 100; transition: box-shadow 0.3s ease, padding 0.3s ease; }
+    .nav.scrolled { box-shadow: var(--shadow-sm); padding: 10px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 88px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--muted); transition: color 0.2s ease; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 0; height: 1px; background: var(--accent); transition: width 0.25s ease; }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
+    @media (max-width: 900px) { .nav-links, .nav-book { display: none; } .nav-hamburger { display: flex; } }
+
+    /* ── MOBILE NAV ── */
+    .nav-mobile { display: none; position: fixed; inset: 0; background: var(--bg); z-index: 200; flex-direction: column; align-items: center; justify-content: center; }
+    .nav-mobile.open { display: flex; }
+    .nav-mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; font-size: 32px; cursor: pointer; color: var(--text); line-height: 1; }
+    .nav-mobile-links { list-style: none; text-align: center; display: flex; flex-direction: column; gap: 4px; }
+    .nav-mobile-links a { font-family: var(--font-h); font-size: 30px; font-weight: 400; color: var(--text); display: block; padding: 8px 0; transition: color 0.2s ease; }
+    .nav-mobile-links a:hover { color: var(--accent); }
+    .nav-mobile-cta { margin-top: 32px; }
+
+    /* ── BUTTONS ── */
+    .btn { display: inline-block; padding: 14px 32px; border-radius: 50px; font-size: 14px; font-weight: 500; letter-spacing: 0.03em; transition: all 0.25s ease; cursor: pointer; border: none; text-align: center; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-dk); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(216,196,165,0.4); }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent-dk); }
+
+    /* ── PAGE HERO ── */
+    .page-hero {
+      padding: 80px 0 64px;
+      text-align: center;
+      background: linear-gradient(180deg, var(--accent-lt) 0%, var(--bg) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      right: -60px;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(220,234,245,0.35) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .page-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -50px;
+      left: -80px;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(246,221,228,0.25) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .page-hero-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 16px;
+      position: relative;
+    }
+    .page-hero-title {
+      font-family: var(--font-h); font-size: clamp(32px, 5vw, 52px);
+      font-weight: 500; line-height: 1.15; letter-spacing: -0.02em;
+      color: var(--text); margin-bottom: 20px; position: relative;
+    }
+    .page-hero-title em { font-style: italic; color: var(--accent-dk); }
+    .page-hero-sub {
+      font-size: 17px; line-height: 1.7; color: var(--muted);
+      max-width: 600px; margin: 0 auto; position: relative;
+    }
+
+    /* ── INTRO SECTION ── */
+    .intro { padding: 80px 0; }
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .intro-img {
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+    .intro-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .intro-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: var(--r);
+      box-shadow: inset 0 0 0 1px rgba(74,74,74,0.06);
+      pointer-events: none;
+    }
+    .intro-content h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 36px);
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .intro-content h2 em { font-style: italic; color: var(--accent-dk); }
+    .intro-content p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .intro-content .highlight {
+      background: var(--accent-lt);
+      padding: 20px 24px;
+      border-radius: var(--r);
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text);
+      margin-top: 24px;
+      border-left: 3px solid var(--accent);
+      background: linear-gradient(135deg, rgba(216,196,165,0.15) 0%, rgba(246,221,228,0.15) 100%);
+    }
+    @media (max-width: 768px) {
+      .intro-grid { grid-template-columns: 1fr; gap: 40px; }
+    }
+
+    /* ── STYLES SECTION ── */
+    .styles { padding: 80px 0; background: var(--bg2); }
+    .styles-header { text-align: center; margin-bottom: 48px; }
+    .styles-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .styles-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .styles-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .styles-header p {
+      font-size: 15px; color: var(--muted); max-width: 560px;
+      margin: 16px auto 0; line-height: 1.7;
+    }
+    .styles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .styles-card {
+      background: var(--bg3);
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .styles-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+    .styles-card-visual {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .styles-card-visual.organic {
+      background: linear-gradient(135deg, #E8D5E0 0%, #DCEAF5 50%, #E6D8C3 100%);
+    }
+    .styles-card-visual.arch {
+      background: linear-gradient(135deg, #DCEAF5 0%, #D4E8D0 50%, #F6DDE4 100%);
+    }
+    .styles-card-visual.statement {
+      background: linear-gradient(135deg, #F6DDE4 0%, #E6D8C3 50%, #DCEAF5 100%);
+    }
+    .styles-card-visual svg {
+      opacity: 0.4;
+    }
+    .styles-card-body { padding: 24px; }
+    .styles-card-body h3 {
+      font-family: var(--font-h);
+      font-size: 20px; font-weight: 500; margin-bottom: 8px;
+    }
+    .styles-card-body p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .styles-card-body .tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      background: rgba(216,196,165,0.15);
+      padding: 4px 12px;
+      border-radius: 50px;
+      margin-top: 12px;
+    }
+    @media (max-width: 768px) {
+      .styles-grid { grid-template-columns: 1fr; gap: 20px; }
+    }
+
+    /* ── SHOWCASE GALLERY ── */
+    .showcase { padding: 80px 0; }
+    .showcase-header { text-align: center; margin-bottom: 48px; }
+    .showcase-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .showcase-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .showcase-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .showcase-duo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .showcase-card {
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      background: var(--bg3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .showcase-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+    .showcase-card-img { aspect-ratio: 4/3; overflow: hidden; }
+    .showcase-card-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .showcase-card:hover .showcase-card-img img { transform: scale(1.04); }
+    .showcase-card-body { padding: 20px 24px; }
+    .showcase-card-body h3 {
+      font-family: var(--font-h);
+      font-size: 18px; font-weight: 500; margin-bottom: 6px;
+    }
+    .showcase-card-body p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    @media (max-width: 768px) {
+      .showcase-duo { grid-template-columns: 1fr; gap: 20px; }
+    }
+
+    /* ── OCCASIONS ── */
+    .occasions { padding: 80px 0; background: var(--bg2); }
+    .occasions-header { text-align: center; margin-bottom: 48px; }
+    .occasions-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .occasions-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .occasions-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .occasions-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .occasions-card {
+      text-align: center;
+      padding: 36px 24px;
+      background: var(--bg3);
+      border-radius: var(--r);
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.3s ease;
+    }
+    .occasions-card:hover { transform: translateY(-3px); }
+    .occasions-icon {
+      width: 56px; height: 56px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    .occasions-icon.pink { background: var(--secondary); }
+    .occasions-icon.blue { background: var(--primary); }
+    .occasions-icon.gold { background: var(--accent-lt); }
+    .occasions-card h3 {
+      font-family: var(--font-h);
+      font-size: 17px; font-weight: 500; margin-bottom: 8px;
+    }
+    .occasions-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    @media (max-width: 768px) {
+      .occasions-grid { grid-template-columns: 1fr; gap: 16px; }
+    }
+
+    /* ── MINI FAQ ── */
+    .mini-faq { padding: 80px 0; }
+    .mini-faq-header { text-align: center; margin-bottom: 48px; }
+    .mini-faq-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .mini-faq-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .mini-faq-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .mini-faq-list { max-width: 720px; margin: 0 auto; }
+    .mini-faq-item {
+      background: var(--bg3);
+      border-radius: var(--r);
+      margin-bottom: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .mini-faq-q {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 24px; cursor: pointer; font-size: 15px; font-weight: 500;
+      color: var(--text); transition: color 0.2s ease; border: none;
+      background: none; width: 100%; text-align: left; font-family: var(--font-b);
+    }
+    .mini-faq-q:hover { color: var(--accent-dk); }
+    .mini-faq-q svg { flex-shrink: 0; transition: transform 0.3s ease; }
+    .mini-faq-item.open .mini-faq-q svg { transform: rotate(180deg); }
+    .mini-faq-a { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .mini-faq-item.open .mini-faq-a { max-height: 300px; }
+    .mini-faq-a-inner {
+      padding: 0 24px 20px;
+      font-size: 14px; line-height: 1.7; color: var(--muted);
+    }
+
+    /* ── CTA STRIP ── */
+    .cta-strip {
+      padding: 80px 0;
+      text-align: center;
+      background: linear-gradient(135deg, var(--accent-lt) 0%, var(--primary) 50%, var(--secondary) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-strip::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cta-strip h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 500; margin-bottom: 16px; position: relative;
+    }
+    .cta-strip h2 em { font-style: italic; color: var(--accent-dk); }
+    .cta-strip p {
+      font-size: 16px; color: var(--muted);
+      max-width: 520px; margin: 0 auto 32px; position: relative;
+    }
+    .cta-strip .btn { position: relative; }
+    .cta-btns {
+      display: flex; gap: 16px; justify-content: center;
+      flex-wrap: wrap; position: relative;
+    }
+
+    /* ── FOOTER ── */
+    .footer { background: var(--text); color: rgba(255,255,255,0.7); padding: 64px 0 0; }
+    .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .footer-brand-name { font-family: var(--font-h); font-size: 22px; color: #fff; margin-bottom: 4px; }
+    .footer-brand-tag { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .footer-brand-desc { font-size: 14px; line-height: 1.7; max-width: 280px; margin-bottom: 24px; }
+    .footer-socials { display: flex; gap: 10px; }
+    .footer-social { width: 34px; height: 34px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+    .footer-social:hover { border-color: var(--accent); background: rgba(216,196,165,0.1); }
+    .footer-col h4 { font-family: var(--font-h); font-size: 16px; color: #fff; margin-bottom: 16px; font-weight: 500; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 14px; transition: color 0.2s ease; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-ci { font-size: 14px; display: flex; align-items: flex-start; gap: 8px; margin-bottom: 12px; line-height: 1.5; }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; font-size: 13px; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { transition: color 0.2s ease; }
+    .footer-bottom-links a:hover { color: var(--accent); }
+    @media (max-width: 768px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 500px) {
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    }
+
+    /* ── REVEAL ANIMATION ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal.rd1 { transition-delay: 0.1s; }
+    .reveal.rd2 { transition-delay: 0.2s; }
+    .reveal.rd3 { transition-delay: 0.3s; }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:07700900123" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span>07700 900 123</span>
+      </a>
+      <a href="mailto:hello@littlemomentstudio.co.uk" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>hello@littlemomentstudio.co.uk</span>
+      </a>
+    </div>
+    <a href="index.html#contact" class="topbar-cta">Book Your Celebration &rarr;</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="Little Moment Studio" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.html#packages">Packages</a></li>
+        <li><a href="index.html#how">How It Works</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn-primary nav-book">Book Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="nav-mobile" id="mobileNav">
+  <button class="nav-mobile-close" id="mobileClose" aria-label="Close">&times;</button>
+  <ul class="nav-mobile-links">
+    <li><a href="index.html#services" onclick="closeNav()">Services</a></li>
+    <li><a href="gallery.html" onclick="closeNav()">Gallery</a></li>
+    <li><a href="index.html#packages" onclick="closeNav()">Packages</a></li>
+    <li><a href="index.html#how" onclick="closeNav()">How It Works</a></li>
+    <li><a href="faqs.html" onclick="closeNav()">FAQs</a></li>
+    <li><a href="index.html#contact" onclick="closeNav()">Contact</a></li>
+  </ul>
+  <a href="index.html#contact" class="btn btn-primary nav-mobile-cta" onclick="closeNav()">Book Your Celebration</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <div class="page-hero-label">Balloon Garlands &amp; Arches Kent</div>
+    <h1 class="page-hero-title">Balloon Garlands &amp;<br><em>Arches</em> Across Kent</h1>
+    <p class="page-hero-sub">Organic balloon garlands, statement arches and flowing displays that transform any space. Handcrafted for baby showers, birthdays, weddings and events across Kent.</p>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-img reveal">
+        <img src="gallery/install-1.jpeg" alt="Organic balloon garland installation Kent by Little Moment Studio">
+      </div>
+      <div class="intro-content reveal rd1">
+        <h2>Handcrafted Balloon Garlands, <em>Designed for You</em></h2>
+        <p>Balloon garlands are our most popular service &mdash; and for good reason. They're versatile, show-stopping and completely bespoke. Whether draped across a table, framing a doorway or cascading down a staircase, a garland transforms any space instantly.</p>
+        <p>Every garland is built by hand using premium latex balloons in your chosen colour palette. We mix sizes, textures and shapes to create an organic, natural flow that looks effortless &mdash; but is anything but.</p>
+        <div class="highlight">
+          Our garlands typically range from 2 to 6 metres. Tell us your space and we'll recommend the perfect size and style.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GARLAND STYLES -->
+<section class="styles">
+  <div class="container">
+    <div class="styles-header reveal">
+      <div class="label">Garland &amp; Arch Styles</div>
+      <h2>Three Ways to <em>Style</em> Your Space</h2>
+      <p>Every garland is built to order. Here are the three most popular styles we create for celebrations across Kent.</p>
+    </div>
+    <div class="styles-grid">
+      <div class="styles-card reveal">
+        <div class="styles-card-visual organic">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="0.8"><path d="M12 22c-4-3-8-7-8-12a8 8 0 0116 0c0 5-4 9-8 12z"/><circle cx="8" cy="9" r="2"/><circle cx="14" cy="7" r="2.5"/><circle cx="11" cy="12" r="2"/><circle cx="16" cy="11" r="1.5"/></svg>
+        </div>
+        <div class="styles-card-body">
+          <h3>Organic Garland</h3>
+          <p>A natural, flowing arrangement with mixed balloon sizes and textures. Draped along tables, walls or furniture for an effortlessly beautiful look.</p>
+          <span class="tag">Most Popular</span>
+        </div>
+      </div>
+      <div class="styles-card reveal rd1">
+        <div class="styles-card-visual arch">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="0.8"><path d="M4 20 C4 10, 20 10, 20 20"/><circle cx="6" cy="16" r="2"/><circle cx="10" cy="11" r="2.5"/><circle cx="14" cy="11" r="2"/><circle cx="18" cy="16" r="2"/><circle cx="12" cy="9" r="1.8"/></svg>
+        </div>
+        <div class="styles-card-body">
+          <h3>Statement Arch</h3>
+          <p>A freestanding balloon arch that creates a dramatic entrance, photo backdrop or focal point. Available in full arch, half arch and asymmetric styles.</p>
+          <span class="tag">Photo Favourite</span>
+        </div>
+      </div>
+      <div class="styles-card reveal rd2">
+        <div class="styles-card-visual statement">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="0.8"><path d="M2 18 L6 8 L10 14 L14 6 L18 12 L22 4"/><circle cx="6" cy="8" r="2"/><circle cx="10" cy="14" r="1.5"/><circle cx="14" cy="6" r="2.5"/><circle cx="18" cy="12" r="1.8"/><circle cx="22" cy="4" r="1.5"/></svg>
+        </div>
+        <div class="styles-card-body">
+          <h3>Cascading Display</h3>
+          <p>Balloons flowing down from a ceiling, staircase or feature wall. Creates incredible height and drama &mdash; perfect for venues and large spaces.</p>
+          <span class="tag">Maximum Impact</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE GALLERY -->
+<section class="showcase">
+  <div class="container">
+    <div class="showcase-header reveal">
+      <div class="label">Our Garland Work</div>
+      <h2>Balloon Garlands in <em>Action</em></h2>
+    </div>
+    <div class="showcase-duo">
+      <div class="showcase-card reveal">
+        <div class="showcase-card-img">
+          <img src="gallery/install-1.jpeg" alt="Organic pastel balloon garland Kent">
+        </div>
+        <div class="showcase-card-body">
+          <h3>Organic Pastel Garland</h3>
+          <p>Soft pastel tones in an organic flowing arrangement, perfect for baby showers and christenings.</p>
+        </div>
+      </div>
+      <div class="showcase-card reveal rd1">
+        <div class="showcase-card-img">
+          <img src="gallery/install-2.jpeg" alt="Balloon garland installation birthday celebration Kent">
+        </div>
+        <div class="showcase-card-body">
+          <h3>Birthday Garland Installation</h3>
+          <p>A bold garland display styled for a milestone birthday celebration.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:40px;" class="reveal">
+      <a href="gallery.html" class="btn btn-secondary">View Full Gallery &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- OCCASIONS -->
+<section class="occasions">
+  <div class="container">
+    <div class="occasions-header reveal">
+      <div class="label">Perfect For Every Event</div>
+      <h2>Garlands &amp; Arches for <em>Any Celebration</em></h2>
+    </div>
+    <div class="occasions-grid">
+      <div class="occasions-card reveal">
+        <div class="occasions-icon pink">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-dk)" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <h3>Baby Showers</h3>
+        <p>Soft organic garlands in pastel tones, draped across tables or framing a gift display.</p>
+      </div>
+      <div class="occasions-card reveal rd1">
+        <div class="occasions-icon blue">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-dk)" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3>Birthdays</h3>
+        <p>Statement arches and garlands in your birthday colours with number balloons woven in.</p>
+      </div>
+      <div class="occasions-card reveal rd2">
+        <div class="occasions-icon gold">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-dk)" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3>Weddings &amp; Events</h3>
+        <p>Elegant garlands and arches for wedding entrances, top tables and corporate events.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MINI FAQ -->
+<section class="mini-faq">
+  <div class="container">
+    <div class="mini-faq-header reveal">
+      <div class="label">Common Questions</div>
+      <h2>Balloon Garland <em>FAQs</em></h2>
+    </div>
+    <div class="mini-faq-list">
+      <div class="mini-faq-item reveal">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          How much does a balloon garland cost in Kent?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">Balloon garlands start from &pound;150 for a 2-metre display. Larger garlands and full arches are priced based on size and complexity. We'll provide a clear quote after your free consultation.</div>
+        </div>
+      </div>
+      <div class="mini-faq-item reveal rd1">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          What's the difference between a garland and an arch?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">A garland is a flowing, organic arrangement that drapes along surfaces &mdash; tables, walls, staircases. An arch is a freestanding structure that creates a doorway or backdrop shape. Both use the same organic balloon styling, just in different formations.</div>
+        </div>
+      </div>
+      <div class="mini-faq-item reveal rd2">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          How long do balloon garlands last?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">Our air-filled garlands typically last 2&ndash;3 days indoors. We recommend setting up on the day of your event for the best results. Outdoor garlands are possible but best suited to sheltered areas away from direct sunlight and wind.</div>
+        </div>
+      </div>
+      <div class="mini-faq-item reveal rd3">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          Can you install a garland at any venue in Kent?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">Yes &mdash; we install at homes, restaurants, hotels, halls, gardens and event spaces across Kent. We use non-damaging fixings and always check with venues beforehand. Based in Sittingbourne, we cover Maidstone, Canterbury, Medway, Tonbridge, Ashford, Dartford and beyond.</div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:32px;" class="reveal">
+      <a href="faqs.html" class="btn btn-secondary">View All FAQs &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<div class="cta-strip">
+  <div class="container">
+    <h2 class="reveal">Want a Balloon Garland for Your <em>Celebration?</em></h2>
+    <p class="reveal rd1">Tell us about your event and we'll design the perfect garland or arch. Free consultation, no obligation.</p>
+    <div class="cta-btns reveal rd2">
+      <a href="index.html#contact" class="btn btn-primary">Start Your Enquiry &rarr;</a>
+      <a href="gallery.html" class="btn btn-secondary">View Our Gallery</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Little Moment Studio</div>
+        <div class="footer-brand-tag">Balloon Styling &middot; Kent</div>
+        <p class="footer-brand-desc">Beautiful balloon styling for baby showers, birthdays and celebrations. Based in Sittingbourne, serving all of Kent.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/littlemomentstudio" class="footer-social" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#services">Baby Showers</a></li>
+          <li><a href="index.html#services">First Birthdays</a></li>
+          <li><a href="index.html#services">Balloon Installations</a></li>
+          <li><a href="index.html#packages">Backdrop &amp; Prop Hire</a></li>
+          <li><a href="index.html#services">Gender Reveals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#packages">Our Packages</a></li>
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="index.html#testimonials">Reviews</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          07700 900 123
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@littlemomentstudio.co.uk
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Forum Shopping Centre,<br>Sittingbourne, ME10 3DL
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Little Moment Studio. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ── Nav scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // ── Mobile nav
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+  document.getElementById('mobileClose').addEventListener('click', closeNav);
+  function closeNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  // ── Scroll reveal
+  const ro = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+</script>
+
+</body>
+</html>
