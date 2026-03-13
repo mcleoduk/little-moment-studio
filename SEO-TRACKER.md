@@ -23,30 +23,38 @@ Last updated: 13 March 2026
 
 ## Gallery (gallery.html)
 
-**Status:** ⬜ Not yet optimised
+**Status:** ✅ Optimised — 13 March 2026
 
-| Element | Current Value | Recommended |
-|---------|--------------|-------------|
-| **Meta title** | TBC | Little Moment Studio Gallery \| Balloon Styling & Event Decor Kent |
-| **Meta description** | TBC | Browse our baby shower balloons, birthday balloon garlands, seasonal displays & backdrop styling across Kent. |
-| **H1** | TBC | Our Balloon Styling Gallery |
-| **Target keywords** | — | balloon gallery Kent, baby shower balloons Kent, birthday balloon decor Kent |
-| **Schema** | None | ImageGallery JSON-LD |
-| **Image alt texts** | Partially done | Audit needed — every image needs keyword-rich alt text |
+| Element | Value |
+|---------|-------|
+| **Meta title** | Balloon Styling Gallery Kent \| Baby Showers, Birthdays & Events \| Little Moment Studio |
+| **Meta description** | Browse our balloon styling gallery. Baby shower balloons, birthday balloon garlands, balloon arches, backdrops & seasonal event decor across Kent. Based in Sittingbourne. |
+| **H1** | Balloon Decor & Event Styling Across Kent |
+| **Hero eyebrow** | Balloon Styling Gallery |
+| **Hero subtitle** | Baby shower balloons, birthday balloon garlands, arches, backdrops and seasonal displays. Browse our work from celebrations across Kent. |
+| **Target keywords** | balloon styling gallery Kent, baby shower balloons Kent, birthday balloon decor Kent, balloon garland Kent |
+| **CTA strip** | Updated copy to include "balloon styling" and "Kent" |
+| **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
+| **Image alt texts** | All updated — Kent-first positioning with service keywords |
+| **Schema** | None yet — ImageGallery JSON-LD recommended for Phase 2 |
 
 ---
 
 ## FAQs (faqs.html)
 
-**Status:** ⬜ Not yet optimised
+**Status:** ✅ Optimised — 13 March 2026
 
-| Element | Current Value | Recommended |
-|---------|--------------|-------------|
-| **Meta title** | TBC | FAQs \| Balloon Styling Kent \| Little Moment Studio |
-| **Meta description** | TBC | Frequently asked questions about balloon styling in Kent. Booking, pricing, design process, setup & balloon types. |
-| **H1** | TBC | Frequently Asked Questions |
-| **Target keywords** | — | balloon styling FAQ, how much do balloon decorations cost Kent, baby shower balloon packages |
-| **Schema** | ✅ FAQ JSON-LD already in place | Review and ensure all questions are included |
+| Element | Value |
+|---------|-------|
+| **Meta title** | FAQs \| Balloon Styling Kent \| Booking, Pricing & Setup \| Little Moment Studio |
+| **Meta description** | FAQs about balloon styling in Kent. How much do balloon decorations cost? How far do you travel? Booking, deposits, setup, balloon types & more. Based in Sittingbourne, serving all of Kent. |
+| **H1** | Balloon Styling FAQs |
+| **Hero eyebrow** | Balloon Styling FAQs |
+| **Hero subtitle** | Everything you need to know about booking balloon styling in Kent. Pricing, deposits, setup, travel and more. |
+| **Target keywords** | balloon styling FAQ Kent, how much do balloon decorations cost Kent, baby shower balloon packages Kent |
+| **CTA section** | Updated copy to include "baby shower", "birthday", "Kent" |
+| **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
+| **Schema** | ✅ FAQ JSON-LD already in place — all questions included |
 
 ---
 
