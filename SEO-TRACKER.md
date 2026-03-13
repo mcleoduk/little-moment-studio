@@ -97,11 +97,27 @@ Last updated: 13 March 2026
 
 ---
 
-## Planned Landing Pages (not yet created)
+## Baby Shower Balloons Kent (baby-shower-balloons-kent.html)
+
+**Status:** ✅ Created — 13 March 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Kent \| Beautiful Balloon Styling & Decorations \| Little Moment Studio |
+| **Meta description** | Stunning baby shower balloon decorations across Kent. Balloon garlands, arches, organic displays & backdrop styling for your perfect baby shower. Based in Sittingbourne, serving all of Kent. |
+| **H1** | Beautiful Baby Shower Balloon Styling in Kent |
+| **Target keywords** | baby shower balloons Kent, baby shower decorations Kent, baby shower balloon garland Kent |
+| **Schema** | ✅ Service JSON-LD (provider: Little Moment Studio, areaServed: Kent) |
+| **Sections** | Intro with image, showcase gallery (3 images), what's included (3 cards), mini FAQ (4 questions), CTA strip |
+| **Internal links** | Links to gallery.html, faqs.html, index.html#contact |
+| **Canonical** | https://littlemomentstudio.co.uk/baby-shower-balloons-kent.html |
+
+---
+
+## Planned Landing Pages
 
 | Page | Target Keywords | Status |
 |------|----------------|--------|
-| `/baby-shower-balloons-kent.html` | baby shower balloons Kent, baby shower decorations Kent | ⬜ Not started |
 | `/birthday-balloons-kent.html` | birthday balloons Kent, first birthday balloons Kent | ⬜ Not started |
 | `/balloon-garlands-kent.html` | balloon garland Kent, balloon arch Kent | ⬜ Not started |
 | `/wedding-balloons-kent.html` | wedding balloons Kent, wedding balloon arch Kent | ⬜ Not started |

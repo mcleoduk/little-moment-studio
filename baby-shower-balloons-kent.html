@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baby Shower Balloons Kent | Beautiful Balloon Styling &amp; Decorations | Little Moment Studio</title>
+  <meta name="description" content="Stunning baby shower balloon decorations across Kent. Balloon garlands, arches, organic displays &amp; backdrop styling for your perfect baby shower. Based in Sittingbourne, serving all of Kent.">
+  <link rel="canonical" href="https://littlemomentstudio.co.uk/baby-shower-balloons-kent.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Baby Shower Balloon Styling Kent",
+    "description": "Beautiful baby shower balloon decorations and styling across Kent. Garlands, arches, organic displays and backdrops.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Little Moment Studio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Forum Shopping Centre",
+        "addressLocality": "Sittingbourne",
+        "addressRegion": "Kent",
+        "postalCode": "ME10 3DL",
+        "addressCountry": "GB"
+      }
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Kent"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ── TOKENS ── */
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --bg3:       #FFFFFF;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-dk: #A8885A;
+      --accent-lt: #E6D8C3;
+      --border:    rgba(74,74,74,0.10);
+      --shadow:    0 2px 10px rgba(74,74,74,0.06), 0 12px 36px rgba(74,74,74,0.08);
+      --shadow-sm: 0 1px 4px rgba(74,74,74,0.06), 0 4px 16px rgba(74,74,74,0.06);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+      --r:         16px;
+      --max:       1200px;
+    }
+
+    /* ── RESET ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-b); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font-family: inherit; }
+
+    .container { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+    /* ── TOPBAR ── */
+    .topbar { background: var(--text); color: rgba(255,255,255,0.8); padding: 10px 0; font-size: 13px; }
+    .topbar .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .topbar-left { display: flex; align-items: center; gap: 24px; }
+    .topbar-link { display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.7); transition: color 0.2s ease; }
+    .topbar-link:hover { color: #fff; }
+    .topbar-cta { background: var(--accent); color: #fff; padding: 6px 18px; border-radius: 50px; font-size: 12px; font-weight: 500; letter-spacing: 0.04em; transition: background 0.2s ease; }
+    .topbar-cta:hover { background: var(--accent-lt); }
+    @media (max-width: 600px) { .topbar-link span { display: none; } .topbar-left { gap: 12px; } }
+
+    /* ── NAV ── */
+    .nav { background: var(--bg); padding: 16px 0; position: sticky; top: 0; z-index: 100; transition: box-shadow 0.3s ease, padding 0.3s ease; }
+    .nav.scrolled { box-shadow: var(--shadow-sm); padding: 10px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 88px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--muted); transition: color 0.2s ease; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 0; height: 1px; background: var(--accent); transition: width 0.25s ease; }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
+    @media (max-width: 900px) { .nav-links, .nav-book { display: none; } .nav-hamburger { display: flex; } }
+
+    /* ── MOBILE NAV ── */
+    .nav-mobile { display: none; position: fixed; inset: 0; background: var(--bg); z-index: 200; flex-direction: column; align-items: center; justify-content: center; }
+    .nav-mobile.open { display: flex; }
+    .nav-mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; font-size: 32px; cursor: pointer; color: var(--text); line-height: 1; }
+    .nav-mobile-links { list-style: none; text-align: center; display: flex; flex-direction: column; gap: 4px; }
+    .nav-mobile-links a { font-family: var(--font-h); font-size: 30px; font-weight: 400; color: var(--text); display: block; padding: 8px 0; transition: color 0.2s ease; }
+    .nav-mobile-links a:hover { color: var(--accent); }
+    .nav-mobile-cta { margin-top: 32px; }
+
+    /* ── BUTTONS ── */
+    .btn { display: inline-block; padding: 14px 32px; border-radius: 50px; font-size: 14px; font-weight: 500; letter-spacing: 0.03em; transition: all 0.25s ease; cursor: pointer; border: none; text-align: center; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-dk); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(216,196,165,0.4); }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent-dk); }
+
+    /* ── PAGE HERO ── */
+    .page-hero {
+      padding: 80px 0 64px;
+      text-align: center;
+      background: linear-gradient(180deg, var(--secondary) 0%, var(--bg) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -80px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(220,234,245,0.4) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .page-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -40px;
+      left: -60px;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, rgba(216,196,165,0.2) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .page-hero-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 16px;
+      position: relative;
+    }
+    .page-hero-title {
+      font-family: var(--font-h); font-size: clamp(32px, 5vw, 52px);
+      font-weight: 500; line-height: 1.15; letter-spacing: -0.02em;
+      color: var(--text); margin-bottom: 20px; position: relative;
+    }
+    .page-hero-title em { font-style: italic; color: var(--accent-dk); }
+    .page-hero-sub {
+      font-size: 17px; line-height: 1.7; color: var(--muted);
+      max-width: 580px; margin: 0 auto; position: relative;
+    }
+
+    /* ── INTRO SECTION ── */
+    .intro {
+      padding: 80px 0;
+    }
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .intro-img {
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+    .intro-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .intro-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: var(--r);
+      box-shadow: inset 0 0 0 1px rgba(74,74,74,0.06);
+      pointer-events: none;
+    }
+    .intro-content h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 36px);
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .intro-content h2 em { font-style: italic; color: var(--accent-dk); }
+    .intro-content p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .intro-content .highlight {
+      background: var(--secondary);
+      padding: 20px 24px;
+      border-radius: var(--r);
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text);
+      margin-top: 24px;
+      border-left: 3px solid var(--accent);
+    }
+    @media (max-width: 768px) {
+      .intro-grid { grid-template-columns: 1fr; gap: 40px; }
+    }
+
+    /* ── SHOWCASE GALLERY ── */
+    .showcase {
+      padding: 80px 0;
+      background: var(--bg2);
+    }
+    .showcase-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .showcase-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .showcase-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+    .showcase-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .showcase-card {
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      background: var(--bg3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .showcase-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+    .showcase-card-img {
+      aspect-ratio: 4/3;
+      overflow: hidden;
+    }
+    .showcase-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .showcase-card:hover .showcase-card-img img {
+      transform: scale(1.04);
+    }
+    .showcase-card-body {
+      padding: 20px 24px;
+    }
+    .showcase-card-body h3 {
+      font-family: var(--font-h);
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+    .showcase-card-body p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .showcase-grid { grid-template-columns: 1fr; gap: 20px; }
+    }
+
+    /* ── INCLUDES SECTION ── */
+    .includes {
+      padding: 80px 0;
+    }
+    .includes-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .includes-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .includes-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+    .includes-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .includes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .includes-card {
+      text-align: center;
+      padding: 40px 28px;
+      background: var(--bg3);
+      border-radius: var(--r);
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.3s ease;
+    }
+    .includes-card:hover { transform: translateY(-3px); }
+    .includes-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+    .includes-card h3 {
+      font-family: var(--font-h);
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .includes-card p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .includes-grid { grid-template-columns: 1fr; gap: 16px; }
+    }
+
+    /* ── MINI FAQ ── */
+    .mini-faq {
+      padding: 80px 0;
+      background: var(--bg2);
+    }
+    .mini-faq-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .mini-faq-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .mini-faq-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+    .mini-faq-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .mini-faq-list {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .mini-faq-item {
+      background: var(--bg3);
+      border-radius: var(--r);
+      margin-bottom: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .mini-faq-q {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 24px;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text);
+      transition: color 0.2s ease;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      font-family: var(--font-b);
+    }
+    .mini-faq-q:hover { color: var(--accent-dk); }
+    .mini-faq-q svg { flex-shrink: 0; transition: transform 0.3s ease; }
+    .mini-faq-item.open .mini-faq-q svg { transform: rotate(180deg); }
+    .mini-faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+    }
+    .mini-faq-item.open .mini-faq-a {
+      max-height: 300px;
+    }
+    .mini-faq-a-inner {
+      padding: 0 24px 20px;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    /* ── CTA STRIP ── */
+    .cta-strip {
+      padding: 80px 0;
+      text-align: center;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-strip::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      right: -100px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cta-strip h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 500;
+      margin-bottom: 16px;
+      position: relative;
+    }
+    .cta-strip h2 em { font-style: italic; color: var(--accent-dk); }
+    .cta-strip p {
+      font-size: 16px;
+      color: var(--muted);
+      max-width: 500px;
+      margin: 0 auto 32px;
+      position: relative;
+    }
+    .cta-strip .btn { position: relative; }
+    .cta-btns {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    /* ── FOOTER ── */
+    .footer { background: var(--text); color: rgba(255,255,255,0.7); padding: 64px 0 0; }
+    .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .footer-brand-name { font-family: var(--font-h); font-size: 22px; color: #fff; margin-bottom: 4px; }
+    .footer-brand-tag { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .footer-brand-desc { font-size: 14px; line-height: 1.7; max-width: 280px; margin-bottom: 24px; }
+    .footer-socials { display: flex; gap: 10px; }
+    .footer-social { width: 34px; height: 34px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+    .footer-social:hover { border-color: var(--accent); background: rgba(216,196,165,0.1); }
+    .footer-col h4 { font-family: var(--font-h); font-size: 16px; color: #fff; margin-bottom: 16px; font-weight: 500; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 14px; transition: color 0.2s ease; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-ci { font-size: 14px; display: flex; align-items: flex-start; gap: 8px; margin-bottom: 12px; line-height: 1.5; }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; font-size: 13px; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { transition: color 0.2s ease; }
+    .footer-bottom-links a:hover { color: var(--accent); }
+    @media (max-width: 768px) {
+      .footer-top { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 500px) {
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    }
+
+    /* ── REVEAL ANIMATION ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal.rd1 { transition-delay: 0.1s; }
+    .reveal.rd2 { transition-delay: 0.2s; }
+    .reveal.rd3 { transition-delay: 0.3s; }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:07700900123" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span>07700 900 123</span>
+      </a>
+      <a href="mailto:hello@littlemomentstudio.co.uk" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>hello@littlemomentstudio.co.uk</span>
+      </a>
+    </div>
+    <a href="index.html#contact" class="topbar-cta">Book Your Celebration &rarr;</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="Little Moment Studio" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.html#packages">Packages</a></li>
+        <li><a href="index.html#how">How It Works</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn-primary nav-book">Book Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="nav-mobile" id="mobileNav">
+  <button class="nav-mobile-close" id="mobileClose" aria-label="Close">&times;</button>
+  <ul class="nav-mobile-links">
+    <li><a href="index.html#services" onclick="closeNav()">Services</a></li>
+    <li><a href="gallery.html" onclick="closeNav()">Gallery</a></li>
+    <li><a href="index.html#packages" onclick="closeNav()">Packages</a></li>
+    <li><a href="index.html#how" onclick="closeNav()">How It Works</a></li>
+    <li><a href="faqs.html" onclick="closeNav()">FAQs</a></li>
+    <li><a href="index.html#contact" onclick="closeNav()">Contact</a></li>
+  </ul>
+  <a href="index.html#contact" class="btn btn-primary nav-mobile-cta" onclick="closeNav()">Book Your Celebration</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <div class="page-hero-label">Baby Shower Balloons Kent</div>
+    <h1 class="page-hero-title">Beautiful Baby Shower<br><em>Balloon Styling</em> in Kent</h1>
+    <p class="page-hero-sub">Balloon garlands, organic displays, arches and backdrop styling to make your baby shower unforgettable. Based in Sittingbourne, styling celebrations across Kent.</p>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-img reveal">
+        <img src="gallery/shower-1.png" alt="Baby shower balloon styling Kent by Little Moment Studio">
+      </div>
+      <div class="intro-content reveal rd1">
+        <h2>Your Baby Shower, <em>Beautifully Styled</em></h2>
+        <p>Whether you're planning an intimate gathering at home or a larger celebration at a venue, we create stunning balloon displays that set the tone for your special day.</p>
+        <p>Every baby shower is different, and we work closely with you to design a colour palette, layout and style that feels completely personal. From soft pastels and organic garlands to bold statement arches — we bring your vision to life.</p>
+        <div class="highlight">
+          We handle everything — from the initial design consultation through to setup and collection. All you need to do is enjoy the celebration.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE GALLERY -->
+<section class="showcase">
+  <div class="container">
+    <div class="showcase-header reveal">
+      <div class="label">Our Baby Shower Work</div>
+      <h2>Baby Shower Balloon <em>Displays</em></h2>
+    </div>
+    <div class="showcase-grid">
+      <div class="showcase-card reveal">
+        <div class="showcase-card-img">
+          <img src="gallery/shower-1.png" alt="Sky celebration baby shower balloon garland Kent">
+        </div>
+        <div class="showcase-card-body">
+          <h3>Sky Celebration</h3>
+          <p>Pastel blue and white organic garland with cloud-inspired styling.</p>
+        </div>
+      </div>
+      <div class="showcase-card reveal rd1">
+        <div class="showcase-card-img">
+          <img src="gallery/shower-2.png" alt="Pastel pink baby shower balloon arch Kent">
+        </div>
+        <div class="showcase-card-body">
+          <h3>Pastel Pink Shower</h3>
+          <p>Soft blush and rose tones creating a warm, romantic atmosphere.</p>
+        </div>
+      </div>
+      <div class="showcase-card reveal rd2">
+        <div class="showcase-card-img">
+          <img src="gallery/baby-shower-balloons-sitingbourne.JPG" alt="Baby shower balloon decorations Sittingbourne Kent">
+        </div>
+        <div class="showcase-card-body">
+          <h3>Sittingbourne Shower</h3>
+          <p>A full balloon display styled for an intimate home celebration.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:40px;" class="reveal">
+      <a href="gallery.html" class="btn btn-secondary">View Full Gallery &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S INCLUDED -->
+<section class="includes">
+  <div class="container">
+    <div class="includes-header reveal">
+      <div class="label">What's Included</div>
+      <h2>Every Baby Shower Package <em>Includes</em></h2>
+    </div>
+    <div class="includes-grid">
+      <div class="includes-card reveal">
+        <div class="includes-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-dk)" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        </div>
+        <h3>Free Consultation</h3>
+        <p>A friendly call to discuss your vision, colours, venue and budget.</p>
+      </div>
+      <div class="includes-card reveal rd1">
+        <div class="includes-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-dk)" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <h3>Bespoke Design</h3>
+        <p>A personalised proposal with your colour palette, layout and pricing.</p>
+      </div>
+      <div class="includes-card reveal rd2">
+        <div class="includes-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-dk)" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3>Setup &amp; Collection</h3>
+        <p>We arrive early, set everything up and return to collect after your event.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MINI FAQ -->
+<section class="mini-faq">
+  <div class="container">
+    <div class="mini-faq-header reveal">
+      <div class="label">Common Questions</div>
+      <h2>Baby Shower Balloon <em>FAQs</em></h2>
+    </div>
+    <div class="mini-faq-list">
+      <div class="mini-faq-item reveal">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          How much do baby shower balloons cost in Kent?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">Our baby shower balloon packages start from &pound;150. The final price depends on the size of your display, the style you choose and the venue. We'll give you a clear quote after your free consultation call.</div>
+        </div>
+      </div>
+      <div class="mini-faq-item reveal rd1">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          How far in advance should I book?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">We recommend booking at least 2&ndash;3 weeks ahead, especially for weekends. Popular dates can fill quickly, so the earlier you get in touch the better.</div>
+        </div>
+      </div>
+      <div class="mini-faq-item reveal rd2">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          Can you set up at my home or do I need a venue?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">Absolutely &mdash; we set up at homes, gardens, restaurants, halls and event spaces across Kent. Wherever your celebration is, we'll make it look beautiful.</div>
+        </div>
+      </div>
+      <div class="mini-faq-item reveal rd3">
+        <button class="mini-faq-q" onclick="this.parentElement.classList.toggle('open')">
+          Where in Kent do you cover?
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="mini-faq-a">
+          <div class="mini-faq-a-inner">We're based in Sittingbourne and cover all of Kent including Maidstone, Canterbury, Medway, Chatham, Faversham, Tonbridge, Ashford, Dartford and Gravesend. Travel is included within a 10-mile radius, with a small fee beyond.</div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:32px;" class="reveal">
+      <a href="faqs.html" class="btn btn-secondary">View All FAQs &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<div class="cta-strip">
+  <div class="container">
+    <h2 class="reveal">Ready to Plan Your Baby <em>Shower?</em></h2>
+    <p class="reveal rd1">Tell us about your celebration and we'll design the perfect balloon display. Free consultation, no obligation.</p>
+    <div class="cta-btns reveal rd2">
+      <a href="index.html#contact" class="btn btn-primary">Start Your Enquiry &rarr;</a>
+      <a href="gallery.html" class="btn btn-secondary">View Our Gallery</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Little Moment Studio</div>
+        <div class="footer-brand-tag">Balloon Styling &middot; Kent</div>
+        <p class="footer-brand-desc">Beautiful balloon styling for baby showers, birthdays and celebrations. Based in Sittingbourne, serving all of Kent.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/littlemomentstudio" class="footer-social" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#services">Baby Showers</a></li>
+          <li><a href="index.html#services">First Birthdays</a></li>
+          <li><a href="index.html#services">Balloon Installations</a></li>
+          <li><a href="index.html#packages">Backdrop &amp; Prop Hire</a></li>
+          <li><a href="index.html#services">Gender Reveals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#packages">Our Packages</a></li>
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="index.html#testimonials">Reviews</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          07700 900 123
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@littlemomentstudio.co.uk
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Forum Shopping Centre,<br>Sittingbourne, ME10 3DL
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Little Moment Studio. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ── Nav scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // ── Mobile nav
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+  document.getElementById('mobileClose').addEventListener('click', closeNav);
+  function closeNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  // ── Scroll reveal
+  const ro = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+</script>
+
+</body>
+</html>
