@@ -60,15 +60,18 @@ Last updated: 13 March 2026
 
 ## Best Balloon Colours 2025 (best-balloon-colours-2025.html)
 
-**Status:** ⬜ Not yet optimised
+**Status:** ✅ Optimised — 13 March 2026
 
-| Element | Current Value | Recommended |
-|---------|--------------|-------------|
-| **Meta title** | TBC | Best Balloon Colours 2025 \| Trending Balloon Decor Kent \| Little Moment Studio |
-| **Meta description** | TBC | Discover the most popular balloon colours for 2025. From sage green to dusty pink — trending balloon palettes for Kent celebrations. |
-| **H1** | TBC | Best Balloon Colours for 2025 |
-| **Target keywords** | — | balloon colours 2025, trending balloon colours, balloon colour ideas Kent |
-| **Schema** | None | Article/BlogPosting JSON-LD |
+| Element | Value |
+|---------|-------|
+| **Meta title** | Best Balloon Colours 2025 \| Trending Balloon Decor Kent \| Little Moment Studio |
+| **Meta description** | Best balloon colours for 2025. Trending palettes for baby showers, birthdays & celebrations in Kent. Sage green, dusty pink, mocha mousse & more. Expert balloon styling from Little Moment Studio. |
+| **H1** | Best Balloon Colours for Kent Celebrations in 2025 |
+| **Target keywords** | balloon colours 2025, trending balloon colours Kent, balloon colour ideas, baby shower balloon colours |
+| **Kent-specific H2** | Changed from "Sittingbourne & Kent" to "Kent" — broader positioning |
+| **CTA copy** | Updated to include "balloon display", "baby showers", "birthdays", "events across Kent" |
+| **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
+| **Schema** | ✅ BlogPosting JSON-LD (headline, author, publisher, datePublished, dateModified) |
 
 ---
 
