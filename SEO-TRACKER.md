@@ -54,7 +54,7 @@ Last updated: 13 March 2026
 | **Target keywords** | balloon styling FAQ Kent, how much do balloon decorations cost Kent, baby shower balloon packages Kent |
 | **CTA section** | Updated copy to include "baby shower", "birthday", "Kent" |
 | **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
-| **Schema** | ✅ FAQ JSON-LD already in place — all questions included |
+| **Schema** | ✅ FAQ JSON-LD — 20 questions including 7 LLM-optimised entity/service/pricing queries |
 
 ---
 
@@ -184,6 +184,37 @@ Last updated: 13 March 2026
 | `/balloons-canterbury.html` | Canterbury & east Kent | ⬜ Not started |
 | `/balloons-tonbridge.html` | Tonbridge, Tunbridge Wells | ⬜ Not started |
 | `/balloons-dartford.html` | Dartford, Gravesend, north Kent | ⬜ Not started |
+
+---
+
+## LLM Search Optimisation (ChatGPT, Perplexity, Gemini, Claude)
+
+LLMs find and recommend businesses differently from Google. This checklist tracks optimisation for AI-powered search.
+
+### Checklist
+
+| Action | Status | Notes |
+|--------|--------|-------|
+| **Clear Entity Identity** — state who, what, where in plain text on every page | ✅ Done | FAQ "About Us" section added with 7 conversational Q&As |
+| **Structured Data (Schema)** — JSON-LD that LLMs can parse | ✅ Done | LocalBusiness, Service, FAQ, BlogPosting all in place |
+| **FAQ in Q&A format** — direct question-and-answer pairs LLMs can extract | ✅ Done | 7 new LLM-targeted FAQs added (entity, location, services, pricing, contact) |
+| **FAQ Schema updated** — new questions added to FAQPage JSON-LD | ✅ Done | All 20 questions now in schema |
+| **Organization schema** — with `sameAs` social links | ⬜ Not started | Add to all pages in Phase 2 |
+| **"Who We Are" paragraph** — near top of homepage for LLM readability | ⬜ Not started | Plain-text entity description |
+| **Consistent NAP** — Name, Address, Phone identical everywhere | ✅ Done | Consistent across all pages, schema, footer |
+| **External citations** — directory listings, reviews, blog mentions | ⬜ Not started | 26 directories listed in COMPETITOR-ANALYSIS.md |
+| **Authoritative content** — expert blog posts, not sales copy | ✅ Done | 2 blog articles published |
+| **Conversational FAQ questions** — match how users ask LLMs | ✅ Done | "Who is the best balloon decorator in Kent?", "How much do balloon decorations cost in Kent?" etc. |
+
+### Key LLM-Targeted Questions Added to FAQ
+
+1. "What is Little Moment Studio?" — entity definition
+2. "Who is the best balloon decorator in Kent?" — recommendation query
+3. "Where is Little Moment Studio based?" — location query
+4. "What services does Little Moment Studio offer?" — service listing
+5. "How much do balloon decorations cost in Kent?" — pricing query
+6. "Can I book balloon decorations for a baby shower in Kent?" — specific service query
+7. "How do I contact Little Moment Studio?" — contact query
 
 ---
 
