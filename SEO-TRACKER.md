@@ -148,6 +148,24 @@ Last updated: 13 March 2026
 
 ---
 
+## Baby Shower Balloon Ideas (baby-shower-balloon-ideas.html)
+
+**Status:** ✅ Created — 13 March 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloon Ideas 2025 \| Themes, Colours & Styling Tips \| Little Moment Studio |
+| **Meta description** | Beautiful baby shower balloon ideas for 2025. Trending themes, colour palettes & styling tips for your perfect baby shower. Garlands, arches, backdrops & more. Expert balloon styling across Kent. |
+| **H1** | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips |
+| **Target keywords** | baby shower balloon ideas, baby shower balloon themes, baby shower decorations ideas, baby shower colour palettes, baby shower balloons cost |
+| **Schema** | ✅ BlogPosting JSON-LD (headline, author, publisher, datePublished, dateModified, image) |
+| **Sections** | Intro, 5 trending themes (cards), 5 colour palettes (with swatches), 4 display types (with images), styling tips, pricing guide, CTA |
+| **Internal links** | Links to baby-shower-balloons-kent.html, gallery.html, faqs.html, index.html#contact, best-balloon-colours-2025.html, balloon-garlands-kent.html, birthday-balloons-kent.html |
+| **Canonical** | https://littlemomentstudio.co.uk/baby-shower-balloon-ideas.html |
+| **Content strategy** | Informational blog post supporting the commercial baby-shower-balloons-kent.html landing page. Captures "ideas" and "inspiration" searches, funnels to booking. |
+
+---
+
 ## Planned Landing Pages
 
 | Page | Target Keywords | Status |
