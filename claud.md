@@ -162,6 +162,9 @@ The website visuals should align with rotating display themes such as:
 - Avoid anything that sounds discount-led or low-end
 - See `CONTENT-CALENDAR.md` for article scheduling and status
 
+## Image Metadata
+- **Whenever a new image is added to the gallery**, ask "Do you want to add/update the metadata for this image?" before proceeding. If yes, invoke the `image-metadata` skill and ask the three questions (subject, date, camera).
+
 ## Design Guardrails
 - **Invoke the `frontend-design` skill** before writing any frontend code, every session, no exceptions.
 - The website should feel premium, airy and feminine-neutral
