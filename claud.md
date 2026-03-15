@@ -1,11 +1,12 @@
 # Celebration Styling Studio — Project Context
 
 ## About the Business
-- **Name:** [BRAND NAME TO INSERT]
+- **Name:** Little Moment Studio
 - **Industry:** Premium balloon styling and celebration installations
 - **Location:** Forum Shopping Centre, Sittingbourne, ME10 3DL, UK
-- **Phone:** [INSERT PHONE]
-- **Email:** [INSERT EMAIL]
+- **Phone:** 07700 900 123
+- **Email:** hello@littlemomentstudio.co.uk
+- **Domain:** littlemomentstudio.co.uk
 - **Speciality:** Luxury baby showers, first birthdays, children's celebration styling, balloon installations, backdrops, prop hire, helium balloons — local delivery and venue installation across Sittingbourne & Kent
 
 ## Project
@@ -149,7 +150,9 @@ The website visuals should align with rotating display themes such as:
 - Soft safari or teddy-bear themes
 
 ## Copy Style
+- **See `TONE-GUIDE.md` for the full writing voice and content guidelines**
 - British English spelling throughout
+- Use “we” not “I” — future-proofs for team growth
 - Elegant, soft and premium tone
 - Clear and conversion-focused
 - Family-friendly but never childish
@@ -157,6 +160,7 @@ The website visuals should align with rotating display themes such as:
 - Prefer “celebration styling”, “balloon installations”, “baby showers”, “first birthdays”, “styled setups”, “prop hire”
 - Avoid overusing the word “balloons” in every line
 - Avoid anything that sounds discount-led or low-end
+- See `CONTENT-CALENDAR.md` for article scheduling and status
 
 ## Design Guardrails
 - **Invoke the `frontend-design` skill** before writing any frontend code, every session, no exceptions.
