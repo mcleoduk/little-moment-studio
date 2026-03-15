@@ -18,7 +18,8 @@ Target frequency: **fortnightly** (every 2 weeks)
 |------|---------|------|--------|-------|
 | 15 Mar | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
 | 15 Apr | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE | |
-| 1 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article |
+| 15 Jan | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling | Planning & Advice | WRITTEN | Needs hero image (gallery/baby-showers/teddy-bear-baby-shower-kent.png) |
+| 15 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article |
 | 15 May | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
 | 1 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
 | 15 Jun | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |

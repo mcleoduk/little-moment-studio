@@ -162,6 +162,10 @@ The website visuals should align with rotating display themes such as:
 - Avoid anything that sounds discount-led or low-end
 - See `CONTENT-CALENDAR.md` for article scheduling and status
 
+## Journal Articles
+
+- **Always research the internet before writing any journal article.** Use web search to find current trends, popular colour palettes, real search terms, UK-specific content, and common questions people ask. This ensures articles are accurate, timely, and based on what people are actually searching for rather than general knowledge alone.
+
 ## Image Metadata
 - **Whenever a new image is added to the gallery**, ask "Do you want to add/update the metadata for this image?" before proceeding. If yes, invoke the `image-metadata` skill and ask the three questions (subject, date, camera).
 
