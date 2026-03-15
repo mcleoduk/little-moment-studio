@@ -16,7 +16,7 @@ Target frequency: **fortnightly** (every 2 weeks)
 | Date | Article | Type | Status | Notes |
 |------|---------|------|--------|-------|
 | 15 Mar | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
-| 15 Apr | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | NOT STARTED | Summer birthday season starts |
+| 15 Apr | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | WRITTEN | Needs hero image (gallery/birthdays/first-birthday-balloons-kent.png) |
 | 1 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article |
 | 15 May | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
 | 1 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
