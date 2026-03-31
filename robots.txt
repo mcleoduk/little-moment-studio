@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+
+Sitemap: https://littlemomentstudio.co.uk/sitemap.xml
