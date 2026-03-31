@@ -6,19 +6,19 @@ Target frequency: **fortnightly** (every 2 weeks)
 
 | Date | Article | Type | Status |
 |------|---------|------|--------|
+| Jan 2026 | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling | Planning & Advice | LIVE |
 | Feb 2026 | Baby Showers: Your Questions Answered | Planning & Advice | LIVE |
+| Feb 2026 | Best Baby Shower Venues Near Sittingbourne | Planning & Advice | LIVE |
 | Mar 2026 | Best Balloon Colour Palettes for 2025 | Trends | LIVE |
 | Mar 2026 | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips | Planning & Advice | LIVE |
 | Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | Seasonal | LIVE |
-| Mar 2026 | Best Baby Shower Venues Near Sittingbourne | Planning & Advice | LIVE |
+| Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
 
 ## Upcoming
 
 | Date | Article | Type | Status | Notes |
 |------|---------|------|--------|-------|
-| 15 Mar | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
-| 15 Apr | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE | |
-| 15 Jan | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling | Planning & Advice | WRITTEN | Needs hero image (gallery/baby-showers/teddy-bear-baby-shower-kent.png) |
+| 1 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
 | 15 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article |
 | 15 May | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
 | 1 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |

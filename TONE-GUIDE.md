@@ -137,6 +137,6 @@ Little Moment Studio is a celebration styling studio based in Sittingbourne, Ken
 - **Location:** Forum Shopping Centre, Sittingbourne, ME10 3DL
 - **Service area:** Sittingbourne and across Kent
 - **Voice:** We (not I)
-- **Founder:** Sam (mentioned only when adding personal warmth to social content, not in formal articles)
+- **Founder:** Sam (Samantha) — married, mum of two teenage sons. Mentioned only when adding personal warmth to social content, not in formal articles. Her background as a mum who has lived through these milestones adds authenticity to baby shower and birthday content — she writes from experience, not just craft. Her voice should feel like someone who genuinely understands what these celebrations mean to a family, not a young influencer performing enthusiasm.
 - **Email:** hello@littlemomentstudio.co.uk
-- **Phone:** 07700 900 123
+- **Phone:** 07864 940 864

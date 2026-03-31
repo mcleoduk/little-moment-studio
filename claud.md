@@ -4,7 +4,7 @@
 - **Name:** Little Moment Studio
 - **Industry:** Premium balloon styling and celebration installations
 - **Location:** Forum Shopping Centre, Sittingbourne, ME10 3DL, UK
-- **Phone:** 07700 900 123
+- **Phone:** 07864 940 864
 - **Email:** hello@littlemomentstudio.co.uk
 - **Domain:** littlemomentstudio.co.uk
 - **Speciality:** Luxury baby showers, first birthdays, children's celebration styling, balloon installations, backdrops, prop hire, helium balloons — local delivery and venue installation across Sittingbourne & Kent
