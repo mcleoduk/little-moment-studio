@@ -711,28 +711,31 @@
           <div class="form-title">Request a Free Quote</div>
           <div class="form-sub">We'll reply within 24 hours with ideas and availability.</div>
           <form id="enquiryForm" onsubmit="handleSubmit(event)">
+            <input type="hidden" name="access_key" value="ba8067d8-d771-42f5-9968-946210f65053">
+            <input type="hidden" name="subject" value="New Enquiry — Little Moment Studio">
+            <input type="hidden" name="from_name" value="Little Moment Studio Website">
             <div class="form-row">
               <div class="form-group">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" placeholder="Sophie" required>
+                <input type="text" id="fname" name="first_name" placeholder="Sophie" required>
               </div>
               <div class="form-group">
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" placeholder="Miller" required>
+                <input type="text" id="lname" name="last_name" placeholder="Miller" required>
               </div>
             </div>
             <div class="form-group">
               <label for="email">Email Address</label>
-              <input type="email" id="email" placeholder="you@example.com" required>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
             </div>
             <div class="form-group">
               <label for="phone">Phone / WhatsApp</label>
-              <input type="tel" id="phone" placeholder="07700 000 000">
+              <input type="tel" id="phone" name="phone" placeholder="07700 000 000">
             </div>
             <div class="form-row">
               <div class="form-group">
                 <label for="service">Celebration Type</label>
-                <select id="service">
+                <select id="service" name="celebration_type">
                   <option value="">Please select…</option>
                   <option>Baby Shower</option>
                   <option>First Birthday</option>
@@ -744,12 +747,12 @@
               </div>
               <div class="form-group">
                 <label for="date">Event Date</label>
-                <input type="date" id="date">
+                <input type="date" id="date" name="event_date">
               </div>
             </div>
             <div class="form-group">
               <label for="message">Tell Us About Your Vision</label>
-              <textarea id="message" placeholder="Share any colour preferences, themes, venue details or inspiration — the more detail the better!"></textarea>
+              <textarea id="message" name="message" placeholder="Share any colour preferences, themes, venue details or inspiration — the more detail the better!"></textarea>
             </div>
             <button type="submit" class="btn btn-primary form-submit">Send My Enquiry →</button>
             <p class="form-note">By submitting this form you agree to us contacting you about your enquiry. We never share your details.</p>
@@ -907,18 +910,40 @@
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
   // Form
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    const btn = e.target.querySelector('.form-submit');
-    btn.textContent = '✓ Enquiry Sent!';
-    btn.style.background = '#8ab89a';
+    const form = e.target;
+    const btn = form.querySelector('.form-submit');
+    btn.textContent = 'Sending…';
     btn.disabled = true;
-    setTimeout(() => {
-      btn.textContent = 'Send My Enquiry →';
-      btn.style.background = '';
-      btn.disabled = false;
-      e.target.reset();
-    }, 4000);
+    try {
+      const data = new FormData(form);
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: data
+      });
+      const json = await res.json();
+      if (json.success) {
+        btn.textContent = '✓ Enquiry Sent!';
+        btn.style.background = '#8ab89a';
+        form.reset();
+        setTimeout(() => {
+          btn.textContent = 'Send My Enquiry →';
+          btn.style.background = '';
+          btn.disabled = false;
+        }, 5000);
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch {
+      btn.textContent = 'Something went wrong — please try again';
+      btn.style.background = '#c97a7a';
+      setTimeout(() => {
+        btn.textContent = 'Send My Enquiry →';
+        btn.style.background = '';
+        btn.disabled = false;
+      }, 4000);
+    }
   }
 </script>
 </body>
