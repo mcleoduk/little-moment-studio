@@ -51,7 +51,7 @@ Work through these in order. Tick each off as done.
 
 | # | Task | Page(s) | Status |
 |---|------|---------|--------|
-| 30 | Add Open Graph tags | All service pages | ⬜ To do |
+| 30 | Add Open Graph tags | All service pages | ✅ Done 22 Apr — Live |
 | 31 | Create birthday-balloons-maidstone.html | New page | ⬜ To do |
 | 32 | Create balloon-garlands-maidstone.html | New page | ⬜ To do |
 | 33 | Create balloon-styling-medway.html | New page | ⬜ To do |
