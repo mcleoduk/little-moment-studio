@@ -12,16 +12,16 @@ Work through these in order. Tick each off as done.
 
 | # | Task | Page(s) | Status |
 |---|------|---------|--------|
-| 1 | Fix title tag — over 60 chars | baby-shower-balloons-kent.html | ⬜ To do |
-| 2 | Fix meta description — over 160 chars | baby-shower-balloons-kent.html | ⬜ To do |
-| 3 | Fix title tag — over 60 chars | birthday-balloons-kent.html | ⬜ To do |
-| 4 | Fix meta description — over 160 chars | birthday-balloons-kent.html | ⬜ To do |
-| 5 | Fix title tag — over 60 chars | balloon-garlands-kent.html | ⬜ To do |
-| 6 | Fix meta description — over 160 chars | balloon-garlands-kent.html | ⬜ To do |
-| 7 | Fix title tag — over 60 chars | gallery.html | ✅ Done 22 Apr |
-| 8 | Fix meta description — over 160 chars | gallery.html | ✅ Done 22 Apr |
-| 9 | Fix title tag — over 60 chars | faqs.html | ✅ Done 22 Apr |
-| 10 | Fix meta description — over 160 chars | faqs.html | ✅ Done 22 Apr |
+| 1 | Fix title tag — over 60 chars | baby-shower-balloons-kent.html | ✅ Done 22 Apr — Live |
+| 2 | Fix meta description — over 160 chars | baby-shower-balloons-kent.html | ✅ Done 22 Apr — Live |
+| 3 | Fix title tag — over 60 chars | birthday-balloons-kent.html | ✅ Done 22 Apr — Live |
+| 4 | Fix meta description — over 160 chars | birthday-balloons-kent.html | ✅ Done 22 Apr — Live |
+| 5 | Fix title tag — over 60 chars | balloon-garlands-kent.html | ✅ Done 22 Apr — Live |
+| 6 | Fix meta description — over 160 chars | balloon-garlands-kent.html | ✅ Done 22 Apr — Live |
+| 7 | Fix title tag — over 60 chars | gallery.html | ✅ Done 22 Apr — Live |
+| 8 | Fix meta description — over 160 chars | gallery.html | ✅ Done 22 Apr — Live |
+| 9 | Fix title tag — over 60 chars | faqs.html | ✅ Done 22 Apr — Live |
+| 10 | Fix meta description — over 160 chars | faqs.html | ✅ Done 22 Apr — Live |
 | 11 | Set up Google Business Profile | — | ⬜ To do (manual — highest impact single action) |
 
 ### 🟡 Medium Priority
@@ -41,7 +41,7 @@ Work through these in order. Tick each off as done.
 | 22 | Fix title tag — over 60 chars | baby-shower-balloons-maidstone.html | ⬜ To do |
 | 23 | Fix meta description — over 160 chars | baby-shower-balloons-maidstone.html | ⬜ To do |
 | 24 | Fix title tag — over 60 chars | baby-shower-venues-sittingbourne.html | ⬜ To do |
-| 25 | Fix title tag — over 60 chars | journal.html | ✅ Done 22 Apr |
+| 25 | Fix title tag — over 60 chars | journal.html | ✅ Done 22 Apr — Live |
 | 26 | Fix title tag — over 60 chars | how-to-make-a-fake-cake.html | ⬜ To do |
 | 27 | Fix meta description — over 160 chars | how-to-make-a-fake-cake.html | ⬜ To do |
 | 28 | Fix title tag — over 60 chars | baby-shower-questions-answered.html | ⬜ To do |
