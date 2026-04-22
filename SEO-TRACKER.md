@@ -1,227 +1,374 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 13 March 2026
+Last updated: 22 April 2026
 
 ---
 
-## Homepage (index.html)
+## Priority Action List
 
-**Status:** ✅ Optimised — 13 March 2026
+Work through these in order. Tick each off as done.
+
+### 🔴 High Priority
+
+| # | Task | Page(s) | Status |
+|---|------|---------|--------|
+| 1 | Fix title tag — over 60 chars | baby-shower-balloons-kent.html | ⬜ To do |
+| 2 | Fix meta description — over 160 chars | baby-shower-balloons-kent.html | ⬜ To do |
+| 3 | Fix title tag — over 60 chars | birthday-balloons-kent.html | ⬜ To do |
+| 4 | Fix meta description — over 160 chars | birthday-balloons-kent.html | ⬜ To do |
+| 5 | Fix title tag — over 60 chars | balloon-garlands-kent.html | ⬜ To do |
+| 6 | Fix meta description — over 160 chars | balloon-garlands-kent.html | ⬜ To do |
+| 7 | Fix title tag — over 60 chars | gallery.html | ✅ Done 22 Apr |
+| 8 | Fix meta description — over 160 chars | gallery.html | ✅ Done 22 Apr |
+| 9 | Fix title tag — over 60 chars | faqs.html | ✅ Done 22 Apr |
+| 10 | Fix meta description — over 160 chars | faqs.html | ✅ Done 22 Apr |
+| 11 | Set up Google Business Profile | — | ⬜ To do (manual — highest impact single action) |
+
+### 🟡 Medium Priority
+
+| # | Task | Page(s) | Status |
+|---|------|---------|--------|
+| 12 | Fix title tag — over 60 chars | baby-shower-balloon-ideas.html | ⬜ To do |
+| 13 | Fix meta description — over 160 chars | baby-shower-balloon-ideas.html | ⬜ To do |
+| 14 | Fix title tag — over 60 chars | teddy-bear-baby-shower-ideas.html | ⬜ To do |
+| 15 | Fix meta description — over 160 chars | teddy-bear-baby-shower-ideas.html | ⬜ To do |
+| 16 | Fix title tag — over 60 chars | first-birthday-balloon-ideas.html | ⬜ To do |
+| 17 | Fix meta description — over 160 chars | first-birthday-balloon-ideas.html | ⬜ To do |
+| 18 | Fix title tag — over 60 chars | best-balloon-colours-2025.html | ⬜ To do |
+| 19 | Fix meta description — over 160 chars | best-balloon-colours-2025.html | ⬜ To do |
+| 20 | Fix title tag — over 60 chars | easter-balloon-ideas.html | ⬜ To do |
+| 21 | Fix meta description — over 160 chars | easter-balloon-ideas.html | ⬜ To do |
+| 22 | Fix title tag — over 60 chars | baby-shower-balloons-maidstone.html | ⬜ To do |
+| 23 | Fix meta description — over 160 chars | baby-shower-balloons-maidstone.html | ⬜ To do |
+| 24 | Fix title tag — over 60 chars | baby-shower-venues-sittingbourne.html | ⬜ To do |
+| 25 | Fix title tag — over 60 chars | journal.html | ✅ Done 22 Apr |
+| 26 | Fix title tag — over 60 chars | how-to-make-a-fake-cake.html | ⬜ To do |
+| 27 | Fix meta description — over 160 chars | how-to-make-a-fake-cake.html | ⬜ To do |
+| 28 | Fix title tag — over 60 chars | baby-shower-questions-answered.html | ⬜ To do |
+| 29 | Fix meta description — over 160 chars | baby-shower-questions-answered.html | ⬜ To do |
+
+### 🟢 Lower Priority (Growth)
+
+| # | Task | Page(s) | Status |
+|---|------|---------|--------|
+| 30 | Add Open Graph tags | All service pages | ⬜ To do |
+| 31 | Create birthday-balloons-maidstone.html | New page | ⬜ To do |
+| 32 | Create balloon-garlands-maidstone.html | New page | ⬜ To do |
+| 33 | Create balloon-styling-medway.html | New page | ⬜ To do |
+| 34 | Create balloon-styling-canterbury.html | New page | ⬜ To do |
+| 35 | Add ImageGallery schema | gallery.html | ⬜ To do |
+| 36 | Add "Who We Are" plain-text paragraph | index.html | ⬜ To do |
+| 37 | Submit to local directories (26 listed in COMPETITOR-ANALYSIS.md) | — | ⬜ To do |
+
+---
+
+## Suggested Title & Meta Fixes (reference)
+
+| Page | Current title (chars) | Suggested title | Chars |
+|------|-----------------------|-----------------|-------|
+| baby-shower-balloons-kent.html | Baby Shower Balloons Kent \| Beautiful Balloon Styling & Decorations \| Little Moment Studio (90) | Baby Shower Balloons Kent \| Little Moment Studio | 48 |
+| birthday-balloons-kent.html | Birthday Balloons Kent \| First Birthday & Party Balloon Styling \| Little Moment Studio (86) | Birthday Balloons Kent \| Little Moment Studio | 46 |
+| balloon-garlands-kent.html | Balloon Garlands & Arches Kent \| Organic Balloon Displays \| Little Moment Studio (80) | Balloon Garlands & Arches Kent \| Little Moment Studio | 54 |
+| gallery.html | Balloon Styling Gallery Kent \| Baby Showers, Birthdays & Events \| Little Moment Studio (86) | Balloon Styling Gallery Kent \| Little Moment Studio | 52 |
+| faqs.html | FAQs \| Balloon Styling Kent \| Booking, Pricing & Setup \| Little Moment Studio (77) | Balloon Styling FAQs Kent \| Little Moment Studio | 49 |
+| baby-shower-balloon-ideas.html | Baby Shower Balloon Ideas 2025 \| Themes, Colours & Styling Tips \| Little Moment Studio (86) | Baby Shower Balloon Ideas 2025 \| Little Moment Studio | 54 |
+| teddy-bear-baby-shower-ideas.html | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling \| Little Moment Studio Kent (91) | Teddy Bear Baby Shower Ideas \| Little Moment Studio | 52 |
+| first-birthday-balloon-ideas.html | First Birthday Balloon Ideas: Themes & Styling Tips \| Little Moment Studio Kent (79) | First Birthday Balloon Ideas \| Little Moment Studio | 52 |
+| best-balloon-colours-2025.html | Best Balloon Colours 2026 \| Trending Balloon Decor Kent \| Little Moment Studio (78) | Best Balloon Colours 2026 \| Little Moment Studio Kent | 54 |
+| easter-balloon-ideas.html | Easter Balloon Ideas for Parties & Egg Hunts 2026 \| Little Moment Studio Kent (77) | Easter Balloon Ideas 2026 \| Little Moment Studio Kent | 54 |
+| baby-shower-balloons-maidstone.html | Baby Shower Balloon Styling Maidstone \| Little Moment Studio Kent (65) | Baby Shower Balloons Maidstone \| Little Moment Studio | 54 |
+| baby-shower-venues-sittingbourne.html | Best Baby Shower Venues Near Sittingbourne \| Local Guide \| Little Moment Studio (79) | Baby Shower Venues Near Sittingbourne \| Little Moment Studio | 61 — trim further if needed |
+| journal.html | Journal \| Balloon Styling Ideas & Inspiration Kent \| Little Moment Studio (73) | Balloon Styling Journal \| Little Moment Studio Kent | 52 |
+| how-to-make-a-fake-cake.html | How to Make a Fake Cake for Celebrations \| DIY Guide \| Little Moment Studio (75) | How to Make a Fake Cake \| Little Moment Studio Kent | 52 |
+| baby-shower-questions-answered.html | Baby Shower: Your Questions Answered \| Complete UK Guide 2026 \| Little Moment Studio (84) | Baby Shower Questions Answered \| Little Moment Studio | 54 |
+
+---
+
+## Page-by-Page Records
+
+---
+
+### Homepage (index.html)
+
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Little Moment Studio \| Balloon Styling & Event Decor Kent \| Baby Showers, Birthdays & Celebrations |
-| **Meta description** | Beautiful balloon styling across Kent. Baby shower balloons, birthday balloon garlands, balloon arches & event decor. Based in Sittingbourne, serving all of Kent. Book your free consultation. |
+| **Meta title** | Balloon Styling in Kent \| Little Moment Studio (46 chars) |
+| **Meta description** | Balloon styling in Kent for baby showers, birthdays & events. Based in Sittingbourne. Book your free consultation today. (120 chars) |
+| **Open Graph** | ✅ All five OG tags present. Using Hero.jpg (1536×1024px) |
 | **H1** | Beautiful Balloon Styling & Event Decor in Kent |
-| **Hero eyebrow** | Balloon Styling Across Kent |
-| **Hero subtitle** | Balloon garlands, arches & installations for baby showers, first birthdays and celebrations. Based in Sittingbourne, styling events across Kent. |
-| **Target keywords** | balloon styling Kent, balloon decor Kent, baby shower balloons Kent, birthday balloons Kent, balloon garlands Kent, event balloons Kent |
-| **Schema** | LocalBusiness JSON-LD (name, address, phone, email, service area: Kent, priceRange: ££) |
+| **Target keywords** | balloon styling Kent, balloon decor Kent, baby shower balloons Kent, birthday balloons Kent, balloon garlands Kent |
+| **Schema** | ✅ LocalBusiness JSON-LD (name, address, phone, email, service area: Kent, priceRange: ££) |
 | **Local towns listed** | Sittingbourne, Faversham, Maidstone, Chatham, Gillingham, Sheerness, Canterbury, Swale, Tonbridge, Ashford, Dartford, Gravesend, Medway |
 
 ---
 
-## Gallery (gallery.html)
+### Gallery (gallery.html)
 
-**Status:** ✅ Optimised — 13 March 2026
+**Status:** ⚠️ Title & meta need fixing (items 7–8)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Balloon Styling Gallery Kent \| Baby Showers, Birthdays & Events \| Little Moment Studio |
-| **Meta description** | Browse our balloon styling gallery. Baby shower balloons, birthday balloon garlands, balloon arches, backdrops & seasonal event decor across Kent. Based in Sittingbourne. |
+| **Meta title** | Balloon Styling Gallery Kent \| Baby Showers, Birthdays & Events \| Little Moment Studio — **86 chars ⚠️** |
+| **Meta description** | 170 chars ⚠️ |
 | **H1** | Balloon Decor & Event Styling Across Kent |
-| **Hero eyebrow** | Balloon Styling Gallery |
-| **Hero subtitle** | Baby shower balloons, birthday balloon garlands, arches, backdrops and seasonal displays. Browse our work from celebrations across Kent. |
-| **Target keywords** | balloon styling gallery Kent, baby shower balloons Kent, birthday balloon decor Kent, balloon garland Kent |
-| **CTA strip** | Updated copy to include "balloon styling" and "Kent" |
-| **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
-| **Image alt texts** | All updated — Kent-first positioning with service keywords |
-| **Schema** | None yet — ImageGallery JSON-LD recommended for Phase 2 |
+| **Target keywords** | balloon styling gallery Kent, baby shower balloons Kent, birthday balloon decor Kent |
+| **Image alt texts** | ✅ All updated with Kent-first positioning |
+| **Schema** | ⬜ ImageGallery JSON-LD not yet added |
 
 ---
 
-## FAQs (faqs.html)
+### FAQs (faqs.html)
 
-**Status:** ✅ Optimised — 13 March 2026
+**Status:** ⚠️ Title & meta need fixing (items 9–10)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | FAQs \| Balloon Styling Kent \| Booking, Pricing & Setup \| Little Moment Studio |
-| **Meta description** | FAQs about balloon styling in Kent. How much do balloon decorations cost? How far do you travel? Booking, deposits, setup, balloon types & more. Based in Sittingbourne, serving all of Kent. |
+| **Meta title** | FAQs \| Balloon Styling Kent \| Booking, Pricing & Setup \| Little Moment Studio — **77 chars ⚠️** |
+| **Meta description** | 189 chars ⚠️ |
 | **H1** | Balloon Styling FAQs |
-| **Hero eyebrow** | Balloon Styling FAQs |
-| **Hero subtitle** | Everything you need to know about booking balloon styling in Kent. Pricing, deposits, setup, travel and more. |
-| **Target keywords** | balloon styling FAQ Kent, how much do balloon decorations cost Kent, baby shower balloon packages Kent |
-| **CTA section** | Updated copy to include "baby shower", "birthday", "Kent" |
-| **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
-| **Schema** | ✅ FAQ JSON-LD — 20 questions including 7 LLM-optimised entity/service/pricing queries |
+| **Target keywords** | balloon styling FAQ Kent, how much do balloon decorations cost Kent |
+| **Schema** | ✅ FAQ JSON-LD — 20 questions including 7 LLM-optimised queries |
 
 ---
 
-## Best Balloon Colours 2025 (best-balloon-colours-2025.html)
+### Baby Shower Balloons Kent (baby-shower-balloons-kent.html)
 
-**Status:** ✅ Optimised — 13 March 2026
+**Status:** ⚠️ Title & meta need fixing (items 1–2)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Best Balloon Colours 2025 \| Trending Balloon Decor Kent \| Little Moment Studio |
-| **Meta description** | Best balloon colours for 2025. Trending palettes for baby showers, birthdays & celebrations in Kent. Sage green, dusty pink, mocha mousse & more. Expert balloon styling from Little Moment Studio. |
-| **H1** | Best Balloon Colours for Kent Celebrations in 2025 |
-| **Target keywords** | balloon colours 2025, trending balloon colours Kent, balloon colour ideas, baby shower balloon colours |
-| **Kent-specific H2** | Changed from "Sittingbourne & Kent" to "Kent" — broader positioning |
-| **CTA copy** | Updated to include "balloon display", "baby showers", "birthdays", "events across Kent" |
-| **Footer tagline** | Changed from "Celebration Styling · Sittingbourne" to "Balloon Styling · Kent" |
-| **Schema** | ✅ BlogPosting JSON-LD (headline, author, publisher, datePublished, dateModified) |
-
----
-
-## Privacy Policy (privacy-policy.html)
-
-**Status:** ⬜ No SEO needed
-
-| Element | Notes |
-|---------|-------|
-| **Meta robots** | `noindex` — correct, legal pages should not rank |
-| **Action needed** | None |
-
----
-
-## Terms & Conditions (terms.html)
-
-**Status:** ⬜ No SEO needed
-
-| Element | Notes |
-|---------|-------|
-| **Meta robots** | `noindex` — correct, legal pages should not rank |
-| **Action needed** | None |
-
----
-
-## Baby Shower Balloons Kent (baby-shower-balloons-kent.html)
-
-**Status:** ✅ Created — 13 March 2026
-
-| Element | Value |
-|---------|-------|
-| **Meta title** | Baby Shower Balloons Kent \| Beautiful Balloon Styling & Decorations \| Little Moment Studio |
-| **Meta description** | Stunning baby shower balloon decorations across Kent. Balloon garlands, arches, organic displays & backdrop styling for your perfect baby shower. Based in Sittingbourne, serving all of Kent. |
+| **Meta title** | Baby Shower Balloons Kent \| Beautiful Balloon Styling & Decorations \| Little Moment Studio — **90 chars ⚠️** |
+| **Meta description** | 190 chars ⚠️ |
 | **H1** | Beautiful Baby Shower Balloon Styling in Kent |
 | **Target keywords** | baby shower balloons Kent, baby shower decorations Kent, baby shower balloon garland Kent |
-| **Schema** | ✅ Service JSON-LD (provider: Little Moment Studio, areaServed: Kent) |
-| **Sections** | Intro with image, showcase gallery (3 images), what's included (3 cards), mini FAQ (4 questions), CTA strip |
-| **Internal links** | Links to gallery.html, faqs.html, index.html#contact |
+| **Schema** | ✅ Service JSON-LD |
 | **Canonical** | https://littlemomentstudio.co.uk/baby-shower-balloons-kent.html |
 
 ---
 
-## Birthday Balloons Kent (birthday-balloons-kent.html)
+### Birthday Balloons Kent (birthday-balloons-kent.html)
 
-**Status:** ✅ Created — 13 March 2026
+**Status:** ⚠️ Title & meta need fixing (items 3–4)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Birthday Balloons Kent \| First Birthday & Party Balloon Styling \| Little Moment Studio |
-| **Meta description** | Beautiful birthday balloon styling across Kent. First birthday balloons, kids' party balloon garlands, milestone celebrations & balloon arches. Based in Sittingbourne, serving all of Kent. |
+| **Meta title** | Birthday Balloons Kent \| First Birthday & Party Balloon Styling \| Little Moment Studio — **86 chars ⚠️** |
+| **Meta description** | 188 chars ⚠️ |
 | **H1** | Birthday Balloon Styling Across Kent |
-| **Target keywords** | birthday balloons Kent, first birthday balloons Kent, kids party balloons Kent, milestone birthday balloons |
-| **Schema** | ✅ Service JSON-LD (provider: Little Moment Studio, areaServed: Kent) |
-| **Sections** | Intro with image, showcase gallery (3 images), ages/occasions (4 cards), mini FAQ (4 questions), CTA strip |
-| **Internal links** | Links to gallery.html, faqs.html, index.html#contact |
+| **Target keywords** | birthday balloons Kent, first birthday balloons Kent, kids party balloons Kent |
+| **Schema** | ✅ Service JSON-LD |
 | **Canonical** | https://littlemomentstudio.co.uk/birthday-balloons-kent.html |
 
 ---
 
-## Balloon Garlands & Arches Kent (balloon-garlands-kent.html)
+### Balloon Garlands & Arches Kent (balloon-garlands-kent.html)
 
-**Status:** ✅ Created — 13 March 2026
+**Status:** ⚠️ Title & meta need fixing (items 5–6)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Balloon Garlands & Arches Kent \| Organic Balloon Displays \| Little Moment Studio |
-| **Meta description** | Stunning balloon garlands and balloon arches across Kent. Organic garlands, statement arches & flowing balloon displays for every celebration. Based in Sittingbourne, serving all of Kent. |
+| **Meta title** | Balloon Garlands & Arches Kent \| Organic Balloon Displays \| Little Moment Studio — **80 chars ⚠️** |
+| **Meta description** | 187 chars ⚠️ |
 | **H1** | Balloon Garlands & Arches Across Kent |
-| **Target keywords** | balloon garland Kent, balloon arch Kent, organic balloon garland, balloon display Kent |
-| **Schema** | ✅ Service JSON-LD (provider: Little Moment Studio, areaServed: Kent) |
-| **Sections** | Intro with image, 3 garland styles (organic/arch/cascading), showcase gallery (2 images), occasions (3 cards), mini FAQ (4 questions), CTA strip |
-| **Internal links** | Links to gallery.html, faqs.html, index.html#contact |
+| **Target keywords** | balloon garland Kent, balloon arch Kent, organic balloon garland |
+| **Schema** | ✅ Service JSON-LD |
 | **Canonical** | https://littlemomentstudio.co.uk/balloon-garlands-kent.html |
 
 ---
 
-## Baby Shower Balloon Ideas (baby-shower-balloon-ideas.html)
+### Baby Shower Balloons Maidstone (baby-shower-balloons-maidstone.html)
 
-**Status:** ✅ Created — 13 March 2026
+**Status:** ⚠️ Title & meta need fixing (items 22–23)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Baby Shower Balloon Ideas 2025 \| Themes, Colours & Styling Tips \| Little Moment Studio |
-| **Meta description** | Beautiful baby shower balloon ideas for 2025. Trending themes, colour palettes & styling tips for your perfect baby shower. Garlands, arches, backdrops & more. Expert balloon styling across Kent. |
+| **Meta title** | Baby Shower Balloon Styling Maidstone \| Little Moment Studio Kent — **65 chars ⚠️** |
+| **Meta description** | 179 chars ⚠️ |
+| **H1** | Baby Shower Balloon Styling in Maidstone |
+| **Target keywords** | baby shower balloons Maidstone, baby shower decorations Maidstone |
+| **Notes** | Location page — 12 miles from studio, real venues listed |
+
+---
+
+### Baby Shower Balloon Ideas (baby-shower-balloon-ideas.html)
+
+**Status:** ⚠️ Title & meta need fixing (items 12–13)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloon Ideas 2025 \| Themes, Colours & Styling Tips \| Little Moment Studio — **86 chars ⚠️** |
+| **Meta description** | 195 chars ⚠️ |
 | **H1** | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips |
-| **Target keywords** | baby shower balloon ideas, baby shower balloon themes, baby shower decorations ideas, baby shower colour palettes, baby shower balloons cost |
-| **Schema** | ✅ BlogPosting JSON-LD (headline, author, publisher, datePublished, dateModified, image) |
-| **Sections** | Intro, 5 trending themes (cards), 5 colour palettes (with swatches), 4 display types (with images), styling tips, pricing guide, CTA |
-| **Internal links** | Links to baby-shower-balloons-kent.html, gallery.html, faqs.html, index.html#contact, best-balloon-colours-2025.html, balloon-garlands-kent.html, birthday-balloons-kent.html |
-| **Canonical** | https://littlemomentstudio.co.uk/baby-shower-balloon-ideas.html |
-| **Content strategy** | Informational blog post supporting the commercial baby-shower-balloons-kent.html landing page. Captures "ideas" and "inspiration" searches, funnels to booking. |
+| **Target keywords** | baby shower balloon ideas, baby shower balloon themes, baby shower colour palettes |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Content strategy** | Informational — supports baby-shower-balloons-kent.html, funnels to booking |
 
 ---
 
-## Planned Landing Pages
+### Teddy Bear Baby Shower Ideas (teddy-bear-baby-shower-ideas.html)
 
-| Page | Target Keywords | Status |
-|------|----------------|--------|
-| `/wedding-balloons-kent.html` | wedding balloons Kent, wedding balloon arch Kent | ⬜ Not started |
-| `/corporate-event-balloons-kent.html` | event balloons Kent, corporate balloon decor Kent | ⬜ Not started |
+**Status:** ⚠️ Title & meta need fixing (items 14–15)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling \| Little Moment Studio Kent — **91 chars ⚠️** |
+| **Meta description** | 175 chars ⚠️ |
+| **H1** | Teddy Bear Baby Shower Ideas |
+| **Target keywords** | teddy bear baby shower ideas, teddy bear baby shower balloons |
+| **Schema** | ✅ BlogPosting JSON-LD |
 
 ---
 
-## Planned Town Pages (Phase 4)
+### First Birthday Balloon Ideas (first-birthday-balloon-ideas.html)
 
-| Page | Target Area | Status |
-|------|------------|--------|
-| `/balloons-maidstone.html` | Maidstone & surrounds | ⬜ Not started |
-| `/balloons-medway.html` | Rochester, Chatham, Gillingham | ⬜ Not started |
-| `/balloons-canterbury.html` | Canterbury & east Kent | ⬜ Not started |
-| `/balloons-tonbridge.html` | Tonbridge, Tunbridge Wells | ⬜ Not started |
-| `/balloons-dartford.html` | Dartford, Gravesend, north Kent | ⬜ Not started |
+**Status:** ⚠️ Title & meta need fixing (items 16–17)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | First Birthday Balloon Ideas: Themes & Styling Tips \| Little Moment Studio Kent — **79 chars ⚠️** |
+| **Meta description** | 178 chars ⚠️ |
+| **H1** | First Birthday Balloon Ideas |
+| **Target keywords** | first birthday balloon ideas, first birthday balloons Kent |
+| **Schema** | ✅ BlogPosting JSON-LD |
+
+---
+
+### Best Balloon Colours (best-balloon-colours-2025.html)
+
+**Status:** ⚠️ Title & meta need fixing (items 18–19)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Best Balloon Colours 2026 \| Trending Balloon Decor Kent \| Little Moment Studio — **78 chars ⚠️** |
+| **Meta description** | 195 chars ⚠️ |
+| **H1** | Best Balloon Colours for Kent Celebrations in 2025 |
+| **Target keywords** | balloon colours 2026, trending balloon colours Kent |
+| **Schema** | ✅ BlogPosting JSON-LD |
+
+---
+
+### Easter Balloon Ideas (easter-balloon-ideas.html)
+
+**Status:** ⚠️ Title & meta need fixing (items 20–21)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Easter Balloon Ideas for Parties & Egg Hunts 2026 \| Little Moment Studio Kent — **77 chars ⚠️** |
+| **Meta description** | 175 chars ⚠️ |
+| **Target keywords** | Easter balloon ideas, Easter party balloons Kent |
+| **Schema** | ✅ BlogPosting JSON-LD |
+
+---
+
+### Baby Shower Questions Answered (baby-shower-questions-answered.html)
+
+**Status:** ⚠️ Title & meta need fixing (items 28–29)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower: Your Questions Answered \| Complete UK Guide 2026 \| Little Moment Studio — **84 chars ⚠️** |
+| **Meta description** | 169 chars ⚠️ |
+| **Target keywords** | baby shower questions UK, what happens at a baby shower, baby shower guide |
+| **Schema** | ✅ BlogPosting JSON-LD |
+
+---
+
+### Baby Shower Venues Sittingbourne (baby-shower-venues-sittingbourne.html)
+
+**Status:** ⚠️ Title needs fixing (item 24)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Best Baby Shower Venues Near Sittingbourne \| Local Guide \| Little Moment Studio — **79 chars ⚠️** |
+| **Meta description** | ✅ 157 chars |
+| **Target keywords** | baby shower venues Sittingbourne, baby shower venues Kent |
+
+---
+
+### Journal (journal.html)
+
+**Status:** ⚠️ Title needs fixing (item 25)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Journal \| Balloon Styling Ideas & Inspiration Kent \| Little Moment Studio — **73 chars ⚠️** |
+| **Meta description** | ✅ 155 chars |
+| **Target keywords** | balloon styling ideas Kent, balloon inspiration |
+
+---
+
+### How to Make a Fake Cake (how-to-make-a-fake-cake.html)
+
+**Status:** ⚠️ Title & meta need fixing (items 26–27)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | How to Make a Fake Cake for Celebrations \| DIY Guide \| Little Moment Studio — **75 chars ⚠️** |
+| **Meta description** | 193 chars ⚠️ |
+| **Target keywords** | how to make a fake cake, fake cake DIY, fake celebration cake |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Notes** | Hero image still needed before publishing |
+
+---
+
+### Privacy Policy & Terms (privacy-policy.html / terms.html)
+
+**Status:** ✅ No SEO needed — both correctly set to `noindex`
+
+---
+
+## Planned New Pages
+
+| Page | Target Keywords | Priority | Status |
+|------|----------------|----------|--------|
+| `birthday-balloons-maidstone.html` | birthday balloons Maidstone, kids party balloons Maidstone | 🔴 High | ⬜ Not started |
+| `balloon-garlands-maidstone.html` | balloon garland Maidstone, balloon arch Maidstone | 🔴 High | ⬜ Not started |
+| `balloon-styling-medway.html` | balloon styling Medway, balloons Rochester Chatham | 🟡 Medium | ⬜ Not started |
+| `balloon-styling-canterbury.html` | balloon styling Canterbury, balloons Canterbury Kent | 🟡 Medium | ⬜ Not started |
+| `balloon-styling-tonbridge.html` | balloon styling Tonbridge, Tunbridge Wells balloons | 🟢 Lower | ⬜ Not started |
+| `wedding-balloons-kent.html` | wedding balloons Kent, wedding balloon arch Kent | 🟢 Lower | ⬜ Not started |
+| `corporate-event-balloons-kent.html` | event balloons Kent, corporate balloon decor Kent | 🟢 Lower | ⬜ Not started |
+
+---
+
+## Google Business Profile
+
+**Status:** ⬜ Not confirmed — highest impact single action available
+
+A verified GBP listing puts Little Moment Studio into the **map pack** (the 3 businesses shown above organic results for local searches). This is where the majority of clicks go for searches like "balloon styling Sittingbourne" or "baby shower balloons Maidstone".
+
+**To do:**
+- Go to business.google.com
+- Search for Little Moment Studio — claim if already listed, create if not
+- Verify via postcard or phone
+- Add: category (Balloon Artist), photos, services, hours, website URL
+- Once live, ask every customer for a Google review
 
 ---
 
 ## LLM Search Optimisation (ChatGPT, Perplexity, Gemini, Claude)
 
-LLMs find and recommend businesses differently from Google. This checklist tracks optimisation for AI-powered search.
-
-### Checklist
-
 | Action | Status | Notes |
 |--------|--------|-------|
-| **Clear Entity Identity** — state who, what, where in plain text on every page | ✅ Done | FAQ "About Us" section added with 7 conversational Q&As |
-| **Structured Data (Schema)** — JSON-LD that LLMs can parse | ✅ Done | LocalBusiness, Service, FAQ, BlogPosting all in place |
-| **FAQ in Q&A format** — direct question-and-answer pairs LLMs can extract | ✅ Done | 7 new LLM-targeted FAQs added (entity, location, services, pricing, contact) |
-| **FAQ Schema updated** — new questions added to FAQPage JSON-LD | ✅ Done | All 20 questions now in schema |
-| **Organization schema** — with `sameAs` social links | ⬜ Not started | Add to all pages in Phase 2 |
-| **"Who We Are" paragraph** — near top of homepage for LLM readability | ⬜ Not started | Plain-text entity description |
-| **Consistent NAP** — Name, Address, Phone identical everywhere | ✅ Done | Consistent across all pages, schema, footer |
-| **External citations** — directory listings, reviews, blog mentions | ⬜ Not started | 26 directories listed in COMPETITOR-ANALYSIS.md |
-| **Authoritative content** — expert blog posts, not sales copy | ✅ Done | 2 blog articles published |
-| **Conversational FAQ questions** — match how users ask LLMs | ✅ Done | "Who is the best balloon decorator in Kent?", "How much do balloon decorations cost in Kent?" etc. |
-
-### Key LLM-Targeted Questions Added to FAQ
-
-1. "What is Little Moment Studio?" — entity definition
-2. "Who is the best balloon decorator in Kent?" — recommendation query
-3. "Where is Little Moment Studio based?" — location query
-4. "What services does Little Moment Studio offer?" — service listing
-5. "How much do balloon decorations cost in Kent?" — pricing query
-6. "Can I book balloon decorations for a baby shower in Kent?" — specific service query
-7. "How do I contact Little Moment Studio?" — contact query
+| Clear entity identity on every page | ✅ Done | FAQ "About Us" section — 7 conversational Q&As |
+| Structured data (Schema JSON-LD) | ✅ Done | LocalBusiness, Service, FAQ, BlogPosting all in place |
+| FAQ in Q&A format | ✅ Done | 7 LLM-targeted FAQs added |
+| FAQ Schema updated | ✅ Done | All 20 questions in schema |
+| Consistent NAP everywhere | ✅ Done | Name, address, phone identical across all pages |
+| Authoritative content | ✅ Done | Multiple blog articles published |
+| Conversational FAQ questions | ✅ Done | Matches how users ask LLMs |
+| Organization schema with sameAs | ⬜ Not started | Add once social accounts exist |
+| "Who We Are" paragraph on homepage | ⬜ Not started | Plain-text entity description near top of page |
+| External citations & directory listings | ⬜ Not started | 26 directories in COMPETITOR-ANALYSIS.md |
 
 ---
 
 ## Notes
 
 - All pages use British English
-- Primary font: Playfair Display (headings), Inter (body)
+- Fonts: Playfair Display (headings), Inter (body)
 - Brand colours: Background #FAF7F2, Primary #DCEAF5, Secondary #F6DDE4, Accent #D8C4A5
 - Domain: littlemomentstudio.co.uk
 - Hosting: Vercel via GitHub auto-deploy

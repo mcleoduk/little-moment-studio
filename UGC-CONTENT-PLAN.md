@@ -1,4 +1,4 @@
-# UGC & Video Content Plan — Little Moment Studio
+t# UGC & Video Content Plan — Little Moment Studio
 
 Target frequency: **weekly short-form** (Reels/TikTok) + **fortnightly long-form** (YouTube/journal embed)
 
