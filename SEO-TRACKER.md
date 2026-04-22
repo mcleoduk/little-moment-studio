@@ -28,24 +28,24 @@ Work through these in order. Tick each off as done.
 
 | # | Task | Page(s) | Status |
 |---|------|---------|--------|
-| 12 | Fix title tag — over 60 chars | baby-shower-balloon-ideas.html | ⬜ To do |
-| 13 | Fix meta description — over 160 chars | baby-shower-balloon-ideas.html | ⬜ To do |
-| 14 | Fix title tag — over 60 chars | teddy-bear-baby-shower-ideas.html | ⬜ To do |
-| 15 | Fix meta description — over 160 chars | teddy-bear-baby-shower-ideas.html | ⬜ To do |
-| 16 | Fix title tag — over 60 chars | first-birthday-balloon-ideas.html | ⬜ To do |
-| 17 | Fix meta description — over 160 chars | first-birthday-balloon-ideas.html | ⬜ To do |
-| 18 | Fix title tag — over 60 chars | best-balloon-colours-2025.html | ⬜ To do |
-| 19 | Fix meta description — over 160 chars | best-balloon-colours-2025.html | ⬜ To do |
-| 20 | Fix title tag — over 60 chars | easter-balloon-ideas.html | ⬜ To do |
-| 21 | Fix meta description — over 160 chars | easter-balloon-ideas.html | ⬜ To do |
-| 22 | Fix title tag — over 60 chars | baby-shower-balloons-maidstone.html | ⬜ To do |
-| 23 | Fix meta description — over 160 chars | baby-shower-balloons-maidstone.html | ⬜ To do |
-| 24 | Fix title tag — over 60 chars | baby-shower-venues-sittingbourne.html | ⬜ To do |
+| 12 | Fix title tag — over 60 chars | baby-shower-balloon-ideas.html | ✅ Done 22 Apr — Live |
+| 13 | Fix meta description — over 160 chars | baby-shower-balloon-ideas.html | ✅ Done 22 Apr — Live |
+| 14 | Fix title tag — over 60 chars | teddy-bear-baby-shower-ideas.html | ✅ Done 22 Apr — Live |
+| 15 | Fix meta description — over 160 chars | teddy-bear-baby-shower-ideas.html | ✅ Done 22 Apr — Live |
+| 16 | Fix title tag — over 60 chars | first-birthday-balloon-ideas.html | ✅ Done 22 Apr — Live |
+| 17 | Fix meta description — over 160 chars | first-birthday-balloon-ideas.html | ✅ Done 22 Apr — Live |
+| 18 | Fix title tag — over 60 chars | best-balloon-colours-2025.html | ✅ Done 22 Apr — Live |
+| 19 | Fix meta description — over 160 chars | best-balloon-colours-2025.html | ✅ Done 22 Apr — Live |
+| 20 | Fix title tag — over 60 chars | easter-balloon-ideas.html | ✅ Done 22 Apr — Live |
+| 21 | Fix meta description — over 160 chars | easter-balloon-ideas.html | ✅ Done 22 Apr — Live |
+| 22 | Fix title tag — over 60 chars | baby-shower-balloons-maidstone.html | ✅ Done 22 Apr — Live |
+| 23 | Fix meta description — over 160 chars | baby-shower-balloons-maidstone.html | ✅ Done 22 Apr — Live |
+| 24 | Fix title tag — over 60 chars | baby-shower-venues-sittingbourne.html | ✅ Done 22 Apr — Live |
 | 25 | Fix title tag — over 60 chars | journal.html | ✅ Done 22 Apr — Live |
-| 26 | Fix title tag — over 60 chars | how-to-make-a-fake-cake.html | ⬜ To do |
-| 27 | Fix meta description — over 160 chars | how-to-make-a-fake-cake.html | ⬜ To do |
-| 28 | Fix title tag — over 60 chars | baby-shower-questions-answered.html | ⬜ To do |
-| 29 | Fix meta description — over 160 chars | baby-shower-questions-answered.html | ⬜ To do |
+| 26 | Fix title tag — over 60 chars | how-to-make-a-fake-cake.html | ✅ Done 22 Apr — Live |
+| 27 | Fix meta description — over 160 chars | how-to-make-a-fake-cake.html | ✅ Done 22 Apr — Live |
+| 28 | Fix title tag — over 60 chars | baby-shower-questions-answered.html | ✅ Done 22 Apr — Live |
+| 29 | Fix meta description — over 160 chars | baby-shower-questions-answered.html | ✅ Done 22 Apr — Live |
 
 ### 🟢 Lower Priority (Growth)
 
