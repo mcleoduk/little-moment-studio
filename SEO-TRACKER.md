@@ -54,6 +54,9 @@ Work through these in order. Tick each off as done.
 | 30 | Add Open Graph tags | All service pages | ✅ Done 22 Apr — Live |
 | 31 | Create birthday-balloons-maidstone.html | New page | ✅ Done 22 Apr — Live |
 | 32 | Create balloon-garlands-maidstone.html | New page | ✅ Done 22 Apr — Live |
+| 38 | Create baby-shower-balloons-faversham.html | New page | ✅ Done 22 Apr — Live |
+| 39 | Create birthday-balloons-faversham.html | New page | ✅ Done 22 Apr — Live |
+| 40 | Create balloon-garlands-faversham.html | New page | ✅ Done 22 Apr — Live |
 | 33 | Create balloon-styling-medway.html | New page | ⬜ To do |
 | 34 | Create balloon-styling-canterbury.html | New page | ⬜ To do |
 | 35 | Add ImageGallery schema | gallery.html | ⬜ To do |
@@ -192,6 +195,81 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### Birthday Balloons Maidstone (birthday-balloons-maidstone.html)
+
+**Status:** ✅ Live — 22 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Birthday Balloons Maidstone \| Little Moment Studio (51 chars) |
+| **Meta description** | Birthday balloon styling in Maidstone, Kent. Garlands, arches & party displays for first birthdays and milestone celebrations. Based in Sittingbourne, 12 miles away. (159 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | birthday balloons Maidstone, first birthday balloons Maidstone, party balloons Maidstone |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — 12 miles / 17 min from studio. Small delivery charge may apply. |
+
+---
+
+### Balloon Garlands Maidstone (balloon-garlands-maidstone.html)
+
+**Status:** ✅ Live — 22 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Balloon Garlands Maidstone \| Little Moment Studio (51 chars) |
+| **Meta description** | Balloon garlands and arches in Maidstone, Kent. Organic displays for baby showers, birthdays & events. Based in Sittingbourne, 12 miles away. (142 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | balloon garland Maidstone, balloon arch Maidstone, organic balloon garland Maidstone |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — 12 miles / 17 min from studio. Small delivery charge may apply. |
+
+---
+
+### Baby Shower Balloons Faversham (baby-shower-balloons-faversham.html)
+
+**Status:** ✅ Live — 22 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Faversham \| Little Moment Studio (54 chars) |
+| **Meta description** | Baby shower balloon styling in Faversham, Kent. Organic garlands, arches and displays. Based in Sittingbourne, just 7 miles away. Usually no delivery charge. (158 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | baby shower balloons Faversham, baby shower decorations Faversham |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — 7 miles / 10 min from studio. Usually no delivery charge (key differentiator). |
+
+---
+
+### Birthday Balloons Faversham (birthday-balloons-faversham.html)
+
+**Status:** ✅ Live — 22 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Birthday Balloons Faversham \| Little Moment Studio (51 chars) |
+| **Meta description** | Birthday balloon styling in Faversham, Kent. Garlands, arches & party displays for first birthdays and milestone celebrations. Based in Sittingbourne, just 7 miles away. (170 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | birthday balloons Faversham, first birthday balloons Faversham, party balloons Faversham |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — 7 miles / 10 min from studio. Usually no delivery charge. |
+
+---
+
+### Balloon Garlands Faversham (balloon-garlands-faversham.html)
+
+**Status:** ✅ Live — 22 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Balloon Garlands Faversham \| Little Moment Studio (50 chars) |
+| **Meta description** | Balloon garlands and arches in Faversham, Kent. Organic displays for baby showers, birthdays & events. Just 7 miles from our studio in Sittingbourne. (150 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | balloon garland Faversham, balloon arch Faversham, organic balloon garland Faversham |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — 7 miles / 10 min from studio. Usually no delivery charge. |
+
+---
+
 ### Baby Shower Balloon Ideas (baby-shower-balloon-ideas.html)
 
 **Status:** ⚠️ Title & meta need fixing (items 12–13)
@@ -323,8 +401,11 @@ Work through these in order. Tick each off as done.
 
 | Page | Target Keywords | Priority | Status |
 |------|----------------|----------|--------|
-| `birthday-balloons-maidstone.html` | birthday balloons Maidstone, kids party balloons Maidstone | 🔴 High | ⬜ Not started |
-| `balloon-garlands-maidstone.html` | balloon garland Maidstone, balloon arch Maidstone | 🔴 High | ⬜ Not started |
+| `birthday-balloons-maidstone.html` | birthday balloons Maidstone, kids party balloons Maidstone | 🔴 High | ✅ Live — 22 Apr 2026 |
+| `balloon-garlands-maidstone.html` | balloon garland Maidstone, balloon arch Maidstone | 🔴 High | ✅ Live — 22 Apr 2026 |
+| `baby-shower-balloons-faversham.html` | baby shower balloons Faversham, baby shower Faversham | 🔴 High | ✅ Live — 22 Apr 2026 |
+| `birthday-balloons-faversham.html` | birthday balloons Faversham, party balloons Faversham | 🔴 High | ✅ Live — 22 Apr 2026 |
+| `balloon-garlands-faversham.html` | balloon garland Faversham, balloon arch Faversham | 🔴 High | ✅ Live — 22 Apr 2026 |
 | `balloon-styling-medway.html` | balloon styling Medway, balloons Rochester Chatham | 🟡 Medium | ⬜ Not started |
 | `balloon-styling-canterbury.html` | balloon styling Canterbury, balloons Canterbury Kent | 🟡 Medium | ⬜ Not started |
 | `balloon-styling-tonbridge.html` | balloon styling Tonbridge, Tunbridge Wells balloons | 🟢 Lower | ⬜ Not started |
