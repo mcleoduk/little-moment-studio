@@ -1,6 +1,6 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 22 April 2026
+Last updated: 23 April 2026
 
 ---
 
@@ -62,6 +62,7 @@ Work through these in order. Tick each off as done.
 | 35 | Add ImageGallery schema | gallery.html | ⬜ To do |
 | 36 | Add "Who We Are" plain-text paragraph | index.html | ⬜ To do |
 | 37 | Submit to local directories (26 listed in COMPETITOR-ANALYSIS.md) | — | ⬜ To do |
+| 41 | Convert all gallery PNGs to WebP — est 10MB+ saving, faster mobile load | All pages | ⬜ To do — low urgency (Performance already 98) |
 
 ---
 
