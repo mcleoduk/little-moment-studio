@@ -13,18 +13,19 @@ Target frequency: **fortnightly** (every 2 weeks)
 | Mar 2026 | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips | Planning & Advice | LIVE |
 | Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | Seasonal | LIVE |
 | Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
+| Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | Styling & Inspiration | LIVE |
+| May 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
 
 ## Upcoming
 
 | Date | Article | Type | Status | Notes |
 |------|---------|------|--------|-------|
-| 1 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
+| 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
 | 15 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article |
-| 15 May | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
-| 1 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
-| 15 Jun | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
-| 1 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
-| 15 Jul | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | NOT STARTED | Top Google question, great for LLM search |
+| 1 Jun | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
+| 15 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
+| 1 Jul | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
+| 15 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
 | 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
 | 15 Aug | Autumn Celebration Styling: Colours & Themes | Trends | NOT STARTED | Seasonal shift |
 | 1 Sep | Halloween Balloon Ideas That Aren't Tacky | Seasonal | NOT STARTED | October search starts early |
