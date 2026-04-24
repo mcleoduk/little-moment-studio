@@ -14,7 +14,7 @@ Target frequency: **fortnightly** (every 2 weeks)
 | Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | Seasonal | LIVE |
 | Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
 | Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | Styling & Inspiration | LIVE |
-| May 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
+| Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
 
 ## Upcoming
 
