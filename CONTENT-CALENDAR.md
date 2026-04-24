@@ -24,6 +24,7 @@ Target frequency: **fortnightly** (every 2 weeks)
 | 15 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article |
 | 1 Jun | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
 | 15 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
+| 20 Jun | 4th of July Cupcake Ideas: American-Themed Party Food | Styling & Inspiration | NOT STARTED | Publish 2 weeks before 4th July; red, white & blue fondant; targets US expats & Americana party planners in UK |
 | 1 Jul | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
 | 15 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
 | 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
