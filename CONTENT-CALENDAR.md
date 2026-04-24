@@ -29,15 +29,24 @@ Target frequency: **fortnightly** (every 2 weeks)
 | 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
 | 15 Aug | Autumn Celebration Styling: Colours & Themes | Trends | NOT STARTED | Seasonal shift |
 | 1 Sep | Halloween Balloon Ideas That Aren't Tacky | Seasonal | NOT STARTED | October search starts early |
+| 15 Sep | How Much Does a Balloon Garland Cost? | Practical/FAQ | NOT STARTED | #1 pre-booking question; be transparent with real pricing ranges |
+| 1 Oct | What Is an Organic Balloon Garland? | Practical/FAQ | NOT STARTED | Own the definition; high PAA trigger; links to all garland service pages |
+| 15 Oct | What Decorations Do You Need for a Baby Shower? | Planning & Advice | NOT STARTED | Checklist format; very high search volume; strong internal linking |
+| 1 Nov | Are Latex Balloons Safe? | Practical/FAQ | NOT STARTED | Allergy concerns; trust-building; answers a top PAA question |
+| 15 Nov | What Size Balloon Garland Do I Need? | Practical/FAQ | NOT STARTED | Practical sizing guide; captures pre-booking research intent |
+| 1 Dec | How Far in Advance Should You Book a Balloon Stylist? | Practical/FAQ | NOT STARTED | Pure booking intent; end with strong CTA |
+| 15 Dec | How to Plan a Baby Shower in the UK: The Complete Guide | Planning & Advice | NOT STARTED | Comprehensive pillar article; links to every baby shower page |
+| 1 Jan 2027 | How to Decorate a Venue with Balloons | Practical/FAQ | NOT STARTED | Captures DIYers; awareness-to-booking funnel |
 
 ## Content Mix Guidelines
 
-Rotate between these four types to keep the journal varied:
+Rotate between these five types to keep the journal varied:
 
 1. **Planning & Advice** — Q&A guides, how to plan events, what to expect
 2. **DIY & Tutorial** — step-by-step making/styling guides with materials lists
 3. **Trends** — colour palettes, theme roundups, what's popular
 4. **Seasonal** — tied to upcoming holidays/events, publish 1-2 weeks before
+5. **Practical/FAQ** — People Also Ask targets; evergreen how-to and pricing questions; FAQPage schema on every one
 
 ## Notes
 
