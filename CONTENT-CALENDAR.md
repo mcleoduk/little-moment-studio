@@ -37,7 +37,7 @@ Target frequency: **5 articles per month**
 | 20 Jun | 4th of July Cupcake Ideas: American-Themed Party Food | Styling & Inspiration | WRITTEN | Page built: fourth-of-july-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
 | 1 Jul | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
 | 5 Jul | First Birthday Cupcakes: Soft Pastel Ideas for a Milestone Party | Styling & Inspiration | NOT STARTED | Needs 3 images; strong parent search intent |
-| 10 Jul | Mermaid Cupcakes: Easy Under-the-Sea Designs for Beginners | Styling & Inspiration | WRITTEN | Page built: mermaid-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry; awaiting EXIF on hero (mermaid-cupcakes-faversham.png) |
+| 10 Jul | Mermaid Cupcakes: Easy Under-the-Sea Designs for Beginners | Styling & Inspiration | WRITTEN | Page built: mermaid-cupcake-ideas.html — backdated to 27 Apr 2026 — orphan until publish date; needs journal card + sitemap entry |
 | 15 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
 | 20 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns Made Easy | Styling & Inspiration | NOT STARTED | Needs 3 images; high search volume for kids' birthdays |
 | 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
