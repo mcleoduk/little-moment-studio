@@ -132,18 +132,24 @@ Articles are built and committed before the publish date but are **not added to 
 ### File naming
 - All lowercase, hyphen-separated
 - Descriptive of what is actually in the image
-- Pattern: `[subject]-[detail]-kent.png` or `[subject]-[detail].png` depending on type
+- Pattern: `[subject]-[detail]-[location].png`
+- Rotate the location suffix across images rather than using `-kent` on everything
 
-**Use `-kent`:**
-- Balloon displays, garlands and setups
-- Service and location page images
-- Styling/table scenes where balloons are visible
+**Location rotation:**
+| Suffix | Use for |
+|--------|---------|
+| `-sittingbourne` | Studio location — use on hero images and key article images |
+| `-maidstone` | Second most important town — 12 miles away |
+| `-faversham` | Close town — 7 miles away |
+| `-kent` | Catch-all for county-level association |
 
-**Omit `-kent`:**
-- Pure cupcake design close-ups (Design 1, Design 2 shots) — the subject is not location-specific
-- General decorating technique images
+Spread the rotation evenly across articles and pages so all four locations build up image search signals over time.
 
-Examples: `baby-shower-swirl-cupcakes-kent.png` (balloon display context), `christmas-tree-cupcakes.png` (pure cupcake design)
+Examples:
+- `christmas-tree-cupcakes-sittingbourne.png`
+- `baby-shower-swirl-cupcakes-maidstone.png`
+- `halloween-mummy-cupcakes-faversham.png`
+- `dessert-table-balloon-arch-kent.png`
 
 ### Alt text
 - Describes what is **actually in the image** — not what we want to rank for
