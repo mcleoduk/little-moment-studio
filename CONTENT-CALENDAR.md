@@ -14,10 +14,13 @@ Target frequency: **5 articles per month**
 | Mar 2026 | Best Balloon Colour Palettes for 2025 | Trends | LIVE |
 | Mar 2026 | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips | Planning & Advice | LIVE |
 | Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | Seasonal | LIVE |
+| Mar 2026 | Easter Cupcake Ideas: 2 Easy Designs for Beginners | Seasonal | LIVE |
 | Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
 | Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | Styling & Inspiration | LIVE |
 | Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
 | Apr 2026 | Baby Shower Cupcake Ideas: 2 Easy Designs for a Beautiful Dessert Table | Styling & Inspiration | LIVE |
+| Apr 2026 | Birthday Cupcake Ideas: 2 Easy Designs for a Party-Ready Dessert Table | Styling & Inspiration | LIVE |
+| Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
 
 ---
 
@@ -25,7 +28,7 @@ Target frequency: **5 articles per month**
 
 | Date | Article | Type | Status | Notes |
 |------|---------|------|--------|-------|
-| 5 May | Birthday Cupcakes: Simple Designs That Look Party-Ready | Styling & Inspiration | LIVE | Page: birthday-cupcake-ideas.html — backdated to 25 Apr 2026 — published to journal.html and sitemap.xml |
+| 5 May | Birthday Cupcakes: Simple Designs That Look Party-Ready | Styling & Inspiration | LIVE | Moved to Published — birthday-cupcake-ideas.html |
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | DIY & Tutorial | NOT STARTED | Explains 1M, 2D, 47, 104 etc; evergreen; links to all cupcake articles |
 | 12 May | How to Pipe a Cupcake Swirl with a Wilton 1M Tip | DIY & Tutorial | NOT STARTED | Evergreen how-to; can reuse existing cupcake images |
 | 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
@@ -37,7 +40,7 @@ Target frequency: **5 articles per month**
 | 20 Jun | 4th of July Cupcake Ideas: American-Themed Party Food | Styling & Inspiration | WRITTEN | Page built: fourth-of-july-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
 | 1 Jul | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
 | 5 Jul | First Birthday Cupcakes: Soft Pastel Ideas for a Milestone Party | Styling & Inspiration | NOT STARTED | Needs 3 images; strong parent search intent |
-| 10 Jul | Mermaid Cupcakes: Easy Under-the-Sea Designs for Beginners | Styling & Inspiration | LIVE | Page: mermaid-cupcake-ideas.html — backdated to 27 Apr 2026 — published to journal.html and sitemap.xml |
+| 10 Jul | Mermaid Cupcakes: Easy Under-the-Sea Designs for Beginners | Styling & Inspiration | LIVE | Moved to Published — mermaid-cupcake-ideas.html |
 | 15 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
 | 20 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns Made Easy | Styling & Inspiration | NOT STARTED | Needs 3 images; high search volume for kids' birthdays |
 | 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
@@ -66,7 +69,7 @@ Target frequency: **5 articles per month**
 | 15 Dec | How to Plan a Baby Shower in the UK: The Complete Guide | Planning & Advice | NOT STARTED | Comprehensive pillar article; links to every baby shower page |
 | 20 Dec | How to Use the Cling Film Method for Multi-Coloured Buttercream | DIY & Tutorial | NOT STARTED | Evergreen how-to; links to unicorn, mermaid and 4th July cupcake articles |
 | 1 Jan 2027 | How to Decorate a Venue with Balloons | Practical/FAQ | NOT STARTED | Captures DIYers; awareness-to-booking funnel |
-| 5 Jan 2027 | Easter Cupcake Ideas: Easy Bunny & Mini Egg Designs | Seasonal | LIVE | Page: easter-cupcake-ideas.html — backdated to 20 Mar 2026 — published to journal.html and sitemap.xml |
+| 5 Jan 2027 | Easter Cupcake Ideas: Easy Bunny & Mini Egg Designs | Seasonal | LIVE | Moved to Published — easter-cupcake-ideas.html |
 | 10 Jan 2027 | Baby Shower Ideas in Sittingbourne | Planning & Advice | NOT STARTED | Local SEO; links to baby shower balloon page |
 | 15 Jan 2027 | How to Make Fondant Cupcake Toppers for Beginners | DIY & Tutorial | NOT STARTED | Evergreen; stars, hearts, clouds, bats; links to cupcake series |
 | 20 Jan 2027 | Buttercream Colours: How to Get Navy, Orange, Fuchsia and Teal | DIY & Tutorial | NOT STARTED | Practical colour-mixing guide; links to cupcake articles |
