@@ -52,7 +52,7 @@ Target frequency: **5 articles per month**
 | 20 Sep | Halloween Party Table Ideas with Balloons and Cupcakes | Seasonal | NOT STARTED | Complements halloween-cupcake-ideas.html; links to balloon service pages |
 | 1 Oct | Halloween Cupcake Ideas: Mummy & Bat Designs | Styling & Inspiration | WRITTEN | Page built: halloween-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
 | 1 Oct | What Is an Organic Balloon Garland? | Practical/FAQ | NOT STARTED | Own the definition; high PAA trigger; links to all garland service pages |
-| 10 Oct | Christmas Cupcake Ideas: 2 Easy Festive Designs for Beginners | Seasonal | NOT STARTED | Publish early Oct to build Christmas search traffic; needs 3 images |
+| 10 Oct | Christmas Cupcake Ideas: 2 Easy Festive Designs for Beginners | Seasonal | WRITTEN | Page built: christmas-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
 | 15 Oct | What Decorations Do You Need for a Baby Shower? | Planning & Advice | NOT STARTED | Checklist format; very high search volume; strong internal linking |
 | 20 Oct | Dinosaur Cupcakes: Simple Ideas for Kids' Parties | Styling & Inspiration | NOT STARTED | Evergreen; popular birthday theme; needs 3 images |
 | 1 Nov | Are Latex Balloons Safe? | Practical/FAQ | NOT STARTED | Allergy concerns; trust-building; answers a top PAA question |
