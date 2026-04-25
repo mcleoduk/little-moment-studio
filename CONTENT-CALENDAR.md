@@ -15,11 +15,12 @@ Target frequency: **5 articles per month**
 | Mar 2026 | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips | Planning & Advice | LIVE |
 | Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | Seasonal | LIVE |
 | Mar 2026 | Easter Cupcake Ideas: 2 Easy Designs for Beginners | Seasonal | LIVE |
-| Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
+| Mar 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
 | Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | Styling & Inspiration | LIVE |
-| Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
 | Apr 2026 | Baby Shower Cupcake Ideas: 2 Easy Designs for a Beautiful Dessert Table | Styling & Inspiration | LIVE |
+| Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
 | Apr 2026 | Birthday Cupcake Ideas: 2 Easy Designs for a Party-Ready Dessert Table | Styling & Inspiration | LIVE |
+| Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
 | Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
 
 ---
