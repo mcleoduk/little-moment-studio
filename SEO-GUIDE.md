@@ -132,9 +132,18 @@ Articles are built and committed before the publish date but are **not added to 
 ### File naming
 - All lowercase, hyphen-separated
 - Descriptive of what is actually in the image
-- End with `-kent` for location association
-- Pattern: `[subject]-[detail]-kent.png`
-- Examples: `baby-shower-swirl-cupcakes-kent.png`, `halloween-mummy-cupcakes-kent.png`
+- Pattern: `[subject]-[detail]-kent.png` or `[subject]-[detail].png` depending on type
+
+**Use `-kent`:**
+- Balloon displays, garlands and setups
+- Service and location page images
+- Styling/table scenes where balloons are visible
+
+**Omit `-kent`:**
+- Pure cupcake design close-ups (Design 1, Design 2 shots) — the subject is not location-specific
+- General decorating technique images
+
+Examples: `baby-shower-swirl-cupcakes-kent.png` (balloon display context), `christmas-tree-cupcakes.png` (pure cupcake design)
 
 ### Alt text
 - Describes what is **actually in the image** — not what we want to rank for
