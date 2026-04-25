@@ -25,7 +25,7 @@ Target frequency: **5 articles per month**
 
 | Date | Article | Type | Status | Notes |
 |------|---------|------|--------|-------|
-| 5 May | Birthday Cupcakes: Simple Designs That Look Party-Ready | Styling & Inspiration | WRITTEN | Page built: birthday-cupcake-ideas.html — backdated to 25 Apr 2026 — orphan until publish date; needs journal card + sitemap entry |
+| 5 May | Birthday Cupcakes: Simple Designs That Look Party-Ready | Styling & Inspiration | LIVE | Page: birthday-cupcake-ideas.html — backdated to 25 Apr 2026 — published to journal.html and sitemap.xml |
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | DIY & Tutorial | NOT STARTED | Explains 1M, 2D, 47, 104 etc; evergreen; links to all cupcake articles |
 | 12 May | How to Pipe a Cupcake Swirl with a Wilton 1M Tip | DIY & Tutorial | NOT STARTED | Evergreen how-to; can reuse existing cupcake images |
 | 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
