@@ -412,6 +412,10 @@ Work through these in order. Tick each off as done.
 | `balloon-styling-tonbridge.html` | balloon styling Tonbridge, Tunbridge Wells balloons | 🟢 Lower | ⬜ Not started |
 | `wedding-balloons-kent.html` | wedding balloons Kent, wedding balloon arch Kent | 🟢 Lower | ⬜ Not started |
 | `corporate-event-balloons-kent.html` | event balloons Kent, corporate balloon decor Kent | 🟢 Lower | ⬜ Not started |
+| `christening-balloons-kent.html` | christening balloons Kent, christening decorations Kent | 🟡 Medium | ⬜ Not started |
+| `gender-reveal-balloons-kent.html` | gender reveal balloons Kent, gender reveal decorations Kent | 🟡 Medium | ⬜ Not started |
+| `christmas-balloon-ideas.html` | Christmas balloon ideas, Christmas balloon displays Kent | 🟡 Medium | ⬜ Not started — build before Oct 2026 |
+| `halloween-balloon-ideas.html` | Halloween balloon ideas, Halloween balloon displays Kent | 🟡 Medium | ⬜ Not started — build before Sep 2026 |
 
 ---
 

@@ -66,7 +66,7 @@ Target frequency: **5 articles per month**
 | 15 Dec | How to Plan a Baby Shower in the UK: The Complete Guide | Planning & Advice | NOT STARTED | Comprehensive pillar article; links to every baby shower page |
 | 20 Dec | How to Use the Cling Film Method for Multi-Coloured Buttercream | DIY & Tutorial | NOT STARTED | Evergreen how-to; links to unicorn, mermaid and 4th July cupcake articles |
 | 1 Jan 2027 | How to Decorate a Venue with Balloons | Practical/FAQ | NOT STARTED | Captures DIYers; awareness-to-booking funnel |
-| 5 Jan 2027 | Easter Cupcake Ideas: Easy Bunny & Mini Egg Designs | Seasonal | NOT STARTED | Easter 2027 is 4 April; publish Jan for early search traffic; needs 3 images |
+| 5 Jan 2027 | Easter Cupcake Ideas: Easy Bunny & Mini Egg Designs | Seasonal | WRITTEN | Page built: easter-cupcake-ideas.html — backdated to 20 Mar 2026 — orphan until publish date; needs journal card + sitemap entry; awaiting 3 images from Sam (hero: easter-cupcakes-sittingbourne.png, mini-egg-nest-cupcakes.png, bunny-ear-cupcakes.png) |
 | 10 Jan 2027 | Baby Shower Ideas in Sittingbourne | Planning & Advice | NOT STARTED | Local SEO; links to baby shower balloon page |
 | 15 Jan 2027 | How to Make Fondant Cupcake Toppers for Beginners | DIY & Tutorial | NOT STARTED | Evergreen; stars, hearts, clouds, bats; links to cupcake series |
 | 20 Jan 2027 | Buttercream Colours: How to Get Navy, Orange, Fuchsia and Teal | DIY & Tutorial | NOT STARTED | Practical colour-mixing guide; links to cupcake articles |
