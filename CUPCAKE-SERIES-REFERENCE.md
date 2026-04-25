@@ -4,6 +4,32 @@ This document is the template and content reference for all cupcake tutorial art
 
 ---
 
+## SEO Rationale
+
+Cupcake and dessert table articles help SEO **because the audience is identical** — someone searching for baby shower cupcake ideas, Halloween dessert table ideas, or birthday table styling is clearly planning an event and is likely to also need balloons, a backdrop and a stylist.
+
+**What these articles do:**
+
+1. **Bring in party-planning traffic earlier in the journey** — before someone searches "balloon stylist Sittingbourne", they may be searching "baby shower dessert table ideas". This puts Little Moment Studio in front of them at the research stage.
+
+2. **Build topical authority** — Google needs to understand this site is about parties, celebrations, balloon displays, dessert tables, baby showers, birthdays and styled events — not just "balloons". Journal articles covering these topics build that map.
+
+3. **Feed authority to service pages** — every cupcake article links to the baby shower balloon page, birthday balloon page, or contact page. The article acts as a funnel, not a destination.
+
+4. **Image SEO** — images can rank in Google Images and Pinterest-style visual searches. File names and alt text matter. See naming convention and alt text guidelines below.
+
+5. **Shareable content** — each article can be reused for Google Business Profile posts, Instagram captions, Pinterest pins, Facebook local groups and email.
+
+**The important guardrail:** these articles must not make the site look like a cupcake bakery. The framing is always *inspiration and styling*, never *order from us*. The studio context block (see Series Positioning below) enforces this on every article.
+
+**Alt text note:** Alt text must describe what is actually in the image. Do not inject balloon references into the alt text if the image does not show balloons. The internal links and page copy create the association — alt text is for accessibility and image indexing, not keyword stuffing.
+
+**Image format note:** Current images are PNG. WebP would give better performance and should be considered for a future conversion pass, but is not urgent.
+
+**Internal link loop:** From cupcake articles, link to balloon service pages. From balloon service pages, add a line like "Looking for dessert table inspiration? See our baby shower cupcake ideas." This creates a two-way content loop that reinforces topical relevance.
+
+---
+
 ## Series Positioning
 
 These articles are **dessert table inspiration**, not standalone baking tutorials. The framing is always:
