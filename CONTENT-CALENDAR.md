@@ -15,6 +15,7 @@ Target frequency: **fortnightly** (every 2 weeks)
 | Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
 | Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | Styling & Inspiration | LIVE |
 | Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
+| Apr 2026 | Baby Shower Cupcake Ideas: 2 Easy Designs for a Beautiful Dessert Table | Styling & Inspiration | LIVE |
 
 ## Upcoming
 
