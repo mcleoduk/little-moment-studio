@@ -38,6 +38,8 @@ Target frequency: **fortnightly** (every 2 weeks)
 | 1 Dec | How Far in Advance Should You Book a Balloon Stylist? | Practical/FAQ | NOT STARTED | Pure booking intent; end with strong CTA |
 | 15 Dec | How to Plan a Baby Shower in the UK: The Complete Guide | Planning & Advice | NOT STARTED | Comprehensive pillar article; links to every baby shower page |
 | 1 Jan 2027 | How to Decorate a Venue with Balloons | Practical/FAQ | NOT STARTED | Captures DIYers; awareness-to-booking funnel |
+| 1 Mar 2027 | St Patrick's Day Cupcake Ideas: Green & Gold Party Food | Styling & Inspiration | NOT STARTED | Publish 2 weeks before 17 March; green, shamrock & gold fondant; targets party hosts & celebration planners |
+| 1 Apr 2027 | St George's Day Cupcake Ideas: English-Themed Party Food | Styling & Inspiration | NOT STARTED | Publish 3 weeks before 23 April; red & white St George's Cross theme; England-specific differentiator; targets local Kent/SE England audience |
 
 ## Content Mix Guidelines
 
