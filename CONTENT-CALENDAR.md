@@ -21,7 +21,6 @@ Target frequency: **5 articles per month**
 | Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
 | Apr 2026 | Birthday Cupcake Ideas: 2 Easy Designs for a Party-Ready Dessert Table | Styling & Inspiration | LIVE |
 | Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
-| Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
 
 ---
 
