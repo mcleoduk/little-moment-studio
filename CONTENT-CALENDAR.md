@@ -31,7 +31,7 @@ Target frequency: **5 articles per month**
 | 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
 | 20 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article and cupcake series |
 | 1 Jun | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
-| 8 Jun | How to Match Cupcakes with Your Balloon Display | Styling & Inspiration | NOT STARTED | Key crossover article; colour palettes, themes, dessert table; links to service pages |
+| 8 Jun | How to Match Cupcakes with Your Balloon Display | Styling & Inspiration | WRITTEN | Page built: match-cupcakes-with-balloon-display.html — orphan until publish date; needs journal card + sitemap entry |
 | 12 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | Styling & Inspiration | NOT STARTED | Strong commercial intent; links to baby shower balloon page |
 | 15 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
 | 20 Jun | 4th of July Cupcake Ideas: American-Themed Party Food | Styling & Inspiration | WRITTEN | Page built: fourth-of-july-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
