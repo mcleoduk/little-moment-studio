@@ -31,6 +31,7 @@ Target frequency: **5 articles per month**
 | Date | Article | Type | Status | Notes |
 |------|---------|------|--------|-------|
 | 5 May | Birthday Cupcakes: Simple Designs That Look Party-Ready | Styling & Inspiration | LIVE | Moved to Published — birthday-cupcake-ideas.html |
+| 5 May | What Is an Organic Balloon Garland? | Practical/FAQ | NOT STARTED | Brought forward from Oct — owns the definition; high PAA trigger; links to all garland service pages; Pillar 3 support |
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | DIY & Tutorial | NOT STARTED | Explains 1M, 2D, 47, 104 etc; evergreen; links to all cupcake articles |
 | 12 May | How to Pipe a Cupcake Swirl with a Wilton 1M Tip | DIY & Tutorial | NOT STARTED | Evergreen how-to; can reuse existing cupcake images |
 | 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
@@ -56,7 +57,7 @@ Target frequency: **5 articles per month**
 | 15 Sep | How Much Does a Balloon Garland Cost? | Practical/FAQ | NOT STARTED | #1 pre-booking question; be transparent with real pricing ranges |
 | 20 Sep | Halloween Party Table Ideas with Balloons and Cupcakes | Seasonal | NOT STARTED | Complements halloween-cupcake-ideas.html; links to balloon service pages |
 | 1 Oct | Halloween Cupcake Ideas: Mummy & Bat Designs | Styling & Inspiration | WRITTEN | Page built: halloween-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
-| 1 Oct | What Is an Organic Balloon Garland? | Practical/FAQ | NOT STARTED | Own the definition; high PAA trigger; links to all garland service pages |
+| 1 Oct | What Is an Organic Balloon Garland? | Practical/FAQ | MOVED | Brought forward to 5 May 2026 |
 | 10 Oct | Christmas Cupcake Ideas: 2 Easy Festive Designs for Beginners | Seasonal | WRITTEN | Page built: christmas-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
 | 15 Oct | What Decorations Do You Need for a Baby Shower? | Planning & Advice | NOT STARTED | Checklist format; very high search volume; strong internal linking |
 | 20 Oct | Dinosaur Cupcakes: Simple Ideas for Kids' Parties | Styling & Inspiration | NOT STARTED | Evergreen; popular birthday theme; needs 3 images |
