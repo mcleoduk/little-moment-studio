@@ -24,6 +24,7 @@ Target frequency: **10 articles per month**
 | Apr 2026 | How to Style a Dessert Table for a Children's Party | DIY & Tutorial | LIVE |
 | Apr 2026 | Wizard Cupcake Ideas: 2 Easy Magical Designs | Styling & Inspiration | LIVE |
 | Apr 2026 | Princess Party Dessert Table Ideas: Balloons, Cupcakes & Royal Styling | Styling & Inspiration | LIVE |
+| Apr 2026 | Princess Party Cupcake Ideas: 2 Easy Pink & Gold Designs | Styling & Inspiration | LIVE |
 
 ---
 
