@@ -32,7 +32,7 @@ Target frequency: **5 articles per month**
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | DIY & Tutorial | NOT STARTED | Explains 1M, 2D, 47, 104 etc; evergreen; links to all cupcake articles |
 | 12 May | How to Pipe a Cupcake Swirl with a Wilton 1M Tip | DIY & Tutorial | NOT STARTED | Evergreen how-to; can reuse existing cupcake images |
 | 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
-| 20 May | How to Style a Dessert Table for Any Celebration | DIY & Tutorial | NOT STARTED | Links to fake cake article and cupcake series |
+| 26 Apr | How to Style a Dessert Table for a Children's Party | DIY & Tutorial | LIVE | how-to-style-dessert-table-childrens-party.html |
 | 1 Jun | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
 | 8 Jun | How to Match Cupcakes with Your Balloon Display | Styling & Inspiration | WRITTEN | Page built: match-cupcakes-with-balloon-display.html — orphan until publish date; needs journal card + sitemap entry |
 | 12 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | Styling & Inspiration | NOT STARTED | Strong commercial intent; links to baby shower balloon page |
