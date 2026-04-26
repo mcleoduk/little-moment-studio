@@ -1,6 +1,6 @@
 # Content Calendar — Little Moment Studio Journal
 
-Target frequency: **5 articles per month**
+Target frequency: **10 articles per month**
 
 ---
 
@@ -38,14 +38,15 @@ Target frequency: **5 articles per month**
 | 26 Apr | How to Style a Dessert Table for a Children's Party | DIY & Tutorial | LIVE | how-to-style-dessert-table-childrens-party.html |
 | 1 Jun | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
 | 8 Jun | How to Match Cupcakes with Your Balloon Display | Styling & Inspiration | WRITTEN | Page built: match-cupcakes-with-balloon-display.html — orphan until publish date; needs journal card + sitemap entry |
-| 12 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | Styling & Inspiration | NOT STARTED | Strong commercial intent; links to baby shower balloon page |
+| 12 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | Styling & Inspiration | WRITTEN | Page built: baby-shower-dessert-table-ideas.html — orphan until publish date; Pillar 1 support |
 | 15 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
 | 20 Jun | 4th of July Cupcake Ideas: American-Themed Party Food | Styling & Inspiration | WRITTEN | Page built: fourth-of-july-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
 | 1 Jul | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
 | 5 Jul | First Birthday Cupcakes: Soft Pastel Ideas for a Milestone Party | Styling & Inspiration | NOT STARTED | Needs 3 images; strong parent search intent |
 | 10 Jul | Mermaid Cupcakes: Easy Under-the-Sea Designs for Beginners | Styling & Inspiration | LIVE | Moved to Published — mermaid-cupcake-ideas.html |
-| 15 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
-| 20 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns Made Easy | Styling & Inspiration | NOT STARTED | Needs 3 images; high search volume for kids' birthdays |
+| 15 Jul | Princess Party Dessert Table Ideas: Balloons, Cupcakes & Royal Styling | Styling & Inspiration | WRITTEN | Page built: princess-party-dessert-table-ideas.html — orphan until publish date; Pillar 2 support |
+| 20 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
+| 25 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns Made Easy | Styling & Inspiration | NOT STARTED | Needs 3 images; high search volume for kids' birthdays |
 | 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
 | 5 Aug | Princess Party Cupcakes: Pink, Gold & Crown Designs | Styling & Inspiration | NOT STARTED | Needs 3 images; great for children's parties |
 | 10 Aug | Dessert Table Ideas for Children's Parties | Styling & Inspiration | NOT STARTED | Crossover article; cupcakes + balloons + backdrops; can use existing images |
