@@ -1,6 +1,68 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 23 April 2026
+Last updated: 26 April 2026
+
+---
+
+## Pillar Structure
+
+Each pillar page is a main service page. Supporting articles build topical authority and funnel readers back to the pillar via internal links.
+
+---
+
+### Pillar 1 — Baby Shower Balloon Styling
+**Pillar page:** `/baby-shower-balloons-kent.html`
+
+Supporting articles:
+- `/baby-shower-balloon-ideas.html`
+- `/baby-shower-questions-answered.html`
+- `/teddy-bear-baby-shower-ideas.html`
+- `/baby-shower-venues-sittingbourne.html`
+- `/baby-shower-cupcake-ideas.html`
+- `/fondant-cupcake-ideas-baby-shower-birthday.html`
+
+Checklist:
+- [ ] Pillar page links to every supporting article
+- [ ] Every supporting article links back to pillar page
+- [ ] Pillar page CTA prominent (book consultation)
+- [ ] Meta title ≤60 chars
+- [ ] Meta description ≤160 chars
+
+---
+
+### Pillar 2 — Birthday Balloon Styling
+**Pillar page:** `/birthday-balloons-kent.html`
+
+Supporting articles:
+- `/first-birthday-balloon-ideas.html`
+- `/birthday-cupcake-ideas.html`
+- `/mermaid-cupcake-ideas.html`
+- `/wizard-cupcake-ideas.html`
+- `/fondant-cupcake-ideas-baby-shower-birthday.html`
+
+Checklist:
+- [ ] Pillar page links to every supporting article
+- [ ] Every supporting article links back to pillar page
+- [ ] Pillar page CTA prominent
+- [ ] Meta title ≤60 chars
+- [ ] Meta description ≤160 chars
+
+---
+
+### Pillar 3 — Balloon Garlands & Arches
+**Pillar page:** `/balloon-garlands-kent.html`
+
+Supporting articles:
+- `/best-balloon-colours-2025.html`
+- `/how-to-style-dessert-table-childrens-party.html`
+- `/how-long-do-balloons-last.html`
+
+Checklist:
+- [ ] Pillar page links to every supporting article
+- [ ] Every supporting article links back to pillar page
+- [ ] Pillar page CTA prominent
+- [ ] Meta title ≤60 chars
+- [ ] Meta description ≤160 chars
 
 ---
 
