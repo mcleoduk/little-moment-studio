@@ -22,11 +22,11 @@ Supporting articles:
 - `/fondant-cupcake-ideas-baby-shower-birthday.html`
 
 Checklist:
-- [ ] Pillar page links to every supporting article
-- [ ] Every supporting article links back to pillar page
-- [ ] Pillar page CTA prominent (book consultation)
-- [ ] Meta title ≤60 chars
-- [ ] Meta description ≤160 chars
+- [x] Pillar page links to every supporting article — done 26 Apr 2026
+- [x] Every supporting article links back to pillar page — done 26 Apr 2026
+- [x] Pillar page CTA prominent (book consultation) — CTA strip present
+- [x] Meta title ≤60 chars — "Baby Shower Balloons Kent | Little Moment Studio" (48 chars)
+- [x] Meta description ≤160 chars — 149 chars
 
 ---
 
@@ -41,11 +41,11 @@ Supporting articles:
 - `/fondant-cupcake-ideas-baby-shower-birthday.html`
 
 Checklist:
-- [ ] Pillar page links to every supporting article
-- [ ] Every supporting article links back to pillar page
-- [ ] Pillar page CTA prominent
-- [ ] Meta title ≤60 chars
-- [ ] Meta description ≤160 chars
+- [x] Pillar page links to every supporting article — done 26 Apr 2026
+- [x] Every supporting article links back to pillar page — done 26 Apr 2026
+- [x] Pillar page CTA prominent — CTA strip present
+- [x] Meta title ≤60 chars — "Birthday Balloons Kent | Little Moment Studio" (44 chars)
+- [x] Meta description ≤160 chars — 158 chars
 
 ---
 
