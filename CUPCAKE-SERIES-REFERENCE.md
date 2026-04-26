@@ -43,6 +43,30 @@ Every article should include:
 
 ---
 
+## Layout Decision Guide
+
+There are three article layouts. Choose based on the content structure — not the tag.
+
+### Layout 1 — Hero + Design 1 & Design 2 badges
+**Use when:** the article covers exactly two named designs, each with its own image, ingredients/materials list and step-by-step instructions.
+**Signals:** article title includes "2 Easy Designs"; content has a clear Design 1 / Design 2 split; three images (hero + one per design).
+**Tag:** Styling & Inspiration
+**Examples:** baby-shower-cupcake-ideas.html, mermaid-cupcake-ideas.html, halloween-cupcake-ideas.html
+
+### Layout 2 — Hero + inline images (no badges)
+**Use when:** the article is a how-to guide or reference piece with process or reference images placed mid-article to illustrate specific sections. No two distinct named designs.
+**Signals:** images support steps or show a variety of results; article covers a technique or range of options rather than two designs; can have 2–3 images.
+**Tag:** DIY & Tutorial, or Styling & Inspiration when covering multiple themes
+**Examples:** top-10-piping-tips-for-cupcakes.html, cling-film-method-multi-coloured-buttercream.html, match-cupcakes-with-balloon-display.html
+
+### Layout 3 — Hero only
+**Use when:** the article is text-led — Q&A, planning advice, trends, FAQ-style or general inspiration. No design-specific images needed mid-article.
+**Signals:** content is primarily paragraphs, tables and lists; single hero image is sufficient; no step-by-step designs to illustrate.
+**Tag:** Planning & Advice, Practical/FAQ, Trends
+**Examples:** baby-shower-questions-answered.html, how-long-do-balloons-last.html, best-balloon-colours-2025.html
+
+---
+
 ## Article Template Structure
 
 1. **Intro** — what the article covers, who it is for, why these designs
@@ -150,11 +174,19 @@ Cupcake articles are built and committed **before the publish date** but are not
 
 ## Articles Built
 
-| File | Publish Date | Status |
-|---|---|---|
-| `baby-shower-cupcake-ideas.html` | TBC (Jul 2026 drafted) | Orphan |
-| `halloween-cupcake-ideas.html` | 1 Oct 2026 | Orphan |
-| `fourth-of-july-cupcake-ideas.html` | 20 Jun 2026 | Orphan |
+| File | Layout | Publish Date | Status |
+|---|---|---|---|
+| `baby-shower-cupcake-ideas.html` | Design 1 & 2 | Apr 2026 | Live |
+| `birthday-cupcake-ideas.html` | Design 1 & 2 | 25 Apr 2026 | Live |
+| `mermaid-cupcake-ideas.html` | Design 1 & 2 | 27 Apr 2026 | Live |
+| `easter-cupcake-ideas.html` | Design 1 & 2 | 20 Mar 2026 | Live |
+| `fondant-cupcake-ideas-baby-shower-birthday.html` | Hero only | Apr 2026 | Live |
+| `halloween-cupcake-ideas.html` | Design 1 & 2 | 1 Oct 2026 | Orphan — pushed to Vercel |
+| `fourth-of-july-cupcake-ideas.html` | Design 1 & 2 | 20 Jun 2026 | Orphan — pushed to Vercel |
+| `christmas-cupcake-ideas.html` | Design 1 & 2 | 10 Oct 2026 | Orphan — pushed to Vercel |
+| `match-cupcakes-with-balloon-display.html` | Inline images | 8 Jun 2026 | Orphan — pushed to Vercel |
+| `top-10-piping-tips-for-cupcakes.html` | Inline images | 8 May 2026 | Orphan — committed, not pushed |
+| `cling-film-method-multi-coloured-buttercream.html` | Inline images | 20 May 2025 (backdated) | Orphan — committed, not pushed |
 
 ---
 

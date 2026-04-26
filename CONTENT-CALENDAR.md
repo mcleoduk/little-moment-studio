@@ -22,6 +22,7 @@ Target frequency: **5 articles per month**
 | Apr 2026 | Birthday Cupcake Ideas: 2 Easy Designs for a Party-Ready Dessert Table | Styling & Inspiration | LIVE |
 | Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
 | Apr 2026 | How to Style a Dessert Table for a Children's Party | DIY & Tutorial | LIVE |
+| Apr 2026 | Wizard Cupcake Ideas: 2 Easy Magical Designs | Styling & Inspiration | LIVE |
 
 ---
 
