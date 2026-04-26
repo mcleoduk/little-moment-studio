@@ -58,11 +58,11 @@ Supporting articles:
 - `/how-long-do-balloons-last.html`
 
 Checklist:
-- [ ] Pillar page links to every supporting article
-- [ ] Every supporting article links back to pillar page
-- [ ] Pillar page CTA prominent
-- [ ] Meta title ≤60 chars
-- [ ] Meta description ≤160 chars
+- [x] Pillar page links to every supporting article — done 26 Apr 2026
+- [x] Every supporting article links back to pillar page — done 26 Apr 2026
+- [x] Pillar page CTA prominent — CTA strip present
+- [x] Meta title ≤60 chars — "Balloon Garlands & Arches Kent | Little Moment Studio" (53 chars)
+- [x] Meta description ≤160 chars — 155 chars
 
 ---
 
