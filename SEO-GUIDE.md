@@ -163,7 +163,6 @@ Examples:
 ### Dimensions
 - **Standard article hero:** 2400 × 900px (2.67:1 ratio) — matches the 480px hero frame at article container width with no cropping
 - **Inline article images:** no fixed dimension requirement; just ensure landscape orientation and at least 1200px wide
-- Exception: `how-to-choose-balloon-colour-palette.html` hero is 620px tall, so its hero image is 2400 × 1160px
 
 ### Format
 - Current: PNG
