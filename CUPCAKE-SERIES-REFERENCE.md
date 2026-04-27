@@ -184,7 +184,8 @@ Cupcake articles are built and committed **before the publish date** but are not
 | `halloween-cupcake-ideas.html` | Design 1 & 2 | 1 Oct 2026 | Orphan — pushed to Vercel |
 | `fourth-of-july-cupcake-ideas.html` | Design 1 & 2 | 20 Jun 2026 | Orphan — pushed to Vercel |
 | `christmas-cupcake-ideas.html` | Design 1 & 2 | 10 Oct 2026 | Orphan — pushed to Vercel |
-| `match-cupcakes-with-balloon-display.html` | Inline images | 8 Jun 2026 | Orphan — pushed to Vercel |
+| `match-cupcakes-with-balloon-display.html` | Inline images | 17 May 2026 | Orphan — pushed to Vercel |
+| `dinosaur-party-cupcake-ideas.html` | Design 1 & 2 | 1 May 2026 | Written — needs 3 images |
 | `top-10-piping-tips-for-cupcakes.html` | Inline images | 8 May 2026 | Orphan — committed, not pushed |
 | `cling-film-method-multi-coloured-buttercream.html` | Inline images | 20 May 2025 (backdated) | Orphan — committed, not pushed |
 
