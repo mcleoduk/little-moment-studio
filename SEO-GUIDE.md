@@ -160,6 +160,11 @@ Examples:
   - "Baby shower cupcakes with pastel fondant circles, baby feet toppers and pearl decorations"
   - "Halloween mummy cupcakes with ivory buttercream wrapping and edible candy eyes"
 
+### Dimensions
+- **Standard article hero:** 2400 × 900px (2.67:1 ratio) — matches the 480px hero frame at article container width with no cropping
+- **Inline article images:** no fixed dimension requirement; just ensure landscape orientation and at least 1200px wide
+- Exception: `how-to-choose-balloon-colour-palette.html` hero is 620px tall, so its hero image is 2400 × 1160px
+
 ### Format
 - Current: PNG
 - WebP would give better performance — worth a conversion pass in future but not urgent
