@@ -1,6 +1,6 @@
 # Content Calendar — Little Moment Studio Journal
 
-Target frequency: **10 articles per month**
+Target frequency: **15 articles per month**
 
 ---
 
@@ -30,20 +30,25 @@ Target frequency: **10 articles per month**
 
 ---
 
-## May 2026 — 10 Article Target
+## May 2026 — 15 Article Target
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
+| 1 May | TBD | — | Not started |
+| 3 May | TBD | — | Not started |
 | 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
+| 7 May | TBD | — | Not started |
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | best-piping-tips-for-cupcakes.html | Committed — orphan |
+| 10 May | TBD | — | Not started |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
 | 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
 | 17 May | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
-| 20 May | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
+| 19 May | TBD | — | Not started |
+| 21 May | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
 | 23 May | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
-| 26 May | TBD | — | Not started |
-| 28 May | TBD | — | Not started |
-| 30 May | TBD | — | Not started |
+| 25 May | TBD | — | Not started |
+| 27 May | TBD | — | Not started |
+| 29 May | TBD | — | Not started |
 
 ---
 
