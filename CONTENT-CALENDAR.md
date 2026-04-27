@@ -34,7 +34,7 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 May | TBD | — | Not started |
+| 1 May | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Not started |
 | 3 May | TBD | — | Not started |
 | 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
 | 7 May | TBD | — | Not started |
