@@ -6,106 +6,100 @@ Target frequency: **10 articles per month**
 
 ## Published
 
-| Date | Article | Type | Status |
-|------|---------|------|--------|
-| Jan 2026 | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling | Planning & Advice | LIVE |
-| Feb 2026 | Baby Showers: Your Questions Answered | Planning & Advice | LIVE |
-| Feb 2026 | Best Baby Shower Venues Near Sittingbourne | Planning & Advice | LIVE |
-| Mar 2026 | Best Balloon Colour Palettes for 2025 | Trends | LIVE |
-| Mar 2026 | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips | Planning & Advice | LIVE |
-| Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | Seasonal | LIVE |
-| Mar 2026 | Easter Cupcake Ideas: 2 Easy Designs for Beginners | Seasonal | LIVE |
-| Mar 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | Planning & Advice | LIVE |
-| Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | Styling & Inspiration | LIVE |
-| Apr 2026 | Baby Shower Cupcake Ideas: 2 Easy Designs for a Beautiful Dessert Table | Styling & Inspiration | LIVE |
-| Apr 2026 | How Long Do Balloons Last? Your Questions Answered | Practical/FAQ | LIVE |
-| Apr 2026 | Birthday Cupcake Ideas: 2 Easy Designs for a Party-Ready Dessert Table | Styling & Inspiration | LIVE |
-| Apr 2026 | Mermaid Cupcake Ideas: 2 Easy Under-the-Sea Designs | Styling & Inspiration | LIVE |
-| Apr 2026 | How to Style a Dessert Table for a Children's Party | DIY & Tutorial | LIVE |
-| Apr 2026 | Wizard Cupcake Ideas: 2 Easy Magical Designs | Styling & Inspiration | LIVE |
-| Apr 2026 | Princess Party Dessert Table Ideas: Balloons, Cupcakes & Royal Styling | Styling & Inspiration | LIVE |
-| Apr 2026 | Princess Party Cupcake Ideas: 2 Easy Pink & Gold Designs | Styling & Inspiration | LIVE |
+| Date | Title | URL | Type |
+|------|-------|-----|------|
+| Jan 2026 | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling | teddy-bear-baby-shower-ideas.html | Planning & Advice |
+| Feb 2026 | Baby Showers: Your Questions Answered | baby-shower-questions-answered.html | Planning & Advice |
+| Feb 2026 | Best Baby Shower Venues Near Sittingbourne | baby-shower-venues-sittingbourne.html | Planning & Advice |
+| Mar 2026 | Best Balloon Colour Palettes for 2025 | best-balloon-colours-2025.html | Trends |
+| Mar 2026 | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips | baby-shower-balloon-ideas.html | Planning & Advice |
+| Mar 2026 | Easter Balloon Ideas for Parties & Egg Hunts | easter-balloon-ideas.html | Seasonal |
+| Mar 2026 | Easter Cupcake Ideas: 2 Easy Designs for Beginners | easter-cupcake-ideas.html | Seasonal |
+| Apr 2026 | First Birthday Balloon Ideas: Themes & Styling Tips | first-birthday-balloon-ideas.html | Planning & Advice |
+| Apr 2026 | Fondant Cupcake Ideas for Baby Showers, Birthdays & Beyond | fondant-cupcake-ideas-baby-shower-birthday.html | Styling & Inspiration |
+| Apr 2026 | Baby Shower Cupcake Ideas | baby-shower-cupcake-ideas.html | Styling & Inspiration |
+| Apr 2026 | How Long Do Balloons Last? | how-long-do-balloons-last.html | Practical/FAQ |
+| 25 Apr 2026 | Birthday Cupcake Ideas | birthday-cupcake-ideas.html | Styling & Inspiration |
+| 26 Apr 2026 | How to Style a Dessert Table for a Children's Party | how-to-style-dessert-table-childrens-party.html | DIY & Tutorial |
+| 27 Apr 2026 | Mermaid Cupcake Ideas | mermaid-cupcake-ideas.html | Styling & Inspiration |
+| 27 Apr 2026 | Wizard Cupcake Ideas | wizard-cupcake-ideas.html | Styling & Inspiration |
+| 27 Apr 2026 | Dinosaur Party Balloon & Dessert Table Ideas | dinosaur-party-balloon-dessert-table-ideas.html | Styling & Inspiration |
+| 28 Apr 2026 | Princess Party Dessert Table Ideas | princess-party-dessert-table-ideas.html | Styling & Inspiration |
+| 29 Apr 2026 | Princess Party Cupcake Ideas | princess-party-cupcake-ideas.html | Styling & Inspiration |
+| 12 May 2026 | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | Styling & Inspiration |
+
+---
+
+## May 2026 — 10 Article Target
+
+| Date | Title | URL | Status |
+|------|-------|-----|--------|
+| 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
+| 8 May | Best Piping Tips for Cupcakes: Beginner Guide | best-piping-tips-for-cupcakes.html | Committed — orphan |
+| 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
+| 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
+| 17 May | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
+| 20 May | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
+| 23 May | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
+| 26 May | TBD | — | Not started |
+| 28 May | TBD | — | Not started |
+| 30 May | TBD | — | Not started |
 
 ---
 
 ## Upcoming
 
-| Date | Article | Type | Status | Notes |
-|------|---------|------|--------|-------|
-| 5 May | Birthday Cupcakes: Simple Designs That Look Party-Ready | Styling & Inspiration | LIVE | Moved to Published — birthday-cupcake-ideas.html |
-| 5 May | What Is an Organic Balloon Garland? | Practical/FAQ | NOT STARTED | Brought forward from Oct — owns the definition; high PAA trigger; links to all garland service pages; Pillar 3 support |
-| 8 May | Best Piping Tips for Cupcakes: Beginner Guide | DIY & Tutorial | NOT STARTED | Explains 1M, 2D, 47, 104 etc; evergreen; links to all cupcake articles |
-| 12 May | How to Pipe a Cupcake Swirl with a Wilton 1M Tip | DIY & Tutorial | NOT STARTED | Evergreen how-to; can reuse existing cupcake images |
-| 15 May | How to Make a Fake Cake for Celebrations | DIY & Tutorial | WRITTEN | Ready to publish — needs hero image (gallery/how-to-make-fake-cake.png) |
-| 26 Apr | How to Style a Dessert Table for a Children's Party | DIY & Tutorial | LIVE | how-to-style-dessert-table-childrens-party.html |
-| 1 Jun | Garden Party Balloon Styling: What Works Outdoors | Practical | NOT STARTED | Summer garden party season |
-| 8 Jun | How to Match Cupcakes with Your Balloon Display | Styling & Inspiration | WRITTEN | Page built: match-cupcakes-with-balloon-display.html — orphan until publish date; needs journal card + sitemap entry |
-| 12 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | Styling & Inspiration | WRITTEN | Page built: baby-shower-dessert-table-ideas.html — orphan until publish date; Pillar 1 support |
-| 15 Jun | Gender Reveal Ideas: The Complete UK Guide | Planning & Advice | NOT STARTED | High search volume, underserved UK content |
-| 20 Jun | 4th of July Cupcake Ideas: American-Themed Party Food | Styling & Inspiration | WRITTEN | Page built: fourth-of-july-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
-| 1 Jul | Balloon Colour Combinations That Always Work Together | Trends | NOT STARTED | Evergreen, helps indecisive clients |
-| 5 Jul | First Birthday Cupcakes: Soft Pastel Ideas for a Milestone Party | Styling & Inspiration | NOT STARTED | Needs 3 images; strong parent search intent |
-| 10 Jul | Mermaid Cupcakes: Easy Under-the-Sea Designs for Beginners | Styling & Inspiration | LIVE | Moved to Published — mermaid-cupcake-ideas.html |
-| 15 Jul | Princess Party Dessert Table Ideas: Balloons, Cupcakes & Royal Styling | Styling & Inspiration | LIVE | Moved to Published — princess-party-dessert-table-ideas.html |
-| 20 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | Planning & Advice | NOT STARTED | Peak wedding season |
-| 25 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns Made Easy | Styling & Inspiration | NOT STARTED | Needs 3 images; high search volume for kids' birthdays |
-| 1 Aug | Back to School Celebration Ideas | Seasonal | NOT STARTED | September prep |
-| 5 Aug | Princess Party Cupcakes: Pink, Gold & Crown Designs | Styling & Inspiration | NOT STARTED | Needs 3 images; great for children's parties |
-| 10 Aug | Dessert Table Ideas for Children's Parties | Styling & Inspiration | NOT STARTED | Crossover article; cupcakes + balloons + backdrops; can use existing images |
-| 15 Aug | Autumn Celebration Styling: Colours & Themes | Trends | NOT STARTED | Seasonal shift |
-| 20 Aug | Birthday Party Table Ideas: Balloons, Cupcakes & Backdrops | Styling & Inspiration | NOT STARTED | Key commercial crossover; links to birthday balloon and garland pages |
-| 1 Sep | Halloween Balloon Ideas That Aren't Tacky | Seasonal | NOT STARTED | October search starts early |
-| 5 Sep | Football Cupcakes: Easy Designs for Match Day or Birthday Parties | Styling & Inspiration | NOT STARTED | UK-relevant; evergreen; needs 3 images |
-| 10 Sep | Bonfire Night Cupcakes: Firework Ideas for Beginners | Seasonal | NOT STARTED | Publish before 5 Nov; very UK-relevant; needs 3 images |
-| 15 Sep | How Much Does a Balloon Garland Cost? | Practical/FAQ | NOT STARTED | #1 pre-booking question; be transparent with real pricing ranges |
-| 20 Sep | Halloween Party Table Ideas with Balloons and Cupcakes | Seasonal | NOT STARTED | Complements halloween-cupcake-ideas.html; links to balloon service pages |
-| 1 Oct | Halloween Cupcake Ideas: Mummy & Bat Designs | Styling & Inspiration | WRITTEN | Page built: halloween-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
-| 1 Oct | What Is an Organic Balloon Garland? | Practical/FAQ | MOVED | Brought forward to 5 May 2026 |
-| 10 Oct | Christmas Cupcake Ideas: 2 Easy Festive Designs for Beginners | Seasonal | WRITTEN | Page built: christmas-cupcake-ideas.html — orphan until publish date; needs journal card + sitemap entry |
-| 15 Oct | What Decorations Do You Need for a Baby Shower? | Planning & Advice | NOT STARTED | Checklist format; very high search volume; strong internal linking |
-| 20 Oct | Dinosaur Cupcakes: Simple Ideas for Kids' Parties | Styling & Inspiration | NOT STARTED | Evergreen; popular birthday theme; needs 3 images |
-| 1 Nov | Are Latex Balloons Safe? | Practical/FAQ | NOT STARTED | Allergy concerns; trust-building; answers a top PAA question |
-| 5 Nov | New Year's Eve Cupcakes: Gold, Black & Sparkle Designs | Seasonal | NOT STARTED | Publish early Nov for NYE search build-up; needs 3 images |
-| 10 Nov | Christmas Party Dessert Table Ideas | Seasonal | NOT STARTED | Timely for Christmas party planning; links to Christmas cupcake article |
-| 15 Nov | What Size Balloon Garland Do I Need? | Practical/FAQ | NOT STARTED | Practical sizing guide; captures pre-booking research intent |
-| 20 Nov | Gaming Cupcakes: Easy Controller & Pixel Designs for Parties | Styling & Inspiration | NOT STARTED | Good for older kids/teen parties; needs 3 images |
-| 1 Dec | How Far in Advance Should You Book a Balloon Stylist? | Practical/FAQ | NOT STARTED | Pure booking intent; end with strong CTA |
-| 5 Dec | Valentine's Cupcakes: 2 Romantic Designs for Beginners | Seasonal | NOT STARTED | Publish Dec to build before 14 Feb search traffic; needs 3 images |
-| 10 Dec | Barbie-Inspired Cupcakes: Pink Party Designs for Beginners | Styling & Inspiration | NOT STARTED | Strong visual theme; needs 3 images |
-| 15 Dec | How to Plan a Baby Shower in the UK: The Complete Guide | Planning & Advice | NOT STARTED | Comprehensive pillar article; links to every baby shower page |
-| 20 Dec | How to Use the Cling Film Method for Multi-Coloured Buttercream | DIY & Tutorial | NOT STARTED | Evergreen how-to; links to unicorn, mermaid and 4th July cupcake articles |
-| 1 Jan 2027 | How to Decorate a Venue with Balloons | Practical/FAQ | NOT STARTED | Captures DIYers; awareness-to-booking funnel |
-| 5 Jan 2027 | Easter Cupcake Ideas: Easy Bunny & Mini Egg Designs | Seasonal | LIVE | Moved to Published — easter-cupcake-ideas.html |
-| 10 Jan 2027 | Baby Shower Ideas in Sittingbourne | Planning & Advice | NOT STARTED | Local SEO; links to baby shower balloon page |
-| 15 Jan 2027 | How to Make Fondant Cupcake Toppers for Beginners | DIY & Tutorial | NOT STARTED | Evergreen; stars, hearts, clouds, bats; links to cupcake series |
-| 20 Jan 2027 | Buttercream Colours: How to Get Navy, Orange, Fuchsia and Teal | DIY & Tutorial | NOT STARTED | Practical colour-mixing guide; links to cupcake articles |
-| 1 Feb 2027 | Eid Cupcake Ideas: Elegant Crescent Moon & Star Designs | Styling & Inspiration | NOT STARTED | Eid al-Fitr 2027 approx 20 March; consider audience fit for Kent |
-| 5 Feb 2027 | Birthday Party Ideas in Sittingbourne | Planning & Advice | NOT STARTED | Local SEO; links to birthday balloon page |
-| 10 Feb 2027 | Children's Party Ideas in Sittingbourne | Planning & Advice | NOT STARTED | Local SEO; parent audience |
-| 15 Feb 2027 | How to Transport Cupcakes Without Damaging Them | Practical/FAQ | NOT STARTED | Evergreen; links to cupcake series |
-| 22 Feb 2027 | Mother's Day Cupcake Ideas: Floral & Pastel Designs | Styling & Inspiration | NOT STARTED | Publish 2 weeks before 14 March (UK Mothering Sunday 2027); soft pinks, florals & pastel buttercream; needs 3 images |
-| 1 Mar 2027 | St Patrick's Day Cupcake Ideas: Green & Gold Party Food | Styling & Inspiration | NOT STARTED | Publish 2 weeks before 17 March; green, shamrock & gold fondant; needs 3 images |
-| 5 Mar 2027 | Balloon Display Ideas for Parties in Sittingbourne | Planning & Advice | NOT STARTED | Local SEO; direct service keyword |
-| 10 Mar 2027 | How to Create a Beautiful Party Table at Home in Kent | DIY & Tutorial | NOT STARTED | Soft-sell styling; links to service pages |
-| 15 Mar 2027 | Best Party Themes for Children's Birthdays in Kent | Planning & Advice | NOT STARTED | Broad, useful, local; links to birthday balloon page |
-| 20 Mar 2027 | How to Store Decorated Cupcakes Before a Party | Practical/FAQ | NOT STARTED | Evergreen; links to cupcake series |
-| 1 Apr 2027 | St George's Day Cupcake Ideas: English-Themed Party Food | Styling & Inspiration | NOT STARTED | Publish 3 weeks before 23 April; red & white St George's Cross theme; England-specific differentiator; needs 3 images |
-| 5 Apr 2027 | Small Party Styling Ideas That Still Look Impressive | Planning & Advice | NOT STARTED | Good for budget-conscious clients; links to service pages |
-| 10 Apr 2027 | How to Choose a Colour Palette for a Party Table | Trends | NOT STARTED | Evergreen styling guide; links to balloon colour article |
-| 15 Apr 2027 | Mermaid Party Dessert Table Ideas | Styling & Inspiration | NOT STARTED | Spring/summer theme; links to mermaid cupcakes article |
-| 20 Apr 2027 | Football Birthday Party Ideas in Kent | Planning & Advice | NOT STARTED | Local + end-of-season timing; links to birthday balloon page |
-
----
-
-## Image Requirements
-
-**Cupcake design articles** need 3 images each: hero + Design 1 + Design 2. Plan ahead with Sam.
-
-Articles marked "needs 3 images" in notes above:
-Birthday Cupcakes, First Birthday Cupcakes, Mermaid Cupcakes, Unicorn Cupcakes, Princess Party Cupcakes, Football Cupcakes, Bonfire Night Cupcakes, Christmas Cupcakes, Dinosaur Cupcakes, New Year's Eve Cupcakes, Gaming Cupcakes, Valentine's Cupcakes, Barbie Cupcakes, Easter Cupcakes, Mother's Day Cupcakes, St Patrick's Day Cupcakes, St George's Day Cupcakes, Eid Cupcakes.
-
-Crossover / styling articles can reuse existing balloon and event images.
-How-to articles (piping tips, storage, transport) may not require new images.
+| Target Date | Title | URL | Status | Notes |
+|-------------|-------|-----|--------|-------|
+| 20 Jun 2026 | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan | Publish ~20 Jun ahead of 4 Jul |
+| 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Committed — orphan | |
+| 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
+| TBD | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated; confirm publish date |
+| Jun 2026 | Garden Party Balloon Styling: What Works Outdoors | — | Not started | Summer season |
+| Jun 2026 | Gender Reveal Ideas: The Complete UK Guide | — | Not started | High volume, underserved UK content |
+| Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
+| Jul 2026 | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started | Needs 3 images |
+| Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | — | Not started | Peak wedding season |
+| Jul 2026 | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns | — | Not started | Needs 3 images |
+| Aug 2026 | Back to School Celebration Ideas | — | Not started | September prep |
+| Aug 2026 | Princess Party Cupcakes: Pink, Gold & Crown Designs | — | Not started | Needs 3 images |
+| Aug 2026 | Dessert Table Ideas for Children's Parties | — | Not started | Can reuse existing images |
+| Aug 2026 | Birthday Party Table Ideas: Balloons, Cupcakes & Backdrops | — | Not started | |
+| Sep 2026 | Halloween Balloon Ideas That Aren't Tacky | — | Not started | Publish early for Oct traffic |
+| Sep 2026 | Football Cupcakes: Easy Designs for Match Day | — | Not started | Needs 3 images |
+| Sep 2026 | Bonfire Night Cupcakes: Firework Ideas | — | Not started | Publish before Nov; needs 3 images |
+| Sep 2026 | How Much Does a Balloon Garland Cost? | — | Not started | Top pre-booking question |
+| Sep 2026 | Halloween Party Table Ideas with Balloons and Cupcakes | — | Not started | |
+| Oct 2026 | What Decorations Do You Need for a Baby Shower? | — | Not started | Checklist format; high volume |
+| Oct 2026 | Dinosaur Cupcakes: Simple Ideas for Kids' Parties | — | Not started | Needs 3 images |
+| Nov 2026 | Are Latex Balloons Safe? | — | Not started | Trust-building; top PAA question |
+| Nov 2026 | New Year's Eve Cupcakes: Gold, Black & Sparkle Designs | — | Not started | Needs 3 images |
+| Nov 2026 | Christmas Party Dessert Table Ideas | — | Not started | |
+| Nov 2026 | What Size Balloon Garland Do I Need? | — | Not started | Sizing guide; pre-booking intent |
+| Nov 2026 | Gaming Cupcakes: Easy Controller & Pixel Designs | — | Not started | Needs 3 images |
+| Dec 2026 | How Far in Advance Should You Book a Balloon Stylist? | — | Not started | Pure booking intent |
+| Dec 2026 | Valentine's Cupcakes: 2 Romantic Designs | — | Not started | Publish Dec for Feb traffic; needs 3 images |
+| Dec 2026 | Barbie-Inspired Cupcakes: Pink Party Designs | — | Not started | Needs 3 images |
+| Dec 2026 | How to Plan a Baby Shower in the UK: The Complete Guide | — | Not started | Comprehensive pillar article |
+| Jan 2027 | How to Decorate a Venue with Balloons | — | Not started | |
+| Jan 2027 | Baby Shower Ideas in Sittingbourne | — | Not started | Local SEO |
+| Jan 2027 | How to Make Fondant Cupcake Toppers for Beginners | — | Not started | Evergreen; links to cupcake series |
+| Jan 2027 | Buttercream Colours: How to Get Navy, Orange, Fuchsia and Teal | — | Not started | |
+| Feb 2027 | Eid Cupcake Ideas: Crescent Moon & Star Designs | — | Not started | Eid al-Fitr approx 20 Mar 2027 |
+| Feb 2027 | Birthday Party Ideas in Sittingbourne | — | Not started | Local SEO |
+| Feb 2027 | Children's Party Ideas in Sittingbourne | — | Not started | Local SEO |
+| Feb 2027 | How to Transport Cupcakes Without Damaging Them | — | Not started | Evergreen |
+| 22 Feb 2027 | Mother's Day Cupcake Ideas: Floral & Pastel Designs | — | Not started | Publish 2 weeks before 14 Mar 2027; needs 3 images |
+| 1 Mar 2027 | St Patrick's Day Cupcake Ideas: Green & Gold Party Food | — | Not started | Publish 2 weeks before 17 Mar; needs 3 images |
+| Mar 2027 | Balloon Display Ideas for Parties in Sittingbourne | — | Not started | Local SEO |
+| Mar 2027 | How to Create a Beautiful Party Table at Home in Kent | — | Not started | Soft-sell styling |
+| Mar 2027 | Best Party Themes for Children's Birthdays in Kent | — | Not started | Broad, local, useful |
+| Mar 2027 | How to Store Decorated Cupcakes Before a Party | — | Not started | Evergreen |
+| 1 Apr 2027 | St George's Day Cupcake Ideas | — | Not started | Publish 3 weeks before 23 Apr; needs 3 images |
+| Apr 2027 | Small Party Styling Ideas That Still Look Impressive | — | Not started | Budget-conscious clients |
+| Apr 2027 | How to Choose a Colour Palette for a Party Table | — | Not started | Evergreen; links to balloon colour article |
+| Apr 2027 | Mermaid Party Dessert Table Ideas | — | Not started | Links to mermaid cupcakes article |
+| Apr 2027 | Football Birthday Party Ideas in Kent | — | Not started | Local + end-of-season timing |
 
 ---
 
@@ -121,14 +115,18 @@ Rotate between these five types to keep the journal varied:
 
 ---
 
-## Notes
+## Image Requirements
 
-- Target: **5 articles per month**
-- Homepage journal section shows **2 latest articles only** — full listing on journal.html
-- Each article needs a hero/feature image before publishing
-- All articles use the same design template (nav, footer, sidebar, reveal animations)
-- Include FAQPage, HowTo or BlogPosting schema on every article for Google/LLM search
-- Internal link to at least 2 other pages/articles from each new article
-- Add reverse link from the relevant service page back to each new article
-- Cupcake articles: always include the studio context block (balloon focus + cake maker referral)
-- Orphan pages: build and commit before publish date; add to journal.html + sitemap.xml only when going live
+Cupcake design articles need 3 images each: hero + Design 1 + Design 2. Plan ahead with Sam.
+
+Articles needing new images are noted in the table above. Crossover and styling articles can reuse existing gallery images. How-to articles may not require new images.
+
+---
+
+## Publishing Checklist
+
+- [ ] Add journal card to journal.html (newest-first order)
+- [ ] Update homepage to show 2 most recent articles
+- [ ] Add URL to sitemap.xml with correct lastmod date
+- [ ] Confirm internal links in the article point to live pages only
+- [ ] Orphan articles: commit and push file but skip all steps above until publish date
