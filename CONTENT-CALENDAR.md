@@ -52,15 +52,25 @@ Target frequency: **15 articles per month**
 
 ---
 
-## June 2026
+## June 2026 — 15 Article Target
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 8 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
+| 1 Jun | TBD | — | Not started |
+| 3 Jun | TBD | — | Not started |
+| 5 Jun | TBD | — | Not started |
+| 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 9 Jun | TBD | — | Not started |
+| 11 Jun | TBD | — | Not started |
+| 13 Jun | TBD | — | Not started |
+| 15 Jun | TBD | — | Not started |
+| 17 Jun | TBD | — | Not started |
+| 19 Jun | TBD | — | Not started |
 | 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
-| TBD | Garden Party Balloon Styling: What Works Outdoors | — | Not started |
-| TBD | Gender Reveal Ideas: The Complete UK Guide | — | Not started |
+| 22 Jun | Garden Party Balloon Styling: What Works Outdoors | — | Not started |
+| 24 Jun | Gender Reveal Ideas: The Complete UK Guide | — | Not started |
+| 26 Jun | TBD | — | Not started |
+| 28 Jun | TBD | — | Not started |
 
 ---
 
