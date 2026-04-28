@@ -48,7 +48,7 @@ Target frequency: **15 articles per month**
 | 23 May | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
 | 25 May | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 27 May | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 29 May | TBD | — | Not started |
+| 29 May | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Committed — orphan |
 
 ---
 
