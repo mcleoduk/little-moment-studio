@@ -46,7 +46,7 @@ Target frequency: **15 articles per month**
 | 19 May | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 21 May | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
 | 23 May | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
-| 25 May | TBD | — | Not started |
+| 25 May | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 27 May | TBD | — | Not started |
 | 29 May | TBD | — | Not started |
 
