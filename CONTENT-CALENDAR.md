@@ -34,8 +34,8 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 May | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Not started |
-| 3 May | TBD | — | Not started |
+| 1 May | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Committed — orphan |
+| 3 May | Superhero Party Balloon & Dessert Table Ideas | superhero-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
 | 7 May | TBD | — | Not started |
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | best-piping-tips-for-cupcakes.html | Committed — orphan |
