@@ -43,7 +43,7 @@ Target frequency: **15 articles per month**
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
 | 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
 | 17 May | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
-| 19 May | TBD | — | Not started |
+| 19 May | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 21 May | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
 | 23 May | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
 | 25 May | TBD | — | Not started |
