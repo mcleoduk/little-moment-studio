@@ -39,7 +39,7 @@ Target frequency: **15 articles per month**
 | 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
 | 7 May | Unicorn Party Balloon & Dessert Table Ideas | unicorn-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 8 May | Best Piping Tips for Cupcakes: Beginner Guide | best-piping-tips-for-cupcakes.html | Committed — orphan |
-| 10 May | TBD | — | Not started |
+| 10 May | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
 | 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
 | 17 May | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
