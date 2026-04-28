@@ -52,16 +52,25 @@ Target frequency: **15 articles per month**
 
 ---
 
+## June 2026
+
+| Date | Title | URL | Status |
+|------|-------|-----|--------|
+| 1 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 8 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
+| 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
+| TBD | Garden Party Balloon Styling: What Works Outdoors | — | Not started |
+| TBD | Gender Reveal Ideas: The Complete UK Guide | — | Not started |
+
+---
+
 ## Upcoming
 
 | Target Date | Title | URL | Status | Notes |
 |-------------|-------|-----|--------|-------|
-| 20 Jun 2026 | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan | Publish ~20 Jun ahead of 4 Jul |
 | 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Committed — orphan | |
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
 | TBD | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated; confirm publish date |
-| Jun 2026 | Garden Party Balloon Styling: What Works Outdoors | — | Not started | Summer season |
-| Jun 2026 | Gender Reveal Ideas: The Complete UK Guide | — | Not started | High volume, underserved UK content |
 | Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
 | Jul 2026 | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started | Needs 3 images |
 | Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | — | Not started | Peak wedding season |
