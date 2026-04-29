@@ -34,7 +34,7 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 May | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Committed — orphan |
+| 1 May | w | dinosaur-party-cupcake-ideas.html | Committed — orphan |
 | 3 May | Superhero Party Balloon & Dessert Table Ideas | superhero-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
 | 7 May | Unicorn Party Balloon & Dessert Table Ideas | unicorn-party-balloon-dessert-table-ideas.html | Committed — orphan |
@@ -67,7 +67,7 @@ Target frequency: **15 articles per month**
 | 17 Jun | TBD | — | Not started |
 | 19 Jun | TBD | — | Not started |
 | 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
-| 22 Jun | Garden Party Balloon Styling: What Works Outdoors | — | Not started |
+| 22 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
 | 24 Jun | Gender Reveal Ideas: The Complete UK Guide | — | Not started |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
