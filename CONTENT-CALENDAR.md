@@ -60,7 +60,7 @@ Target frequency: **15 articles per month**
 | 3 Jun | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 5 Jun | TBD | — | Not started |
 | 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 9 Jun | TBD | — | Not started |
+| 9 Jun | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
 | 11 Jun | TBD | — | Not started |
 | 13 Jun | TBD | — | Not started |
 | 15 Jun | TBD | — | Not started |
