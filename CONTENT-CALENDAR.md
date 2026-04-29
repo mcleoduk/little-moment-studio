@@ -57,7 +57,7 @@ Target frequency: **15 articles per month**
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
 | 1 Jun | TBD | — | Not started |
-| 3 Jun | TBD | — | Not started |
+| 3 Jun | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 5 Jun | TBD | — | Not started |
 | 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 9 Jun | TBD | — | Not started |
@@ -69,7 +69,7 @@ Target frequency: **15 articles per month**
 | 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 | 22 Jun | Garden Party Balloon Styling: What Works Outdoors | — | Not started |
 | 24 Jun | Gender Reveal Ideas: The Complete UK Guide | — | Not started |
-| 26 Jun | TBD | — | Not started |
+| 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
 
 ---
