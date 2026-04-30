@@ -62,7 +62,7 @@ Target frequency: **15 articles per month**
 | 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 9 Jun | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
 | 11 Jun | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | Written — local only |
-| 13 Jun | TBD | — | Not started |
+| 13 Jun | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | Written — local only |
 | 15 Jun | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
 | 17 Jun | TBD | — | Not started |
 | 19 Jun | TBD | — | Not started |
