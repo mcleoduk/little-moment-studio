@@ -34,7 +34,7 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 May | w | dinosaur-party-cupcake-ideas.html | Committed — orphan |
+| 1 May | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Committed — orphan |
 | 3 May | Superhero Party Balloon & Dessert Table Ideas | superhero-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
 | 7 May | Unicorn Party Balloon & Dessert Table Ideas | unicorn-party-balloon-dessert-table-ideas.html | Committed — orphan |
@@ -56,9 +56,9 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 Jun | TBD | — | Not started |
+| 1 Jun | Farm Cupcake Ideas: 2 Easy Designs for a Barnyard Party Table | farm-cupcake-ideas-barnyard-party-table.html | Written — local only |
 | 3 Jun | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 5 Jun | TBD | — | Not started |
+| 5 Jun | How Far in Advance Should You Book Birthday Balloons? | how-far-in-advance-book-birthday-balloons.html | Written — local only |
 | 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 9 Jun | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
 | 11 Jun | TBD | — | Not started |
@@ -68,7 +68,7 @@ Target frequency: **15 articles per month**
 | 19 Jun | TBD | — | Not started |
 | 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 | 22 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
-| 24 Jun | Gender Reveal Ideas: The Complete UK Guide | — | Not started |
+| 24 Jun | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Written — local only |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
 
@@ -81,6 +81,7 @@ Target frequency: **15 articles per month**
 | 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Committed — orphan | |
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
 | TBD | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated; confirm publish date |
+| 1 Jul 2026 | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Written — local only | |
 | Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
 | Jul 2026 | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started | Needs 3 images |
 | Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | — | Not started | Peak wedding season |
