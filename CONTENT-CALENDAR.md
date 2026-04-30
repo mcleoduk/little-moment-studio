@@ -63,7 +63,7 @@ Target frequency: **15 articles per month**
 | 9 Jun | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
 | 11 Jun | TBD | — | Not started |
 | 13 Jun | TBD | — | Not started |
-| 15 Jun | TBD | — | Not started |
+| 15 Jun | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
 | 17 Jun | TBD | — | Not started |
 | 19 Jun | TBD | — | Not started |
 | 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
