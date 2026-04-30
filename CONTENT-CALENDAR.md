@@ -82,6 +82,7 @@ Target frequency: **15 articles per month**
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
 | TBD | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated; confirm publish date |
 | 1 Jul 2026 | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Written — local only | |
+| 5 Jul 2026 | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Written — needs hero image | Hub article linking to all theme guides |
 | Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
 | Jul 2026 | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started | Needs 3 images |
 | Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | — | Not started | Peak wedding season |
