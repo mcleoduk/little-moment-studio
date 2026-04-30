@@ -188,6 +188,7 @@ Cupcake articles are built and committed **before the publish date** but are not
 | `dinosaur-party-cupcake-ideas.html` | Design 1 & 2 | 1 May 2026 | Written — needs 3 images |
 | `top-10-piping-tips-for-cupcakes.html` | Inline images | 8 May 2026 | Orphan — committed, not pushed |
 | `cling-film-method-multi-coloured-buttercream.html` | Inline images | 20 May 2025 (backdated) | Orphan — committed, not pushed |
+| `tropical-cupcake-ideas-summer-party-table.html` | Design 1 & 2 | 17 Jun 2026 | Written — local only |
 
 ---
 

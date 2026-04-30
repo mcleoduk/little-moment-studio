@@ -64,7 +64,7 @@ Target frequency: **15 articles per month**
 | 11 Jun | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | Written — local only |
 | 13 Jun | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | Written — local only |
 | 15 Jun | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
-| 17 Jun | TBD | — | Not started |
+| 17 Jun | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
 | 19 Jun | TBD | — | Not started |
 | 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 | 22 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
@@ -80,7 +80,7 @@ Target frequency: **15 articles per month**
 |-------------|-------|-----|--------|-------|
 | 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Committed — orphan | |
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
-| TBD | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated; confirm publish date |
+| 30 Apr 2026 | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated to May 2025; ready to push |
 | 1 Jul 2026 | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Written — local only | |
 | 5 Jul 2026 | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Written — needs hero image | Hub article linking to all theme guides |
 | Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
