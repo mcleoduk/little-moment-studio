@@ -61,7 +61,7 @@ Target frequency: **15 articles per month**
 | 5 Jun | How Far in Advance Should You Book Birthday Balloons? | how-far-in-advance-book-birthday-balloons.html | Written — local only |
 | 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 9 Jun | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
-| 11 Jun | TBD | — | Not started |
+| 11 Jun | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | Written — local only |
 | 13 Jun | TBD | — | Not started |
 | 15 Jun | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
 | 17 Jun | TBD | — | Not started |
