@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Competitor & SEO Report — Little Moment Studio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', Georgia, serif;
+      font-size: 11pt;
+      line-height: 1.6;
+      color: #2E2A24;
+      background: #fff;
+    }
+
+    /* ── PAGE LAYOUT ── */
+    .page {
+      width: 210mm;
+      margin: 0 auto;
+      background: #fff;
+    }
+
+    /* ── COVER ── */
+    .cover {
+      background: #2E2A24;
+      color: #fff;
+      padding: 48pt 52pt 40pt;
+      min-height: 120pt;
+    }
+    .cover-kicker {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 7.5pt;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #D8C4A5;
+      margin-bottom: 14pt;
+    }
+    .cover h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 30pt;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 10pt;
+    }
+    .cover h1 em {
+      font-style: italic;
+      color: #D8C4A5;
+    }
+    .cover-sub {
+      font-size: 11pt;
+      font-weight: 300;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: 28pt;
+    }
+    .cover-meta {
+      display: flex;
+      gap: 36pt;
+      border-top: 1px solid rgba(255,255,255,0.15);
+      padding-top: 16pt;
+    }
+    .cover-meta-item { display: flex; flex-direction: column; gap: 2pt; }
+    .cover-meta-label {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+    }
+    .cover-meta-value {
+      font-size: 10pt;
+      font-weight: 400;
+      color: rgba(255,255,255,0.85);
+    }
+
+    /* ── BODY ── */
+    .body { padding: 40pt 52pt; }
+
+    /* ── SECTION ── */
+    .section { margin-bottom: 32pt; }
+    .section-kicker {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #A8885A;
+      margin-bottom: 4pt;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 17pt;
+      font-weight: 600;
+      color: #2E2A24;
+      margin-bottom: 12pt;
+      padding-bottom: 8pt;
+      border-bottom: 2px solid #2E2A24;
+    }
+    .section h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 13pt;
+      font-weight: 600;
+      color: #2E2A24;
+      margin: 18pt 0 6pt;
+    }
+    p {
+      font-size: 10.5pt;
+      line-height: 1.65;
+      color: #2E2A24;
+      margin-bottom: 8pt;
+    }
+
+    /* ── CALLOUT ── */
+    .callout {
+      border-left: 3pt solid #A8885A;
+      background: #FAF7F2;
+      padding: 12pt 16pt;
+      margin: 12pt 0 16pt;
+    }
+    .callout-label {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #A8885A;
+      margin-bottom: 5pt;
+    }
+    .callout p { margin: 0; font-size: 10pt; }
+    .callout strong { font-weight: 600; }
+
+    .callout-red {
+      border-left-color: #8B3A3A;
+      background: #FDF4F4;
+    }
+    .callout-red .callout-label { color: #8B3A3A; }
+
+    /* ── TABLES ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9.5pt;
+      margin: 10pt 0 18pt;
+    }
+    thead tr { background: #2E2A24; }
+    thead th {
+      color: #fff;
+      padding: 7pt 10pt;
+      text-align: left;
+      font-weight: 600;
+      font-size: 8.5pt;
+      letter-spacing: 0.03em;
+    }
+    tbody tr { border-bottom: 0.5pt solid #DDD8D0; }
+    tbody tr:nth-child(even) { background: #FAF7F2; }
+    tbody td {
+      padding: 7pt 10pt;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    td:first-child { font-weight: 600; }
+    .win  { color: #3A6A2A; font-weight: 600; }
+    .loss { color: #8B3A3A; }
+    .na   { color: #999; }
+
+    /* ── WIN / LOSS TWO-COL ── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12pt;
+      margin: 10pt 0 16pt;
+    }
+    .box {
+      padding: 12pt 14pt;
+      border-radius: 4pt;
+    }
+    .box-green { background: #EDF4E9; border: 0.5pt solid #B8D4AE; }
+    .box-red   { background: #FDF4F4; border: 0.5pt solid #E8BABA; }
+    .box h4 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 10pt;
+      font-weight: 600;
+      margin-bottom: 7pt;
+    }
+    .box-green h4 { color: #3A6A2A; }
+    .box-red h4   { color: #8B3A3A; }
+    .box ul { list-style: none; padding: 0; }
+    .box li {
+      font-size: 9.5pt;
+      line-height: 1.55;
+      padding: 2pt 0 2pt 13pt;
+      position: relative;
+    }
+    .box-green li::before { content: '✓'; position: absolute; left: 0; color: #3A6A2A; font-weight: 700; font-size: 9pt; }
+    .box-red   li::before { content: '↑'; position: absolute; left: 0; color: #8B3A3A; font-weight: 700; font-size: 9pt; }
+
+    /* ── ACTIONS LIST ── */
+    .actions { list-style: none; padding: 0; margin: 8pt 0; }
+    .actions li {
+      display: flex;
+      gap: 12pt;
+      align-items: flex-start;
+      padding: 12pt 0;
+      border-bottom: 0.5pt solid #DDD8D0;
+    }
+    .actions li:last-child { border-bottom: none; }
+    .action-num {
+      flex-shrink: 0;
+      width: 22pt; height: 22pt;
+      border-radius: 50%;
+      background: #2E2A24;
+      color: #fff;
+      font-size: 9pt;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1pt;
+    }
+    .action-body { flex: 1; }
+    .action-title { font-size: 10.5pt; font-weight: 600; margin-bottom: 2pt; }
+    .action-desc  { font-size: 9.5pt; color: #5A5550; line-height: 1.55; margin: 0; }
+    .badge {
+      flex-shrink: 0;
+      font-size: 7.5pt;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 2pt 8pt;
+      border-radius: 50pt;
+      margin-top: 2pt;
+    }
+    .badge-red    { background: #FDF4F4; color: #8B3A3A; border: 0.5pt solid #E8BABA; }
+    .badge-amber  { background: #FEF9EC; color: #856A1A; border: 0.5pt solid #E8D88A; }
+    .badge-green  { background: #EDF4E9; color: #3A6A2A; border: 0.5pt solid #B8D4AE; }
+
+    /* ── COMP PROFILE ── */
+    .profile {
+      background: #FAF7F2;
+      border: 0.5pt solid #DDD8D0;
+      padding: 14pt 16pt;
+      margin: 10pt 0 14pt;
+      border-radius: 4pt;
+    }
+    .profile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 0.5pt solid #DDD8D0;
+      padding-bottom: 10pt;
+      margin-bottom: 10pt;
+    }
+    .profile-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 12pt;
+      font-weight: 600;
+    }
+    .profile-url { font-size: 8.5pt; color: #888; margin-top: 2pt; font-style: italic; }
+    .profile-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5pt 20pt;
+    }
+    .profile-row { display: flex; gap: 8pt; font-size: 9.5pt; line-height: 1.5; }
+    .profile-key { font-weight: 600; color: #888; min-width: 80pt; flex-shrink: 0; font-size: 9pt; }
+    .profile-val { color: #2E2A24; }
+
+    /* ── FOOTER ── */
+    .report-footer {
+      background: #2E2A24;
+      padding: 14pt 52pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .report-footer-brand {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 11pt;
+      color: #D8C4A5;
+    }
+    .report-footer-note { font-size: 8pt; color: rgba(255,255,255,0.4); }
+
+    /* ── DIVIDER ── */
+    hr { border: none; border-top: 0.5pt solid #DDD8D0; margin: 24pt 0; }
+
+    /* ── PRINT ── */
+    @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      body { font-size: 10pt; }
+      .page { width: 100%; }
+      .pb { page-break-before: always; }
+      .no-break { page-break-inside: avoid; }
+      @page { margin: 0; size: A4; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-kicker">Little Moment Studio — Internal Working Document</div>
+  <h1>Competitor &amp; SEO<br><em>Analysis Report</em></h1>
+  <p class="cover-sub">Kent balloon styling market — website quality, SEO positioning and competitive gaps</p>
+  <div class="cover-meta">
+    <div class="cover-meta-item">
+      <span class="cover-meta-label">Date</span>
+      <span class="cover-meta-value">April 2026</span>
+    </div>
+    <div class="cover-meta-item">
+      <span class="cover-meta-label">Market</span>
+      <span class="cover-meta-value">Sittingbourne &amp; Kent</span>
+    </div>
+    <div class="cover-meta-item">
+      <span class="cover-meta-label">Competitors reviewed</span>
+      <span class="cover-meta-value">9 businesses + 2 deep dives</span>
+    </div>
+    <div class="cover-meta-item">
+      <span class="cover-meta-label">Prepared by</span>
+      <span class="cover-meta-value">littlemomentstudio.co.uk</span>
+    </div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="body">
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="section no-break">
+    <div class="section-kicker">Overview</div>
+    <h2>Executive Summary</h2>
+    <div class="callout">
+      <div class="callout-label">Verdict</div>
+      <p>Little Moment Studio should compete as a <strong>premium balloon styling and celebration setup brand</strong>, not a general balloon shop. The biggest SEO advantage is topical depth around baby showers, birthdays, dessert tables and themed party styling. The biggest trust gap is <strong>reviews, local proof and visible real setup photography</strong>.</p>
+    </div>
+    <p>Little Moment Studio is technically ahead of every reviewed local competitor on SEO fundamentals — schema markup, FAQ schema, image alt text, meta descriptions and blog content. The 17 published journal articles represent a structural content lead that will take competitors years to replicate.</p>
+    <p>The primary gap is the <strong>Google Business Profile</strong> and accumulated reviews, which drive map pack placement and click-through rates for local searches. Five of the thirteen Kent balloon businesses identified have broken or offline websites — their search traffic is unclaimed.</p>
+  </div>
+
+  <!-- COMPETITOR LANDSCAPE -->
+  <div class="section">
+    <div class="section-kicker">Market Overview</div>
+    <h2>Competitor Landscape</h2>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:22%">Business</th>
+          <th style="width:38%">What they look strong at</th>
+          <th style="width:40%">Opportunity for Little Moment Studio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Jazzy Balloon Company</td>
+          <td>Luxury baby shower styling; strong visual angle; covers Sussex &amp; Kent</td>
+          <td>Be more Sittingbourne/Kent-first; build deeper local baby shower content</td>
+        </tr>
+        <tr>
+          <td>PD Events</td>
+          <td>100+ 5-star reviews; strong Medway/Kent positioning; good technical SEO</td>
+          <td>Compete with stronger content clusters, reviews and Sittingbourne relevance</td>
+        </tr>
+        <tr>
+          <td>Kent Occasions</td>
+          <td>Broad event hire — balloons, props, soft play, packages</td>
+          <td>Stay focused on elegant balloon styling; add clear setup/package guidance</td>
+        </tr>
+        <tr>
+          <td>The Balloon Bar Kent</td>
+          <td>Family-run shop; balloons, flowers and event setups; SE London signal</td>
+          <td>Position as premium styled displays rather than shop/product-led</td>
+        </tr>
+        <tr>
+          <td>BishBoshBash Balloons</td>
+          <td>Good content volume; established Maidstone presence</td>
+          <td>No meta description, no schema, no alt text — stronger fundamentals win</td>
+        </tr>
+        <tr>
+          <td>Balloonatic</td>
+          <td>30-year e-commerce business; Sheerness</td>
+          <td>Different model — bespoke styling vs product retail. Not direct competition</td>
+        </tr>
+        <tr>
+          <td>Balloon Sensations</td>
+          <td>11 service pages; covers 4 counties; some schema</td>
+          <td>Kent is secondary for them — own the local territory</td>
+        </tr>
+        <tr>
+          <td>The Mini Event Co</td>
+          <td>Close geographically (Hartlip, 3 miles away)</td>
+          <td>Balloons are their secondary service — soft play is their focus</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout callout-red no-break">
+      <div class="callout-label">Broken &amp; offline competitors — market opportunity</div>
+      <p>Five Kent balloon businesses have broken or offline websites as of March 2026: <strong>Elite Balloons Kent</strong>, <strong>The Balloon Bar Kent</strong> (SSL expired), <strong>Peach Blossom</strong>, <strong>First Class Kent Events</strong> (SSL expired) and <strong>Balloons of Kent</strong>. Their existing search traffic and rankings are unclaimed and available to a technically sound competitor.</p>
+    </div>
+  </div>
+
+  <!-- DEEP DIVE: JAZZY -->
+  <div class="section pb">
+    <div class="section-kicker">Deep Dive — Competitor 1</div>
+    <h2>The Jazzy Balloon Company</h2>
+    <p style="color:#888; font-size:9pt; margin-bottom:14pt; font-style:italic;">thejazzyballooncompany.co.uk &mdash; East Sussex, Kent &amp; Surrey</p>
+
+    <div class="profile no-break">
+      <div class="profile-header">
+        <div>
+          <div class="profile-name">Technical SEO Profile</div>
+          <div class="profile-url">thejazzyballooncompany.co.uk</div>
+        </div>
+        <span class="badge badge-amber">Weak fundamentals</span>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-row"><span class="profile-key">Meta title</span><span class="profile-val">Missing / not optimised</span></div>
+        <div class="profile-row"><span class="profile-key">Meta description</span><span class="profile-val">Missing</span></div>
+        <div class="profile-row"><span class="profile-key">H1</span><span class="profile-val">Creating memorable events — Bespoke Balloon Displays &amp; Backdrop Hire</span></div>
+        <div class="profile-row"><span class="profile-key">Schema</span><span class="profile-val">None detected</span></div>
+        <div class="profile-row"><span class="profile-key">FAQ schema</span><span class="profile-val">FAQ page exists — no schema</span></div>
+        <div class="profile-row"><span class="profile-key">Open Graph</span><span class="profile-val">Not detected</span></div>
+        <div class="profile-row"><span class="profile-key">Image alt text</span><span class="profile-val">Inconsistent — some good, some missing</span></div>
+        <div class="profile-row"><span class="profile-key">Blog content</span><span class="profile-val">None</span></div>
+        <div class="profile-row"><span class="profile-key">Service pages</span><span class="profile-val">15–17 dedicated pages</span></div>
+        <div class="profile-row"><span class="profile-key">Homepage depth</span><span class="profile-val">~450–500 words</span></div>
+        <div class="profile-row"><span class="profile-key">Geographic scope</span><span class="profile-val">East Sussex, Kent, Surrey — wide area</span></div>
+        <div class="profile-row"><span class="profile-key">Google reviews</span><span class="profile-val">Some — not dominant</span></div>
+      </div>
+    </div>
+
+    <div class="two-col no-break">
+      <div class="box box-red">
+        <h4>Where they are ahead</h4>
+        <ul>
+          <li>15+ dedicated service pages (weddings, corporate, hen, centrepieces)</li>
+          <li>Wide geographic targeting throughout content</li>
+          <li>Strong alt text on corporate and baby shower pages</li>
+          <li>H1 includes service keywords</li>
+        </ul>
+      </div>
+      <div class="box box-green">
+        <h4>Where we win</h4>
+        <ul>
+          <li>Schema markup on every page — they have none</li>
+          <li>FAQ schema for rich snippets — they miss entirely</li>
+          <li>17 published articles vs zero content</li>
+          <li>Meta descriptions present and keyword-rich</li>
+          <li>Open Graph and canonical tags in place</li>
+          <li>Consistent image alt text site-wide</li>
+        </ul>
+      </div>
+    </div>
+
+    <p><strong>Key takeaway:</strong> Jazzy's advantage is service breadth covering weddings, corporate and hen parties — not our market. On every core SEO metric we are ahead. Their wide Sussex/Kent/Surrey coverage means they are not hyper-local the way we can be for Sittingbourne and Swale.</p>
+  </div>
+
+  <!-- DEEP DIVE: PD EVENTS -->
+  <div class="section pb">
+    <div class="section-kicker">Deep Dive — Competitor 2</div>
+    <h2>PD Events</h2>
+    <p style="color:#888; font-size:9pt; margin-bottom:14pt; font-style:italic;">pdevents.co.uk &mdash; Gerald Ave, Chatham, ME4 5TF &mdash; Medway &amp; Kent</p>
+
+    <div class="profile no-break">
+      <div class="profile-header">
+        <div>
+          <div class="profile-name">Technical SEO Profile</div>
+          <div class="profile-url">pdevents.co.uk</div>
+        </div>
+        <span class="badge badge-green">Good fundamentals</span>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-row"><span class="profile-key">Meta title</span><span class="profile-val">"Balloon Decor Company in Medway &amp; Kent | PD Events" — 50 chars ✓</span></div>
+        <div class="profile-row"><span class="profile-key">Meta description</span><span class="profile-val">Present — 160 chars, includes location and social proof</span></div>
+        <div class="profile-row"><span class="profile-key">H1</span><span class="profile-val">Leading Balloon Decor &amp; Arch Company in Medway &amp; Kent</span></div>
+        <div class="profile-row"><span class="profile-key">Schema</span><span class="profile-val">LocalBusiness with aggregateRating (5★, 100 reviews)</span></div>
+        <div class="profile-row"><span class="profile-key">FAQ schema</span><span class="profile-val">FAQ on page — no schema markup</span></div>
+        <div class="profile-row"><span class="profile-key">Open Graph</span><span class="profile-val">Present ✓</span></div>
+        <div class="profile-row"><span class="profile-key">Canonical</span><span class="profile-val">Present ✓</span></div>
+        <div class="profile-row"><span class="profile-key">Image alt text</span><span class="profile-val">Missing entirely on service pages — major gap</span></div>
+        <div class="profile-row"><span class="profile-key">Blog content</span><span class="profile-val">None</span></div>
+        <div class="profile-row"><span class="profile-key">Service pages</span><span class="profile-val">4–5 pages (Custom Installs, Grab &amp; Go)</span></div>
+        <div class="profile-row"><span class="profile-key">Homepage depth</span><span class="profile-val">~1,100–1,200 words — strong</span></div>
+        <div class="profile-row"><span class="profile-key">Google reviews</span><span class="profile-val"><strong>100+ 5-star reviews — primary differentiator</strong></span></div>
+      </div>
+    </div>
+
+    <div class="two-col no-break">
+      <div class="box box-red">
+        <h4>Where they are ahead</h4>
+        <ul>
+          <li>100+ 5-star Google reviews — drives map pack</li>
+          <li>Good homepage content depth (1,100+ words)</li>
+          <li>LocalBusiness schema with aggregateRating</li>
+          <li>Well-optimised meta title and description</li>
+          <li>Transparent pricing and clear conversion paths</li>
+          <li>Established Medway/Kent brand presence</li>
+        </ul>
+      </div>
+      <div class="box box-green">
+        <h4>Where we win</h4>
+        <ul>
+          <li>Schema breadth — Service + FAQ + BlogPosting (they only have LocalBusiness)</li>
+          <li>FAQ schema for rich snippets — they miss entirely</li>
+          <li>17 published articles vs zero content marketing</li>
+          <li>Image alt text across all pages — theirs is missing entirely</li>
+          <li>More service-specific landing pages</li>
+          <li>Location pages (Maidstone, Faversham) — they have none</li>
+        </ul>
+      </div>
+    </div>
+
+    <p><strong>Key takeaway:</strong> PD Events is the most technically credible local competitor and the most important one to watch. Their accumulated reviews are an advantage we cannot shortcut — start collecting from day one. Their planned Medway territory is where we compete directly when the Medway location page goes live.</p>
+  </div>
+
+  <!-- HEAD TO HEAD -->
+  <div class="section">
+    <div class="section-kicker">Comparison</div>
+    <h2>Head-to-Head: All Competitors</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Little Moment Studio</th>
+          <th>Jazzy Balloon</th>
+          <th>PD Events</th>
+          <th>Kent Occasions</th>
+          <th>BishBoshBash</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Meta title</td>
+          <td class="win">✓ Optimised</td>
+          <td class="loss">Missing</td>
+          <td class="win">✓ 50 chars</td>
+          <td>Decent</td>
+          <td class="loss">Messy</td>
+        </tr>
+        <tr>
+          <td>Meta description</td>
+          <td class="win">✓ Yes</td>
+          <td class="loss">Missing</td>
+          <td class="win">✓ Yes</td>
+          <td class="loss">Missing</td>
+          <td class="loss">Missing</td>
+        </tr>
+        <tr>
+          <td>Schema / JSON-LD</td>
+          <td class="win">LocalBusiness + Service + FAQ + BlogPosting</td>
+          <td class="loss">None</td>
+          <td>LocalBusiness only</td>
+          <td class="loss">None</td>
+          <td class="loss">None</td>
+        </tr>
+        <tr>
+          <td>FAQ schema</td>
+          <td class="win">✓ Every article</td>
+          <td class="loss">No</td>
+          <td class="loss">No</td>
+          <td class="loss">No</td>
+          <td class="loss">No</td>
+        </tr>
+        <tr>
+          <td>Image alt text</td>
+          <td class="win">✓ Keyword-rich, consistent</td>
+          <td>Inconsistent</td>
+          <td class="loss">Missing entirely</td>
+          <td class="loss">None</td>
+          <td class="loss">None</td>
+        </tr>
+        <tr>
+          <td>Blog / content</td>
+          <td class="win">✓ 17 articles live</td>
+          <td class="loss">None</td>
+          <td class="loss">None</td>
+          <td class="loss">None</td>
+          <td class="loss">None</td>
+        </tr>
+        <tr>
+          <td>Location pages</td>
+          <td class="win">✓ Maidstone + Faversham live</td>
+          <td class="na">Wide area only</td>
+          <td class="na">Medway focus</td>
+          <td class="loss">None</td>
+          <td class="loss">None</td>
+        </tr>
+        <tr>
+          <td>Google reviews</td>
+          <td class="loss">⚠ Not yet</td>
+          <td>Some</td>
+          <td class="win">100+ 5-star</td>
+          <td>Some</td>
+          <td>Some</td>
+        </tr>
+        <tr>
+          <td>GBP / map pack</td>
+          <td class="loss">⚠ Not set up</td>
+          <td>Likely</td>
+          <td class="win">Verified</td>
+          <td>Likely</td>
+          <td>Likely</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PRIORITY ACTIONS -->
+  <div class="section pb">
+    <div class="section-kicker">What to do next</div>
+    <h2>Priority Actions</h2>
+    <ul class="actions">
+      <li class="no-break">
+        <div class="action-num">1</div>
+        <div class="action-body">
+          <div class="action-title">Set up Google Business Profile</div>
+          <p class="action-desc">Single highest-impact action available. Drives map pack placement for "balloon styling Sittingbourne" and all surrounding area searches. Use Google Workspace email for the account. Primary category: Balloon Artist. Secondary category: Party Planner. NAP must match exactly: Little Moment Studio · Forum Shopping Centre · Sittingbourne · ME10 3DL · 07864 940 864.</p>
+        </div>
+        <span class="badge badge-red">Urgent</span>
+      </li>
+      <li class="no-break">
+        <div class="action-num">2</div>
+        <div class="action-body">
+          <div class="action-title">Collect Google reviews from day one</div>
+          <p class="action-desc">PD Events' primary competitive advantage is 100+ reviews. Ask every customer immediately after their event using a direct review link. Target 10 reviews within the first 3 months — enough to establish a star rating in search results and begin closing the trust gap.</p>
+        </div>
+        <span class="badge badge-red">Urgent</span>
+      </li>
+      <li class="no-break">
+        <div class="action-num">3</div>
+        <div class="action-body">
+          <div class="action-title">Submit to local directories — consistent NAP</div>
+          <p class="action-desc">Priority: Yell.com, Bing Places, Apple Maps Connect, Facebook Business Page, Hitched.co.uk, Bridebook.co.uk, FreeIndex, Kent Online, InSittingbourne.co.uk. Always copy-paste the exact NAP — never retype. One inconsistency across listings creates a trust signal problem with Google.</p>
+        </div>
+        <span class="badge badge-amber">Soon</span>
+      </li>
+      <li class="no-break">
+        <div class="action-num">4</div>
+        <div class="action-body">
+          <div class="action-title">Add commercial clarity to service pages</div>
+          <p class="action-desc">Service pages lack booking guidance. Add a "Popular setups" or "Starting from..." section to baby shower, birthday and garlands pages. This competes directly with PD Events' clear conversion messaging and helps undecided visitors understand what they can book.</p>
+        </div>
+        <span class="badge badge-amber">Soon</span>
+      </li>
+      <li class="no-break">
+        <div class="action-num">5</div>
+        <div class="action-body">
+          <div class="action-title">Build Medway location page</div>
+          <p class="action-desc">PD Events is based in Chatham and currently owns Medway searches. A dedicated Medway page with real local content competes directly. Medway (Chatham, Rochester, Gillingham) is the largest population centre within reach and is uncontested by us.</p>
+        </div>
+        <span class="badge badge-amber">Soon</span>
+      </li>
+      <li class="no-break">
+        <div class="action-num">6</div>
+        <div class="action-body">
+          <div class="action-title">Continue content calendar at 10 articles/month</div>
+          <p class="action-desc">No competitor is publishing content. Maintaining the current pace compounds the topical authority gap every month. Next publish dates: Organic Balloon Garland (5 May) and Piping Tips (8 May).</p>
+        </div>
+        <span class="badge badge-green">Ongoing</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- PILLAR SUMMARY -->
+  <div class="section">
+    <div class="section-kicker">Content Structure</div>
+    <h2>SEO Pillar Summary</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Pillar</th>
+          <th>Money page</th>
+          <th>Supporting articles live</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Baby Shower Balloons</td>
+          <td>/baby-shower-balloons-kent.html</td>
+          <td>6 articles</td>
+          <td class="win">Complete ✓</td>
+        </tr>
+        <tr>
+          <td>Birthday Balloons</td>
+          <td>/birthday-balloons-kent.html</td>
+          <td>7 articles</td>
+          <td class="win">Complete ✓</td>
+        </tr>
+        <tr>
+          <td>Balloon Garlands</td>
+          <td>/balloon-garlands-kent.html</td>
+          <td>3 live + 1 orphan (5 May)</td>
+          <td style="color:#856A1A; font-weight:600;">Growing</td>
+        </tr>
+        <tr>
+          <td>Dessert Table Support</td>
+          <td>/match-cupcakes-with-balloon-display.html</td>
+          <td>8 cupcake + styling articles</td>
+          <td class="win">Strong ✓</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <div class="callout-label">Bottom line</div>
+      <p>Little Moment Studio is building a stronger long-term content ecosystem than any local competitor. To convert that into rankings and leads, pair the content with <strong>real reviews, a live Google Business Profile, clear service-area pages</strong> and strong internal links back to baby shower, birthday and balloon garland money pages.</p>
+    </div>
+  </div>
+
+</div><!-- /body -->
+
+<!-- FOOTER -->
+<div class="report-footer">
+  <div class="report-footer-brand">Little Moment Studio</div>
+  <div class="report-footer-note">littlemomentstudio.co.uk &nbsp;·&nbsp; Competitor &amp; SEO Report &nbsp;·&nbsp; April 2026 &nbsp;·&nbsp; Internal use only</div>
+</div>
+
+</div><!-- /page -->
+</body>
+</html>
