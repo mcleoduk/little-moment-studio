@@ -54,7 +54,7 @@ Supporting articles:
 - `/how-much-do-birthday-balloons-cost.html` (orphan — live 6 Jun 2026)
 
 Checklist:
-- [ ] Pillar page links to all supporting articles — needs updating (new articles added 2 May 2026)
+- [x] Pillar page links to all supporting articles — done 2 May 2026
 - [x] Every supporting article links back to pillar page — confirmed for all articles above
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Birthday Balloons Kent | Little Moment Studio" (44 chars)
@@ -74,7 +74,7 @@ Supporting articles:
 - `/how-to-style-cupcakes-on-dessert-table.html`
 
 Checklist:
-- [ ] Pillar page links to all supporting articles — needs updating (new articles added 2 May 2026)
+- [x] Pillar page links to all supporting articles — done 2 May 2026
 - [x] Every supporting article links back to pillar page — confirmed for all articles above
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Balloon Garlands & Arches Kent | Little Moment Studio" (53 chars)
@@ -103,8 +103,8 @@ Work through these in order. Tick each off as done.
 | 11 | Set up Google Business Profile | — | ⬜ To do (manual — highest impact single action) |
 | 42 | Add reverse links to princess-party-dessert-table-ideas.html and princess-party-cupcake-ideas.html | birthday-balloons-kent.html | ✅ Done 29 Apr 2026 |
 | 43 | Fix title tags — over 60 chars (12 articles) | 6× title reduced, 6× brand name added | ✅ Done 2 May 2026 |
-| 44 | Add links to 10 new theme articles | birthday-balloons-kent.html | ⬜ To do — add links to all theme party articles |
-| 45 | Add links to 3 new garland/cupcake articles | balloon-garlands-kent.html | ⬜ To do — add links to what-is-organic-garland, are-latex-balloons-safe, how-to-style-cupcakes |
+| 44 | Add links to 10 new theme articles | birthday-balloons-kent.html | ✅ Done 2 May 2026 |
+| 45 | Add links to 3 new garland/cupcake articles | balloon-garlands-kent.html | ✅ Done 2 May 2026 |
 
 ### 🟡 Medium Priority
 
