@@ -39,14 +39,14 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 May | Farm Cupcake Ideas: 2 Easy Designs for a Barnyard Party Table | farm-cupcake-ideas-barnyard-party-table.html | Written — local only |
-| 2 May | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 3 May | How Far in Advance Should You Book Birthday Balloons? | how-far-in-advance-book-birthday-balloons.html | Written — local only |
-| 4 May | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 5 May | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
-| 6 May | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | Written — local only |
-| 7 May | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | Written — local only |
-| 8 May | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
+| 1 May | Farm Cupcake Ideas: 2 Easy Designs for a Barnyard Party Table | farm-cupcake-ideas-barnyard-party-table.html | **LIVE** |
+| 2 May | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | **LIVE** |
+| 3 May | How Far in Advance Should You Book Birthday Balloons? | how-far-in-advance-book-birthday-balloons.html | **LIVE** |
+| 4 May | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | **LIVE** |
+| 5 May | Are Latex Balloons Safe? | are-latex-balloons-safe.html | **LIVE** |
+| 6 May | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | **LIVE** |
+| 7 May | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | **LIVE** |
+| 8 May | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | **LIVE** |
 | 9 May | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
 | 10 May | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 11 May | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
