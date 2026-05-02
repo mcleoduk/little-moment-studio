@@ -35,12 +35,24 @@ Target frequency: **15 articles per month**
 
 ---
 
-## May 2026 — 15 Article Target
+## May 2026 — 22 Articles
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
+| 1 May | Farm Cupcake Ideas: 2 Easy Designs for a Barnyard Party Table | farm-cupcake-ideas-barnyard-party-table.html | Written — local only |
+| 2 May | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 3 May | How Far in Advance Should You Book Birthday Balloons? | how-far-in-advance-book-birthday-balloons.html | Written — local only |
+| 4 May | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 5 May | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
+| 6 May | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | Written — local only |
+| 7 May | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | Written — local only |
+| 8 May | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
+| 9 May | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
 | 10 May | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 11 May | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
+| 13 May | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
+| 14 May | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Written — local only |
 | 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
 | 17 May | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
 | 19 May | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
@@ -52,23 +64,12 @@ Target frequency: **15 articles per month**
 
 ---
 
-## June 2026 — 15 Article Target
+## June 2026 — 3 Articles
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 Jun | Farm Cupcake Ideas: 2 Easy Designs for a Barnyard Party Table | farm-cupcake-ideas-barnyard-party-table.html | Written — local only |
-| 3 Jun | Race Car Party Balloon & Dessert Table Ideas | race-car-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 5 Jun | How Far in Advance Should You Book Birthday Balloons? | how-far-in-advance-book-birthday-balloons.html | Written — local only |
-| 7 Jun | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 9 Jun | Are Latex Balloons Safe? | are-latex-balloons-safe.html | Written — local only |
-| 11 Jun | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | Written — local only |
-| 13 Jun | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | Written — local only |
-| 15 Jun | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | Written — local only |
-| 17 Jun | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
+| 6 Jun | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | Brief ready — not started |
 | 19 Jun | TBD | — | Not started |
-| 20 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
-| 22 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
-| 24 Jun | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Written — local only |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
 
