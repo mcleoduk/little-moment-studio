@@ -1,6 +1,6 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 26 April 2026
+Last updated: 2 May 2026
 
 ---
 
@@ -39,10 +39,23 @@ Supporting articles:
 - `/mermaid-cupcake-ideas.html`
 - `/wizard-cupcake-ideas.html`
 - `/fondant-cupcake-ideas-baby-shower-birthday.html`
+- `/princess-party-dessert-table-ideas.html`
+- `/princess-party-cupcake-ideas.html`
+- `/dinosaur-party-cupcake-ideas.html`
+- `/dinosaur-party-balloon-dessert-table-ideas.html`
+- `/superhero-party-balloon-dessert-table-ideas.html`
+- `/unicorn-party-balloon-dessert-table-ideas.html`
+- `/race-car-party-balloon-dessert-table-ideas.html`
+- `/construction-party-balloon-dessert-table-ideas.html`
+- `/football-party-balloon-dessert-table-ideas.html`
+- `/tropical-island-party-balloon-dessert-table-ideas.html`
+- `/farm-cupcake-ideas-barnyard-party-table.html`
+- `/how-far-in-advance-book-birthday-balloons.html`
+- `/how-much-do-birthday-balloons-cost.html` (orphan — live 6 Jun 2026)
 
 Checklist:
-- [x] Pillar page links to every supporting article — done 26 Apr 2026
-- [x] Every supporting article links back to pillar page — done 26 Apr 2026
+- [ ] Pillar page links to all supporting articles — needs updating (new articles added 2 May 2026)
+- [x] Every supporting article links back to pillar page — confirmed for all articles above
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Birthday Balloons Kent | Little Moment Studio" (44 chars)
 - [x] Meta description ≤160 chars — 158 chars
@@ -56,10 +69,13 @@ Supporting articles:
 - `/best-balloon-colours-2025.html`
 - `/how-to-style-dessert-table-childrens-party.html`
 - `/how-long-do-balloons-last.html`
+- `/what-is-an-organic-balloon-garland.html`
+- `/are-latex-balloons-safe.html`
+- `/how-to-style-cupcakes-on-dessert-table.html`
 
 Checklist:
-- [x] Pillar page links to every supporting article — done 26 Apr 2026
-- [x] Every supporting article links back to pillar page — done 26 Apr 2026
+- [ ] Pillar page links to all supporting articles — needs updating (new articles added 2 May 2026)
+- [x] Every supporting article links back to pillar page — confirmed for all articles above
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Balloon Garlands & Arches Kent | Little Moment Studio" (53 chars)
 - [x] Meta description ≤160 chars — 155 chars
@@ -85,6 +101,10 @@ Work through these in order. Tick each off as done.
 | 9 | Fix title tag — over 60 chars | faqs.html | ✅ Done 22 Apr — Live |
 | 10 | Fix meta description — over 160 chars | faqs.html | ✅ Done 22 Apr — Live |
 | 11 | Set up Google Business Profile | — | ⬜ To do (manual — highest impact single action) |
+| 42 | Add reverse links to princess-party-dessert-table-ideas.html and princess-party-cupcake-ideas.html | birthday-balloons-kent.html | ✅ Done 29 Apr 2026 |
+| 43 | Fix title tags — over 60 chars (12 articles) | 6× title reduced, 6× brand name added | ✅ Done 2 May 2026 |
+| 44 | Add links to 10 new theme articles | birthday-balloons-kent.html | ⬜ To do — add links to all theme party articles |
+| 45 | Add links to 3 new garland/cupcake articles | balloon-garlands-kent.html | ⬜ To do — add links to what-is-organic-garland, are-latex-balloons-safe, how-to-style-cupcakes |
 
 ### 🟡 Medium Priority
 
@@ -172,12 +192,12 @@ Work through these in order. Tick each off as done.
 
 ### Gallery (gallery.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 7–8)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Balloon Styling Gallery Kent \| Baby Showers, Birthdays & Events \| Little Moment Studio — **86 chars ⚠️** |
-| **Meta description** | 170 chars ⚠️ |
+| **Meta title** | Balloon Styling Gallery Kent \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | Balloon Decor & Event Styling Across Kent |
 | **Target keywords** | balloon styling gallery Kent, baby shower balloons Kent, birthday balloon decor Kent |
 | **Image alt texts** | ✅ All updated with Kent-first positioning |
@@ -187,12 +207,12 @@ Work through these in order. Tick each off as done.
 
 ### FAQs (faqs.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 9–10)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | FAQs \| Balloon Styling Kent \| Booking, Pricing & Setup \| Little Moment Studio — **77 chars ⚠️** |
-| **Meta description** | 189 chars ⚠️ |
+| **Meta title** | Balloon Styling FAQs Kent \| Little Moment Studio (49 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | Balloon Styling FAQs |
 | **Target keywords** | balloon styling FAQ Kent, how much do balloon decorations cost Kent |
 | **Schema** | ✅ FAQ JSON-LD — 20 questions including 7 LLM-optimised queries |
@@ -201,12 +221,12 @@ Work through these in order. Tick each off as done.
 
 ### Baby Shower Balloons Kent (baby-shower-balloons-kent.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 1–2)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Baby Shower Balloons Kent \| Beautiful Balloon Styling & Decorations \| Little Moment Studio — **90 chars ⚠️** |
-| **Meta description** | 190 chars ⚠️ |
+| **Meta title** | Baby Shower Balloons Kent \| Little Moment Studio (48 chars) |
+| **Meta description** | ✅ 149 chars |
 | **H1** | Beautiful Baby Shower Balloon Styling in Kent |
 | **Target keywords** | baby shower balloons Kent, baby shower decorations Kent, baby shower balloon garland Kent |
 | **Schema** | ✅ Service JSON-LD |
@@ -216,12 +236,12 @@ Work through these in order. Tick each off as done.
 
 ### Birthday Balloons Kent (birthday-balloons-kent.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 3–4)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Birthday Balloons Kent \| First Birthday & Party Balloon Styling \| Little Moment Studio — **86 chars ⚠️** |
-| **Meta description** | 188 chars ⚠️ |
+| **Meta title** | Birthday Balloons Kent \| Little Moment Studio (44 chars) |
+| **Meta description** | ✅ 158 chars |
 | **H1** | Birthday Balloon Styling Across Kent |
 | **Target keywords** | birthday balloons Kent, first birthday balloons Kent, kids party balloons Kent |
 | **Schema** | ✅ Service JSON-LD |
@@ -231,12 +251,12 @@ Work through these in order. Tick each off as done.
 
 ### Balloon Garlands & Arches Kent (balloon-garlands-kent.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 5–6)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Balloon Garlands & Arches Kent \| Organic Balloon Displays \| Little Moment Studio — **80 chars ⚠️** |
-| **Meta description** | 187 chars ⚠️ |
+| **Meta title** | Balloon Garlands & Arches Kent \| Little Moment Studio (53 chars) |
+| **Meta description** | ✅ 155 chars |
 | **H1** | Balloon Garlands & Arches Across Kent |
 | **Target keywords** | balloon garland Kent, balloon arch Kent, organic balloon garland |
 | **Schema** | ✅ Service JSON-LD |
@@ -246,12 +266,12 @@ Work through these in order. Tick each off as done.
 
 ### Baby Shower Balloons Maidstone (baby-shower-balloons-maidstone.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 22–23)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Baby Shower Balloon Styling Maidstone \| Little Moment Studio Kent — **65 chars ⚠️** |
-| **Meta description** | 179 chars ⚠️ |
+| **Meta title** | Baby Shower Balloons Maidstone \| Little Moment Studio (54 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | Baby Shower Balloon Styling in Maidstone |
 | **Target keywords** | baby shower balloons Maidstone, baby shower decorations Maidstone |
 | **Notes** | Location page — 12 miles from studio, real venues listed |
@@ -335,12 +355,12 @@ Work through these in order. Tick each off as done.
 
 ### Baby Shower Balloon Ideas (baby-shower-balloon-ideas.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 12–13)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Baby Shower Balloon Ideas 2025 \| Themes, Colours & Styling Tips \| Little Moment Studio — **86 chars ⚠️** |
-| **Meta description** | 195 chars ⚠️ |
+| **Meta title** | Baby Shower Balloon Ideas 2025 \| Little Moment Studio (54 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | Baby Shower Balloon Ideas: Themes, Colours & Styling Tips |
 | **Target keywords** | baby shower balloon ideas, baby shower balloon themes, baby shower colour palettes |
 | **Schema** | ✅ BlogPosting JSON-LD |
@@ -350,12 +370,12 @@ Work through these in order. Tick each off as done.
 
 ### Teddy Bear Baby Shower Ideas (teddy-bear-baby-shower-ideas.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 14–15)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Teddy Bear Baby Shower Ideas: Themes, Colours & Balloon Styling \| Little Moment Studio Kent — **91 chars ⚠️** |
-| **Meta description** | 175 chars ⚠️ |
+| **Meta title** | Teddy Bear Baby Shower Ideas \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | Teddy Bear Baby Shower Ideas |
 | **Target keywords** | teddy bear baby shower ideas, teddy bear baby shower balloons |
 | **Schema** | ✅ BlogPosting JSON-LD |
@@ -364,12 +384,12 @@ Work through these in order. Tick each off as done.
 
 ### First Birthday Balloon Ideas (first-birthday-balloon-ideas.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 16–17)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | First Birthday Balloon Ideas: Themes & Styling Tips \| Little Moment Studio Kent — **79 chars ⚠️** |
-| **Meta description** | 178 chars ⚠️ |
+| **Meta title** | First Birthday Balloon Ideas \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | First Birthday Balloon Ideas |
 | **Target keywords** | first birthday balloon ideas, first birthday balloons Kent |
 | **Schema** | ✅ BlogPosting JSON-LD |
@@ -378,12 +398,12 @@ Work through these in order. Tick each off as done.
 
 ### Best Balloon Colours (best-balloon-colours-2025.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 18–19)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Best Balloon Colours 2026 \| Trending Balloon Decor Kent \| Little Moment Studio — **78 chars ⚠️** |
-| **Meta description** | 195 chars ⚠️ |
+| **Meta title** | Best Balloon Colours 2026 \| Little Moment Studio Kent (54 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **H1** | Best Balloon Colours for Kent Celebrations in 2025 |
 | **Target keywords** | balloon colours 2026, trending balloon colours Kent |
 | **Schema** | ✅ BlogPosting JSON-LD |
@@ -392,12 +412,12 @@ Work through these in order. Tick each off as done.
 
 ### Easter Balloon Ideas (easter-balloon-ideas.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 20–21)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Easter Balloon Ideas for Parties & Egg Hunts 2026 \| Little Moment Studio Kent — **77 chars ⚠️** |
-| **Meta description** | 175 chars ⚠️ |
+| **Meta title** | Easter Balloon Ideas 2026 \| Little Moment Studio Kent (54 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **Target keywords** | Easter balloon ideas, Easter party balloons Kent |
 | **Schema** | ✅ BlogPosting JSON-LD |
 
@@ -405,12 +425,12 @@ Work through these in order. Tick each off as done.
 
 ### Baby Shower Questions Answered (baby-shower-questions-answered.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 28–29)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Baby Shower: Your Questions Answered \| Complete UK Guide 2026 \| Little Moment Studio — **84 chars ⚠️** |
-| **Meta description** | 169 chars ⚠️ |
+| **Meta title** | Baby Shower Questions Answered \| Little Moment Studio (54 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **Target keywords** | baby shower questions UK, what happens at a baby shower, baby shower guide |
 | **Schema** | ✅ BlogPosting JSON-LD |
 
@@ -418,11 +438,11 @@ Work through these in order. Tick each off as done.
 
 ### Baby Shower Venues Sittingbourne (baby-shower-venues-sittingbourne.html)
 
-**Status:** ⚠️ Title needs fixing (item 24)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Best Baby Shower Venues Near Sittingbourne \| Local Guide \| Little Moment Studio — **79 chars ⚠️** |
+| **Meta title** | Baby Shower Venues Near Sittingbourne \| Little Moment Studio (61 chars) |
 | **Meta description** | ✅ 157 chars |
 | **Target keywords** | baby shower venues Sittingbourne, baby shower venues Kent |
 
@@ -430,11 +450,11 @@ Work through these in order. Tick each off as done.
 
 ### Journal (journal.html)
 
-**Status:** ⚠️ Title needs fixing (item 25)
+**Status:** ✅ Optimised — 22 April 2026
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Journal \| Balloon Styling Ideas & Inspiration Kent \| Little Moment Studio — **73 chars ⚠️** |
+| **Meta title** | Balloon Styling Journal \| Little Moment Studio Kent (52 chars) |
 | **Meta description** | ✅ 155 chars |
 | **Target keywords** | balloon styling ideas Kent, balloon inspiration |
 
@@ -442,21 +462,264 @@ Work through these in order. Tick each off as done.
 
 ### How to Make a Fake Cake (how-to-make-a-fake-cake.html)
 
-**Status:** ⚠️ Title & meta need fixing (items 26–27)
+**Status:** ⚠️ Hero image needed before publishing (title & meta fixed 22 Apr 2026)
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | How to Make a Fake Cake for Celebrations \| DIY Guide \| Little Moment Studio — **75 chars ⚠️** |
-| **Meta description** | 193 chars ⚠️ |
+| **Meta title** | How to Make a Fake Cake \| Little Moment Studio Kent (52 chars) |
+| **Meta description** | ✅ ≤160 chars |
 | **Target keywords** | how to make a fake cake, fake cake DIY, fake celebration cake |
 | **Schema** | ✅ BlogPosting JSON-LD |
 | **Notes** | Hero image still needed before publishing |
 
 ---
 
+### Princess Party Dessert Table Ideas (princess-party-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 28 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Princess Party Dessert Table Ideas \| Little Moment Studio (58 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Princess Party Dessert Table Ideas |
+| **Target keywords** | princess party dessert table, princess party food ideas, princess birthday table ideas |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+| **Reverse link** | ✅ birthday-balloons-kent.html — done 29 Apr 2026 |
+
+---
+
+### Princess Party Cupcake Ideas (princess-party-cupcake-ideas.html)
+
+**Status:** ✅ Live — 29 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Princess Party Cupcake Ideas \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Princess Party Cupcake Ideas: 2 Easy Pink & Gold Designs |
+| **Target keywords** | princess party cupcakes, princess cupcake ideas, pink and gold cupcakes |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar), princess-party-dessert-table-ideas.html, birthday-cupcake-ideas.html, how-to-style-dessert-table-childrens-party.html |
+| **Reverse link** | ✅ birthday-balloons-kent.html — done 29 Apr 2026 |
+
+---
+
 ### Privacy Policy & Terms (privacy-policy.html / terms.html)
 
 **Status:** ✅ No SEO needed — both correctly set to `noindex`
+
+---
+
+### Dinosaur Party Cupcake Ideas (dinosaur-party-cupcake-ideas.html)
+
+**Status:** ✅ Live — 26 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Dinosaur Party Cupcake Ideas \| Little Moment Studio (51 chars) |
+| **Meta description** | ✅ 133 chars |
+| **H1** | Dinosaur Party Cupcake Ideas: 2 Easy Designs for a Roarsome Birthday Table |
+| **Target keywords** | dinosaur party cupcakes, dinosaur cupcake ideas, dinosaur birthday cake |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### Superhero Party Balloon & Dessert Table Ideas (superhero-party-balloon-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 27 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Superhero Party Balloon Ideas \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ 146 chars |
+| **H1** | Superhero Party Balloon & Dessert Table Ideas |
+| **Target keywords** | superhero party balloons, superhero birthday party ideas, superhero dessert table |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### What Is an Organic Balloon Garland? (what-is-an-organic-balloon-garland.html)
+
+**Status:** ✅ Live — 28 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | What Is an Organic Balloon Garland? \| Little Moment Studio (58 chars) |
+| **Meta description** | ✅ 155 chars |
+| **H1** | What Is an Organic Balloon Garland? |
+| **Target keywords** | organic balloon garland, what is a balloon garland, balloon garland vs arch |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar) |
+
+---
+
+### Unicorn Party Balloon & Dessert Table Ideas (unicorn-party-balloon-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 29 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Unicorn Party Balloon Ideas \| Little Moment Studio (50 chars) |
+| **Meta description** | ✅ 144 chars |
+| **H1** | Unicorn Party Balloon & Dessert Table Ideas |
+| **Target keywords** | unicorn party balloons, unicorn birthday party ideas, unicorn dessert table |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### 10 Essential Piping Tips for Cupcakes (top-10-piping-tips-for-cupcakes.html)
+
+**Status:** ✅ Live — 30 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | 10 Essential Piping Tips for Cupcakes \| Little Moment Studio (60 chars) |
+| **Meta description** | ✅ 123 chars |
+| **H1** | 10 Essential Piping Tips for Cupcakes: A Beginner's Guide |
+| **Target keywords** | cupcake piping tips, piping nozzles for cupcakes, how to pipe cupcakes |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### Farm Cupcake Ideas (farm-cupcake-ideas-barnyard-party-table.html)
+
+**Status:** ✅ Live — 1 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Farm & Barnyard Cupcake Ideas \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ 146 chars |
+| **H1** | Farm Cupcake Ideas: 2 Easy Designs for a Barnyard Party Table |
+| **Target keywords** | farm cupcake ideas, barnyard cupcakes, farm birthday party food |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### Race Car Party Balloon & Dessert Table Ideas (race-car-party-balloon-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 2 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Race Car Party Balloon Ideas \| Little Moment Studio (51 chars) |
+| **Meta description** | ✅ 146 chars |
+| **H1** | Race Car Party Balloon & Dessert Table Ideas |
+| **Target keywords** | race car party balloons, racing car birthday party, Fast One birthday ideas |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### How Early to Book Birthday Balloons (how-far-in-advance-book-birthday-balloons.html)
+
+**Status:** ✅ Live — 3 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | How Early to Book Birthday Balloons \| Little Moment Studio (58 chars) |
+| **Meta description** | ✅ 158 chars |
+| **H1** | How Far in Advance Should You Book Birthday Balloons? |
+| **Target keywords** | when to book birthday balloons, how far in advance balloon booking, last minute balloons |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar), balloon-garlands-kent.html |
+
+---
+
+### Construction Party Balloon & Dessert Table Ideas (construction-party-balloon-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 4 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Construction Party Balloon Ideas \| Little Moment Studio (55 chars) |
+| **Meta description** | ✅ 155 chars |
+| **H1** | Construction Party Balloon & Dessert Table Ideas |
+| **Target keywords** | construction party balloons, digger birthday party, building site party ideas |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### Are Latex Balloons Safe? (are-latex-balloons-safe.html)
+
+**Status:** ✅ Live — 5 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Are Latex Balloons Safe? \| Little Moment Studio (47 chars) |
+| **Meta description** | ✅ 150 chars |
+| **H1** | Are Latex Balloons Safe? |
+| **Target keywords** | are latex balloons safe, latex balloon allergy, are balloons safe for children |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar) |
+
+---
+
+### Football Party Balloon & Dessert Table Ideas (football-party-balloon-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 6 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Football Party Balloon Ideas \| Little Moment Studio (51 chars) |
+| **Meta description** | ✅ 152 chars |
+| **H1** | Football Party Balloon & Dessert Table Ideas |
+| **Target keywords** | football party balloons, football birthday party ideas, football dessert table |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### Tropical Island Party Balloon & Dessert Table Ideas (tropical-island-party-balloon-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 7 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Tropical Island Party Balloon Ideas \| Little Moment Studio (58 chars) |
+| **Meta description** | ✅ 151 chars |
+| **H1** | Tropical Island Party Balloon & Dessert Table Ideas |
+| **Target keywords** | tropical island party balloons, tropical birthday party ideas, luau party balloons |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
+### Styling Cupcakes on a Dessert Table (how-to-style-cupcakes-on-dessert-table.html)
+
+**Status:** ✅ Live — 8 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Styling Cupcakes on a Dessert Table \| Little Moment Studio (58 chars) |
+| **Meta description** | ✅ 160 chars |
+| **H1** | How to Style Cupcakes on a Dessert Table |
+| **Target keywords** | how to style cupcakes on a dessert table, cupcake display ideas, dessert table styling |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar) |
+
+---
+
+### How Much Do Birthday Balloons Cost? (how-much-do-birthday-balloons-cost.html)
+
+**Status:** ⚠️ Orphan — publish 6 June 2026. Needs: Sam's price figures (12 × £XX placeholders) + hero image (gallery/birthdays/birthday-balloon-cost-guide-kent.webp)
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | How Much Do Birthday Balloons Cost? \| Little Moment Studio (57 chars) |
+| **Meta description** | ✅ 158 chars |
+| **H1** | How Much Do Birthday Balloons Cost? Prices & What to Expect |
+| **Target keywords** | how much do birthday balloons cost, birthday balloon prices, balloon stylist cost UK |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar), balloon-garlands-kent.html |
+| **Notes** | 12 × £XX price placeholders in body and sidebar — replace with Sam's figures before publishing |
 
 ---
 
