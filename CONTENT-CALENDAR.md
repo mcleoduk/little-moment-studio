@@ -26,6 +26,11 @@ Target frequency: **15 articles per month**
 | 27 Apr 2026 | Dinosaur Party Balloon & Dessert Table Ideas | dinosaur-party-balloon-dessert-table-ideas.html | Styling & Inspiration |
 | 28 Apr 2026 | Princess Party Dessert Table Ideas | princess-party-dessert-table-ideas.html | Styling & Inspiration |
 | 29 Apr 2026 | Princess Party Cupcake Ideas | princess-party-cupcake-ideas.html | Styling & Inspiration |
+| 26 Apr 2026 | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Styling & Inspiration |
+| 27 Apr 2026 | Superhero Party Balloon & Dessert Table Ideas | superhero-party-balloon-dessert-table-ideas.html | Styling & Inspiration |
+| 28 Apr 2026 | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Planning & Advice |
+| 29 Apr 2026 | Unicorn Party Balloon & Dessert Table Ideas | unicorn-party-balloon-dessert-table-ideas.html | Styling & Inspiration |
+| 30 Apr 2026 | 10 Essential Piping Tips for Cupcakes: Beginner Guide | top-10-piping-tips-for-cupcakes.html | DIY & Tutorial |
 | 12 May 2026 | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | Styling & Inspiration |
 
 ---
@@ -34,11 +39,6 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 1 May | Dinosaur Party Cupcake Ideas | dinosaur-party-cupcake-ideas.html | Committed — orphan |
-| 3 May | Superhero Party Balloon & Dessert Table Ideas | superhero-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 5 May | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Committed — orphan |
-| 7 May | Unicorn Party Balloon & Dessert Table Ideas | unicorn-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 8 May | Best Piping Tips for Cupcakes: Beginner Guide | best-piping-tips-for-cupcakes.html | Committed — orphan |
 | 10 May | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
 | 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
