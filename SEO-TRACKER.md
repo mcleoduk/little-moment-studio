@@ -139,7 +139,9 @@ Work through these in order. Tick each off as done.
 | 38 | Create baby-shower-balloons-faversham.html | New page | ✅ Done 22 Apr — Live |
 | 39 | Create birthday-balloons-faversham.html | New page | ✅ Done 22 Apr — Live |
 | 40 | Create balloon-garlands-faversham.html | New page | ✅ Done 22 Apr — Live |
-| 33 | Create balloon-styling-medway.html | New page | ⬜ To do |
+| 33 | Create baby-shower-balloons-medway.html | New page | ✅ Done 2 May 2026 |
+| 46 | Create birthday-balloons-medway.html | New page | ✅ Done 2 May 2026 |
+| 47 | Create balloon-garlands-medway.html | New page | ✅ Done 2 May 2026 |
 | 34 | Create balloon-styling-canterbury.html | New page | ⬜ To do |
 | 35 | Add ImageGallery schema | gallery.html | ⬜ To do |
 | 36 | Add "Who We Are" plain-text paragraph | index.html | ⬜ To do |
@@ -350,6 +352,51 @@ Work through these in order. Tick each off as done.
 | **Target keywords** | balloon garland Faversham, balloon arch Faversham, organic balloon garland Faversham |
 | **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
 | **Notes** | Location page — 7 miles / 10 min from studio. Usually no delivery charge. |
+
+---
+
+### Baby Shower Balloons Medway (baby-shower-balloons-medway.html)
+
+**Status:** ✅ Live — 2 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Medway \| Little Moment Studio (52 chars) |
+| **Meta description** | Baby shower balloon styling across Medway, Kent. Organic garlands, backdrops & displays for Rochester, Chatham, Gillingham and Strood. Based in Sittingbourne. (158 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | baby shower balloons Medway, baby shower decorations Medway, baby shower balloons Rochester, baby shower balloons Chatham |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — ~15 miles / ~20 min from studio. Small delivery charge may apply. 4 venues: Bridgewood Manor Hotel, Chatham Historic Dockyard, Cooling Castle Barn, Ship & Trades. |
+
+---
+
+### Birthday Balloons Medway (birthday-balloons-medway.html)
+
+**Status:** ✅ Live — 2 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Birthday Balloons Medway \| Little Moment Studio (48 chars) |
+| **Meta description** | Birthday balloon styling across Medway, Kent. Garlands, arches & party displays for first birthdays & milestones in Rochester, Chatham and Gillingham. (149 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | birthday balloons Medway, first birthday balloons Medway, party balloons Rochester, birthday balloons Chatham |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — ~15 miles / ~20 min from studio. Small delivery charge may apply. 4 venues: Bridgewood Manor Hotel, Chatham Historic Dockyard, Cooling Castle Barn, private homes. |
+
+---
+
+### Balloon Garlands Medway (balloon-garlands-medway.html)
+
+**Status:** ✅ Live — 2 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Balloon Garlands Medway \| Little Moment Studio (47 chars) |
+| **Meta description** | Balloon garlands and arches across Medway, Kent. Organic displays for baby showers, birthdays & events in Rochester, Chatham and Gillingham. (140 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Target keywords** | balloon garland Medway, balloon arch Medway, organic balloon garland Rochester, balloon garland Chatham |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) |
+| **Notes** | Location page — ~15 miles / ~20 min from studio. Small delivery charge may apply. 4 venues: Chatham Historic Dockyard, Bridgewood Manor Hotel, Cooling Castle Barn, private homes. |
 
 ---
 
