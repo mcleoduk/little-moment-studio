@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8DG3BN9RBZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8DG3BN9RBZ');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berrylicious Cakes Partner | Little Moment Studio</title>
+  <meta name="description" content="Little Moment Studio recommends Berrylicious — Cakes by Jacqui. Handmade bespoke cakes and cupcakes in Medway and Kent, perfect alongside balloon styling and dessert table setups.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://littlemomentstudio.co.uk/berrylicious-cakes-partner.html">
+  <meta property="og:title" content="Berrylicious Cakes Partner | Little Moment Studio">
+  <meta property="og:description" content="We recommend Berrylicious — Cakes by Jacqui for handmade bespoke cakes and cupcakes alongside your balloon styling.">
+  <meta property="og:url" content="https://littlemomentstudio.co.uk/berrylicious-cakes-partner.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://littlemomentstudio.co.uk/gallery/cupcakes/berrylicious-cakes-kent.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ── TOKENS ── */
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --bg3:       #FFFFFF;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-dk: #A8885A;
+      --accent-lt: #E6D8C3;
+      --border:    rgba(74,74,74,0.10);
+      --shadow:    0 2px 10px rgba(74,74,74,0.06), 0 12px 36px rgba(74,74,74,0.08);
+      --shadow-sm: 0 1px 4px rgba(74,74,74,0.06), 0 4px 16px rgba(74,74,74,0.06);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+      --r:         16px;
+      --max:       1200px;
+    }
+
+    /* ── RESET ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-b); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font-family: inherit; }
+
+    .container { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+    /* ── TOPBAR ── */
+    .topbar { background: var(--text); color: rgba(255,255,255,0.8); padding: 10px 0; font-size: 13px; }
+    .topbar .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .topbar-left { display: flex; align-items: center; gap: 24px; }
+    .topbar-link { display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.7); transition: color 0.2s ease; }
+    .topbar-link:hover { color: #fff; }
+    .topbar-cta { background: var(--accent); color: #fff; padding: 6px 18px; border-radius: 50px; font-size: 12px; font-weight: 500; letter-spacing: 0.04em; transition: background 0.2s ease; }
+    .topbar-cta:hover { background: var(--accent-lt); }
+    @media (max-width: 600px) { .topbar-link span { display: none; } .topbar-left { gap: 12px; } }
+
+    /* ── NAV ── */
+    .nav { background: var(--bg); padding: 16px 0; position: sticky; top: 0; z-index: 100; transition: box-shadow 0.3s ease, padding 0.3s ease; }
+    .nav.scrolled { box-shadow: var(--shadow-sm); padding: 10px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 88px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--muted); transition: color 0.2s ease; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 0; height: 1px; background: var(--accent); transition: width 0.25s ease; }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
+    @media (max-width: 900px) { .nav-links, .nav-book { display: none; } .nav-hamburger { display: flex; } }
+
+    /* ── MOBILE NAV ── */
+    .nav-mobile { display: none; position: fixed; inset: 0; background: var(--bg); z-index: 200; flex-direction: column; align-items: center; justify-content: center; }
+    .nav-mobile.open { display: flex; }
+    .nav-mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; font-size: 32px; cursor: pointer; color: var(--text); line-height: 1; }
+    .nav-mobile-links { list-style: none; text-align: center; display: flex; flex-direction: column; gap: 4px; }
+    .nav-mobile-links a { font-family: var(--font-h); font-size: 30px; font-weight: 400; color: var(--text); display: block; padding: 8px 0; transition: color 0.2s ease; }
+    .nav-mobile-links a:hover { color: var(--accent); }
+    .nav-mobile-cta { margin-top: 32px; }
+
+    /* ── BUTTONS ── */
+    .btn { display: inline-block; padding: 14px 32px; border-radius: 50px; font-size: 14px; font-weight: 500; letter-spacing: 0.03em; transition: all 0.25s ease; cursor: pointer; border: none; text-align: center; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-dk); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(216,196,165,0.4); }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent-dk); }
+    .btn-outline-white { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+    .btn-outline-white:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.8); }
+
+    /* ── PHOTO HERO ── */
+    .photo-hero {
+      position: relative;
+      height: clamp(380px, 55vw, 560px);
+      overflow: hidden;
+    }
+    .photo-hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+    }
+    .photo-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(74,74,74,0.72) 0%, rgba(74,74,74,0.30) 60%, rgba(74,74,74,0.10) 100%);
+    }
+    .photo-hero-content {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 32px;
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+    .photo-hero-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--accent-lt);
+      margin-bottom: 16px;
+    }
+    .photo-hero-title {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 5vw, 54px);
+      font-weight: 500; line-height: 1.12;
+      color: #fff; margin-bottom: 18px;
+      letter-spacing: -0.02em;
+      max-width: 600px;
+    }
+    .photo-hero-title em { font-style: italic; color: var(--accent-lt); }
+    .photo-hero-sub {
+      font-size: 16px; line-height: 1.65;
+      color: rgba(255,255,255,0.82);
+      max-width: 480px;
+    }
+    @media (max-width: 600px) {
+      .photo-hero-content { padding: 0 20px; }
+      .photo-hero-overlay { background: rgba(74,74,74,0.6); }
+    }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb { padding: 14px 0; font-size: 13px; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .breadcrumb a { color: var(--muted); transition: color 0.2s ease; }
+    .breadcrumb a:hover { color: var(--accent-dk); }
+    .breadcrumb span { margin: 0 8px; opacity: 0.5; }
+
+    /* ── INTRO ── */
+    .intro { padding: 80px 0; }
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .intro-img {
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+    .intro-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .intro-img::after {
+      content: '';
+      position: absolute; inset: 0;
+      border-radius: var(--r);
+      box-shadow: inset 0 0 0 1px rgba(74,74,74,0.06);
+      pointer-events: none;
+    }
+    .intro-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 16px;
+    }
+    .intro-content h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 36px);
+      font-weight: 500; line-height: 1.2; margin-bottom: 20px;
+    }
+    .intro-content h2 em { font-style: italic; color: var(--accent-dk); }
+    .intro-content p { font-size: 15px; line-height: 1.8; color: var(--muted); margin-bottom: 16px; }
+    .highlight {
+      background: var(--secondary);
+      padding: 20px 24px;
+      border-radius: var(--r);
+      font-size: 14px; line-height: 1.7;
+      color: var(--text); margin-top: 24px;
+      border-left: 3px solid var(--accent);
+    }
+    @media (max-width: 768px) { .intro-grid { grid-template-columns: 1fr; gap: 40px; } }
+
+    /* ── WHAT SHE MAKES ── */
+    .makes { padding: 80px 0; background: var(--bg2); }
+    .makes-header { text-align: center; margin-bottom: 48px; }
+    .makes-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .makes-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .makes-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .makes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .makes-card {
+      background: var(--bg3);
+      border-radius: var(--r);
+      padding: 24px 24px 22px;
+      box-shadow: var(--shadow-sm);
+      display: flex; align-items: flex-start; gap: 14px;
+      transition: transform 0.25s ease;
+    }
+    .makes-card:hover { transform: translateY(-2px); }
+    .makes-icon {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: var(--secondary);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; font-size: 16px;
+    }
+    .makes-card h3 {
+      font-family: var(--font-h);
+      font-size: 15px; font-weight: 500;
+      color: var(--text); margin-bottom: 4px; line-height: 1.3;
+    }
+    .makes-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    @media (max-width: 768px) { .makes-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .makes-grid { grid-template-columns: 1fr; } }
+
+    /* ── GALLERY ── */
+    .gallery { padding: 80px 0; }
+    .gallery-header { text-align: center; margin-bottom: 48px; }
+    .gallery-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .gallery-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .gallery-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .gallery-item {
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      aspect-ratio: 4/3;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .gallery-item:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+    .gallery-item img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .gallery-item:hover img { transform: scale(1.03); }
+    @media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; } }
+
+    /* ── PRICING ── */
+    .pricing { padding: 80px 0; background: var(--bg2); }
+    .pricing-header { text-align: center; margin-bottom: 12px; }
+    .pricing-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 12px;
+    }
+    .pricing-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 500; line-height: 1.15; margin-bottom: 10px;
+    }
+    .pricing-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .pricing-note {
+      font-size: 13px; color: var(--muted); text-align: center;
+      margin-bottom: 48px; max-width: 540px; margin-left: auto; margin-right: auto;
+    }
+    .pricing-tables {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .pricing-table {
+      background: var(--bg3);
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .pricing-table-head {
+      background: var(--secondary);
+      padding: 16px 24px;
+      border-bottom: 1px solid rgba(74,74,74,0.06);
+    }
+    .pricing-table-head h3 {
+      font-family: var(--font-h);
+      font-size: 17px; font-weight: 500; color: var(--text);
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 12px 24px; text-align: left; font-size: 14px; }
+    th { font-weight: 500; color: var(--muted); font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+    td { color: var(--text); border-bottom: 1px solid var(--border); line-height: 1.5; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: rgba(250,247,242,0.5); }
+    td.price { font-weight: 500; color: var(--accent-dk); white-space: nowrap; }
+    .pricing-tables-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 24px;
+    }
+    @media (max-width: 768px) {
+      .pricing-tables { grid-template-columns: 1fr; }
+      .pricing-tables-bottom { grid-template-columns: 1fr; }
+    }
+
+    /* ── WHY WE PARTNERED ── */
+    .why { padding: 80px 0; }
+    .why-inner {
+      max-width: 780px; margin: 0 auto; text-align: center;
+    }
+    .why-inner .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 16px;
+    }
+    .why-inner h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 38px);
+      font-weight: 500; line-height: 1.2; margin-bottom: 28px;
+    }
+    .why-inner h2 em { font-style: italic; color: var(--accent-dk); }
+    .why-inner p {
+      font-size: 16px; line-height: 1.85; color: var(--muted);
+      margin-bottom: 20px;
+    }
+    .why-inner p:last-of-type { margin-bottom: 0; }
+
+    /* ── HOW TO BOOK ── */
+    .book { padding: 80px 0; background: var(--bg2); }
+    .book-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+    .book-inner .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 16px;
+    }
+    .book-inner h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 38px);
+      font-weight: 500; line-height: 1.2; margin-bottom: 20px;
+    }
+    .book-inner h2 em { font-style: italic; color: var(--accent-dk); }
+    .book-inner p { font-size: 15px; line-height: 1.8; color: var(--muted); margin-bottom: 16px; }
+    .book-btns {
+      display: flex; gap: 16px; justify-content: center;
+      flex-wrap: wrap; margin-top: 36px;
+    }
+    .book-links {
+      display: flex; gap: 24px; justify-content: center;
+      flex-wrap: wrap; margin-top: 28px;
+    }
+    .book-link {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; color: var(--accent-dk); font-weight: 500;
+      transition: gap 0.2s ease;
+    }
+    .book-link:hover { gap: 12px; }
+    .book-link svg { flex-shrink: 0; }
+
+    /* ── CTA STRIP ── */
+    .cta-strip {
+      padding: 80px 0; text-align: center;
+      background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+      position: relative; overflow: hidden;
+    }
+    .cta-strip::before {
+      content: ''; position: absolute;
+      bottom: -100px; left: -100px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cta-strip h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 500; margin-bottom: 16px; position: relative;
+    }
+    .cta-strip h2 em { font-style: italic; color: var(--accent-dk); }
+    .cta-strip p { font-size: 16px; color: var(--muted); max-width: 500px; margin: 0 auto 32px; position: relative; }
+    .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; }
+
+    /* ── FOOTER ── */
+    .footer { background: var(--text); color: rgba(255,255,255,0.7); padding: 64px 0 0; }
+    .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .footer-brand-name { font-family: var(--font-h); font-size: 22px; color: #fff; margin-bottom: 4px; }
+    .footer-brand-tag { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .footer-brand-desc { font-size: 14px; line-height: 1.7; max-width: 280px; margin-bottom: 24px; }
+    .footer-socials { display: flex; gap: 10px; }
+    .footer-social { width: 34px; height: 34px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+    .footer-social:hover { border-color: var(--accent); background: rgba(216,196,165,0.1); }
+    .footer-col h4 { font-family: var(--font-h); font-size: 16px; color: #fff; margin-bottom: 16px; font-weight: 500; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 14px; transition: color 0.2s ease; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-ci { font-size: 14px; display: flex; align-items: flex-start; gap: 8px; margin-bottom: 12px; line-height: 1.5; }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; font-size: 13px; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { transition: color 0.2s ease; }
+    .footer-bottom-links a:hover { color: var(--accent); }
+    @media (max-width: 768px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 500px) {
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal.rd1 { transition-delay: 0.1s; }
+    .reveal.rd2 { transition-delay: 0.2s; }
+    .reveal.rd3 { transition-delay: 0.3s; }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:07864940864" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span>07864 940 864</span>
+      </a>
+      <a href="mailto:hello@littlemomentstudio.co.uk" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>hello@littlemomentstudio.co.uk</span>
+      </a>
+    </div>
+    <a href="index.html#contact" class="topbar-cta">Book Your Celebration &rarr;</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="Little Moment Studio" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.html#packages">Packages</a></li>
+        <li><a href="index.html#how">How It Works</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn-primary nav-book">Book Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="nav-mobile" id="mobileNav">
+  <button class="nav-mobile-close" id="mobileClose" aria-label="Close">&times;</button>
+  <ul class="nav-mobile-links">
+    <li><a href="index.html#services" onclick="closeNav()">Services</a></li>
+    <li><a href="gallery.html" onclick="closeNav()">Gallery</a></li>
+    <li><a href="index.html#packages" onclick="closeNav()">Packages</a></li>
+    <li><a href="index.html#how" onclick="closeNav()">How It Works</a></li>
+    <li><a href="faqs.html" onclick="closeNav()">FAQs</a></li>
+    <li><a href="index.html#contact" onclick="closeNav()">Contact</a></li>
+  </ul>
+  <a href="index.html#contact" class="btn btn-primary nav-mobile-cta" onclick="closeNav()">Book Your Celebration</a>
+</div>
+
+<!-- PHOTO HERO -->
+<div class="photo-hero">
+  <img src="gallery/cupcakes/berrylicious-cakes-kent.webp" alt="Berrylicious Cakes by Jacqui — handmade bespoke cupcakes for celebrations in Kent and Medway" class="photo-hero-img">
+  <div class="photo-hero-overlay"></div>
+  <div class="photo-hero-content">
+    <div class="photo-hero-label">A Little Moment Studio Partnership</div>
+    <h1 class="photo-hero-title">Little Moment Studio<br>&times; <em>Berrylicious Cakes</em></h1>
+    <p class="photo-hero-sub">Handmade bespoke cakes and cupcakes, beautifully paired with balloon styling and dessert table setups.</p>
+  </div>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="index.html">Home</a>
+    <span>›</span>
+    Berrylicious Cakes Partnership
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-content reveal">
+        <div class="intro-label">Our Recommended Cake Maker</div>
+        <h2>The Perfect <em>Finishing Touch</em></h2>
+        <p>We believe the best celebrations are the ones where every detail feels considered — from the balloon garland above the cake table right down to the cupcakes sitting on it.</p>
+        <p>That's why we're delighted to recommend Berrylicious — Cakes by Jacqui, an independent cake maker based in Rainham creating handmade, bespoke cakes and cupcakes for birthdays, baby showers, weddings and special occasions.</p>
+        <p>When you book your balloon styling with us, just let us know you'd love cakes too. We'll make sure the styling works beautifully together on the day. Bookings for cakes are made directly with Jacqui.</p>
+        <div class="highlight">
+          Berrylicious is based in Rainham and serves the wider Medway and Kent area. Known for detailed fondant work, elegant buttercream finishes and beautifully presented themed collections.
+        </div>
+      </div>
+      <div class="intro-img reveal rd1">
+        <img src="gallery/cupcakes/berrylicious-baby-shower-cupcakes-kent.webp" alt="Berrylicious baby shower cupcakes with fondant Oh Baby toppers and pink buttercream — Medway Kent">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT JACQUI MAKES -->
+<section class="makes">
+  <div class="container">
+    <div class="makes-header reveal">
+      <div class="label">The Full Range</div>
+      <h2>What <em>Jacqui Creates</em></h2>
+    </div>
+    <div class="makes-grid">
+      <div class="makes-card reveal">
+        <div class="makes-icon">🎂</div>
+        <div>
+          <h3>Celebration Cakes</h3>
+          <p>Bespoke tiered cakes for birthdays, baby showers and special events, tailored to your theme and colour palette.</p>
+        </div>
+      </div>
+      <div class="makes-card reveal rd1">
+        <div class="makes-icon">🧁</div>
+        <div>
+          <h3>Themed Cupcakes</h3>
+          <p>Fondant and buttercream cupcakes designed to match your event — from safari animals and characters to baby shower and birthday collections.</p>
+        </div>
+      </div>
+      <div class="makes-card reveal rd2">
+        <div class="makes-icon">🎀</div>
+        <div>
+          <h3>Bento Cakes</h3>
+          <p>Compact 4-inch cakes perfect as a sweet centrepiece for smaller celebrations or alongside a cupcake display.</p>
+        </div>
+      </div>
+      <div class="makes-card reveal">
+        <div class="makes-icon">💧</div>
+        <div>
+          <h3>Drip & Number Cakes</h3>
+          <p>Metallic drips, number cakes and statement designs that photograph beautifully alongside balloon backdrops.</p>
+        </div>
+      </div>
+      <div class="makes-card reveal rd1">
+        <div class="makes-icon">💍</div>
+        <div>
+          <h3>Wedding Cakes</h3>
+          <p>Elegant, handmade wedding cakes and cupcake towers, personalised to your colours and style.</p>
+        </div>
+      </div>
+      <div class="makes-card reveal rd2">
+        <div class="makes-icon">🌱</div>
+        <div>
+          <h3>Vegan Options</h3>
+          <p>Vegan cupcakes available — just mention dietary requirements when enquiring with Jacqui directly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <div class="container">
+    <div class="gallery-header reveal">
+      <div class="label">Jacqui's Work</div>
+      <h2>A Taste of <em>What's Possible</em></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img src="gallery/cupcakes/berrylicious-safari-cupcakes-kent.webp" alt="Berrylicious safari animal fondant cupcakes — lion, tiger, elephant, giraffe, zebra — themed birthday cupcakes Kent">
+      </div>
+      <div class="gallery-item reveal rd1">
+        <img src="gallery/cupcakes/berrylicious-birthday-cupcakes-kent.webp" alt="Berrylicious pink birthday fondant cupcakes with P.Louise beauty theme — themed cupcakes Medway Kent">
+      </div>
+      <div class="gallery-item reveal rd1">
+        <img src="gallery/cupcakes/berrylicious-baby-shower-cupcakes-kent.webp" alt="Berrylicious pink baby shower cupcakes with Oh Baby fondant toppers and baby face designs — Medway Kent">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="gallery/cupcakes/berrylicious-character-cupcakes-kent.webp" alt="Berrylicious Shrek character fondant cupcakes with Shrek Fiona Donkey Puss in Boots faces — themed cupcakes Kent">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <div class="container">
+    <div class="pricing-header reveal">
+      <div class="label">Cake & Cupcake Pricing</div>
+      <h2>Berrylicious <em>Price Guide</em></h2>
+    </div>
+    <p class="pricing-note reveal">Prices correct at time of publication — always confirm directly with Jacqui when enquiring, as pricing may vary for bespoke requests.</p>
+
+    <div class="pricing-tables">
+      <!-- Bento & Cupcakes -->
+      <div class="pricing-table reveal">
+        <div class="pricing-table-head">
+          <h3>Bento Cakes &amp; Cupcakes</h3>
+        </div>
+        <table>
+          <thead><tr><th>Product</th><th>Price</th></tr></thead>
+          <tbody>
+            <tr><td>4&rdquo; Bento Cake (2 layer) &mdash; serves 4&ndash;6</td><td class="price">&pound;25</td></tr>
+            <tr><td>Buttercream swirl cupcakes</td><td class="price">&pound;2.50 each</td></tr>
+            <tr><td>Cupcakes with printed or fondant topper</td><td class="price">&pound;3 each</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Celebration Cakes -->
+      <div class="pricing-table reveal rd1">
+        <div class="pricing-table-head">
+          <h3>Celebration Cakes</h3>
+        </div>
+        <table>
+          <thead><tr><th>Size &amp; Layers</th><th>Serves</th><th>Price</th></tr></thead>
+          <tbody>
+            <tr><td>5&rdquo; (3 layer)</td><td>10 slices</td><td class="price">&pound;40</td></tr>
+            <tr><td>6&rdquo; (2 layer)</td><td>12 slices</td><td class="price">&pound;50</td></tr>
+            <tr><td>6&rdquo; (3 layer)</td><td>18&ndash;20 slices</td><td class="price">&pound;70</td></tr>
+            <tr><td>8&rdquo; (2 layer)</td><td>24 slices</td><td class="price">&pound;75</td></tr>
+            <tr><td>8&rdquo; (3 layer)</td><td>40 slices</td><td class="price">&pound;90</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="pricing-tables-bottom">
+      <!-- Add-ons -->
+      <div class="pricing-table reveal">
+        <div class="pricing-table-head">
+          <h3>Additional Decoration</h3>
+        </div>
+        <table>
+          <thead><tr><th>Extra Detail</th><th>Price</th></tr></thead>
+          <tbody>
+            <tr><td>Fondant covering</td><td class="price">+&pound;10</td></tr>
+            <tr><td>Handmade figures</td><td class="price">From &pound;10 each</td></tr>
+            <tr><td>Metallic drips</td><td class="price">+&pound;5</td></tr>
+            <tr><td>Printed images</td><td class="price">+&pound;5</td></tr>
+            <tr><td>Bespoke decorations</td><td class="price">Individually priced</td></tr>
+            <tr><td>Fondant covered carved cakes</td><td class="price">From &pound;75</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Cupcake toppers -->
+      <div class="pricing-table reveal rd1">
+        <div class="pricing-table-head">
+          <h3>Cupcake Toppers</h3>
+        </div>
+        <table>
+          <thead><tr><th>Topper Style</th><th>Price</th></tr></thead>
+          <tbody>
+            <tr><td>Plain buttercream swirl</td><td class="price">&pound;2.50 each</td></tr>
+            <tr><td>Printed topper</td><td class="price">+50p each</td></tr>
+            <tr><td>Themed fondant topper</td><td class="price">From 50p each</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY WE PARTNERED -->
+<section class="why">
+  <div class="container">
+    <div class="why-inner reveal">
+      <div class="label">Why We Recommend Berrylicious</div>
+      <h2>The Same Attention to Detail,<br><em>Every Single Time</em></h2>
+      <p>Jacqui's work caught our eye for exactly the same reasons clients choose Little Moment Studio — the attention to detail, the thoughtful colour palettes and the care taken to make every order feel genuinely personal.</p>
+      <p>Her themed cupcake collections in particular pair beautifully with balloon garlands and dessert table setups. The fondant work is intricate without being fussy, and the presentation is consistently beautiful. We've found they make the whole display feel complete in a way that's hard to put into words until you see it.</p>
+      <p>We don't earn anything from recommending Berrylicious — we simply think Jacqui is brilliant at what she does, and we want the celebrations we're part of to feel as wonderful as possible from every angle.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO BOOK -->
+<section class="book">
+  <div class="container">
+    <div class="book-inner reveal">
+      <div class="label">Ready to Enquire?</div>
+      <h2>How to <em>Book</em></h2>
+      <p>For cakes and cupcakes, get in touch with Jacqui directly — she'll talk you through options, pricing and timescales for your specific event.</p>
+      <p>When booking your balloon styling or dessert table setup with us, just mention you're using Berrylicious and we'll make sure everything works beautifully together on the day.</p>
+      <p style="font-size: 14px; color: var(--muted);">Jacqui recommends booking in advance where possible, especially for weekends and seasonal events.</p>
+      <div class="book-btns">
+        <a href="index.html#contact" class="btn btn-primary">Enquire with Little Moment Studio &rarr;</a>
+        <a href="https://www.berryliciouscakes.co.uk/" target="_blank" rel="noopener" class="btn btn-secondary">Visit Berrylicious Cakes &#x2197;</a>
+      </div>
+      <div class="book-links">
+        <a href="https://www.facebook.com/Berryliciouscakesbyjacqui/" target="_blank" rel="noopener" class="book-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          Berrylicious on Facebook
+        </a>
+        <a href="https://www.berryliciouscakes.co.uk/" target="_blank" rel="noopener" class="book-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+          berryliciouscakes.co.uk
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<div class="cta-strip">
+  <div class="container">
+    <h2 class="reveal">Planning Something <em>Special?</em></h2>
+    <p class="reveal rd1">Let us help with the balloons and styling — and point you in the right direction for the cake. Free consultation, no obligation.</p>
+    <div class="cta-btns reveal rd2">
+      <a href="index.html#contact" class="btn btn-primary">Start Your Enquiry &rarr;</a>
+      <a href="gallery.html" class="btn btn-secondary">View Our Gallery</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Little Moment Studio</div>
+        <div class="footer-brand-tag">Balloon Styling &middot; Kent</div>
+        <p class="footer-brand-desc">Beautiful balloon styling for baby showers, birthdays and celebrations. Based in Sittingbourne, serving all of Kent.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" aria-label="Instagram">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#services">Baby Showers</a></li>
+          <li><a href="index.html#services">First Birthdays</a></li>
+          <li><a href="index.html#services">Balloon Installations</a></li>
+          <li><a href="index.html#packages">Backdrop &amp; Prop Hire</a></li>
+          <li><a href="index.html#services">Gender Reveals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#packages">Our Packages</a></li>
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="index.html#testimonials">Reviews</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          07864 940 864
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@littlemomentstudio.co.uk
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Forum Shopping Centre,<br>Sittingbourne, ME10 3DL
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Little Moment Studio. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+  document.getElementById('mobileClose').addEventListener('click', closeNav);
+  function closeNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  const ro = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+</script>
+
+</body>
+</html>
