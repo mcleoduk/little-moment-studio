@@ -88,6 +88,7 @@ Target frequency: **15 articles per month**
 | Jul 2026 | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started | Needs 3 images |
 | 10 Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Written — needs images | Peak wedding season |
 | 15 Jul 2026 | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Committed — orphan | Reuses existing gallery images |
+| 20 Jul 2026 | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | Committed — orphan | CSS colour swatches; no new images needed |
 | Jul 2026 | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns | — | Not started | Needs 3 images |
 | Aug 2026 | Back to School Celebration Ideas | — | Not started | September prep |
 | Aug 2026 | Princess Party Cupcakes: Pink, Gold & Crown Designs | — | Not started | Needs 3 images |
