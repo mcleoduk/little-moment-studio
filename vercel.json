@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "little-moment-studio.vercel.app"
+        }
+      ],
+      "destination": "https://littlemomentstudio.co.uk/$1",
+      "permanent": true
+    }
+  ]
+}
