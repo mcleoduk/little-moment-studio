@@ -277,6 +277,21 @@
     }
     .gallery-item:hover img { transform: scale(1.03); }
     @media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; } }
+    .gallery-sub {
+      margin-top: 56px;
+    }
+    .gallery-sub-label {
+      display: flex; align-items: center; gap: 16px;
+      margin-bottom: 24px;
+    }
+    .gallery-sub-label span {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--accent-dk); white-space: nowrap;
+    }
+    .gallery-sub-label::before,
+    .gallery-sub-label::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
 
     /* ── PRICING ── */
     .pricing { padding: 80px 0; background: var(--bg2); }
@@ -597,20 +612,43 @@
       <div class="label">Jacqui's Work</div>
       <h2>A Taste of <em>What's Possible</em></h2>
     </div>
-    <div class="gallery-grid">
-      <div class="gallery-item reveal">
-        <img src="gallery/cupcakes/berrylicious-safari-cupcakes-kent.webp" alt="Berrylicious safari animal fondant cupcakes — lion, tiger, elephant, giraffe, zebra — themed birthday cupcakes Kent">
-      </div>
-      <div class="gallery-item reveal rd1">
-        <img src="gallery/cupcakes/berrylicious-birthday-cupcakes-kent.webp" alt="Berrylicious pink birthday fondant cupcakes with P.Louise beauty theme — themed cupcakes Medway Kent">
-      </div>
-      <div class="gallery-item reveal rd1">
-        <img src="gallery/cupcakes/berrylicious-baby-shower-cupcakes-kent.webp" alt="Berrylicious pink baby shower cupcakes with Oh Baby fondant toppers and baby face designs — Medway Kent">
-      </div>
-      <div class="gallery-item reveal">
-        <img src="gallery/cupcakes/berrylicious-character-cupcakes-kent.webp" alt="Berrylicious Shrek character fondant cupcakes with Shrek Fiona Donkey Puss in Boots faces — themed cupcakes Kent">
+
+    <div class="gallery-sub reveal">
+      <div class="gallery-sub-label"><span>Themed Cupcakes</span></div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-safari-cupcakes-kent.webp" alt="Berrylicious safari animal fondant cupcakes — lion, tiger, elephant, giraffe, zebra — themed birthday cupcakes Kent">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-birthday-cupcakes-kent.webp" alt="Berrylicious pink birthday fondant cupcakes with P.Louise beauty theme — themed cupcakes Medway Kent">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-baby-shower-cupcakes-kent.webp" alt="Berrylicious pink baby shower cupcakes with Oh Baby fondant toppers and baby face designs — Medway Kent">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-character-cupcakes-kent.webp" alt="Berrylicious Shrek character fondant cupcakes with Shrek Fiona Donkey Puss in Boots faces — themed cupcakes Kent">
+        </div>
       </div>
     </div>
+
+    <div class="gallery-sub reveal">
+      <div class="gallery-sub-label"><span>Celebration Cakes</span></div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-drip-cake-kent.webp" alt="Berrylicious white drip cake with pink butterfly decorations, roses, macarons and Happy 18th Birthday topper — celebration cakes Kent">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-chocolate-cake-kent.webp" alt="Berrylicious chocolate overload celebration cake with brownie topping and personalised film strip photo wrap — bespoke cakes Medway Kent">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-coffee-cake-kent.webp" alt="Berrylicious espresso martini drip cake with coffee buttercream, Maltesers and gold Happy Birthday topper — bespoke cakes Kent">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery/cupcakes/berrylicious-mermaid-cake-kent.webp" alt="Berrylicious pink mermaid birthday cake with fondant tails, shells and pearls — personalised children's birthday cakes Medway Kent">
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
