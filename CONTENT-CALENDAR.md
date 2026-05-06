@@ -80,7 +80,7 @@ Target frequency: **15 articles per month**
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
 | 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Written — local only |
-| 5 Jul | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Written — needs hero image |
+| 5 Jul | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Committed — orphan |
 | 10 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Committed — orphan |
 | 15 Jul | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Committed — orphan |
 | 20 Jul | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | Committed — orphan |
