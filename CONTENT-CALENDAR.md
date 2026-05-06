@@ -62,6 +62,7 @@ Target frequency: **15 articles per month**
 | 25 May | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 27 May | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 29 May | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 6 May | Berrylicious Cakes Partnership | berrylicious-cakes-partner.html | **LIVE** — sitemap, homepage, service pages all linked |
 
 ---
 
@@ -79,7 +80,6 @@ Target frequency: **15 articles per month**
 
 | Target Date | Title | URL | Status | Notes |
 |-------------|-------|-----|--------|-------|
-| 1 Jun 2026 | **TASK: Promote Berrylicious partner page** | berrylicious-cakes-partner.html | Live — orphan | Add to sitemap.xml; link from homepage "Where We Work" or a dedicated partners section; consider linking from baby-shower-balloons-kent.html and birthday-balloons-kent.html |
 | 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Committed — orphan | |
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
 | 30 Apr 2026 | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated to May 2025; ready to push |
