@@ -51,6 +51,7 @@ Target frequency: **15 articles per month**
 | 10 May | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 11 May | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
+| 12 May | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | **LIVE** |
 | 13 May | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
 | 14 May | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Written — local only |
 | 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
@@ -68,7 +69,6 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 12 May | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | **LIVE** |
 | 19 Jun | TBD | — | Not started |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
