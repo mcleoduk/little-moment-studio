@@ -1,4 +1,4 @@
-# Little Moment Studio — Kent Competitor SEO Analysis
+g# Little Moment Studio — Kent Competitor SEO Analysis
 
 Date: 13 March 2026
 

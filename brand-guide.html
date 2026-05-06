@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8DG3BN9RBZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8DG3BN9RBZ');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Little Moment Studio — Brand Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream:    #FAF7F2;
+      --blue:     #DCEAF5;
+      --blush:    #F6DDE4;
+      --gold:     #D8C4A5;
+      --bronze:   #A8885A;
+      --charcoal: #4A4A4A;
+      --stone:    #7A7A7A;
+      --white:    #FFFFFF;
+      --rule:     rgba(74,74,74,0.12);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #E8E4DF;
+      font-family: 'Inter', sans-serif;
+      color: var(--charcoal);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── PAGE SHELLS ── */
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 16mm auto;
+      background: var(--cream);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 40px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    /* ── COVER ── */
+    .cover {
+      background: var(--charcoal);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 18mm 16mm 16mm;
+      min-height: 297mm;
+    }
+    .cover-texture {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 110% -10%, rgba(216,196,165,0.18) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at -10% 110%, rgba(220,234,245,0.12) 0%, transparent 60%);
+    }
+    .cover-rule {
+      width: 40mm;
+      height: 1px;
+      background: var(--gold);
+      margin-bottom: 8mm;
+      position: relative;
+    }
+    .cover-eyebrow {
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 5mm;
+      position: relative;
+    }
+    .cover h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 42pt;
+      font-weight: 400;
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+      color: var(--white);
+      position: relative;
+      margin-bottom: 6mm;
+    }
+    .cover h1 em {
+      font-style: italic;
+      color: var(--gold);
+      display: block;
+    }
+    .cover-sub {
+      font-size: 9pt;
+      color: rgba(255,255,255,0.45);
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      position: relative;
+      margin-bottom: 18mm;
+    }
+    .cover-meta {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 2mm;
+    }
+    .cover-meta-line {
+      font-size: 7.5pt;
+      color: rgba(255,255,255,0.3);
+      letter-spacing: 0.06em;
+    }
+    .cover-deco {
+      position: absolute;
+      top: 12mm;
+      right: 12mm;
+      width: 72mm;
+      height: 72mm;
+      border-radius: 50%;
+      border: 1px solid rgba(216,196,165,0.15);
+    }
+    .cover-deco-2 {
+      position: absolute;
+      top: 22mm;
+      right: 22mm;
+      width: 52mm;
+      height: 52mm;
+      border-radius: 50%;
+      border: 1px solid rgba(216,196,165,0.1);
+    }
+    .cover-deco-3 {
+      position: absolute;
+      bottom: 40mm;
+      right: -10mm;
+      width: 100mm;
+      height: 100mm;
+      border-radius: 50%;
+      border: 1px solid rgba(220,234,245,0.08);
+    }
+    .cover-number {
+      position: absolute;
+      top: 12mm;
+      left: 16mm;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 160pt;
+      font-weight: 300;
+      color: rgba(255,255,255,0.03);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      user-select: none;
+    }
+
+    /* ── INTERIOR PAGES ── */
+    .inner {
+      padding: 14mm 16mm 14mm;
+    }
+
+    /* ── SECTION LABEL ── */
+    .section-label {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--bronze);
+      margin-bottom: 3mm;
+      display: flex;
+      align-items: center;
+      gap: 3mm;
+    }
+    .section-label::after {
+      content: '';
+      display: block;
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      margin-bottom: 8mm;
+      padding-bottom: 6mm;
+      border-bottom: 1px solid var(--rule);
+    }
+    .page-header h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 24pt;
+      font-weight: 500;
+      line-height: 1.1;
+      color: var(--charcoal);
+    }
+    .page-header h2 em {
+      font-style: italic;
+      color: var(--bronze);
+    }
+    .page-header p {
+      font-size: 8.5pt;
+      color: var(--stone);
+      line-height: 1.65;
+      margin-top: 2mm;
+      max-width: 120mm;
+    }
+
+    /* ── PAGE NUMBER ── */
+    .page-num {
+      position: absolute;
+      bottom: 8mm;
+      right: 16mm;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 9pt;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+    }
+    .page-brand {
+      position: absolute;
+      bottom: 8mm;
+      left: 16mm;
+      font-size: 7pt;
+      color: rgba(74,74,74,0.3);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ── COLOUR SWATCHES ── */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4mm;
+      margin-bottom: 6mm;
+    }
+    .swatch-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4mm;
+    }
+    .swatch {
+      border-radius: 3mm;
+      overflow: hidden;
+    }
+    .swatch-block {
+      height: 20mm;
+    }
+    .swatch-info {
+      padding: 2.5mm 3mm;
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-top: none;
+      border-radius: 0 0 3mm 3mm;
+    }
+    .swatch-name {
+      font-size: 7pt;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin-bottom: 0.5mm;
+    }
+    .swatch-hex {
+      font-size: 6.5pt;
+      color: var(--stone);
+      font-family: 'Cormorant Garamond', serif;
+      letter-spacing: 0.05em;
+    }
+    .swatch-use {
+      font-size: 6pt;
+      color: var(--stone);
+      margin-top: 0.5mm;
+      line-height: 1.4;
+    }
+
+    /* ── TYPOGRAPHY SPECIMENS ── */
+    .type-specimen {
+      margin-bottom: 6mm;
+      padding-bottom: 6mm;
+      border-bottom: 1px solid var(--rule);
+    }
+    .type-specimen:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    .type-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2mm;
+    }
+    .type-name {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--bronze);
+    }
+    .type-detail {
+      font-size: 6.5pt;
+      color: var(--stone);
+      letter-spacing: 0.05em;
+    }
+    .type-h1 { font-family: 'Playfair Display', serif; font-size: 28pt; font-weight: 500; line-height: 1.1; color: var(--charcoal); }
+    .type-h1 em { font-style: italic; color: var(--bronze); }
+    .type-h2 { font-family: 'Playfair Display', serif; font-size: 18pt; font-weight: 500; line-height: 1.15; color: var(--charcoal); }
+    .type-h2 em { font-style: italic; color: var(--bronze); }
+    .type-h3 { font-family: 'Playfair Display', serif; font-size: 13pt; font-weight: 500; color: var(--charcoal); }
+    .type-body { font-family: 'Inter', sans-serif; font-size: 9pt; line-height: 1.7; color: var(--charcoal); }
+    .type-body-light { font-family: 'Inter', sans-serif; font-size: 9pt; line-height: 1.7; color: var(--stone); font-weight: 300; }
+    .type-label { font-family: 'Inter', sans-serif; font-size: 7pt; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--bronze); }
+    .type-caption { font-family: 'Cormorant Garamond', serif; font-size: 10pt; font-style: italic; color: var(--stone); }
+
+    .weights-row {
+      display: flex;
+      gap: 6mm;
+      flex-wrap: wrap;
+      margin-top: 2mm;
+    }
+    .weight-item { font-family: 'Inter', sans-serif; }
+    .weight-label { font-size: 6pt; color: var(--stone); margin-bottom: 0.5mm; }
+
+    /* ── VOICE PILLARS ── */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4mm;
+      margin-bottom: 6mm;
+    }
+    .pillar-card {
+      background: var(--white);
+      border-radius: 3mm;
+      padding: 5mm;
+      border-top: 2px solid var(--gold);
+    }
+    .pillar-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18pt;
+      font-style: italic;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 1mm;
+    }
+    .pillar-title {
+      font-size: 8pt;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin-bottom: 1.5mm;
+    }
+    .pillar-desc {
+      font-size: 7.5pt;
+      color: var(--stone);
+      line-height: 1.55;
+    }
+
+    /* ── VOICE EXAMPLES ── */
+    .example-block {
+      margin-bottom: 4mm;
+      border-radius: 2mm;
+      overflow: hidden;
+    }
+    .example-label {
+      font-size: 6.5pt;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 1.5mm 4mm;
+    }
+    .example-label.bad { background: #FAEAEA; color: #B05555; }
+    .example-label.good { background: #EAF3EA; color: #4A7A4A; }
+    .example-text {
+      font-size: 8pt;
+      line-height: 1.6;
+      padding: 3mm 4mm;
+      font-style: italic;
+      color: var(--charcoal);
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-top: none;
+    }
+
+    /* ── WORD CHOICE TABLE ── */
+    .word-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8pt;
+    }
+    .word-table th {
+      text-align: left;
+      font-size: 6.5pt;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--bronze);
+      padding: 2mm 3mm;
+      border-bottom: 1px solid var(--rule);
+    }
+    .word-table td {
+      padding: 2mm 3mm;
+      border-bottom: 1px solid var(--rule);
+      color: var(--charcoal);
+      line-height: 1.4;
+    }
+    .word-table td:first-child { color: var(--stone); text-decoration: line-through; }
+    .word-table tr:last-child td { border-bottom: none; }
+
+    /* ── NEVER / ALWAYS LISTS ── */
+    .dos-donts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4mm;
+      margin-bottom: 6mm;
+    }
+    .list-card {
+      border-radius: 3mm;
+      overflow: hidden;
+    }
+    .list-card-header {
+      padding: 3mm 4mm;
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .list-card-header.do { background: var(--blue); color: var(--charcoal); }
+    .list-card-header.dont { background: var(--blush); color: var(--charcoal); }
+    .list-card ul {
+      list-style: none;
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-top: none;
+      padding: 3mm 4mm;
+    }
+    .list-card ul li {
+      font-size: 7.5pt;
+      color: var(--charcoal);
+      line-height: 1.55;
+      padding: 1mm 0;
+      padding-left: 4mm;
+      position: relative;
+      border-bottom: 1px solid var(--rule);
+    }
+    .list-card ul li:last-child { border-bottom: none; }
+    .list-card ul li::before {
+      position: absolute;
+      left: 0;
+      top: 1mm;
+      font-size: 7pt;
+    }
+    .list-card.do ul li::before { content: '✓'; color: #4A7A4A; }
+    .list-card.dont ul li::before { content: '✕'; color: #B05555; }
+
+    /* ── PHOTOGRAPHY SECTION ── */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4mm;
+      margin-bottom: 6mm;
+    }
+    .photo-card {
+      border-radius: 3mm;
+      padding: 5mm;
+      border: 1px solid var(--rule);
+      background: var(--white);
+    }
+    .photo-card-icon {
+      font-size: 14pt;
+      margin-bottom: 2mm;
+    }
+    .photo-card h4 {
+      font-size: 8pt;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin-bottom: 1.5mm;
+    }
+    .photo-card p {
+      font-size: 7.5pt;
+      color: var(--stone);
+      line-height: 1.55;
+    }
+
+    /* ── SOCIAL SECTION ── */
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4mm;
+      margin-bottom: 6mm;
+    }
+    .social-card {
+      background: var(--white);
+      border-radius: 3mm;
+      padding: 4mm;
+      border: 1px solid var(--rule);
+      text-align: center;
+    }
+    .social-platform {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--bronze);
+      margin-bottom: 2mm;
+    }
+    .social-card p {
+      font-size: 7pt;
+      color: var(--stone);
+      line-height: 1.55;
+    }
+
+    /* ── WHAT WE ARE NOT ── */
+    .not-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4mm;
+    }
+    .not-card {
+      background: var(--charcoal);
+      border-radius: 3mm;
+      padding: 5mm;
+    }
+    .not-card h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 10pt;
+      font-weight: 500;
+      font-style: italic;
+      color: var(--gold);
+      margin-bottom: 2mm;
+    }
+    .not-card p {
+      font-size: 7pt;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.6;
+    }
+
+    /* ── POSITIONING BOX ── */
+    .position-box {
+      background: var(--charcoal);
+      border-radius: 4mm;
+      padding: 7mm 8mm;
+      margin-bottom: 6mm;
+      position: relative;
+      overflow: hidden;
+    }
+    .position-box::before {
+      content: '';
+      position: absolute;
+      top: -20mm;
+      right: -20mm;
+      width: 50mm;
+      height: 50mm;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(216,196,165,0.15) 0%, transparent 70%);
+    }
+    .position-box-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 14pt;
+      font-style: italic;
+      color: var(--white);
+      line-height: 1.45;
+      margin-bottom: 3mm;
+      position: relative;
+    }
+    .position-box-attr {
+      font-size: 7pt;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      position: relative;
+    }
+
+    /* ── LOGO SECTION ── */
+    .logo-display {
+      background: var(--white);
+      border-radius: 3mm;
+      border: 1px solid var(--rule);
+      padding: 8mm;
+      text-align: center;
+      margin-bottom: 4mm;
+    }
+    .logo-display img {
+      height: 22mm;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .logo-display-dark {
+      background: var(--charcoal);
+      border-radius: 3mm;
+      padding: 8mm;
+      text-align: center;
+      margin-bottom: 4mm;
+    }
+    .logo-display-dark img {
+      height: 22mm;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+      filter: brightness(0) invert(1);
+    }
+    .logo-rules-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4mm;
+    }
+    .logo-rule-card {
+      background: var(--white);
+      border-radius: 3mm;
+      padding: 4mm;
+      border: 1px solid var(--rule);
+    }
+    .logo-rule-card h4 {
+      font-size: 7pt;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--bronze);
+      margin-bottom: 2mm;
+    }
+    .logo-rule-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .logo-rule-card ul li {
+      font-size: 7.5pt;
+      color: var(--stone);
+      line-height: 1.55;
+      padding: 0.8mm 0;
+      padding-left: 3mm;
+      position: relative;
+    }
+    .logo-rule-card ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 6.5pt;
+    }
+
+    /* ── PRINT ── */
+    @media print {
+      body { background: none; }
+      .page {
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+        width: 210mm;
+        min-height: 297mm;
+      }
+      .page:last-child { page-break-after: auto; }
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    }
+
+    @page { size: A4; margin: 0; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     PAGE 1 — COVER
+══════════════════════════════════════════ -->
+<div class="page cover">
+  <div class="cover-texture"></div>
+  <div class="cover-deco"></div>
+  <div class="cover-deco-2"></div>
+  <div class="cover-deco-3"></div>
+  <div class="cover-number">B</div>
+
+  <div class="cover-rule"></div>
+  <div class="cover-eyebrow">Little Moment Studio</div>
+  <h1>Brand<em>Guide</em></h1>
+  <p class="cover-sub">Colour &nbsp;·&nbsp; Typography &nbsp;·&nbsp; Voice &nbsp;·&nbsp; Photography &nbsp;·&nbsp; Social Media</p>
+
+  <div class="cover-meta">
+    <div class="cover-meta-line">Forum Shopping Centre, Sittingbourne, ME10 3DL</div>
+    <div class="cover-meta-line">hello@littlemomentstudio.co.uk &nbsp;·&nbsp; 07864 940 864</div>
+    <div class="cover-meta-line">littlemomentstudio.co.uk</div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 2 — WHO WE ARE
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">01 &nbsp; Who We Are</div>
+
+    <div class="page-header">
+      <h2>Brand <em>Positioning</em></h2>
+      <p>The foundation for every creative decision we make — from the words we use to the colours we choose.</p>
+    </div>
+
+    <div class="position-box">
+      <div class="position-box-quote">"If Little Moment Studio was a person at a party, they'd be the friendly, stylish one who makes everyone feel welcome. Not the loudest in the room, not showing off — just genuinely warm, with great taste, and happy to share ideas without making anyone feel silly for asking."</div>
+      <div class="position-box-attr">Brand character</div>
+    </div>
+
+    <div class="section-label" style="margin-bottom:4mm;">Market Position</div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin-bottom:6mm;">
+      <div style="background:var(--white);border-radius:3mm;padding:5mm;border:1px solid var(--rule);opacity:0.5;text-align:center;">
+        <div style="font-size:7pt;color:var(--stone);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2mm;">Budget</div>
+        <div style="font-size:7.5pt;color:var(--stone);line-height:1.5;">Party shops, supermarket balloons, DIY</div>
+      </div>
+      <div style="background:var(--charcoal);border-radius:3mm;padding:5mm;text-align:center;position:relative;">
+        <div style="position:absolute;top:-3mm;left:50%;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:6pt;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;padding:1mm 3mm;border-radius:50px;white-space:nowrap;">We are here</div>
+        <div style="font-size:7pt;color:var(--gold);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2mm;">Mid–Premium</div>
+        <div style="font-size:7.5pt;color:rgba(255,255,255,0.6);line-height:1.5;">Beautiful, personal, professional styling</div>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:5mm;border:1px solid var(--rule);opacity:0.5;text-align:center;">
+        <div style="font-size:7pt;color:var(--stone);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:2mm;">Luxury</div>
+        <div style="font-size:7.5pt;color:var(--stone);line-height:1.5;">High-end event planners, couture installations</div>
+      </div>
+    </div>
+
+    <div class="section-label" style="margin-bottom:4mm;">Our Clients</div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-bottom:6mm;">
+      <div style="background:var(--blue);border-radius:3mm;padding:5mm;">
+        <div style="font-size:7.5pt;font-weight:600;color:var(--charcoal);margin-bottom:2mm;">Who they are</div>
+        <div style="font-size:7.5pt;color:var(--charcoal);line-height:1.6;">Families planning baby showers, first birthdays and milestone celebrations. Mid-to-high budget. Finding us through Google, Instagram and word of mouth. They want their event to look genuinely beautiful without the stress of doing it themselves.</div>
+      </div>
+      <div style="background:var(--blush);border-radius:3mm;padding:5mm;">
+        <div style="font-size:7.5pt;font-weight:600;color:var(--charcoal);margin-bottom:2mm;">What they're buying</div>
+        <div style="font-size:7.5pt;color:var(--charcoal);line-height:1.6;">Not just balloons — they're buying beautiful photos, a space that feels considered, and the relief of not having to figure it all out themselves. The display is the backdrop for memories they'll look at for years.</div>
+      </div>
+    </div>
+
+    <div class="section-label" style="margin-bottom:3mm;">Services We Offer</div>
+    <div style="display:flex;gap:3mm;flex-wrap:wrap;">
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Baby Shower Styling</span>
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Birthday Displays</span>
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Organic Balloon Garlands</span>
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Balloon Arches</span>
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Dessert Table Styling</span>
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Gender Reveals</span>
+      <span style="background:var(--white);border:1px solid var(--rule);border-radius:50px;padding:1.5mm 4mm;font-size:7.5pt;color:var(--charcoal);">Cupcake Design</span>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">02</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 3 — COLOUR PALETTE
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">02 &nbsp; Colour Palette</div>
+
+    <div class="page-header">
+      <h2>Colour <em>System</em></h2>
+      <p>A warm, soft palette rooted in celebration — cream and blush as the base, gold as the consistent accent.</p>
+    </div>
+
+    <!-- Primary colours -->
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Primary Palette</div>
+    <div class="swatch-grid" style="margin-bottom:6mm;">
+      <div class="swatch">
+        <div class="swatch-block" style="background:#FAF7F2;border:1px solid var(--rule);border-bottom:none;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Warm Cream</div>
+          <div class="swatch-hex">#FAF7F2</div>
+          <div class="swatch-use">Primary background</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#DCEAF5;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Powder Blue</div>
+          <div class="swatch-hex">#DCEAF5</div>
+          <div class="swatch-use">Highlight, info panels</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#F6DDE4;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Blush Rose</div>
+          <div class="swatch-hex">#F6DDE4</div>
+          <div class="swatch-use">Accent panels, warmth</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#D8C4A5;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Champagne Gold</div>
+          <div class="swatch-hex">#D8C4A5</div>
+          <div class="swatch-use">Borders, decorative</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary colours -->
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Supporting Colours</div>
+    <div class="swatch-row" style="margin-bottom:6mm;">
+      <div class="swatch">
+        <div class="swatch-block" style="background:#A8885A;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Warm Bronze</div>
+          <div class="swatch-hex">#A8885A</div>
+          <div class="swatch-use">Links, emphasis, icons</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#4A4A4A;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Charcoal</div>
+          <div class="swatch-hex">#4A4A4A</div>
+          <div class="swatch-use">Body text, nav, footer</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#7A7A7A;border-radius:3mm 3mm 0 0;"></div>
+        <div class="swatch-info" style="border-radius:0 0 3mm 3mm;">
+          <div class="swatch-name">Stone Grey</div>
+          <div class="swatch-hex">#7A7A7A</div>
+          <div class="swatch-use">Secondary text, captions</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Colour usage rules -->
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Usage Rules</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4mm;">
+      <div style="background:var(--white);border-radius:3mm;padding:4mm;border:1px solid var(--rule);">
+        <div style="font-size:7pt;font-weight:600;color:var(--charcoal);margin-bottom:2mm;">✓ Do</div>
+        <ul style="list-style:none;font-size:7.5pt;color:var(--stone);line-height:1.7;">
+          <li>Use Warm Cream as the dominant background</li>
+          <li>Use Warm Bronze for all link and accent text</li>
+          <li>Pair Powder Blue and Blush Rose — never compete them</li>
+          <li>Use Charcoal (not black) for all body text</li>
+          <li>Use Champagne Gold for borders and decorative lines</li>
+        </ul>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:4mm;border:1px solid var(--rule);">
+        <div style="font-size:7pt;font-weight:600;color:var(--charcoal);margin-bottom:2mm;">✕ Don't</div>
+        <ul style="list-style:none;font-size:7.5pt;color:var(--stone);line-height:1.7;">
+          <li>Use pure white (#FFFFFF) as the page background</li>
+          <li>Use pure black for text</li>
+          <li>Introduce colours outside this palette without approval</li>
+          <li>Use Blush Rose as a background on large areas</li>
+          <li>Use the bronze on dark backgrounds without testing contrast</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">03</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 4 — TYPOGRAPHY
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">03 &nbsp; Typography</div>
+
+    <div class="page-header">
+      <h2>Type <em>System</em></h2>
+      <p>Two fonts only — Playfair Display for everything editorial, Inter for everything functional.</p>
+    </div>
+
+    <!-- Playfair -->
+    <div class="type-specimen">
+      <div class="type-meta">
+        <div class="type-name">Playfair Display — Headings & Display</div>
+        <div class="type-detail">Google Fonts · Serif · Use for all H1–H3, pull quotes, hero text</div>
+      </div>
+      <div class="type-h1">Beautiful Balloon <em>Styling</em></div>
+      <div style="margin-top:3mm;"><div class="type-h2">Baby Shower <em>Ideas</em></div></div>
+      <div style="margin-top:2mm;"><div class="type-h3">Garlands & Arches Kent</div></div>
+      <div class="weights-row" style="margin-top:3mm;">
+        <div class="weight-item">
+          <div class="weight-label">Weight 400</div>
+          <div style="font-family:'Playfair Display',serif;font-size:9pt;color:var(--charcoal);">Regular</div>
+        </div>
+        <div class="weight-item">
+          <div class="weight-label">Weight 500</div>
+          <div style="font-family:'Playfair Display',serif;font-size:9pt;font-weight:500;color:var(--charcoal);">Medium</div>
+        </div>
+        <div class="weight-item">
+          <div class="weight-label">Italic 400</div>
+          <div style="font-family:'Playfair Display',serif;font-size:9pt;font-style:italic;color:var(--bronze);">Italic accent</div>
+        </div>
+        <div class="weight-item">
+          <div class="weight-label">Italic 500</div>
+          <div style="font-family:'Playfair Display',serif;font-size:9pt;font-weight:500;font-style:italic;color:var(--bronze);">Medium italic</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inter -->
+    <div class="type-specimen">
+      <div class="type-meta">
+        <div class="type-name">Inter — Body & UI</div>
+        <div class="type-detail">Google Fonts · Sans-serif · Use for all body copy, labels, navigation, buttons</div>
+      </div>
+      <div class="type-body">We create organic balloon garlands, backdrops and styled dessert tables for baby showers, birthdays and celebrations across Sittingbourne and Kent. Every display is built on the day using premium balloons in the exact palette you choose.</div>
+      <div class="weights-row" style="margin-top:3mm;">
+        <div class="weight-item">
+          <div class="weight-label">300 Light</div>
+          <div style="font-family:'Inter',sans-serif;font-size:8.5pt;font-weight:300;color:var(--stone);">Supporting copy</div>
+        </div>
+        <div class="weight-item">
+          <div class="weight-label">400 Regular</div>
+          <div style="font-family:'Inter',sans-serif;font-size:8.5pt;color:var(--charcoal);">Body copy</div>
+        </div>
+        <div class="weight-item">
+          <div class="weight-label">500 Medium</div>
+          <div style="font-family:'Inter',sans-serif;font-size:8.5pt;font-weight:500;color:var(--charcoal);">UI labels</div>
+        </div>
+        <div class="weight-item">
+          <div class="weight-label">600 Semibold</div>
+          <div style="font-family:'Inter',sans-serif;font-size:8.5pt;font-weight:600;color:var(--charcoal);">Eyebrows</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Type scale -->
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Type Scale — Web</div>
+    <table style="width:100%;border-collapse:collapse;font-size:7.5pt;">
+      <thead>
+        <tr>
+          <th style="text-align:left;padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--bronze);font-size:6.5pt;letter-spacing:0.1em;text-transform:uppercase;">Element</th>
+          <th style="text-align:left;padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--bronze);font-size:6.5pt;letter-spacing:0.1em;text-transform:uppercase;">Font</th>
+          <th style="text-align:left;padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--bronze);font-size:6.5pt;letter-spacing:0.1em;text-transform:uppercase;">Size</th>
+          <th style="text-align:left;padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--bronze);font-size:6.5pt;letter-spacing:0.1em;text-transform:uppercase;">Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--charcoal);">Page H1</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">Playfair Display</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">clamp(32–56px)</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">500</td></tr>
+        <tr><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--charcoal);">Section H2</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">Playfair Display</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">clamp(28–42px)</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">500</td></tr>
+        <tr><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--charcoal);">Article H2</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">Playfair Display</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">22px</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">500</td></tr>
+        <tr><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--charcoal);">Body copy</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">Inter</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">15–16px</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">400</td></tr>
+        <tr><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--charcoal);">Section eyebrow</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">Inter</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">11px</td><td style="padding:1.5mm 2mm;border-bottom:1px solid var(--rule);color:var(--stone);">600 · uppercase · 0.18em tracking</td></tr>
+        <tr><td style="padding:1.5mm 2mm;color:var(--charcoal);">Nav / UI labels</td><td style="padding:1.5mm 2mm;color:var(--stone);">Inter</td><td style="padding:1.5mm 2mm;color:var(--stone);">13–14px</td><td style="padding:1.5mm 2mm;color:var(--stone);">400–500</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">04</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 5 — LOGO
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">04 &nbsp; Logo</div>
+
+    <div class="page-header">
+      <h2>Logo <em>Usage</em></h2>
+      <p>The logo is the single most consistent brand element. Never alter it — only change the background it sits on.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-bottom:6mm;">
+      <div>
+        <div style="font-size:7pt;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--stone);margin-bottom:2mm;">On Light</div>
+        <div class="logo-display">
+          <img src="logo.png" alt="Little Moment Studio logo">
+          <div style="font-size:7pt;color:var(--stone);margin-top:3mm;">Use on cream (#FAF7F2) or white backgrounds</div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:7pt;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--stone);margin-bottom:2mm;">On Dark</div>
+        <div class="logo-display-dark">
+          <img src="logo.png" alt="Little Moment Studio logo">
+          <div style="font-size:7pt;color:rgba(255,255,255,0.4);margin-top:3mm;">Use on charcoal (#4A4A4A) backgrounds</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-rules-grid">
+      <div class="logo-rule-card">
+        <h4>✓ Always</h4>
+        <ul>
+          <li>Use the original file — never re-draw or recreate</li>
+          <li>Maintain clear space around the logo equal to the height of the wordmark</li>
+          <li>Use on a solid, appropriate background colour only</li>
+          <li>Scale proportionally — never stretch or compress</li>
+          <li>Use the full name "Little Moment Studio" — never abbreviate to LMS</li>
+        </ul>
+      </div>
+      <div class="logo-rule-card">
+        <h4>✕ Never</h4>
+        <ul>
+          <li>Never place on a busy photographic background</li>
+          <li>Never change the logo colours or add effects</li>
+          <li>Never rotate or distort the logo</li>
+          <li>Never place the logo at a size where it becomes unreadable</li>
+          <li>Never use "LMS", "Little Moments" or any abbreviation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:5mm;padding:4mm 5mm;background:var(--blue);border-radius:3mm;">
+      <div style="font-size:7.5pt;color:var(--charcoal);line-height:1.6;"><strong>Full business name:</strong> Little Moment Studio &nbsp;·&nbsp; <strong>Never:</strong> "LMS", "Little Moments", "Little Moment's", "The Little Moment Studio"</div>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">05</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 6 — VOICE & TONE
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">05 &nbsp; Voice & Tone</div>
+
+    <div class="page-header">
+      <h2>How We <em>Sound</em></h2>
+      <p>Our voice is consistent across every touchpoint — website, social, captions, emails, packaging.</p>
+    </div>
+
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">The Four Pillars</div>
+    <div class="pillars-grid" style="margin-bottom:6mm;">
+      <div class="pillar-card">
+        <div class="pillar-num">01</div>
+        <div class="pillar-title">Warm but not gushy</div>
+        <div class="pillar-desc">Friendly and approachable, never cold. But no exclamation marks, emojis in copy, or forced enthusiasm.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">02</div>
+        <div class="pillar-title">Knowledgeable but not preachy</div>
+        <div class="pillar-desc">We share useful information generously. We never talk down or make people feel they should already know something.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">03</div>
+        <div class="pillar-title">Honest but not blunt</div>
+        <div class="pillar-desc">We give real advice including budget realities. We acknowledge when something is a matter of taste.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">04</div>
+        <div class="pillar-title">Elevated but not exclusive</div>
+        <div class="pillar-desc">Our work is premium quality but our tone never makes people feel priced out or unwelcome.</div>
+      </div>
+    </div>
+
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Voice in Practice</div>
+
+    <div class="example-block">
+      <div class="example-label bad">✕ Too cold</div>
+      <div class="example-text">"Little Moment Studio provides premium balloon styling services for clients across the Kent region. Our portfolio demonstrates our commitment to excellence."</div>
+    </div>
+    <div class="example-block">
+      <div class="example-label bad">✕ Too gushy</div>
+      <div class="example-text">"OMG we are SO excited to share our fave Easter balloon ideas with you!! These are literally gorgeous and we can't wait for you to see them! 🐣🎈"</div>
+    </div>
+    <div class="example-block">
+      <div class="example-label good">✓ Just right</div>
+      <div class="example-text">"Choosing balloon colours shouldn't feel stressful — but with so many options, it's easy to overthink it. Here are the palettes we keep coming back to, and why they work so well together."</div>
+    </div>
+    <div class="example-block">
+      <div class="example-label good">✓ Just right (on budget)</div>
+      <div class="example-text">"A professional balloon garland typically starts from around £80 in Kent. That might sound like a lot for balloons — but when you factor in the hours of inflating, sizing and shaping, plus the cleanup afterwards, most clients tell us it was the best money they spent on the whole event."</div>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">06</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 7 — LANGUAGE RULES
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">06 &nbsp; Language Rules</div>
+
+    <div class="page-header">
+      <h2>What We Say &amp; <em>How We Say It</em></h2>
+      <p>Specific rules that keep our voice consistent across every piece of content we produce.</p>
+    </div>
+
+    <div class="dos-donts">
+      <div class="list-card do">
+        <div class="list-card-header do">Always</div>
+        <ul>
+          <li>British English — colour, organised, centre, favourite</li>
+          <li>Use "we" not "I" — future-proofs for growth</li>
+          <li>Active voice — "We style your celebration"</li>
+          <li>Prices in £ with UK-relevant ranges</li>
+          <li>Short paragraphs, 2–4 sentences max</li>
+          <li>Explain jargon — "organic garland (one made without a frame)"</li>
+          <li>Soft CTAs — "get in touch", "we'd love to help"</li>
+          <li>UK references — Hobbycraft, garden, boot of the car</li>
+        </ul>
+      </div>
+      <div class="list-card dont">
+        <div class="list-card-header dont">Never</div>
+        <ul>
+          <li>Pinterest-speak — "obsessed!", "literally the cutest"</li>
+          <li>Hard sell — never push bookings from editorial content</li>
+          <li>American spellings or cultural references</li>
+          <li>Superlatives — "the best in Kent", "most amazing"</li>
+          <li>Mention how long we've been going</li>
+          <li>Talk down about DIY or budget options</li>
+          <li>Abbreviate the business name to "LMS"</li>
+          <li>State "I" — always "we"</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Word Choices</div>
+    <table class="word-table">
+      <thead>
+        <tr>
+          <th>Instead of…</th>
+          <th>We say…</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Purchase / buy</td><td>Book / get in touch</td></tr>
+        <tr><td>Customers / consumers</td><td>Clients (or simply "you")</td></tr>
+        <tr><td>Products</td><td>Displays / arrangements / styling</td></tr>
+        <tr><td>Cheap / budget</td><td>Affordable / great value</td></tr>
+        <tr><td>Expensive</td><td>Premium / an investment</td></tr>
+        <tr><td>The best</td><td>A favourite / one we love</td></tr>
+        <tr><td>You should</td><td>You might like / worth considering</td></tr>
+        <tr><td>We offer</td><td>We can create / we'd love to style</td></tr>
+        <tr><td>Don't do X</td><td>It's worth knowing that…</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">07</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 8 — PHOTOGRAPHY
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">07 &nbsp; Photography</div>
+
+    <div class="page-header">
+      <h2>Photography <em>Style</em></h2>
+      <p>Our images should feel like a beautiful real celebration — not a staged photoshoot. Warm, genuine and aspirational without being unattainable.</p>
+    </div>
+
+    <div class="photo-grid" style="margin-bottom:6mm;">
+      <div class="photo-card">
+        <div class="photo-card-icon">☀️</div>
+        <h4>Natural Light</h4>
+        <p>Always prefer natural or soft diffused light. No harsh flash. Shoot toward or across windows. Golden hour light is ideal — it naturally matches our warm palette.</p>
+      </div>
+      <div class="photo-card">
+        <div class="photo-card-icon">🎈</div>
+        <h4>Show the Display, Not the Room</h4>
+        <p>The balloon display should be the subject. Keep backgrounds clean and uncluttered. Move anything that doesn't add to the image before shooting.</p>
+      </div>
+      <div class="photo-card">
+        <div class="photo-card-icon">🔍</div>
+        <h4>Detail Shots</h4>
+        <p>Get close. Balloon textures, colour combinations, florals, cake tables and styling details all photograph beautifully close-up. These are our strongest social images.</p>
+      </div>
+      <div class="photo-card">
+        <div class="photo-card-icon">📐</div>
+        <h4>Wide Establishing Shots</h4>
+        <p>Always take at least one wide shot showing the full display in context. This is the hero image for the website and journal articles.</p>
+      </div>
+      <div class="photo-card">
+        <div class="photo-card-icon">🎭</div>
+        <h4>Real Moments</h4>
+        <p>Candid shots of people enjoying the celebration are valuable — especially children. Always get consent. Never use overly staged or stiff poses.</p>
+      </div>
+      <div class="photo-card">
+        <div class="photo-card-icon">📱</div>
+        <h4>Phone Photography</h4>
+        <p>Portrait mode for close-ups, standard for wide shots. Clean the lens. Avoid digital zoom. Edit toward warmth — not cool/blue. Lightroom presets preferred over in-app filters.</p>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4mm;">
+      <div style="background:var(--white);border-radius:3mm;padding:4mm;border:1px solid var(--rule);">
+        <div style="font-size:7pt;font-weight:600;color:var(--charcoal);margin-bottom:2mm;">✓ Image Checklist</div>
+        <ul style="list-style:none;font-size:7.5pt;color:var(--stone);line-height:1.7;">
+          <li>✓ Clean background, no clutter</li>
+          <li>✓ Balloon colours look accurate (white balance correct)</li>
+          <li>✓ Display is in focus, not the background</li>
+          <li>✓ Minimum 1200px wide for web use</li>
+          <li>✓ Warm, not cool — adjust before posting</li>
+          <li>✓ Saved as WebP for website use</li>
+        </ul>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:4mm;border:1px solid var(--rule);">
+        <div style="font-size:7pt;font-weight:600;color:var(--charcoal);margin-bottom:2mm;">✕ Avoid</div>
+        <ul style="list-style:none;font-size:7.5pt;color:var(--stone);line-height:1.7;">
+          <li>✕ Harsh overhead or flash lighting</li>
+          <li>✕ Busy, distracting backgrounds</li>
+          <li>✕ Over-filtered or heavily edited images</li>
+          <li>✕ Blue-toned or cool images (off-brand)</li>
+          <li>✕ Blurry or dark images, even if the moment was good</li>
+          <li>✕ Images that show mess, unfinished work or equipment</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">08</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 9 — SOCIAL MEDIA
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">08 &nbsp; Social Media</div>
+
+    <div class="page-header">
+      <h2>Social Media <em>Guidelines</em></h2>
+      <p>Our social presence should feel like a natural extension of the website — warm, considered and consistent.</p>
+    </div>
+
+    <div class="social-grid" style="margin-bottom:6mm;">
+      <div class="social-card">
+        <div class="social-platform">Instagram</div>
+        <p>Primary channel. Focus on finished displays, detail shots and behind-the-scenes. Stories for process. Reels for reveals and transformations. Grid should look cohesive — warm tones throughout.</p>
+      </div>
+      <div class="social-card">
+        <div class="social-platform">Facebook</div>
+        <p>Secondary channel. Repurpose Instagram content. Good for local community groups and sharing journal articles. Slightly longer captions work here — the audience is more patient.</p>
+      </div>
+      <div class="social-card">
+        <div class="social-platform">Google Business</div>
+        <p>Post monthly updates and every new display. Reply to all reviews within 24 hours. Keep contact details and opening hours current. This directly affects local search ranking.</p>
+      </div>
+    </div>
+
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Caption Guidelines</div>
+
+    <div class="dos-donts" style="margin-bottom:6mm;">
+      <div class="list-card do">
+        <div class="list-card-header do">Caption Do's</div>
+        <ul>
+          <li>Lead with what makes this display interesting</li>
+          <li>Mention the occasion and colour palette</li>
+          <li>Include a soft call to action ("enquiries open")</li>
+          <li>Tag the venue if they're on Instagram</li>
+          <li>Use 5–10 relevant hashtags in the first comment</li>
+          <li>Write in the same warm, honest voice as the website</li>
+        </ul>
+      </div>
+      <div class="list-card dont">
+        <div class="list-card-header dont">Caption Don'ts</div>
+        <ul>
+          <li>Don't start with "We are so excited to share…"</li>
+          <li>Don't use strings of emojis in place of words</li>
+          <li>Don't use aggressive hashtag blocks (looks spammy)</li>
+          <li>Don't tag competitors or copy their caption style</li>
+          <li>Don't post without checking the image is actually sharp</li>
+          <li>Don't post more than twice daily (quality over quantity)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="font-size:7pt;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3mm;">Post Content Mix (aim for)</div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:3mm;">
+      <div style="background:var(--white);border-radius:3mm;padding:3.5mm;border:1px solid var(--rule);text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:16pt;font-weight:500;color:var(--bronze);">40%</div>
+        <div style="font-size:6.5pt;color:var(--stone);margin-top:1mm;line-height:1.4;">Finished displays</div>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:3.5mm;border:1px solid var(--rule);text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:16pt;font-weight:500;color:var(--bronze);">25%</div>
+        <div style="font-size:6.5pt;color:var(--stone);margin-top:1mm;line-height:1.4;">Detail &amp; close-up</div>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:3.5mm;border:1px solid var(--rule);text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:16pt;font-weight:500;color:var(--bronze);">15%</div>
+        <div style="font-size:6.5pt;color:var(--stone);margin-top:1mm;line-height:1.4;">Behind the scenes</div>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:3.5mm;border:1px solid var(--rule);text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:16pt;font-weight:500;color:var(--bronze);">10%</div>
+        <div style="font-size:6.5pt;color:var(--stone);margin-top:1mm;line-height:1.4;">Cupcakes &amp; cakes</div>
+      </div>
+      <div style="background:var(--white);border-radius:3mm;padding:3.5mm;border:1px solid var(--rule);text-align:center;">
+        <div style="font-family:'Playfair Display',serif;font-size:16pt;font-weight:500;color:var(--bronze);">10%</div>
+        <div style="font-size:6.5pt;color:var(--stone);margin-top:1mm;line-height:1.4;">Journal &amp; tips</div>
+      </div>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">09</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 10 — WHAT WE ARE NOT
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="section-label">09 &nbsp; Brand Boundaries</div>
+
+    <div class="page-header">
+      <h2>What We <em>Are Not</em></h2>
+      <p>Knowing what the brand is not is just as important as knowing what it is. These boundaries keep every decision consistent.</p>
+    </div>
+
+    <div class="not-grid" style="margin-bottom:6mm;">
+      <div class="not-card">
+        <h4>A budget party shop</h4>
+        <p>We are not competing on price. We don't communicate value through discounts, sales or cheapness. Our quality and care justify the price — we explain that, we don't apologise for it.</p>
+      </div>
+      <div class="not-card">
+        <h4>An intimidating luxury brand</h4>
+        <p>We are not cold, aspirational or hard to approach. Our work is beautiful but our clients should never feel out of their depth talking to us. Warmth is non-negotiable.</p>
+      </div>
+      <div class="not-card">
+        <h4>An influencer brand</h4>
+        <p>We are not trend-chasing or performance-driven. We don't use "obsessed", viral sounds or forced content. Everything we post is considered, not reactive.</p>
+      </div>
+      <div class="not-card">
+        <h4>A one-size-fits-all service</h4>
+        <p>We are not a catalogue. Every display is personal. We don't sell packages like a menu — we collaborate on what works for each client's space, budget and vision.</p>
+      </div>
+      <div class="not-card">
+        <h4>An American brand</h4>
+        <p>We are resolutely British and local. No American spellings, no US cultural references, no "y'all" or "fall". We are rooted in Sittingbourne, serving Kent families.</p>
+      </div>
+      <div class="not-card">
+        <h4>A party planner</h4>
+        <p>We style balloon displays and dessert tables. We are not a full-service event planner. Being clear about what we do — and don't do — builds trust and sets proper expectations.</p>
+      </div>
+    </div>
+
+    <div style="background:linear-gradient(135deg, var(--blue) 0%, var(--blush) 100%);border-radius:4mm;padding:6mm 7mm;">
+      <div style="font-family:'Playfair Display',serif;font-size:13pt;font-weight:500;color:var(--charcoal);margin-bottom:2mm;">The brand in one sentence</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:12pt;font-style:italic;color:var(--charcoal);line-height:1.5;">Little Moment Studio creates beautiful, personal balloon displays for families celebrating the moments that matter — with warmth, craft and genuine care for how the day looks and feels.</div>
+    </div>
+  </div>
+  <div class="page-brand">Little Moment Studio — Brand Guide</div>
+  <div class="page-num">10</div>
+</div>
+
+</body>
+</html>
