@@ -86,7 +86,8 @@ Target frequency: **15 articles per month**
 | 5 Jul 2026 | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Written — needs hero image | Hub article linking to all theme guides |
 | Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
 | Jul 2026 | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started | Needs 3 images |
-| Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | — | Not started | Peak wedding season |
+| 10 Jul 2026 | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Written — needs images | Peak wedding season |
+| 15 Jul 2026 | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Committed — orphan | Reuses existing gallery images |
 | Jul 2026 | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns | — | Not started | Needs 3 images |
 | Aug 2026 | Back to School Celebration Ideas | — | Not started | September prep |
 | Aug 2026 | Princess Party Cupcakes: Pink, Gold & Crown Designs | — | Not started | Needs 3 images |
@@ -102,7 +103,6 @@ Target frequency: **15 articles per month**
 | Nov 2026 | Are Latex Balloons Safe? | — | Not started | Trust-building; top PAA question |
 | Nov 2026 | New Year's Eve Cupcakes: Gold, Black & Sparkle Designs | — | Not started | Needs 3 images |
 | Nov 2026 | Christmas Party Dessert Table Ideas | — | Not started | |
-| Nov 2026 | What Size Balloon Garland Do I Need? | — | Not started | Sizing guide; pre-booking intent |
 | Nov 2026 | Gaming Cupcakes: Easy Controller & Pixel Designs | — | Not started | Needs 3 images |
 | Dec 2026 | How Far in Advance Should You Book a Balloon Stylist? | — | Not started | Pure booking intent |
 | Dec 2026 | Valentine's Cupcakes: 2 Romantic Designs | — | Not started | Publish Dec for Feb traffic; needs 3 images |
