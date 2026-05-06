@@ -70,7 +70,7 @@ Target frequency: **15 articles per month**
 | 21 Jun | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 23 Jun | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 25 Jun | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
+| 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 28 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 
 ---
