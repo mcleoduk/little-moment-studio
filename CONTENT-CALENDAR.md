@@ -68,7 +68,7 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 6 Jun | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | Written — orphan (needs prices + hero image) |
+| 12 May | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | **LIVE** |
 | 19 Jun | TBD | — | Not started |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
