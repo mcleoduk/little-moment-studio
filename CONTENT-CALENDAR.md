@@ -35,7 +35,7 @@ Target frequency: **15 articles per month**
 
 ---
 
-## May 2026 — 22 Articles
+## May 2026 — 12 Articles
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
@@ -45,34 +45,33 @@ Target frequency: **15 articles per month**
 | 4 May | Construction Party Balloon & Dessert Table Ideas | construction-party-balloon-dessert-table-ideas.html | **LIVE** |
 | 5 May | Are Latex Balloons Safe? | are-latex-balloons-safe.html | **LIVE** |
 | 6 May | Football Party Balloon & Dessert Table Ideas | football-party-balloon-dessert-table-ideas.html | **LIVE** |
+| 6 May | Berrylicious Cakes Partnership | berrylicious-cakes-partner.html | **LIVE** — sitemap, homepage, service pages all linked |
 | 7 May | Tropical Island Party Balloon & Dessert Table Ideas | tropical-island-party-balloon-dessert-table-ideas.html | **LIVE** |
 | 8 May | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | **LIVE** |
-| 9 May | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
-| 10 May | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 11 May | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
 | 12 May | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | **LIVE** |
-| 13 May | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
-| 14 May | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Written — local only |
-| 15 May | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
-| 17 May | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
-| 19 May | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 21 May | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
-| 23 May | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
-| 25 May | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 27 May | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 29 May | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Committed — orphan |
-| 6 May | Berrylicious Cakes Partnership | berrylicious-cakes-partner.html | **LIVE** — sitemap, homepage, service pages all linked |
 
 ---
 
-## June 2026 — 3 Articles
+## June 2026 — 15 Articles
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
+| 3 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
+| 5 Jun | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
+| 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
+| 9 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
+| 11 Jun | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 12 Jun | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan |
+| 13 Jun | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Written — local only |
+| 15 Jun | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Committed — orphan |
+| 17 Jun | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 19 Jun | Father's Day Dessert Table Ideas | fathers-day-dessert-table-ideas.html | Committed — orphan |
+| 21 Jun | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 23 Jun | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Committed — orphan |
+| 25 Jun | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
-| 28 Jun | TBD | — | Not started |
+| 28 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
 
 ---
 
@@ -82,7 +81,7 @@ Target frequency: **15 articles per month**
 |-------------|-------|-----|--------|-------|
 | 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Committed — orphan | |
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Committed — orphan | |
-| 30 Apr 2026 | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | Committed — orphan | Schema backdated to May 2025; ready to push |
+| Jul 2026 | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image | |
 | 1 Jul 2026 | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Written — local only | |
 | 5 Jul 2026 | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Written — needs hero image | Hub article linking to all theme guides |
 | Jul 2026 | Balloon Colour Combinations That Always Work Together | — | Not started | Evergreen trends piece |
