@@ -70,7 +70,7 @@ Target frequency: **15 articles per month**
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
-| 19 Jun | TBD | — | Not started |
+| 19 Jun | Father's Day Dessert Table Ideas | fathers-day-dessert-table-ideas.html | Committed — orphan |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Written — needs images |
 | 28 Jun | TBD | — | Not started |
 
