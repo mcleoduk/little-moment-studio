@@ -43,7 +43,21 @@
       "name": "Kent"
     },
     "image": "https://littlemomentstudio.co.uk/hero.jpg",
-    "priceRange": "££"
+    "priceRange": "££",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "opens": "10:00",
+        "closes": "16:00"
+      }
+    ]
   }
   </script>
   <link rel="preload" as="image" href="Hero.jpg" fetchpriority="high">
@@ -738,6 +752,12 @@
             </div>
             <div class="c-detail-text"><strong>Visit Our Studio</strong><span>Forum Shopping Centre, Sittingbourne, ME10 3DL</span></div>
           </div>
+          <div class="c-detail">
+            <div class="c-detail-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="c-detail-text"><strong>Opening Hours</strong><span>Mon&ndash;Sat: 9am&ndash;5:30pm &middot; Sun &amp; Bank Holidays: 10am&ndash;4pm</span></div>
+          </div>
         </div>
       </div>
       <div class="reveal rd1">
@@ -904,6 +924,10 @@
         <div class="footer-ci">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
           Forum Shopping Centre,<br>Sittingbourne, ME10 3DL
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Mon&ndash;Sat: 9am&ndash;5:30pm<br>Sun &amp; Bank Hols: 10am&ndash;4pm
         </div>
       </div>
     </div>
