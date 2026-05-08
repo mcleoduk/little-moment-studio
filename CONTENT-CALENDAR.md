@@ -52,6 +52,8 @@ Target frequency: **15 articles per month**
 | 12 May | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | **LIVE** |
 | 9 May | Can You Have Balloons at an Outdoor Party in the UK? | can-you-have-balloons-at-an-outdoor-party.html | **LIVE** |
 | 14 May | What Decorations Do You Need for a Baby Shower? | what-decorations-do-you-need-for-a-baby-shower.html | **LIVE** |
+| 15 May | Summer Party Trends 2026: Balloon Styling & Dessert Table Ideas | summer-party-trends-2026.html | **LIVE** |
+| 20 May | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | **LIVE** |
 
 ---
 
@@ -60,7 +62,7 @@ Target frequency: **15 articles per month**
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
 | 3 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
-| 5 Jun | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | Written — local only |
+| 5 Jun | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | **LIVE** (pulled forward to 20 May) |
 | 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
 | 9 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
 | 11 Jun | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
