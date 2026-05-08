@@ -1,6 +1,6 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 2 May 2026
+Last updated: 8 May 2026
 
 ---
 
@@ -20,6 +20,8 @@ Supporting articles:
 - `/baby-shower-venues-sittingbourne.html`
 - `/baby-shower-cupcake-ideas.html`
 - `/fondant-cupcake-ideas-baby-shower-birthday.html`
+- `/teddy-bear-baby-shower-dessert-table-ideas.html`
+- `/what-decorations-do-you-need-for-a-baby-shower.html`
 
 Checklist:
 - [x] Pillar page links to every supporting article — done 26 Apr 2026
@@ -51,7 +53,8 @@ Supporting articles:
 - `/tropical-island-party-balloon-dessert-table-ideas.html`
 - `/farm-cupcake-ideas-barnyard-party-table.html`
 - `/how-far-in-advance-book-birthday-balloons.html`
-- `/how-much-do-birthday-balloons-cost.html` (orphan — live 6 Jun 2026)
+- `/how-much-do-birthday-balloons-cost.html`
+- `/can-you-have-balloons-at-an-outdoor-party.html`
 
 Checklist:
 - [x] Pillar page links to all supporting articles — done 2 May 2026
@@ -72,6 +75,7 @@ Supporting articles:
 - `/what-is-an-organic-balloon-garland.html`
 - `/are-latex-balloons-safe.html`
 - `/how-to-style-cupcakes-on-dessert-table.html`
+- `/can-you-have-balloons-at-an-outdoor-party.html`
 
 Checklist:
 - [x] Pillar page links to all supporting articles — done 2 May 2026
@@ -756,7 +760,7 @@ Work through these in order. Tick each off as done.
 
 ### How Much Do Birthday Balloons Cost? (how-much-do-birthday-balloons-cost.html)
 
-**Status:** ⚠️ Orphan — publish 6 June 2026. Needs: Sam's price figures (12 × £XX placeholders) + hero image (gallery/birthdays/birthday-balloon-cost-guide-kent.webp)
+**Status:** ✅ Live — 12 May 2026
 
 | Element | Value |
 |---------|-------|
@@ -766,7 +770,51 @@ Work through these in order. Tick each off as done.
 | **Target keywords** | how much do birthday balloons cost, birthday balloon prices, balloon stylist cost UK |
 | **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
 | **Internal links** | Links to birthday-balloons-kent.html (pillar), balloon-garlands-kent.html |
-| **Notes** | 12 × £XX price placeholders in body and sidebar — replace with Sam's figures before publishing |
+
+---
+
+### Teddy Bear Baby Shower Dessert Table Ideas (teddy-bear-baby-shower-dessert-table-ideas.html)
+
+**Status:** ✅ Live — 12 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Teddy Bear Baby Shower Dessert Table Ideas \| Little Moment Studio (65 chars — monitor) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Teddy Bear Baby Shower Dessert Table Ideas |
+| **Target keywords** | teddy bear baby shower dessert table, teddy bear baby shower food ideas |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to baby-shower-balloons-kent.html (pillar) |
+
+---
+
+### Can You Have Balloons at an Outdoor Party? (can-you-have-balloons-at-an-outdoor-party.html)
+
+**Status:** ✅ Live — 9 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Can You Have Balloons at an Outdoor Party in the UK? \| Little Moment Studio (75 chars — monitor) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Can You Have Balloons at an Outdoor Party in the UK? |
+| **Target keywords** | balloons at outdoor party, outdoor balloon display UK, balloons in wind rain |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar), baby-shower-balloons-kent.html, birthday-balloons-kent.html |
+
+---
+
+### What Decorations Do You Need for a Baby Shower? (what-decorations-do-you-need-for-a-baby-shower.html)
+
+**Status:** ✅ Live — 14 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | What Decorations Do You Need for a Baby Shower? \| Little Moment Studio (70 chars — monitor) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | What Decorations Do You Need for a Baby Shower? |
+| **Target keywords** | baby shower decorations, what do you need for a baby shower, baby shower decoration checklist |
+| **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
+| **Internal links** | Links to baby-shower-balloons-kent.html (pillar) |
 
 ---
 
