@@ -779,7 +779,7 @@ Work through these in order. Tick each off as done.
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Teddy Bear Baby Shower Dessert Table Ideas \| Little Moment Studio (65 chars — monitor) |
+| **Meta title** | Teddy Bear Baby Shower Dessert Table \| Little Moment Studio (59 chars) |
 | **Meta description** | ✅ ≤160 chars |
 | **H1** | Teddy Bear Baby Shower Dessert Table Ideas |
 | **Target keywords** | teddy bear baby shower dessert table, teddy bear baby shower food ideas |
@@ -794,7 +794,7 @@ Work through these in order. Tick each off as done.
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Can You Have Balloons at an Outdoor Party in the UK? \| Little Moment Studio (75 chars — monitor) |
+| **Meta title** | Balloons at an Outdoor Party UK \| Little Moment Studio (54 chars) |
 | **Meta description** | ✅ ≤160 chars |
 | **H1** | Can You Have Balloons at an Outdoor Party in the UK? |
 | **Target keywords** | balloons at outdoor party, outdoor balloon display UK, balloons in wind rain |
@@ -809,7 +809,7 @@ Work through these in order. Tick each off as done.
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | What Decorations Do You Need for a Baby Shower? \| Little Moment Studio (70 chars — monitor) |
+| **Meta title** | What Do You Need for a Baby Shower? \| Little Moment Studio (58 chars) |
 | **Meta description** | ✅ ≤160 chars |
 | **H1** | What Decorations Do You Need for a Baby Shower? |
 | **Target keywords** | baby shower decorations, what do you need for a baby shower, baby shower decoration checklist |
