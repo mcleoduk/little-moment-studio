@@ -76,7 +76,7 @@ Target frequency: **15 articles per month**
 | 25 Jun | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Committed — orphan |
 | 28 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Committed — orphan |
-| 30 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Committed — orphan (pulled forward from 15 Jul) |
+| 30 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Committed — orphan (pulled forward from 15 Jul; publish 30 Jun) |
 
 ---
 
