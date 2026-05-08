@@ -62,7 +62,6 @@ Target frequency: **15 articles per month**
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
 | 3 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | Committed — orphan |
-| 5 Jun | Tropical Cupcake Ideas: 2 Easy Designs for a Summer Party Table | tropical-cupcake-ideas-summer-party-table.html | **LIVE** (pulled forward to 20 May) |
 | 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Written — local only |
 | 9 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Committed — orphan |
 | 11 Jun | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Committed — orphan |
