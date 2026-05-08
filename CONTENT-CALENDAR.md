@@ -87,7 +87,7 @@ Target frequency: **15 articles per month**
 | 23 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | Written — needs hero image |
 | 25 Jul | Balloon Colour Combinations That Always Work Together | — | Not started |
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | Not started |
-| 29 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns | — | Not started |
+| 29 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns | unicorn-cupcake-ideas.html | Committed — orphan |
 
 ---
 
