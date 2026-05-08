@@ -68,14 +68,63 @@ Links were removed from all pages (commit `5423b40`) because the account didn't 
 
 ---
 
+## WhatsApp Business Setup — Step by Step
+
+**Number:** 07762 549 648
+
+### Step 1 — Download the app
+App Store (iPhone) or Google Play (Android) → search **WhatsApp Business** (briefcase icon, separate from regular WhatsApp).
+
+### Step 2 — Verify your number
+Enter 07762 549 648 → enter the 6-digit code sent by text.
+
+### Step 3 — Create your profile
+Tap ⋮ → **Settings** → **Business tools** → **Business profile**:
+- **Name:** Little Moment Studio
+- **Category:** Event Planner
+- **Description (max 139 characters):** Balloon styling & celebration décor for baby showers, birthdays & events across Kent ✨ DM to book or get a quote
+- **Address:** Forum Shopping Centre, Sittingbourne, ME10 3DL
+- **Hours:** Mon–Sat 9:00am–5:30pm / Sun & Bank Hols 10:00am–4:00pm
+- **Email:** hello@littlemomentstudio.co.uk
+- **Website:** littlemomentstudio.co.uk
+
+### Step 4 — Add profile photo
+Settings → tap the circle at the top → upload logo → Save.
+
+**Photo tip:** Use the logo on the cream (`#FAF7F2`) background — clean, recognisable, and on-brand. Avoid a busy photo at this small size; the logo reads much better.
+
+### Step 5 — Set greeting message
+Business tools → **Greeting message** → toggle on → edit:
+> Hi! Thanks for reaching out to Little Moment Studio 🎈 To help us put together the perfect quote, could you let us know: your event date, type of celebration, and venue? We'll come back to you within 24 hours.
+
+### Step 6 — Set away message
+Business tools → **Away message** → toggle on → edit → set schedule to **Outside business hours**:
+> Hi! Thanks for your message 💛 We're currently closed but will get back to you during opening hours. If you'd like to get started, visit littlemomentstudio.co.uk for ideas and inspiration.
+
+### Step 7 — Quick replies
+Business tools → **Quick replies** → tap **+** for each:
+- `/quote` → standard pricing/quote response
+- `/gallery` → link to littlemomentstudio.co.uk/gallery.html
+- `/book` → booking enquiry message
+
+### Step 8 — Catalogue (optional)
+Business tools → **Catalogue** → add main service packages with photos and descriptions so clients can browse without asking.
+
+---
+
+### Why the greeting and away messages matter most
+
+The greeting and away messages do the heavy lifting. They qualify enquiries automatically (date, event type, venue) and set response expectations without Sam needing to be online constantly. These two are the most important things to get right — set them up at the same time as the profile, not later.
+
+---
+
 ## WhatsApp Business Notes
 
-- **Number:** 07864 940 864 (same number, no change needed)
+- **Number:** 07762 549 648 (WhatsApp Business — updated May 2026)
 - **App:** WhatsApp Business (free, available on iOS/Android)
-- **Future:** Can migrate to WhatsApp Business API later without losing the number
-  - API enables: automated follow-ups, CRM integration, broadcast campaigns
-  - Providers to consider when ready: Bird (formerly MessageBird), Twilio, 360dialog
-  - Note: once on API, can't use regular WhatsApp app on that number
+- **Future (GHL):** Plan to migrate to GoHighLevel for WhatsApp workflow automation — number carries straight across via Meta Business API, no website changes needed
+  - GHL enables: automated follow-ups, CRM integration, booking workflows
+  - Note: Meta now supports coexistence — you can run the WhatsApp Business app and the API (GHL) on the same number simultaneously
 
 ---
 

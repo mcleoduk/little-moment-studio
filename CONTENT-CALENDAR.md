@@ -50,6 +50,8 @@ Target frequency: **15 articles per month**
 | 8 May | How to Style Cupcakes on a Dessert Table | how-to-style-cupcakes-on-dessert-table.html | **LIVE** |
 | 12 May | Teddy Bear Baby Shower Dessert Table Ideas | teddy-bear-baby-shower-dessert-table-ideas.html | **LIVE** |
 | 12 May | How Much Do Birthday Balloons Cost? | how-much-do-birthday-balloons-cost.html | **LIVE** |
+| 9 May | Can You Have Balloons at an Outdoor Party in the UK? | can-you-have-balloons-at-an-outdoor-party.html | **LIVE** |
+| 14 May | What Decorations Do You Need for a Baby Shower? | what-decorations-do-you-need-for-a-baby-shower.html | **LIVE** |
 
 ---
 
@@ -106,13 +108,10 @@ Target frequency: **15 articles per month**
 | Sep 2026 | Bonfire Night Cupcakes: Firework Ideas | — | Not started | Publish before Nov; needs 3 images |
 | Sep 2026 | How Much Does a Balloon Garland Cost? | — | Not started | Top pre-booking question |
 | Sep 2026 | Halloween Party Table Ideas with Balloons and Cupcakes | — | Not started | |
-| Oct 2026 | What Decorations Do You Need for a Baby Shower? | — | Not started | Checklist format; high volume |
 | Oct 2026 | Dinosaur Cupcakes: Simple Ideas for Kids' Parties | — | Not started | Needs 3 images |
-| Nov 2026 | Are Latex Balloons Safe? | — | Not started | Trust-building; top PAA question |
 | Nov 2026 | New Year's Eve Cupcakes: Gold, Black & Sparkle Designs | — | Not started | Needs 3 images |
 | Nov 2026 | Christmas Party Dessert Table Ideas | — | Not started | |
 | Nov 2026 | Gaming Cupcakes: Easy Controller & Pixel Designs | — | Not started | Needs 3 images |
-| Dec 2026 | How Far in Advance Should You Book a Balloon Stylist? | — | Not started | Pure booking intent |
 | Dec 2026 | Valentine's Cupcakes: 2 Romantic Designs | — | Not started | Publish Dec for Feb traffic; needs 3 images |
 | Dec 2026 | Barbie-Inspired Cupcakes: Pink Party Designs | — | Not started | Needs 3 images |
 | Dec 2026 | How to Plan a Baby Shower in the UK: The Complete Guide | — | Not started | Comprehensive pillar article |
