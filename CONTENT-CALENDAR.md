@@ -23,7 +23,8 @@ Images in `gallery/signature/the-luxe-baby-shower/` — EXIF not yet done.
 | Role | Title | URL | Status |
 |------|-------|-----|--------|
 | Dessert table support | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | 🟡 Committed — orphan (publish 9 Jun). Luxe callout added. |
-| Neutral/inspiration support | Neutral Baby Shower Ideas for a Soft, Timeless Celebration | — | ⚪ Not started |
+| Neutral/inspiration support | Neutral Baby Shower Ideas for a Soft, Timeless Celebration | neutral-baby-shower-ideas.html | **LIVE** — published 10 May |
+| Practical/purchase intent | What's Included in a Styled Baby Shower Package? | whats-included-in-a-styled-baby-shower-package.html | ⚪ Not started — scheduled 22 Jul |
 
 **Existing live articles retrofitted with Luxe callout:**
 - `baby-shower-balloon-ideas.html` ✓
@@ -110,12 +111,13 @@ Images in `gallery/signature/the-luxe-baby-shower/` — EXIF not yet done.
 
 ---
 
-## July 2026 — 15 Articles
+## July 2026 — 17 Articles
 
 | Date | Title | URL | Status |
 |------|-------|-----|--------|
 | 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | 🔵 Written — local only |
 | 5 Jul | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | 🟡 Committed — orphan |
+| 10 May | Neutral Baby Shower Ideas for a Soft, Timeless Celebration | neutral-baby-shower-ideas.html | **LIVE** — Luxe cluster: inspiration |
 | 10 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | 🟡 Committed — orphan |
 | 12 Jul | Dessert Table Ideas for Children's Parties | — | ⚪ Not started |
 | 14 Jul | Birthday Party Table Ideas: Balloons, Cupcakes & Backdrops | — | ⚪ Not started |
@@ -123,6 +125,7 @@ Images in `gallery/signature/the-luxe-baby-shower/` — EXIF not yet done.
 | 17 Jul | How to Decorate a Venue with Balloons | — | ⚪ Not started |
 | 19 Jul | How to Make Fondant Cupcake Toppers for Beginners | — | ⚪ Not started |
 | 20 Jul | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | 🟡 Committed — orphan |
+| 22 Jul | What's Included in a Styled Baby Shower Package? | whats-included-in-a-styled-baby-shower-package.html | ⚪ Not started — **Luxe cluster: practical/purchase intent** |
 | 23 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | 🟠 Written — needs hero image |
 | 25 Jul | Balloon Colour Combinations That Always Work Together | balloon-colour-combinations-that-always-work-together.html | 🔵 Written — local only |
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | ⚪ Not started |
