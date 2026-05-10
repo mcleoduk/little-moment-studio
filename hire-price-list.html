@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Hire Price List — Little Moment Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-dk: #A8885A;
+      --border:    rgba(74,74,74,0.12);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-b);
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--text);
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── COVER PAGE ── */
+    .cover {
+      width: 210mm;
+      min-height: 297mm;
+      background: linear-gradient(150deg, var(--secondary) 0%, var(--primary) 55%, var(--bg) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60mm 22mm 20mm;
+      page-break-after: always;
+      position: relative;
+      overflow: hidden;
+    }
+    .cover::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 340px; height: 340px;
+      background: radial-gradient(circle, rgba(255,255,255,0.35) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cover::after {
+      content: '';
+      position: absolute;
+      bottom: 60px; left: 22mm;
+      width: 80px; height: 2px;
+      background: var(--accent-dk);
+    }
+
+    .cover-eyebrow {
+      font-family: var(--font-b);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      margin-bottom: 14px;
+    }
+    .cover-title {
+      font-family: var(--font-h);
+      font-size: 42px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+    .cover-title em {
+      font-style: italic;
+      color: var(--accent-dk);
+    }
+    .cover-sub {
+      font-family: var(--font-h);
+      font-size: 18px;
+      font-style: italic;
+      color: var(--muted);
+      margin-bottom: 36px;
+    }
+    .cover-meta {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 2;
+    }
+    .cover-meta strong { color: var(--text); font-weight: 600; }
+    .cover-stamp {
+      position: absolute;
+      bottom: 22mm;
+      right: 22mm;
+      text-align: right;
+      font-family: var(--font-h);
+      font-style: italic;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* ── PAGE LAYOUT ── */
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 16mm 18mm 14mm;
+      page-break-after: always;
+      background: var(--bg);
+      position: relative;
+    }
+    .page:last-child { page-break-after: avoid; }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-bottom: 10px;
+      margin-bottom: 18px;
+      border-bottom: 1.5px solid var(--accent);
+    }
+    .page-brand {
+      font-family: var(--font-h);
+      font-size: 13px;
+      font-style: italic;
+      color: var(--accent-dk);
+    }
+    .page-label {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ── SECTION TITLES ── */
+    .section-title {
+      font-family: var(--font-h);
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 0 0 4px;
+    }
+    .section-title em { font-style: italic; color: var(--accent-dk); }
+    .section-desc {
+      font-size: 10.5px;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    /* ── COLUMN HEADER ── */
+    .col-head {
+      display: grid;
+      grid-template-columns: 2.8fr 0.8fr 0.8fr 2.6fr;
+      gap: 8px;
+      padding: 5px 10px;
+      background: var(--accent-dk);
+      border-radius: 4px 4px 0 0;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    /* ── HIRE ROW ── */
+    .hire-row {
+      display: grid;
+      grid-template-columns: 2.8fr 0.8fr 0.8fr 2.6fr;
+      gap: 8px;
+      align-items: start;
+      padding: 8px 10px;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      font-size: 11px;
+    }
+    .hire-row:last-child { border-bottom: none; border-radius: 0 0 4px 4px; }
+    .hire-row:nth-child(even) { background: #fff; }
+
+    .h-name { font-weight: 600; color: var(--text); }
+    .h-name small {
+      display: block;
+      font-weight: 400;
+      font-size: 10px;
+      color: var(--muted);
+      margin-top: 1px;
+    }
+    .h-price { font-weight: 600; color: var(--accent-dk); white-space: nowrap; }
+    .h-deposit { color: var(--muted); font-size: 10.5px; }
+    .h-notes { font-size: 10.5px; color: var(--muted); line-height: 1.5; }
+
+    /* ── SECTION SPACER ── */
+    .section-gap { margin-top: 20px; }
+
+    /* ── GARLAND ADDON TABLE ── */
+    .addon-col-head {
+      display: grid;
+      grid-template-columns: 2.8fr 0.8fr 3.4fr;
+      gap: 8px;
+      padding: 5px 10px;
+      background: var(--accent-dk);
+      border-radius: 4px 4px 0 0;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .addon-row {
+      display: grid;
+      grid-template-columns: 2.8fr 0.8fr 3.4fr;
+      gap: 8px;
+      align-items: start;
+      padding: 8px 10px;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      font-size: 11px;
+    }
+    .addon-row:last-child { border-bottom: none; border-radius: 0 0 4px 4px; }
+    .addon-row:nth-child(even) { background: #fff; }
+
+    /* ── CALLOUT BOX ── */
+    .callout {
+      background: var(--primary);
+      border-left: 3px solid var(--accent-dk);
+      border-radius: 0 6px 6px 0;
+      padding: 10px 14px;
+      margin-top: 16px;
+      font-size: 10.5px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .callout strong { font-weight: 600; }
+
+    /* ── DEPOSIT RULES ── */
+    .rules-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .rule-card {
+      background: var(--bg2);
+      border-radius: 6px;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+    }
+    .rule-card h4 {
+      font-family: var(--font-h);
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+    .rule-card ul {
+      list-style: none;
+      font-size: 10.5px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+    .rule-card ul li::before {
+      content: '— ';
+      color: var(--accent-dk);
+      font-weight: 600;
+    }
+
+    /* ── PACKAGE HIGHLIGHT ── */
+    .package-strip {
+      background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+    }
+    .pkg {
+      text-align: center;
+    }
+    .pkg-name {
+      font-family: var(--font-h);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+    .pkg-price {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--accent-dk);
+      font-family: var(--font-h);
+    }
+    .pkg-items {
+      font-size: 9.5px;
+      color: var(--muted);
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+
+    /* ── FOOTER ── */
+    .page-footer {
+      position: absolute;
+      bottom: 10mm;
+      left: 18mm;
+      right: 18mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 9px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 6px;
+    }
+
+    /* ── PRINT STYLES ── */
+    @media print {
+      body { background: #fff; }
+      .cover, .page { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="cover-eyebrow">Internal Reference — Staff Use Only</div>
+    <div class="cover-title">Prop &amp; Prop <em>Hire</em></div>
+    <div class="cover-sub">Complete Price List</div>
+    <div class="cover-meta">
+      <strong>Little Moment Studio</strong><br>
+      Forum Shopping Centre, Sittingbourne, ME10 3DL<br>
+      hello@littlemomentstudio.co.uk · 07762 549 648<br><br>
+      <strong>Updated:</strong> May 2026<br>
+      <strong>Status:</strong> Internal — Not for client distribution
+    </div>
+    <div class="cover-stamp">littlemomentstudio.co.uk</div>
+  </div>
+
+  <!-- PAGE 1: Silk Flowers + Statement Props -->
+  <div class="page">
+    <div class="page-header">
+      <div class="page-brand">Little Moment Studio</div>
+      <div class="page-label">Hire Price List — Page 1 of 3</div>
+    </div>
+
+    <!-- SILK FLOWER VASES -->
+    <div class="section-title">Silk Flower <em>Vases</em></div>
+    <div class="section-desc">Dressed with artificial peonies, roses, ranunculus &amp; eucalyptus. Stems changed between hires.</div>
+
+    <div class="col-head">
+      <span>Item</span>
+      <span>Hire Price</span>
+      <span>Deposit</span>
+      <span>Notes</span>
+    </div>
+
+    <div class="hire-row">
+      <div class="h-name">Medium Dressed Vase<small>~45cm tall · 20 stems</small></div>
+      <div class="h-price">£40 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£25</div>
+      <div class="h-notes">5× peony, 5× rose, 5× ranunculus, 5× eucalyptus. Ivory/blush/sage palette. Check stems before re-hire.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Large Dressed Vase<small>~60cm tall · 28 stems</small></div>
+      <div class="h-price">£55 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£30</div>
+      <div class="h-notes">7× peony, 7× rose, 7× ranunculus, 7× eucalyptus. Statement centrepiece size. Inspect on return.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Vase Pair (2× Medium)<small>Matched set</small></div>
+      <div class="h-price">£70 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£40</div>
+      <div class="h-notes">Flanking a table or arch. Saving of £10 vs individual rate. Same palette, same height.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Vase Pair (2× Large)<small>Matched set</small></div>
+      <div class="h-price">£95 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£50</div>
+      <div class="h-notes">Grand entrance or dessert table pair. Saving of £15 vs individual rate.</div>
+    </div>
+
+    <!-- STATEMENT PROPS -->
+    <div class="section-gap"></div>
+    <div class="section-title">Statement <em>Props</em></div>
+    <div class="section-desc">Large feature props — confirm availability at least 2 weeks ahead.</div>
+
+    <div class="col-head">
+      <span>Item</span>
+      <span>Hire Price</span>
+      <span>Deposit</span>
+      <span>Notes</span>
+    </div>
+
+    <div class="hire-row">
+      <div class="h-name">Flower Wall<small>Approx. 2m × 2m panel</small></div>
+      <div class="h-price">from £80 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£50</div>
+      <div class="h-notes">Ivory/blush or sage/green. Free-standing frame. Setup included within 10 miles of studio.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Neon Sign<small>Custom text or stock phrases</small></div>
+      <div class="h-price">from £55 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£30</div>
+      <div class="h-notes">Stock: "Oh Baby", "Let's Celebrate", "Happy Birthday". Custom +£15. Check cable &amp; plug on return.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Light-up Numbers<small>Per number / letter</small></div>
+      <div class="h-price">from £60 <span style="font-weight:400;font-size:10px;">/ number</span></div>
+      <div class="h-deposit">£20 <span style="font-weight:400;font-size:10px;">/ number</span></div>
+      <div class="h-notes">Mains-powered fairy bulbs. Advise client to confirm number set at booking. Balloon garland frames available.</div>
+    </div>
+
+    <div class="page-footer">
+      <span>Little Moment Studio · Internal Use Only · Not for Client Distribution</span>
+      <span>hello@littlemomentstudio.co.uk · 07762 549 648</span>
+    </div>
+  </div>
+
+  <!-- PAGE 2: Seating, Display & Novelty Props -->
+  <div class="page">
+    <div class="page-header">
+      <div class="page-brand">Little Moment Studio</div>
+      <div class="page-label">Hire Price List — Page 2 of 3</div>
+    </div>
+
+    <!-- SEATING & SURFACES -->
+    <div class="section-title">Seating &amp; <em>Surfaces</em></div>
+    <div class="section-desc">Structural prop hire — check for damage before and after every hire.</div>
+
+    <div class="col-head">
+      <span>Item</span>
+      <span>Hire Price</span>
+      <span>Deposit</span>
+      <span>Notes</span>
+    </div>
+
+    <div class="hire-row">
+      <div class="h-name">Rattan Throne Chair<small>High-back feature chair</small></div>
+      <div class="h-price">£65 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£30</div>
+      <div class="h-notes">Popular for mum-to-be or birthday girl. Check wicker integrity on return. Natural rattan colour.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Rattan Mat / Rug<small>Approx. 90cm × 150cm</small></div>
+      <div class="h-price">£15 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£10</div>
+      <div class="h-notes">Pairs with throne chair or under dessert table. Inspect edges for fraying on return.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Plinth / Pillar<small>Single — various heights</small></div>
+      <div class="h-price">from £35 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£20</div>
+      <div class="h-notes">White gloss finish. Heights: 60cm, 90cm, 110cm. Often hired in pairs — see below.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Plinth Pair<small>2 matching plinths</small></div>
+      <div class="h-price">from £60 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£35</div>
+      <div class="h-notes">Saving of £10 vs individual rate. Confirm same height required or specify staggered pair.</div>
+    </div>
+
+    <!-- DISPLAY & CAKE -->
+    <div class="section-gap"></div>
+    <div class="section-title">Display &amp; <em>Cake</em></div>
+    <div class="section-desc">Smaller props — check condition thoroughly, these are high-turnover items.</div>
+
+    <div class="col-head">
+      <span>Item</span>
+      <span>Hire Price</span>
+      <span>Deposit</span>
+      <span>Notes</span>
+    </div>
+
+    <div class="hire-row">
+      <div class="h-name">Cake Stand<small>Single tier, various sizes</small></div>
+      <div class="h-price">£25 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£15</div>
+      <div class="h-notes">Acrylic or ceramic finish. Specify preferred style at booking. Wash &amp; dry before return.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Cake Stand Set<small>3 stands — varied heights</small></div>
+      <div class="h-price">£40 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£25</div>
+      <div class="h-notes">Set of three at staggered heights for dessert table layering. All must be returned together.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Easel<small>Adjustable A-frame, holds up to A1</small></div>
+      <div class="h-price">£20 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£10</div>
+      <div class="h-notes">Gold or black finish. Client must supply their own sign/board unless booking Easel &amp; Sign.</div>
+    </div>
+    <div class="hire-row">
+      <div class="h-name">Easel &amp; Welcome Sign Board<small>Easel + personalised A2 board</small></div>
+      <div class="h-price">£50 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£20</div>
+      <div class="h-notes">Board printed in-house. Order wording from client min. 5 days before event. Deposit covers print cost.</div>
+    </div>
+
+    <!-- NOVELTY -->
+    <div class="section-gap"></div>
+    <div class="section-title">Novelty &amp; <em>Character</em></div>
+    <div class="section-desc">Fun add-ons — great upsell at booking stage.</div>
+
+    <div class="col-head">
+      <span>Item</span>
+      <span>Hire Price</span>
+      <span>Deposit</span>
+      <span>Notes</span>
+    </div>
+
+    <div class="hire-row">
+      <div class="h-name">Baby Balloon Box<small>Filled &amp; ready on collection</small></div>
+      <div class="h-price">£30 <span style="font-weight:400;font-size:10px;">/ day</span></div>
+      <div class="h-deposit">£15</div>
+      <div class="h-notes">Box filled with helium balloons by us before client collects. Specify colour palette. Box returned, balloons kept.</div>
+    </div>
+
+    <div class="callout">
+      <strong>Upsell tip:</strong> Throne chair + rattan mat + vase pair is a popular bundle for baby shower styling — suggest it proactively when a client books a balloon garland.
+    </div>
+
+    <div class="page-footer">
+      <span>Little Moment Studio · Internal Use Only · Not for Client Distribution</span>
+      <span>hello@littlemomentstudio.co.uk · 07762 549 648</span>
+    </div>
+  </div>
+
+  <!-- PAGE 3: Garland Add-ons + Rules + Suggested Bundles -->
+  <div class="page">
+    <div class="page-header">
+      <div class="page-brand">Little Moment Studio</div>
+      <div class="page-label">Hire Price List — Page 3 of 3</div>
+    </div>
+
+    <!-- GARLAND FLORALS -->
+    <div class="section-title">Balloon Garland <em>Floral Add-ons</em></div>
+    <div class="section-desc">Added to an existing balloon garland booking. Silk flowers only — tucked into knot clusters. Price is per garland, not per metre.</div>
+
+    <div class="addon-col-head">
+      <span>Add-on</span>
+      <span>Add to Price</span>
+      <span>What's Included</span>
+    </div>
+
+    <div class="addon-row">
+      <div class="h-name">Floral Accent<small>Light touch</small></div>
+      <div class="h-price">+£25</div>
+      <div class="h-notes">5–7 peony heads + 4–5 eucalyptus pieces scattered across the garland at natural-looking intervals. Subtle, airy feel.</div>
+    </div>
+    <div class="addon-row">
+      <div class="h-name">Full Floral Garland<small>Lush throughout</small></div>
+      <div class="h-price">+£45</div>
+      <div class="h-notes">Floral clusters every 30–40cm along full garland length. Peonies, ranunculus heads, eucalyptus &amp; gypsophila. Dense &amp; luxurious.</div>
+    </div>
+    <div class="addon-row">
+      <div class="h-name">Arch Top Florals<small>Concentrated at apex</small></div>
+      <div class="h-price">+£30</div>
+      <div class="h-notes">Heavy floral cluster at the top/centre of a balloon arch. Peonies, greenery &amp; trailing eucalyptus. Ideal for ceremony arches.</div>
+    </div>
+
+    <!-- DEPOSIT & RULES -->
+    <div class="section-gap"></div>
+    <div class="section-title">Deposit &amp; <em>Policy</em></div>
+    <div class="section-desc">Collect from all clients at time of booking confirmation. Deposits are non-negotiable.</div>
+
+    <div class="rules-grid">
+      <div class="rule-card">
+        <h4>How Deposits Work</h4>
+        <ul>
+          <li>Taken at booking, held until prop returned</li>
+          <li>Returned within 48h of safe return</li>
+          <li>Damage deducted at replacement cost</li>
+          <li>No refund if prop returned late without notice</li>
+          <li>Collect deposit before handing over any prop</li>
+        </ul>
+      </div>
+      <div class="rule-card">
+        <h4>What Counts as Damage</h4>
+        <ul>
+          <li>Broken stems or wicker on rattan items</li>
+          <li>Chips, cracks on cake stands / plinths</li>
+          <li>Neon sign cable faults or broken bulbs</li>
+          <li>Stains or soiling on easels or mats</li>
+          <li>Missing parts from multi-piece sets</li>
+        </ul>
+      </div>
+      <div class="rule-card">
+        <h4>Booking Rules</h4>
+        <ul>
+          <li>Min. 1 week notice for all hire items</li>
+          <li>2 weeks for flower wall &amp; neon signs</li>
+          <li>Sign board wording due 5 days before</li>
+          <li>Props not reserved until deposit paid</li>
+          <li>Same-day bookings at our discretion only</li>
+        </ul>
+      </div>
+      <div class="rule-card">
+        <h4>Collection &amp; Return</h4>
+        <ul>
+          <li>Client collects &amp; returns from studio by default</li>
+          <li>Delivery quoted on request (per mileage)</li>
+          <li>Return by 10am day after event unless agreed</li>
+          <li>Late return: £15/hour charged from deposit</li>
+          <li>Photos taken on handover — both directions</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SUGGESTED PACKAGES -->
+    <div class="section-gap"></div>
+    <div class="section-title">Suggested <em>Bundles</em></div>
+    <div class="section-desc">Pre-packaged hire combinations — offer a 10% bundle saving to encourage larger bookings.</div>
+
+    <div class="package-strip">
+      <div class="pkg">
+        <div class="pkg-name">Baby Shower Starter</div>
+        <div class="pkg-price">£120</div>
+        <div class="pkg-items">
+          Throne Chair<br>
+          Rattan Mat<br>
+          Medium Vase × 2<br>
+          <em style="color:var(--accent-dk);">Save £15 vs individual</em>
+        </div>
+      </div>
+      <div class="pkg">
+        <div class="pkg-name">Dessert Table Luxe</div>
+        <div class="pkg-price">£165</div>
+        <div class="pkg-items">
+          Large Vase × 2<br>
+          Cake Stand Set<br>
+          Plinth Pair<br>
+          <em style="color:var(--accent-dk);">Save £20 vs individual</em>
+        </div>
+      </div>
+      <div class="pkg">
+        <div class="pkg-name">Full Room Statement</div>
+        <div class="pkg-price">£280</div>
+        <div class="pkg-items">
+          Flower Wall<br>
+          Neon Sign<br>
+          Large Vase × 2<br>
+          Throne Chair + Mat<br>
+          <em style="color:var(--accent-dk);">Save £30 vs individual</em>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:14px;">
+      <strong>Pricing review:</strong> Review all hire prices in October 2026 ahead of the festive season. Track competitor rates (The Garden UK, local Sittingbourne suppliers) and adjust deposits if replacement costs change.
+    </div>
+
+    <div class="page-footer">
+      <span>Little Moment Studio · Internal Use Only · Not for Client Distribution</span>
+      <span>hello@littlemomentstudio.co.uk · 07762 549 648</span>
+    </div>
+  </div>
+
+</body>
+</html>
