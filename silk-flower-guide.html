@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Silk Flower Guide — Little Moment Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-dk: #A8885A;
+      --border:    rgba(74,74,74,0.12);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-b);
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--text);
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── COVER PAGE ── */
+    .cover {
+      width: 210mm;
+      min-height: 297mm;
+      background: linear-gradient(160deg, var(--secondary) 0%, var(--primary) 60%, var(--bg) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60mm 20mm 20mm;
+      page-break-after: always;
+      position: relative;
+      overflow: hidden;
+    }
+    .cover::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cover::after {
+      content: '';
+      position: absolute;
+      bottom: 40px; right: 40px;
+      width: 180px; height: 180px;
+      background: radial-gradient(circle, rgba(216,196,165,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cover-label {
+      font-family: var(--font-b);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      margin-bottom: 20px;
+    }
+    .cover h1 {
+      font-family: var(--font-h);
+      font-size: 42px;
+      font-weight: 500;
+      line-height: 1.1;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .cover h1 em { font-style: italic; color: var(--accent-dk); }
+    .cover h2 {
+      font-family: var(--font-h);
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-style: italic;
+    }
+    .cover-desc {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--text);
+      max-width: 140mm;
+      margin-bottom: 48px;
+    }
+    .cover-meta {
+      font-size: 11px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      width: 100%;
+    }
+    .cover-meta strong { color: var(--text); }
+
+    /* ── PAGES ── */
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 16mm 18mm;
+      page-break-after: always;
+      background: #fff;
+    }
+    .page:last-child { page-break-after: avoid; }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--accent);
+      margin-bottom: 20px;
+    }
+    .page-header-brand {
+      font-family: var(--font-h);
+      font-size: 11px;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .page-header-section {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+    }
+
+    /* ── SECTION TITLES ── */
+    .section-label {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      margin-bottom: 6px;
+    }
+    h2.section-title {
+      font-family: var(--font-h);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+    h2.section-title em { font-style: italic; color: var(--accent-dk); }
+    h3.sub-title {
+      font-family: var(--font-h);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 8px;
+      margin-top: 20px;
+    }
+    h3.sub-title em { font-style: italic; color: var(--accent-dk); }
+
+    p { font-size: 13px; line-height: 1.75; color: var(--muted); margin-bottom: 10px; }
+    p strong { color: var(--text); font-weight: 500; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 16px 0;
+    }
+
+    /* ── FLOWER TABLE ── */
+    .flower-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 12px;
+    }
+    .flower-table thead tr {
+      background: var(--secondary);
+    }
+    .flower-table th {
+      padding: 8px 10px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text);
+      border-bottom: 2px solid var(--accent);
+    }
+    .flower-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: top;
+    }
+    .flower-table tr:last-child td { border-bottom: none; }
+    .flower-table tr:nth-child(even) td { background: rgba(250,247,242,0.6); }
+    .flower-table td.qty {
+      font-weight: 600;
+      color: var(--accent-dk);
+      text-align: center;
+      font-size: 14px;
+    }
+    .flower-table td.code {
+      font-family: monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .flower-table td.role {
+      font-size: 11px;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .flower-table tfoot td {
+      background: var(--bg2);
+      font-weight: 600;
+      color: var(--text);
+      border-top: 2px solid var(--accent);
+      padding: 8px 10px;
+    }
+
+    /* ── STEP BOXES ── */
+    .steps { display: flex; flex-direction: column; gap: 10px; margin: 14px 0; }
+    .step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      background: var(--bg2);
+      border-radius: 8px;
+      padding: 12px 14px;
+      border-left: 3px solid var(--accent);
+    }
+    .step-num {
+      font-family: var(--font-h);
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--accent-dk);
+      flex-shrink: 0;
+      line-height: 1;
+      min-width: 24px;
+    }
+    .step-body h4 {
+      font-family: var(--font-b);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+    .step-body p {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* ── INFO BOXES ── */
+    .info-box {
+      background: var(--primary);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      border-left: 3px solid #a0c0e0;
+    }
+    .info-box h4 {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #5080a0;
+      margin-bottom: 5px;
+    }
+    .info-box p { font-size: 12px; color: var(--text); margin: 0; line-height: 1.65; }
+
+    .tip-box {
+      background: var(--secondary);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      border-left: 3px solid var(--accent);
+    }
+    .tip-box h4 {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      margin-bottom: 5px;
+    }
+    .tip-box p { font-size: 12px; color: var(--text); margin: 0; line-height: 1.65; }
+
+    /* ── PRICING CARDS ── */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 14px 0;
+    }
+    .pricing-card {
+      background: var(--bg2);
+      border-radius: 8px;
+      padding: 16px;
+      border-top: 3px solid var(--accent);
+    }
+    .pricing-card h4 {
+      font-family: var(--font-h);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .pricing-card h4 em { font-style: italic; color: var(--accent-dk); }
+    .pricing-card .price {
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--accent-dk);
+      font-family: var(--font-h);
+      margin-bottom: 8px;
+    }
+    .pricing-card .price span {
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--muted);
+    }
+    .pricing-card ul {
+      list-style: none;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .pricing-card ul li {
+      padding: 3px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .pricing-card ul li:last-child { border-bottom: none; }
+    .pricing-card ul li::before { content: '—'; color: var(--accent); flex-shrink: 0; }
+
+    /* ── COST RECOVERY TABLE ── */
+    .recovery-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin: 12px 0;
+    }
+    .recovery-table th {
+      background: var(--accent);
+      color: #fff;
+      padding: 7px 10px;
+      text-align: left;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .recovery-table td {
+      padding: 7px 10px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    .recovery-table tr:nth-child(even) td { background: var(--bg2); }
+    .recovery-table td.profit { color: #5a8a5a; font-weight: 600; }
+    .recovery-table td.highlight { background: #eaf5ea !important; font-weight: 600; }
+
+    /* ── ORDER REFERENCE ── */
+    .order-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+      margin: 12px 0;
+    }
+    .order-row {
+      display: grid;
+      grid-template-columns: 3fr 0.5fr 0.7fr 0.9fr;
+      gap: 6px;
+      align-items: center;
+      padding: 8px 10px;
+      background: var(--bg2);
+      border-radius: 5px;
+      font-size: 11px;
+    }
+    .order-row.header {
+      background: var(--text);
+      color: #fff;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: 5px 5px 0 0;
+    }
+    .order-row.header span { color: rgba(255,255,255,0.8); }
+    .order-row .o-name { color: var(--text); font-weight: 500; display: flex; flex-direction: column; gap: 2px; }
+    .order-row .o-name a { font-size: 10px; color: #5080b0; text-decoration: underline; word-break: break-all; font-weight: 400; }
+    .order-row .o-name .o-code { font-family: monospace; font-size: 10px; color: var(--muted); font-weight: 400; }
+    .order-row .o-qty { color: var(--accent-dk); font-weight: 700; text-align: center; font-size: 13px; }
+    .order-row .o-price { color: var(--muted); }
+    .order-row .o-total { color: var(--text); font-weight: 500; }
+    .order-group-label {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      padding: 10px 0 3px;
+    }
+    .order-total-row {
+      display: grid;
+      grid-template-columns: 3fr 0.5fr 0.7fr 0.9fr;
+      gap: 6px;
+      align-items: center;
+      padding: 9px 10px;
+      background: var(--accent);
+      border-radius: 0 0 5px 5px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    /* ── BALLOON SECTION ── */
+    .balloon-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 14px 0;
+    }
+    .balloon-card {
+      background: var(--bg2);
+      border-radius: 8px;
+      padding: 14px;
+      border-left: 3px solid var(--secondary);
+    }
+    .balloon-card h4 {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .balloon-card .per-metre {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent-dk);
+      margin-bottom: 8px;
+    }
+    .balloon-card ul {
+      list-style: none;
+      font-size: 12px;
+    }
+    .balloon-card ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 4px 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    .balloon-card ul li:last-child { border-bottom: none; }
+    .balloon-card ul li .bq {
+      font-weight: 700;
+      color: var(--accent-dk);
+      flex-shrink: 0;
+      min-width: 18px;
+      font-size: 13px;
+    }
+    .balloon-card ul li .bn { color: var(--muted); font-size: 11px; }
+
+    /* ── STORAGE TABLE ── */
+    .storage-table { width: 100%; border-collapse: collapse; font-size: 12px; margin: 12px 0; }
+    .storage-table th {
+      background: var(--secondary);
+      padding: 7px 10px;
+      text-align: left;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .storage-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); color: var(--text); }
+    .storage-table tr:nth-child(even) td { background: var(--bg2); }
+
+    /* ── PRINT ── */
+    @media print {
+      body { background: #fff; }
+      .cover, .page { width: 210mm; }
+      @page { margin: 0; size: A4 portrait; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     COVER
+═══════════════════════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-label">Little Moment Studio — Internal Reference</div>
+  <h1>Silk Flower<br><em>Styling Guide</em></h1>
+  <h2>Vases, Balloon Garlands & Prop Hire</h2>
+  <p class="cover-desc">This guide covers everything you need to know about dressing silk flower vase arrangements, adding florals to balloon garlands, and how to price them for hire. Keep this to hand for every event build.</p>
+  <div class="cover-meta">
+    <strong>Little Moment Studio</strong> &nbsp;·&nbsp; Forum Shopping Centre, Sittingbourne ME10 3DL &nbsp;·&nbsp; hello@littlemomentstudio.co.uk &nbsp;·&nbsp; 07762 549 648<br>
+    Supplier: Decoflora (silkflowersdecoflora.co.uk) &nbsp;·&nbsp; Version 1.0, May 2026
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 1 — VASE GUIDE: MEDIUM
+═══════════════════════════════════════════════════ -->
+<div class="page">
+  <div class="page-header">
+    <span class="page-header-brand">Little Moment Studio</span>
+    <span class="page-header-section">Section 1 — Dressed Vase Arrangements</span>
+  </div>
+
+  <div class="section-label">Standard Hire Item</div>
+  <h2 class="section-title">Medium Dressed <em>Vase</em></h2>
+  <p>The medium vase is the standard hire unit — suitable for dessert tables, ceremony welcome tables and birthday setups. Each vase should be dressed consistently so that multiple vases look cohesive when used together at the same event.</p>
+
+  <h3 class="sub-title">Flowers Per <em>Medium Vase</em></h3>
+  <p>This recipe creates a full, lush arrangement in the blush, ivory and cream palette used across our Luxe Baby Shower setup.</p>
+
+  <table class="flower-table">
+    <thead>
+      <tr>
+        <th>Flower / Foliage</th>
+        <th>Product Code</th>
+        <th style="text-align:center">Qty</th>
+        <th>Role in Arrangement</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Anastasia Peony Ivory 56cm</strong></td>
+        <td class="code">P243 Q4</td>
+        <td class="qty">5</td>
+        <td class="role">Hero flower — place centrally and at heights</td>
+      </tr>
+      <tr>
+        <td><strong>Anastasia Rose Pale Pink 64cm</strong></td>
+        <td class="code">R935 O4</td>
+        <td class="qty">3</td>
+        <td class="role">Secondary bloom — distribute evenly</td>
+      </tr>
+      <tr>
+        <td><strong>Anastasia Rose Peach 64cm</strong></td>
+        <td class="code">R934 R2</td>
+        <td class="qty">2</td>
+        <td class="role">Warm accent — tuck at low and mid height</td>
+      </tr>
+      <tr>
+        <td><strong>Ranunculus Cream Open 43cm</strong></td>
+        <td class="code">R426 Q2</td>
+        <td class="qty">3</td>
+        <td class="role">Filler bloom — soften gaps between peonies</td>
+      </tr>
+      <tr>
+        <td><strong>Ranunculus Pink Peach 40cm</strong></td>
+        <td class="code">R042 G4</td>
+        <td class="qty">2</td>
+        <td class="role">Colour filler — placed at the edges</td>
+      </tr>
+      <tr>
+        <td><strong>Eucalyptus Silver Dollar 92cm</strong></td>
+        <td class="code">EUC019 E4</td>
+        <td class="qty">3</td>
+        <td class="role">Architectural foliage — allow to arch outward</td>
+      </tr>
+      <tr>
+        <td><strong>Eucalyptus Silver Dollar Plant 39.5cm</strong></td>
+        <td class="code">EUC015 F1</td>
+        <td class="qty">2</td>
+        <td class="role">Base foliage — fill around the base of blooms</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"><strong>Total stems per medium vase</strong></td>
+        <td style="text-align:center; font-size:16px; color: var(--accent-dk);"><strong>20</strong></td>
+        <td></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="tip-box">
+    <h4>Arrangement Tip</h4>
+    <p>Start with the eucalyptus to set the shape and height. Add peonies as anchor points at varying heights. Fill with roses and ranunculus. Step back and check from 2 metres — that's the viewing distance at an event. Stems should cross inside the vase for stability; no stem should sit perfectly upright.</p>
+  </div>
+
+  <h3 class="sub-title">Large <em>Statement Vase</em></h3>
+  <p>For entrance pieces or oversized centrepieces. Use the same recipe but scale up as below.</p>
+
+  <table class="flower-table">
+    <thead>
+      <tr>
+        <th>Flower / Foliage</th>
+        <th>Code</th>
+        <th style="text-align:center">Qty</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Anastasia Peony Ivory 56cm</strong></td><td class="code">P243 Q4</td><td class="qty">7</td></tr>
+      <tr><td><strong>Anastasia Rose Pale Pink 64cm</strong></td><td class="code">R935 O4</td><td class="qty">4</td></tr>
+      <tr><td><strong>Anastasia Rose Peach 64cm</strong></td><td class="code">R934 R2</td><td class="qty">3</td></tr>
+      <tr><td><strong>Ranunculus Cream Open 43cm</strong></td><td class="code">R426 Q2</td><td class="qty">4</td></tr>
+      <tr><td><strong>Ranunculus Pink Peach 40cm</strong></td><td class="code">R042 G4</td><td class="qty">3</td></tr>
+      <tr><td><strong>Eucalyptus Silver Dollar 92cm</strong></td><td class="code">EUC019 E4</td><td class="qty">4</td></tr>
+      <tr><td><strong>Eucalyptus Silver Dollar Plant 39.5cm</strong></td><td class="code">EUC015 F1</td><td class="qty">3</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="2"><strong>Total stems per large vase</strong></td><td style="text-align:center; font-size:16px; color: var(--accent-dk);"><strong>28</strong></td></tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 2 — BALLOON GARLAND FLOWERS
+═══════════════════════════════════════════════════ -->
+<div class="page">
+  <div class="page-header">
+    <span class="page-header-brand">Little Moment Studio</span>
+    <span class="page-header-section">Section 2 — Balloon Garland Florals</span>
+  </div>
+
+  <div class="section-label">Adding Florals to Installations</div>
+  <h2 class="section-title">Flowers Within <em>Balloon Garlands</em></h2>
+  <p>Tucking silk flowers and foliage into a balloon garland elevates it from a standard build to a premium, styled installation. This is one of the defining features of our Luxe setups. The flowers sit between and behind the balloons — they should feel like they are growing out of the garland naturally, not placed on top.</p>
+
+  <div class="info-box">
+    <h4>Key Principle</h4>
+    <p>Use <strong>heads and short stems only</strong> in garlands — not full-length stems. Full stems add unnecessary weight, which can pull balloons out of position. Cut or use pre-cut head-only products. Push stems into the knot clusters between balloon groups.</p>
+  </div>
+
+  <h3 class="sub-title">What to Use — <em>Per Metre of Garland</em></h3>
+
+  <div class="balloon-grid">
+    <div class="balloon-card">
+      <h4>Peony Cream Heads</h4>
+      <div class="per-metre">Per metre of garland</div>
+      <ul>
+        <li><span class="bq">5–7</span><span>heads tucked between balloon clusters</span></li>
+      </ul>
+      <div style="margin-top:10px; font-size:11px; color:var(--muted);">
+        <strong style="color:var(--text)">Product:</strong> P283 EE2 — Cream Heads Only 10cm<br>
+        <strong style="color:var(--text)">Cost:</strong> £0.54 per head<br>
+        <strong style="color:var(--text)">Method:</strong> Push the short stem directly into the balloon knot cluster. No trimming needed.
+      </div>
+    </div>
+
+    <div class="balloon-card">
+      <h4>Eucalyptus Grey Green Stem</h4>
+      <div class="per-metre">Per metre of garland</div>
+      <ul>
+        <li><span class="bq">4–5</span><span>stem pieces (cut each stem in half)</span></li>
+      </ul>
+      <div style="margin-top:10px; font-size:11px; color:var(--muted);">
+        <strong style="color:var(--text)">Product:</strong> EUC026 AA4 — Grey Green Stem 51cm<br>
+        <strong style="color:var(--text)">Cost:</strong> £1.15 per stem (= ~58p per piece when cut)<br>
+        <strong style="color:var(--text)">Method:</strong> Cut each 51cm stem in half. Tuck cut end behind a balloon, let leaves fan outward. Place every 25–30cm along the garland.
+      </div>
+    </div>
+
+    <div class="balloon-card">
+      <h4>Gypsophila White Baby's Breath</h4>
+      <div class="per-metre">Per metre of garland</div>
+      <ul>
+        <li><span class="bq">2–3</span><span>small sprigs (cut from main stem)</span></li>
+      </ul>
+      <div style="margin-top:10px; font-size:11px; color:var(--muted);">
+        <strong style="color:var(--text)">Product:</strong> G003 D2 — White Baby's Breath 62cm<br>
+        <strong style="color:var(--text)">Cost:</strong> £2.03 per stem (each gives 3–4 sprigs)<br>
+        <strong style="color:var(--text)">Method:</strong> Break into small sprigs and tuck into gaps for airiness. Best used sparingly — too much loses the lush look.
+      </div>
+    </div>
+
+    <div class="balloon-card">
+      <h4>Ranunculus Heads (Optional)</h4>
+      <div class="per-metre">Per metre of garland</div>
+      <ul>
+        <li><span class="bq">2–3</span><span>heads cut from stem (use the rest in vases)</span></li>
+      </ul>
+      <div style="margin-top:10px; font-size:11px; color:var(--muted);">
+        <strong style="color:var(--text)">Products:</strong> R426 Q2 or R042 G4<br>
+        <strong style="color:var(--text)">Cost:</strong> Nil additional (cut from vase stems in the same build)<br>
+        <strong style="color:var(--text)">Method:</strong> Cut the head with 3–4cm of stem. Push into knot clusters between peony heads for colour variation.
+      </div>
+    </div>
+  </div>
+
+  <h3 class="sub-title">Example — <em>3-Metre Garland</em></h3>
+
+  <table class="flower-table">
+    <thead>
+      <tr><th>Item</th><th>Code</th><th style="text-align:center">Qty</th><th>Est. Cost</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Peony Cream Heads</strong></td><td class="code">P283 EE2</td><td class="qty">18</td><td>£9.72</td></tr>
+      <tr><td><strong>Eucalyptus Stems (cut to half)</strong></td><td class="code">EUC026 AA4</td><td class="qty">7 stems</td><td>£8.05</td></tr>
+      <tr><td><strong>Gypsophila Sprigs</strong></td><td class="code">G003 D2</td><td class="qty">3 stems</td><td>£6.09</td></tr>
+      <tr><td><strong>Ranunculus Heads (from vase stems)</strong></td><td class="code">R426 / R042</td><td class="qty">6 heads</td><td>Nil</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="3"><strong>Total material cost per 3m garland</strong></td><td><strong>~£24</strong></td></tr>
+    </tfoot>
+  </table>
+
+  <div class="tip-box">
+    <h4>Placement Tips</h4>
+    <p><strong>Cluster, don't scatter.</strong> Group flowers together at 2–3 points along the garland (e.g. at the arch peak and two thirds of the way down each side) rather than spacing them evenly. Clustered florals photograph far better and look more intentional.<br><br>
+    <strong>Face flowers outward.</strong> Every head should face the camera direction, not upward or sideways. Check from the front before photographing.<br><br>
+    <strong>Hide the stems.</strong> No white plastic stems should be visible. Push fully into the balloon cluster or wrap with a small piece of eucalyptus leaf.</p>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 3 — HIRE PRICING
+═══════════════════════════════════════════════════ -->
+<div class="page">
+  <div class="page-header">
+    <span class="page-header-brand">Little Moment Studio</span>
+    <span class="page-header-section">Section 3 — Hire Pricing</span>
+  </div>
+
+  <div class="section-label">Prop Hire — Silk Flower Vases</div>
+  <h2 class="section-title">Hire <em>Pricing Guide</em></h2>
+  <p>Silk flower vases are hired as dressed units — the flowers remain in the vase and are returned after the event. Because the flowers are reusable, your profit grows with every hire. The pricing below is designed to recover asset costs within 2 hires and build margin from hire 3 onwards.</p>
+
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <h4>Medium <em>Dressed Vase</em></h4>
+      <div class="price">£40 <span>per hire</span></div>
+      <ul>
+        <li>20 silk stems — peonies, roses, ranunculus, eucalyptus</li>
+        <li>Suitable for dessert tables, welcome tables, birthday setups</li>
+        <li>Minimum 48-hour hire period</li>
+        <li>Damage deposit: £25 (refunded on return)</li>
+      </ul>
+    </div>
+    <div class="pricing-card">
+      <h4>Large <em>Statement Vase</em></h4>
+      <div class="price">£55 <span>per hire</span></div>
+      <ul>
+        <li>28 silk stems — as medium but scaled up</li>
+        <li>Suitable for entrance pieces and large centrepieces</li>
+        <li>Minimum 48-hour hire period</li>
+        <li>Damage deposit: £30 (refunded on return)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 class="sub-title">Cost Recovery — <em>Medium Vase</em></h3>
+  <p>One-time asset cost of approximately £80 per medium vase (flowers + vase vessel). Hire at £40 per booking.</p>
+
+  <table class="recovery-table">
+    <thead>
+      <tr><th>Hire Number</th><th>Revenue (cumulative)</th><th>Asset Cost</th><th>Profit / (Loss)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hire 1</td><td>£40</td><td>£80</td><td style="color:#b05050;">(£40)</td></tr>
+      <tr><td>Hire 2</td><td>£80</td><td>£80</td><td>Break even</td></tr>
+      <tr><td class="highlight">Hire 3</td><td class="highlight">£120</td><td class="highlight">£80</td><td class="profit">+£40</td></tr>
+      <tr><td>Hire 5</td><td>£200</td><td>£80</td><td class="profit">+£120</td></tr>
+      <tr><td>Hire 10</td><td>£400</td><td>£80</td><td class="profit">+£320</td></tr>
+      <tr><td>Hire 20</td><td>£800</td><td>£80</td><td class="profit">+£720</td></tr>
+    </tbody>
+  </table>
+
+  <div class="info-box">
+    <h4>Important — Deposits</h4>
+    <p>Always collect a damage deposit before the hire period begins. Deposits are held and refunded within 48 hours of return, subject to inspection. If a stem is damaged or missing on return, retain the relevant portion of deposit. Keep a written record of item condition on handover.</p>
+  </div>
+
+  <h3 class="sub-title">Garland Floral <em>Add-On Pricing</em></h3>
+  <p>Adding silk florals to a balloon garland is priced as an add-on to the garland installation fee, not as a separate hire item (the flowers remain with us after the build).</p>
+
+  <table class="flower-table">
+    <thead>
+      <tr><th>Add-On</th><th>Description</th><th>Price</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Floral Garland Accent</strong></td><td class="role">Flowers clustered at 1–2 points on the garland</td><td>+£25</td></tr>
+      <tr><td><strong>Full Floral Garland</strong></td><td class="role">Florals distributed along entire garland length</td><td>+£45</td></tr>
+      <tr><td><strong>Peony &amp; Eucalyptus Arch Top</strong></td><td class="role">Statement cluster at the apex of an arch only</td><td>+£30</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 4 — FULL ORDER REFERENCE
+═══════════════════════════════════════════════════ -->
+<div class="page">
+  <div class="page-header">
+    <span class="page-header-brand">Little Moment Studio</span>
+    <span class="page-header-section">Section 4 — Supplier Order Reference</span>
+  </div>
+
+  <div class="section-label">Decoflora — Starter Stock Order</div>
+  <h2 class="section-title">Full <em>Order List</em></h2>
+  <p>Order from <strong>silkflowersdecoflora.co.uk</strong> &nbsp;|&nbsp; Tel: 01900 872046 &nbsp;|&nbsp; Free delivery on orders over £150. Search each product code directly in the search bar on site.</p>
+
+  <div class="order-group-label">Peonies</div>
+  <div class="order-row header">
+    <span>Product — Code — Click link to order</span><span style="text-align:center">Qty</span><span>Unit</span><span>Line Total</span>
+  </div>
+
+  <div class="order-group-label">Peonies</div>
+  <div class="order-row">
+    <span class="o-name">Anastasia Peony Ivory 56cm <span class="o-code">P243 Q4</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=P243" target="_blank">silkflowersdecoflora.co.uk → search P243</a></span>
+    <span class="o-qty">24</span>
+    <span class="o-price">£5.03</span>
+    <span class="o-total">£120.72</span>
+  </div>
+  <div class="order-row">
+    <span class="o-name">Peony Cream Heads Only 10cm <span class="o-code">P283 EE2</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=P283" target="_blank">silkflowersdecoflora.co.uk → search P283</a></span>
+    <span class="o-qty">30</span>
+    <span class="o-price">£0.54</span>
+    <span class="o-total">£16.20</span>
+  </div>
+
+  <div class="order-group-label">Roses</div>
+  <div class="order-row">
+    <span class="o-name">Anastasia Rose Pale Pink 64cm <span class="o-code">R935 O4</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=R935" target="_blank">silkflowersdecoflora.co.uk → search R935</a></span>
+    <span class="o-qty">18</span>
+    <span class="o-price">£3.43</span>
+    <span class="o-total">£61.74</span>
+  </div>
+  <div class="order-row">
+    <span class="o-name">Anastasia Rose Peach 64cm <span class="o-code">R934 R2</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=R934" target="_blank">silkflowersdecoflora.co.uk → search R934</a></span>
+    <span class="o-qty">12</span>
+    <span class="o-price">£3.43</span>
+    <span class="o-total">£41.16</span>
+  </div>
+
+  <div class="order-group-label">Ranunculus</div>
+  <div class="order-row">
+    <span class="o-name">Ranunculus Cream Open 43cm <span class="o-code">R426 Q2</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=R426" target="_blank">silkflowersdecoflora.co.uk → search R426</a></span>
+    <span class="o-qty">15</span>
+    <span class="o-price">£3.43</span>
+    <span class="o-total">£51.45</span>
+  </div>
+  <div class="order-row">
+    <span class="o-name">Ranunculus Pink Peach 40cm <span class="o-code">R042 G4</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=R042" target="_blank">silkflowersdecoflora.co.uk → search R042</a></span>
+    <span class="o-qty">15</span>
+    <span class="o-price">£2.27</span>
+    <span class="o-total">£34.05</span>
+  </div>
+
+  <div class="order-group-label">Eucalyptus &amp; Foliage</div>
+  <div class="order-row">
+    <span class="o-name">Eucalyptus Silver Dollar 92cm <span class="o-code">EUC019 E4</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=EUC019" target="_blank">silkflowersdecoflora.co.uk → search EUC019</a></span>
+    <span class="o-qty">12</span>
+    <span class="o-price">£3.46</span>
+    <span class="o-total">£41.52</span>
+  </div>
+  <div class="order-row">
+    <span class="o-name">Eucalyptus Silver Dollar Plant 39.5cm <span class="o-code">EUC015 F1</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=EUC015" target="_blank">silkflowersdecoflora.co.uk → search EUC015</a></span>
+    <span class="o-qty">10</span>
+    <span class="o-price">£3.30</span>
+    <span class="o-total">£33.00</span>
+  </div>
+  <div class="order-row">
+    <span class="o-name">Eucalyptus Grey Green Stem 51cm <span class="o-code">EUC026 AA4</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=EUC026" target="_blank">silkflowersdecoflora.co.uk → search EUC026</a></span>
+    <span class="o-qty">20</span>
+    <span class="o-price">£1.15</span>
+    <span class="o-total">£23.00</span>
+  </div>
+
+  <div class="order-group-label">Gypsophila</div>
+  <div class="order-row">
+    <span class="o-name">White Baby's Breath 62cm <span class="o-code">G003 D2</span><a href="https://silkflowersdecoflora.co.uk/index.php?route=product/search&search=G003" target="_blank">silkflowersdecoflora.co.uk → search G003</a></span>
+    <span class="o-qty">10</span>
+    <span class="o-price">£2.03</span>
+    <span class="o-total">£20.30</span>
+  </div>
+
+  <div class="order-total-row">
+    <span>Order Total (excl. VAT) — Free delivery included</span>
+    <span style="text-align:center">156</span>
+    <span>stems</span>
+    <span>£443.14</span>
+  </div>
+
+  <div class="tip-box" style="margin-top:16px">
+    <h4>Before You Order</h4>
+    <p><strong>Anastasia Pale Pink Peony (P242)</strong> — the best blush peony match — was out of stock at time of writing. Search P242 and add to wishlist if available. The Rose Pale Pink (R935) covers the blush tone in the interim.<br><br>
+    <strong>VAT:</strong> Confirm whether prices shown on Decoflora are inclusive or exclusive of VAT at checkout. If ex-VAT, add 20% to the total above (~£532 inc. VAT).<br><br>
+    <strong>Free shipping</strong> applies on orders over £150 — this order qualifies.</p>
+  </div>
+
+  <h3 class="sub-title">Storage &amp; <em>Care</em></h3>
+  <table class="storage-table">
+    <thead><tr><th>Item Type</th><th>Storage</th><th>Care &amp; Cleaning</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Peony &amp; rose stems</strong></td><td>Upright in a dry box or vase (no water)</td><td>Shake gently to remove dust. Spot clean with damp cloth. Reshape petals by hand.</td></tr>
+      <tr><td><strong>Peony heads (loose)</strong></td><td>Shallow tray or ziplock bag, single layer</td><td>Store flat — do not compress. Reshape after each use.</td></tr>
+      <tr><td><strong>Eucalyptus stems</strong></td><td>Wrapped in tissue, stored flat or hanging</td><td>Wipe leaves with a slightly damp cloth. Stems may be reshaped with gentle bending.</td></tr>
+      <tr><td><strong>Gypsophila</strong></td><td>Loosely wrapped, never compressed</td><td>Very delicate — shake to fluff. Avoid getting wet as fine stems may distort.</td></tr>
+      <tr><td><strong>Dressed vases (post-hire)</strong></td><td>Leave dressed and store in a cool dry place</td><td>Inspect each stem on return. Replace any damaged stems before next hire.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
