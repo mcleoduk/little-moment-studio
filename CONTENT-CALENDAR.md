@@ -14,9 +14,9 @@ Each setup follows a cluster structure: one package page (conversion) + 2–3 su
 
 ### The Luxe Baby Shower
 
-**Package page:** `the-luxe-baby-shower.html` — 🔵 Local only  
+**Package page:** `the-luxe-baby-shower.html` — **LIVE** (published 10 May 2026)  
 3 tiers: Mini £295 / Signature £595 / Grand Luxe £795. Portfolio offer £395 for first 5 Signature bookings.  
-Images in `gallery/signature/the-luxe-baby-shower/` — EXIF not yet done.
+Images in `gallery/signature/the-luxe-baby-shower/` — EXIF done (Canon EOS R6m2, 12 Apr 2026).
 
 **Cluster articles:**
 
@@ -33,6 +33,16 @@ Images in `gallery/signature/the-luxe-baby-shower/` — EXIF not yet done.
 - `teddy-bear-baby-shower-ideas.html` ✓
 
 ---
+
+---
+
+## Partner Pages
+
+Permanent referral pages — not journal articles. Live as orphans (noindex) until reviewed and approved for indexing.
+
+| Page | URL | Status | Notes |
+|------|-----|--------|-------|
+| Flowers by Beatrice | flowers-by-beatrice-kent.html | 🟡 Live — orphan (noindex) | Un-orphan once page reviewed and Beatrice happy. Remove noindex, add to sitemap, consider linking from relevant service pages. |
 
 ---
 
