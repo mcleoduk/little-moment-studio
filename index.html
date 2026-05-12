@@ -673,20 +673,33 @@
 </section>
 
 <!-- PARTNERS -->
-<section style="padding: 48px 0; background: var(--bg2); border-top: 1px solid var(--border);">
+<section style="padding: 64px 0; background: var(--bg2); border-top: 1px solid var(--border);">
   <div class="container">
-    <div style="display: flex; align-items: center; gap: 48px; flex-wrap: wrap; justify-content: space-between;">
-      <div class="reveal">
-        <div style="font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-dk); margin-bottom: 8px;">Recommended Partner</div>
-        <h2 style="font-family: var(--font-h); font-size: clamp(20px, 2.5vw, 26px); font-weight: 500; line-height: 1.2; margin-bottom: 8px;">Cakes &amp; Cupcakes by <em style="font-style: italic; color: var(--accent-dk);">Berrylicious</em></h2>
-        <p style="font-size: 14px; color: var(--muted); max-width: 480px; line-height: 1.7;">Handmade bespoke cakes and themed cupcakes by Jacqui, based in Rainham — the perfect finishing touch for any balloon styling or dessert table setup.</p>
+    <div style="text-align: center; margin-bottom: 40px;" class="reveal">
+      <div style="font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-dk); margin-bottom: 10px;">Recommended Partners</div>
+      <h2 style="font-family: var(--font-h); font-size: clamp(22px, 3vw, 30px); font-weight: 500; line-height: 1.2;">Trusted local makers we <em style="font-style: italic; color: var(--accent-dk);">love to work with</em></h2>
+    </div>
+    <div class="partners-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 900px; margin: 0 auto;">
+      <div class="reveal" style="background: var(--bg3); border-radius: 16px; padding: 32px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; gap: 12px;">
+        <div style="font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-dk);">Cakes &amp; Cupcakes</div>
+        <h3 style="font-family: var(--font-h); font-size: clamp(18px, 2vw, 22px); font-weight: 500; line-height: 1.25;">Cakes &amp; Cupcakes by <em style="font-style: italic; color: var(--accent-dk);">Berrylicious</em></h3>
+        <p style="font-size: 14px; color: var(--muted); line-height: 1.7; flex: 1;">Handmade bespoke cakes and themed cupcakes by Jacqui, based in Rainham — the perfect finishing touch for any balloon styling or dessert table setup.</p>
+        <a href="berrylicious-cakes-partner.html" class="btn btn-secondary" style="white-space: nowrap; align-self: flex-start;">View the Partnership &rarr;</a>
       </div>
-      <div class="reveal rd1" style="flex-shrink: 0;">
-        <a href="berrylicious-cakes-partner.html" class="btn btn-secondary" style="white-space: nowrap;">View the Partnership &rarr;</a>
+      <div class="reveal rd1" style="background: var(--bg3); border-radius: 16px; padding: 32px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; gap: 12px;">
+        <div style="font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-dk);">Fresh Flowers</div>
+        <h3 style="font-family: var(--font-h); font-size: clamp(18px, 2vw, 22px); font-weight: 500; line-height: 1.25;">Fresh Florals by <em style="font-style: italic; color: var(--accent-dk);">Flowers by Beatrice</em></h3>
+        <p style="font-size: 14px; color: var(--muted); line-height: 1.7; flex: 1;">Bespoke fresh floral arrangements crafted in Sittingbourne — beautifully paired with our balloon styling for baby showers, birthdays and celebrations.</p>
+        <a href="flowers-by-beatrice-kent.html" class="btn btn-secondary" style="white-space: nowrap; align-self: flex-start;">View the Partnership &rarr;</a>
       </div>
     </div>
   </div>
 </section>
+<style>
+  @media (max-width: 600px) {
+    .partners-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
 
 <!-- TESTIMONIALS -->
 <section class="testimonials" id="testimonials">
