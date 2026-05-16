@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8DG3BN9RBZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8DG3BN9RBZ');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prop Hire | Little Moment Studio</title>
+  <meta name="description" content="Beautiful event prop hire from Little Moment Studio, Sittingbourne. Flower walls, neon signs, light-up numbers, rattan chairs, cake stands and more. Launching soon.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://littlemomentstudio.co.uk/prop-hire.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:        #FAF7F2;
+      --bg2:       #F5F1EA;
+      --bg3:       #FFFFFF;
+      --text:      #4A4A4A;
+      --muted:     #7A7A7A;
+      --primary:   #DCEAF5;
+      --secondary: #F6DDE4;
+      --accent:    #D8C4A5;
+      --accent-dk: #A8885A;
+      --accent-lt: #E6D8C3;
+      --border:    rgba(74,74,74,0.10);
+      --shadow:    0 2px 10px rgba(74,74,74,0.06), 0 12px 36px rgba(74,74,74,0.08);
+      --shadow-sm: 0 1px 4px rgba(74,74,74,0.06), 0 4px 16px rgba(74,74,74,0.06);
+      --font-h:    'Playfair Display', Georgia, serif;
+      --font-b:    'Inter', -apple-system, sans-serif;
+      --r:         16px;
+      --max:       1200px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-b); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font-family: inherit; }
+
+    .container { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+    /* ── TOPBAR ── */
+    .topbar { background: var(--text); color: rgba(255,255,255,0.8); padding: 10px 0; font-size: 13px; }
+    .topbar .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .topbar-left { display: flex; align-items: center; gap: 24px; }
+    .topbar-link { display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.7); transition: color 0.2s ease; }
+    .topbar-link:hover { color: #fff; }
+    .topbar-cta { background: var(--accent); color: #fff; padding: 6px 18px; border-radius: 50px; font-size: 12px; font-weight: 500; letter-spacing: 0.04em; transition: background 0.2s ease; }
+    .topbar-cta:hover { background: var(--accent-dk); }
+    @media (max-width: 600px) { .topbar-link span { display: none; } .topbar-left { gap: 12px; } }
+
+    /* ── NAV ── */
+    .nav { background: var(--bg); padding: 16px 0; position: sticky; top: 0; z-index: 100; transition: box-shadow 0.3s ease, padding 0.3s ease; }
+    .nav.scrolled { box-shadow: var(--shadow-sm); padding: 10px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo img { height: 88px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--muted); transition: color 0.2s ease; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -2px; width: 0; height: 1px; background: var(--accent); transition: width 0.25s ease; }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
+    @media (max-width: 900px) { .nav-links, .nav-book { display: none; } .nav-hamburger { display: flex; } }
+
+    /* ── MOBILE NAV ── */
+    .nav-mobile { display: none; position: fixed; inset: 0; background: var(--bg); z-index: 200; flex-direction: column; align-items: center; justify-content: center; }
+    .nav-mobile.open { display: flex; }
+    .nav-mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; font-size: 32px; cursor: pointer; color: var(--text); line-height: 1; }
+    .nav-mobile-links { list-style: none; text-align: center; display: flex; flex-direction: column; gap: 4px; }
+    .nav-mobile-links a { font-family: var(--font-h); font-size: 30px; font-weight: 400; color: var(--text); display: block; padding: 8px 0; transition: color 0.2s ease; }
+    .nav-mobile-links a:hover { color: var(--accent); }
+    .nav-mobile-cta { margin-top: 32px; }
+
+    /* ── BUTTONS ── */
+    .btn { display: inline-block; padding: 14px 32px; border-radius: 50px; font-size: 14px; font-weight: 500; letter-spacing: 0.03em; transition: all 0.25s ease; cursor: pointer; border: none; text-align: center; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-dk); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(216,196,165,0.4); }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent-dk); }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 100px 0 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -60px; left: 50%;
+      transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(246,221,228,0.5) 0%, rgba(220,234,245,0.3) 50%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-block;
+      font-size: 11px; font-weight: 600; letter-spacing: 0.22em;
+      text-transform: uppercase; color: var(--accent-dk);
+      background: var(--secondary);
+      padding: 6px 20px; border-radius: 50px;
+      margin-bottom: 28px;
+    }
+    .hero h1 {
+      font-family: var(--font-h);
+      font-size: clamp(38px, 6vw, 72px);
+      font-weight: 500; line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 24px;
+      position: relative;
+    }
+    .hero h1 em { font-style: italic; color: var(--accent-dk); }
+    .hero-sub {
+      font-size: 17px; line-height: 1.8;
+      color: var(--muted); max-width: 560px;
+      margin: 0 auto 36px;
+    }
+    .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .hero-divider {
+      display: flex; align-items: center; gap: 20px;
+      max-width: 200px; margin: 60px auto 0;
+    }
+    .hero-divider::before, .hero-divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+    .hero-divider span { font-size: 18px; color: var(--accent); }
+
+    /* ── HOW IT WORKS STRIP ── */
+    .how-strip { padding: 40px 0; background: var(--secondary); }
+    .how-strip-inner {
+      display: flex; align-items: center; justify-content: center;
+      gap: 0; flex-wrap: wrap;
+    }
+    .how-step {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 32px;
+      font-size: 13px; color: var(--text);
+    }
+    .how-step-num {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--accent); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 600; flex-shrink: 0;
+    }
+    .how-step-text strong { display: block; font-weight: 500; font-size: 13px; }
+    .how-step-text span { font-size: 12px; color: var(--muted); }
+    .how-sep { color: var(--accent-lt); font-size: 20px; }
+    @media (max-width: 600px) { .how-sep { display: none; } .how-step { padding: 10px 20px; } }
+
+    /* ── COLLECTION ── */
+    .collection { padding: 80px 0; }
+    .collection-header { text-align: center; margin-bottom: 56px; }
+    .collection-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 14px;
+    }
+    .collection-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 500; line-height: 1.15;
+    }
+    .collection-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .collection-header p {
+      font-size: 15px; color: var(--muted); max-width: 520px;
+      margin: 16px auto 0; line-height: 1.8;
+    }
+
+    .prop-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    @media (max-width: 900px) { .prop-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 540px) { .prop-grid { grid-template-columns: 1fr; } }
+
+    .prop-card {
+      background: var(--bg3);
+      border-radius: var(--r);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+    .prop-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+
+    .prop-visual {
+      height: 220px;
+      position: relative;
+      overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .prop-visual-icon {
+      font-size: 56px;
+      position: relative; z-index: 2;
+      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+    }
+
+    /* Individual prop visual backgrounds */
+    .prop-card--flower .prop-visual {
+      background: linear-gradient(135deg, #F6DDE4 0%, #FBECEF 40%, #F0E8F5 100%);
+    }
+    .prop-card--flower .prop-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 30% 60%, rgba(246,221,228,0.8) 0%, transparent 60%),
+                  radial-gradient(ellipse at 70% 30%, rgba(220,234,245,0.6) 0%, transparent 50%);
+    }
+    .prop-card--neon .prop-visual {
+      background: linear-gradient(135deg, #3a2a3a 0%, #2a1a2a 100%);
+    }
+    .prop-card--neon .prop-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 50%, rgba(246,221,228,0.15) 0%, transparent 60%);
+    }
+    .prop-card--neon .prop-visual-icon {
+      font-size: 42px;
+      text-shadow: 0 0 20px rgba(246,221,228,0.9), 0 0 40px rgba(246,221,228,0.5);
+    }
+    .prop-card--numbers .prop-visual {
+      background: linear-gradient(135deg, #FDF6EC 0%, #F5EDD8 100%);
+    }
+    .prop-card--numbers .prop-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 80%, rgba(216,196,165,0.3) 0%, transparent 60%);
+    }
+    .prop-card--rattan .prop-visual {
+      background: linear-gradient(135deg, #F0E8DA 0%, #E8DCC8 100%);
+    }
+    .prop-card--rattan .prop-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 40% 50%, rgba(168,136,90,0.15) 0%, transparent 60%);
+    }
+    .prop-card--cakestand .prop-visual {
+      background: linear-gradient(135deg, #EEF4FB 0%, #E4EEF8 100%);
+    }
+    .prop-card--cakestand .prop-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 60% 40%, rgba(220,234,245,0.7) 0%, transparent 60%);
+    }
+    .prop-card--plinths .prop-visual {
+      background: linear-gradient(135deg, #F8F4F0 0%, #EDE8E2 100%);
+    }
+    .prop-card--plinths .prop-visual::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 50%, rgba(216,196,165,0.2) 0%, transparent 70%);
+    }
+
+    .prop-soon-badge {
+      position: absolute; top: 14px; right: 14px;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid var(--border);
+      color: var(--accent-dk);
+      font-size: 10px; font-weight: 600; letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 12px; border-radius: 50px;
+      backdrop-filter: blur(4px);
+    }
+
+    .prop-body { padding: 22px 24px 24px; }
+    .prop-category {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--accent-dk);
+      margin-bottom: 6px;
+    }
+    .prop-name {
+      font-family: var(--font-h);
+      font-size: 20px; font-weight: 500;
+      color: var(--text); margin-bottom: 8px;
+      line-height: 1.25;
+    }
+    .prop-desc {
+      font-size: 13px; color: var(--muted);
+      line-height: 1.65; margin-bottom: 16px;
+    }
+    .prop-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .prop-price {
+      font-size: 15px; font-weight: 500; color: var(--accent-dk);
+    }
+    .prop-price span { font-size: 12px; color: var(--muted); font-weight: 400; }
+    .prop-interest {
+      font-size: 12px; color: var(--accent-dk); font-weight: 500;
+      display: flex; align-items: center; gap: 5px;
+      cursor: pointer; transition: gap 0.2s ease;
+    }
+    .prop-interest:hover { gap: 8px; }
+
+    /* ── INTEREST FORM ── */
+    .interest { padding: 80px 0; background: var(--bg2); }
+    .interest-inner { max-width: 680px; margin: 0 auto; }
+    .interest-header { text-align: center; margin-bottom: 48px; }
+    .interest-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 14px;
+    }
+    .interest-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 38px);
+      font-weight: 500; line-height: 1.2; margin-bottom: 14px;
+    }
+    .interest-header h2 em { font-style: italic; color: var(--accent-dk); }
+    .interest-header p { font-size: 15px; color: var(--muted); line-height: 1.8; }
+
+    .interest-form { display: flex; flex-direction: column; gap: 16px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    .field label { font-size: 12px; font-weight: 500; color: var(--text); letter-spacing: 0.02em; }
+    .field input, .field select, .field textarea {
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--bg3);
+      color: var(--text);
+      font-size: 14px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+    }
+    .field input:focus, .field select:focus, .field textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(216,196,165,0.15);
+    }
+    .field textarea { resize: vertical; min-height: 100px; }
+    .field select { appearance: none; cursor: pointer; }
+
+    .checkbox-group { display: flex; flex-wrap: wrap; gap: 10px; }
+    .checkbox-item {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--bg3); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 14px;
+      cursor: pointer; transition: all 0.2s ease;
+      font-size: 13px;
+    }
+    .checkbox-item:hover { border-color: var(--accent); }
+    .checkbox-item input { width: 14px; height: 14px; accent-color: var(--accent-dk); }
+
+    .form-submit { margin-top: 8px; }
+    .form-note { font-size: 12px; color: var(--muted); margin-top: 12px; text-align: center; }
+
+    .success-msg {
+      display: none;
+      text-align: center;
+      padding: 40px;
+      background: var(--bg3);
+      border-radius: var(--r);
+      border: 1px solid var(--border);
+    }
+    .success-msg h3 {
+      font-family: var(--font-h);
+      font-size: 24px; color: var(--text);
+      margin-bottom: 10px;
+    }
+    .success-msg p { color: var(--muted); font-size: 14px; }
+
+    /* ── FAQ ── */
+    .faq { padding: 80px 0; }
+    .faq-header { text-align: center; margin-bottom: 48px; }
+    .faq-header .label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--accent-dk); margin-bottom: 14px;
+    }
+    .faq-header h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 3.5vw, 38px);
+      font-weight: 500; line-height: 1.2;
+    }
+    .faq-header h2 em { font-style: italic; color: var(--accent-dk); }
+
+    .faq-list { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 2px; }
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-q {
+      width: 100%; background: none; border: none;
+      text-align: left; padding: 20px 0;
+      font-size: 15px; font-weight: 500; color: var(--text);
+      cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      transition: color 0.2s ease;
+    }
+    .faq-q:hover { color: var(--accent-dk); }
+    .faq-icon { font-size: 20px; color: var(--accent); flex-shrink: 0; transition: transform 0.3s ease; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-a { display: none; padding: 0 0 20px; font-size: 14px; color: var(--muted); line-height: 1.8; }
+    .faq-item.open .faq-a { display: block; }
+
+    /* ── CTA STRIP ── */
+    .cta-strip {
+      padding: 80px 0; text-align: center;
+      background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+      position: relative; overflow: hidden;
+    }
+    .cta-strip::before {
+      content: ''; position: absolute;
+      bottom: -100px; left: -100px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cta-strip h2 {
+      font-family: var(--font-h);
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 500; margin-bottom: 14px; position: relative;
+    }
+    .cta-strip h2 em { font-style: italic; color: var(--accent-dk); }
+    .cta-strip p { font-size: 15px; color: var(--muted); max-width: 480px; margin: 0 auto 32px; position: relative; }
+    .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; }
+
+    /* ── FOOTER ── */
+    .footer { background: var(--text); color: rgba(255,255,255,0.7); padding: 64px 0 0; }
+    .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .footer-brand-name { font-family: var(--font-h); font-size: 22px; color: #fff; margin-bottom: 4px; }
+    .footer-brand-tag { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+    .footer-brand-desc { font-size: 14px; line-height: 1.7; max-width: 280px; margin-bottom: 24px; }
+    .footer-socials { display: flex; gap: 10px; }
+    .footer-social { width: 34px; height: 34px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+    .footer-social:hover { border-color: var(--accent); background: rgba(216,196,165,0.1); }
+    .footer-col h4 { font-family: var(--font-h); font-size: 16px; color: #fff; margin-bottom: 16px; font-weight: 500; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 14px; transition: color 0.2s ease; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-ci { font-size: 14px; display: flex; align-items: flex-start; gap: 8px; margin-bottom: 12px; line-height: 1.5; }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; font-size: 13px; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { transition: color 0.2s ease; }
+    .footer-bottom-links a:hover { color: var(--accent); }
+    @media (max-width: 768px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 500px) { .footer-top { grid-template-columns: 1fr; } .footer-bottom { flex-direction: column; gap: 12px; text-align: center; } }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal.rd1 { transition-delay: 0.1s; }
+    .reveal.rd2 { transition-delay: 0.2s; }
+    .reveal.rd3 { transition-delay: 0.3s; }
+    .reveal.rd4 { transition-delay: 0.4s; }
+    .reveal.rd5 { transition-delay: 0.5s; }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:07762549648" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        <span>07762 549 648</span>
+      </a>
+      <a href="mailto:hello@littlemomentstudio.co.uk" class="topbar-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>hello@littlemomentstudio.co.uk</span>
+      </a>
+    </div>
+    <a href="index.html#contact" class="topbar-cta">Book Your Celebration &rarr;</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="Little Moment Studio" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.html#packages">Packages</a></li>
+        <li><a href="index.html#how">How It Works</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn-primary nav-book">Book Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="nav-mobile" id="mobileNav">
+  <button class="nav-mobile-close" id="mobileClose" aria-label="Close">&times;</button>
+  <ul class="nav-mobile-links">
+    <li><a href="index.html#services" onclick="closeNav()">Services</a></li>
+    <li><a href="gallery.html" onclick="closeNav()">Gallery</a></li>
+    <li><a href="index.html#packages" onclick="closeNav()">Packages</a></li>
+    <li><a href="index.html#how" onclick="closeNav()">How It Works</a></li>
+    <li><a href="faqs.html" onclick="closeNav()">FAQs</a></li>
+    <li><a href="index.html#contact" onclick="closeNav()">Contact</a></li>
+  </ul>
+  <a href="index.html#contact" class="btn btn-primary nav-mobile-cta" onclick="closeNav()">Book Your Celebration</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge reveal">Something Beautiful Is Coming</div>
+    <h1 class="reveal rd1">
+      Prop Hire for<br><em>Every Celebration</em>
+    </h1>
+    <p class="hero-sub reveal rd2">
+      We're building a curated collection of premium hire pieces — flower walls, neon signs, light-up numbers and more — available to collect from our Sittingbourne studio.
+    </p>
+    <div class="hero-actions reveal rd3">
+      <a href="#register" class="btn btn-primary">Register Your Interest &darr;</a>
+      <a href="index.html#contact" class="btn btn-secondary">Book Styling Instead</a>
+    </div>
+    <div class="hero-divider reveal rd4"><span>✦</span></div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS STRIP -->
+<div class="how-strip">
+  <div class="container">
+    <div class="how-strip-inner">
+      <div class="how-step">
+        <div class="how-step-num">1</div>
+        <div class="how-step-text">
+          <strong>Choose your pieces</strong>
+          <span>Browse the collection</span>
+        </div>
+      </div>
+      <div class="how-sep">›</div>
+      <div class="how-step">
+        <div class="how-step-num">2</div>
+        <div class="how-step-text">
+          <strong>Pay a deposit</strong>
+          <span>Secure your dates</span>
+        </div>
+      </div>
+      <div class="how-sep">›</div>
+      <div class="how-step">
+        <div class="how-step-num">3</div>
+        <div class="how-step-text">
+          <strong>Collect from studio</strong>
+          <span>Forum Centre, Sittingbourne</span>
+        </div>
+      </div>
+      <div class="how-sep">›</div>
+      <div class="how-step">
+        <div class="how-step-num">4</div>
+        <div class="how-step-text">
+          <strong>Return next day</strong>
+          <span>Simple &amp; stress-free</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- COLLECTION -->
+<section class="collection">
+  <div class="container">
+    <div class="collection-header reveal">
+      <div class="label">The Hire Collection</div>
+      <h2>Pieces Being <em>Added Now</em></h2>
+      <p>Each piece has been chosen to complement your balloon styling — or stand beautifully on its own. All available for self-collection from our Sittingbourne studio.</p>
+    </div>
+
+    <div class="prop-grid">
+
+      <!-- Flower Walls -->
+      <div class="prop-card prop-card--flower reveal">
+        <div class="prop-visual">
+          <div class="prop-visual-icon">🌸</div>
+          <div class="prop-soon-badge">Coming Soon</div>
+        </div>
+        <div class="prop-body">
+          <div class="prop-category">Backdrops</div>
+          <div class="prop-name">Silk Flower Wall</div>
+          <div class="prop-desc">Full 8ft backdrop panels in soft blush, ivory and sage. The perfect backdrop for a dessert table, photo moment or gift table.</div>
+          <div class="prop-footer">
+            <div class="prop-price">From £80 <span>per booking</span></div>
+            <a href="#register" class="prop-interest">Register interest <span>→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Neon Signs -->
+      <div class="prop-card prop-card--neon reveal rd1">
+        <div class="prop-visual">
+          <div class="prop-visual-icon">✨</div>
+          <div class="prop-soon-badge">Coming Soon</div>
+        </div>
+        <div class="prop-body">
+          <div class="prop-category">Signs &amp; Lighting</div>
+          <div class="prop-name">Neon Signs</div>
+          <div class="prop-desc">"Oh Baby", "Let's Party" and more. LED neon on acrylic — warm, glowing and endlessly photogenic. Plug in and go.</div>
+          <div class="prop-footer">
+            <div class="prop-price">From £55 <span>per booking</span></div>
+            <a href="#register" class="prop-interest">Register interest <span>→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Light-up Numbers -->
+      <div class="prop-card prop-card--numbers reveal rd2">
+        <div class="prop-visual">
+          <div class="prop-visual-icon">🔢</div>
+          <div class="prop-soon-badge">Coming Soon</div>
+        </div>
+        <div class="prop-body">
+          <div class="prop-category">Signs &amp; Lighting</div>
+          <div class="prop-name">Light-Up Numbers</div>
+          <div class="prop-desc">4ft illuminated numbers in warm white. Perfect for milestone birthdays — first, second, 18th, 21st and beyond. Balloon garland ready.</div>
+          <div class="prop-footer">
+            <div class="prop-price">From £60 <span>per number</span></div>
+            <a href="#register" class="prop-interest">Register interest <span>→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rattan Chair -->
+      <div class="prop-card prop-card--rattan reveal">
+        <div class="prop-visual">
+          <div class="prop-visual-icon">🪑</div>
+          <div class="prop-soon-badge">Coming Soon</div>
+        </div>
+        <div class="prop-body">
+          <div class="prop-category">Seating</div>
+          <div class="prop-name">Rattan Throne Chair</div>
+          <div class="prop-desc">The iconic rattan peacock chair — a staple of baby shower and birthday styling. Beautiful alone or dressed with balloons and florals.</div>
+          <div class="prop-footer">
+            <div class="prop-price">From £65 <span>per booking</span></div>
+            <a href="#register" class="prop-interest">Register interest <span>→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cake Stands -->
+      <div class="prop-card prop-card--cakestand reveal rd1">
+        <div class="prop-visual">
+          <div class="prop-visual-icon">🎂</div>
+          <div class="prop-soon-badge">Coming Soon</div>
+        </div>
+        <div class="prop-body">
+          <div class="prop-category">Dessert Table</div>
+          <div class="prop-name">Cake Stand Sets</div>
+          <div class="prop-desc">Tiered acrylic and marble-effect stands in varying heights. Create a layered dessert display that photographs beautifully from every angle.</div>
+          <div class="prop-footer">
+            <div class="prop-price">From £40 <span>per set</span></div>
+            <a href="#register" class="prop-interest">Register interest <span>→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plinths -->
+      <div class="prop-card prop-card--plinths reveal rd2">
+        <div class="prop-visual">
+          <div class="prop-visual-icon">🏛️</div>
+          <div class="prop-soon-badge">Coming Soon</div>
+        </div>
+        <div class="prop-body">
+          <div class="prop-category">Display</div>
+          <div class="prop-name">Plinths &amp; Pillars</div>
+          <div class="prop-desc">White and acrylic plinths in tall and short heights. Use as cake displays, balloon bases, floral stands or decorative statement pieces.</div>
+          <div class="prop-footer">
+            <div class="prop-price">From £35 <span>per plinth</span></div>
+            <a href="#register" class="prop-interest">Register interest <span>→</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INTEREST FORM -->
+<section class="interest" id="register">
+  <div class="container">
+    <div class="interest-inner">
+      <div class="interest-header reveal">
+        <div class="label">Be First to Book</div>
+        <h2>Register Your <em>Interest</em></h2>
+        <p>Tell us what you're interested in and when you need it. We'll be in touch as soon as each piece is available — registered interest gets first access to booking.</p>
+      </div>
+
+      <form class="interest-form reveal rd1" id="interestForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="fname">Your name</label>
+            <input type="text" id="fname" name="name" placeholder="Sam" required>
+          </div>
+          <div class="field">
+            <label for="femail">Email address</label>
+            <input type="email" id="femail" name="email" placeholder="hello@example.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fphone">WhatsApp / phone <span style="color:var(--muted);font-weight:400">(optional)</span></label>
+            <input type="tel" id="fphone" name="phone" placeholder="07700 900 000">
+          </div>
+          <div class="field">
+            <label for="fdate">Event date <span style="color:var(--muted);font-weight:400">(if known)</span></label>
+            <input type="date" id="fdate" name="date">
+          </div>
+        </div>
+        <div class="field">
+          <label>Which pieces interest you?</label>
+          <div class="checkbox-group">
+            <label class="checkbox-item"><input type="checkbox" name="items" value="flower-wall"> 🌸 Flower Wall</label>
+            <label class="checkbox-item"><input type="checkbox" name="items" value="neon"> ✨ Neon Sign</label>
+            <label class="checkbox-item"><input type="checkbox" name="items" value="numbers"> 🔢 Light-up Numbers</label>
+            <label class="checkbox-item"><input type="checkbox" name="items" value="rattan"> 🪑 Rattan Chair</label>
+            <label class="checkbox-item"><input type="checkbox" name="items" value="cake-stands"> 🎂 Cake Stands</label>
+            <label class="checkbox-item"><input type="checkbox" name="items" value="plinths"> 🏛️ Plinths</label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="fnotes">Anything else? <span style="color:var(--muted);font-weight:400">(optional)</span></label>
+          <textarea id="fnotes" name="notes" placeholder="Tell us about your event, theme, or any specific items you have in mind…"></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary" style="width:100%">Register My Interest &rarr;</button>
+        </div>
+        <p class="form-note">We'll only use your details to get in touch about prop hire. No spam, ever.</p>
+      </form>
+
+      <div class="success-msg" id="successMsg">
+        <div style="font-size:32px;margin-bottom:12px">✦</div>
+        <h3>You're on the list</h3>
+        <p>Thank you — we'll be in touch as soon as your chosen pieces are available to book. Keep an eye on your inbox.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container">
+    <div class="faq-header reveal">
+      <div class="label">How It Works</div>
+      <h2>Your Questions, <em>Answered</em></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q">
+          Where do I collect from?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">All hire pieces are available for self-collection from our studio at Forum Shopping Centre, Sittingbourne, ME10 3DL. Collection and return times will be arranged when you book.</div>
+      </div>
+      <div class="faq-item reveal rd1">
+        <button class="faq-q">
+          How long is the hire period?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Standard hire is for 48 hours — collect the day before your event, return the day after. Extended hire periods can be arranged for a small additional fee.</div>
+      </div>
+      <div class="faq-item reveal rd2">
+        <button class="faq-q">
+          Is a deposit required?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Yes — a refundable damage deposit is required alongside your hire payment. This is returned in full when items are returned in their original condition.</div>
+      </div>
+      <div class="faq-item reveal rd3">
+        <button class="faq-q">
+          Can I hire props alongside a styling booking?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Absolutely — and that's the best way to use them. Add hire pieces to a full styling package for a fully coordinated look. Just mention it when you enquire.</div>
+      </div>
+      <div class="faq-item reveal rd4">
+        <button class="faq-q">
+          Do you deliver?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Initially, hire will be studio collection only. Delivery options may be available in future — register your interest and let us know if delivery is important to you.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<div class="cta-strip">
+  <div class="container">
+    <h2 class="reveal">Ready to Book <em>Styling?</em></h2>
+    <p class="reveal rd1">While prop hire is launching soon, our full balloon styling service is available to book right now. Free consultation, no obligation.</p>
+    <div class="cta-btns reveal rd2">
+      <a href="index.html#contact" class="btn btn-primary">Enquire About Styling &rarr;</a>
+      <a href="gallery.html" class="btn btn-secondary">View Our Gallery</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Little Moment Studio</div>
+        <div class="footer-brand-tag">Balloon Styling &middot; Kent</div>
+        <p class="footer-brand-desc">Beautiful balloon styling for baby showers, birthdays and celebrations. Based in Sittingbourne, serving all of Kent.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" aria-label="Instagram">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer-social" aria-label="Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#services">Baby Showers</a></li>
+          <li><a href="index.html#services">First Birthdays</a></li>
+          <li><a href="index.html#services">Balloon Installations</a></li>
+          <li><a href="index.html#packages">Backdrop &amp; Prop Hire</a></li>
+          <li><a href="index.html#services">Gender Reveals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#packages">Our Packages</a></li>
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="index.html#testimonials">Reviews</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          07762 549 648
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@littlemomentstudio.co.uk
+        </div>
+        <div class="footer-ci">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Forum Shopping Centre,<br>Sittingbourne, ME10 3DL
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Little Moment Studio. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('mobileNav').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+  document.getElementById('mobileClose').addEventListener('click', closeNav);
+  function closeNav() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  document.getElementById('interestForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    this.style.display = 'none';
+    document.getElementById('successMsg').style.display = 'block';
+    // TODO: wire up to form handler (Formspree, GHL, etc.)
+  });
+
+  const ro = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+</script>
+</body>
+</html>
