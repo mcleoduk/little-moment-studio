@@ -1,6 +1,6 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 8 May 2026
+Last updated: 17 May 2026
 
 ---
 
@@ -815,6 +815,67 @@ Work through these in order. Tick each off as done.
 | **Target keywords** | baby shower decorations, what do you need for a baby shower, baby shower decoration checklist |
 | **Schema** | ✅ BlogPosting + FAQPage JSON-LD |
 | **Internal links** | Links to baby-shower-balloons-kent.html (pillar) |
+
+---
+
+---
+
+### The Sky Celebration (the-sky-celebration.html)
+
+**Status:** ✅ Live — 17 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | The Sky Celebration \| Signature Setup \| Little Moment Studio (60 chars) |
+| **Meta description** | ✅ 157 chars |
+| **H1** | The Sky Celebration |
+| **Target keywords** | sky celebration Kent, cloud baby shower Kent, cloud theme first birthday Kent, cloud christening styling Kent |
+| **Schema** | ✅ Service JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/the-sky-celebration.html |
+| **Sitemap** | ✅ Priority 0.8 |
+| **Internal links** | Links to the-luxe-baby-shower.html, baby-shower-balloons-kent.html, index.html#contact |
+| **Reverse link** | ✅ the-luxe-baby-shower.html footer — done 17 May 2026 |
+| **Notes** | Signature collection page. Three tiers: Mini £295, Signature £595 (portfolio offer £395), Grand Luxe £795. Palette: powder blue, white, silver, gold. |
+
+---
+
+### Cloud Theme Party Ideas (cloud-theme-party-ideas.html)
+
+**Status:** ✅ Live — 17 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Cloud Theme Party Ideas \| First Birthdays & Christenings Kent (60 chars) |
+| **Meta description** | ✅ 144 chars |
+| **H1** | Cloud Theme Party Ideas for First Birthdays and Christenings |
+| **Target keywords** | cloud theme party ideas, cloud theme first birthday, cloud theme christening, cloud baby shower ideas |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/cloud-theme-party-ideas.html |
+| **Sitemap** | ✅ Priority 0.6 |
+| **Internal links** | Links to the-sky-celebration.html, baby-shower-venues-sittingbourne.html |
+| **Reverse link** | ✅ baby-shower-balloons-kent.html journal section — done 17 May 2026 |
+| **FAQPage schema** | ⬜ Not yet added |
+| **Notes** | Support article for The Sky Celebration cluster |
+
+---
+
+### Blue Baby Shower Ideas (blue-baby-shower-ideas.html)
+
+**Status:** ✅ Live — 17 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Blue Baby Shower Ideas \| Soft Sky-Inspired Styling in Kent (58 chars) |
+| **Meta description** | ✅ 141 chars |
+| **H1** | Blue Baby Shower Ideas for a Soft, Sky-Inspired Celebration |
+| **Target keywords** | blue baby shower ideas, soft blue baby shower, sky blue baby shower Kent, blue and white baby shower |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/blue-baby-shower-ideas.html |
+| **Sitemap** | ✅ Priority 0.6 |
+| **Internal links** | Links to the-sky-celebration.html, baby-shower-balloons-kent.html, baby-shower-venues-sittingbourne.html |
+| **Reverse link** | ✅ baby-shower-balloons-kent.html journal section — done 17 May 2026 |
+| **FAQPage schema** | ⬜ Not yet added |
+| **Notes** | Support article for The Sky Celebration cluster. Colour-led angle distinct from cloud-theme-party-ideas.html |
 
 ---
 
