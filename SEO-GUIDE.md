@@ -4,6 +4,29 @@ Technical SEO rules and limits for every page and article on the site.
 
 ---
 
+## Direct Answer Paragraphs (AI & Featured Snippet Optimisation)
+
+Every service page and signature collection page must have a **direct answer paragraph** as the first `<p>` in the intro section body — before any other descriptive content.
+
+This paragraph is the primary signal for Google AI Overviews, ChatGPT, Perplexity and featured snippets. It answers the most likely user question in one sentence.
+
+**Format:** one sentence, includes price from, what's included at a high level, and location coverage.
+
+**Which pages need one:**
+- All main service pages (`baby-shower-balloons-kent.html`, `birthday-balloons-kent.html`, `balloon-garlands-kent.html`)
+- All signature collection pages (`the-luxe-baby-shower.html`, `the-sky-celebration.html`)
+- Location pages (already have direct answer content by design)
+
+**Articles:** intro paragraphs naturally serve this function — no separate requirement, but the opening sentence should directly address the article topic.
+
+**Example (baby shower service page):**
+> "Baby shower balloon packages in Kent start from £150 and include a free design consultation, bespoke display, delivery, installation and collection. Little Moment Studio is based in Sittingbourne and regularly serves Swale, Maidstone, Medway, Canterbury, Faversham, Ashford, Tonbridge, Dartford and Gravesend — with further travel available by special appointment."
+
+**Example (signature collection page):**
+> "The Sky Celebration is our cloud-inspired signature setup for baby showers, first birthdays and christenings in Sittingbourne and Kent. Packages start from £295 and include a free design consultation, balloon garland, styled backdrop, dessert table, cloud and star props, delivery, installation and collection."
+
+---
+
 ## Meta Title
 
 - **Limit: ~60 characters** (Google truncates beyond this in search results)
