@@ -854,7 +854,7 @@ Work through these in order. Tick each off as done.
 | **Sitemap** | ✅ Priority 0.6 |
 | **Internal links** | Links to the-sky-celebration.html, baby-shower-venues-sittingbourne.html |
 | **Reverse link** | ✅ baby-shower-balloons-kent.html journal section — done 17 May 2026 |
-| **FAQPage schema** | ⬜ Not yet added |
+| **FAQPage schema** | ✅ Added 17 May 2026 |
 | **Notes** | Support article for The Sky Celebration cluster |
 
 ---
@@ -874,7 +874,7 @@ Work through these in order. Tick each off as done.
 | **Sitemap** | ✅ Priority 0.6 |
 | **Internal links** | Links to the-sky-celebration.html, baby-shower-balloons-kent.html, baby-shower-venues-sittingbourne.html |
 | **Reverse link** | ✅ baby-shower-balloons-kent.html journal section — done 17 May 2026 |
-| **FAQPage schema** | ⬜ Not yet added |
+| **FAQPage schema** | ✅ Added 17 May 2026 |
 | **Notes** | Support article for The Sky Celebration cluster. Colour-led angle distinct from cloud-theme-party-ideas.html |
 
 ---
