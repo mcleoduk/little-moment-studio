@@ -207,13 +207,6 @@ Rotate between these five types to keep the journal varied:
 
 ---
 
-## Image Requirements
-
-Cupcake design articles need 3 images each: hero + Design 1 + Design 2. Plan ahead with Sam.
-
-Articles needing new images are noted in the Status column above. Crossover and styling articles can reuse existing gallery images.
-
----
 
 ## Publishing Checklist
 
