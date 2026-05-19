@@ -28,16 +28,15 @@ Track manual URL inspection requests here. Update status when Google confirms in
 | https://littlemomentstudio.co.uk/baby-shower-balloons-maidstone.html | 19 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-medway.html | 19 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-tonbridge.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-dartford.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-gravesend.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-rochester.html | 19 May 2026 | Pending |
 
 ---
 
 ## To Submit Next
 
-| URL | Priority |
-|-----|----------|
-| https://littlemomentstudio.co.uk/baby-shower-balloons-dartford.html | Medium |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-gravesend.html | Medium |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-rochester.html | Medium |
+*All priority pages submitted. Add new pages here as they go live.*
 
 ---
 
