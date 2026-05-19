@@ -23,6 +23,11 @@ Track manual URL inspection requests here. Update status when Google confirms in
 | https://littlemomentstudio.co.uk/flowers-by-beatrice-kent.html | 18 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-ashford.html | 18 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-canterbury.html | 18 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/faqs.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/journal.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-maidstone.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-medway.html | 19 May 2026 | Pending |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-tonbridge.html | 19 May 2026 | Pending |
 
 ---
 
@@ -30,11 +35,6 @@ Track manual URL inspection requests here. Update status when Google confirms in
 
 | URL | Priority |
 |-----|----------|
-| https://littlemomentstudio.co.uk/faqs.html | High |
-| https://littlemomentstudio.co.uk/journal.html | High |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-maidstone.html | High |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-medway.html | High |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-tonbridge.html | Medium |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-dartford.html | Medium |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-gravesend.html | Medium |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-rochester.html | Medium |
