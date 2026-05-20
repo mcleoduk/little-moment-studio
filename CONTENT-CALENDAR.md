@@ -121,7 +121,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
 | 3 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | DIY & Tutorial | 🟡 Committed — orphan |
-| 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Planning & Advice | 🔵 Written — local only |
+| 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Planning & Advice | 🔵 Built — local only (hero: summer-party-dessert-table-balloon-garland-maidstone.webp) |
 | 9 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 11 Jun | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 12 Jun | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | DIY & Tutorial | 🟡 Committed — orphan |
@@ -143,6 +143,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
 | 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Planning & Advice | 🔵 Written — local only |
+| 3 Jul | Why Your Venue Choice Matters More Than Balloon Colour at a Baby Shower | baby-shower-venue-styling-kent.html | Planning & Advice | 🔵 Built — local only (hero: baby-shower-venue-balloon-styling-kent.webp) |
 | 5 Jul | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Trends | 🟡 Committed — orphan |
 | 10 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 12 Jul | Dessert Table Ideas for Children's Parties | — | Styling & Inspiration | ⚪ Not started |
