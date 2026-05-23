@@ -4,33 +4,15 @@ Track manual URL inspection requests here. Update status when Google confirms in
 
 ---
 
-## Submitted
+## Submitted — Still Pending
 
 | URL | Submitted | Status |
 |-----|-----------|--------|
 | https://littlemomentstudio.co.uk/gallery.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-kent.html | 18 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/birthday-balloons-kent.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/balloon-garlands-kent.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/the-sky-celebration.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/the-luxe-baby-shower.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/cloud-theme-party-ideas.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/blue-baby-shower-ideas.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloon-ideas.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/first-birthday-balloon-ideas.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/teddy-bear-baby-shower-ideas.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/berrylicious-cakes-partner.html | 18 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/flowers-by-beatrice-kent.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-ashford.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-canterbury.html | 18 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/faqs.html | 19 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/journal.html | 19 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-maidstone.html | 19 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-medway.html | 19 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-tonbridge.html | 19 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-dartford.html | 19 May 2026 | Pending |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-gravesend.html | 19 May 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-balloons-rochester.html | 19 May 2026 | Pending |
 
 ---
 
@@ -40,17 +22,36 @@ Track manual URL inspection requests here. Update status when Google confirms in
 
 ---
 
-## Already Indexed (no submission needed)
+## Already Indexed
 
 | URL | Confirmed |
 |-----|-----------|
 | https://littlemomentstudio.co.uk/ | Before 18 May 2026 |
+| https://littlemomentstudio.co.uk/how-long-do-balloons-last.html | Before 18 May 2026 |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-faversham.html | Before 18 May 2026 |
 | https://littlemomentstudio.co.uk/baby-shower-balloons-swale.html | Before 18 May 2026 |
 | https://littlemomentstudio.co.uk/baby-shower-venues-sittingbourne.html | Before 18 May 2026 |
 | https://littlemomentstudio.co.uk/baby-shower-venues-tonbridge.html | Before 18 May 2026 |
-| https://littlemomentstudio.co.uk/neutral-baby-shower-ideas.html | Before 18 May 2026 |
-| https://littlemomentstudio.co.uk/how-long-do-balloons-last.html | Before 18 May 2026 |
+| https://littlemomentstudio.co.uk/neutral-baby-shower-ideas.html | 11 May 2026 |
+| https://littlemomentstudio.co.uk/faqs.html | 16 May 2026 |
+| https://littlemomentstudio.co.uk/journal.html | 16 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-kent.html | 16 May 2026 |
+| https://littlemomentstudio.co.uk/balloon-garlands-kent.html | 16 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-maidstone.html | 16 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-medway.html | 16 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-sittingbourne.html | 16 May 2026 (organic) |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-rochester.html | 17 May 2026 |
+| https://littlemomentstudio.co.uk/berrylicious-cakes-partner.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-tonbridge.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-ashford.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloons-canterbury.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/baby-shower-balloon-ideas.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/blue-baby-shower-ideas.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/first-birthday-balloon-ideas.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/teddy-bear-baby-shower-ideas.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/cloud-theme-party-ideas.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/the-luxe-baby-shower.html | 18 May 2026 |
+| https://littlemomentstudio.co.uk/the-sky-celebration.html | 18 May 2026 |
 
 ---
 
