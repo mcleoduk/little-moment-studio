@@ -18,7 +18,7 @@ Images in `gallery/signature/the-luxe-baby-shower/` — EXIF done (Canon EOS R6m
 |------|-------|-----|--------|
 | Inspiration | Neutral Baby Shower Ideas for a Soft, Timeless Celebration | neutral-baby-shower-ideas.html | **LIVE** — 10 May 2026 |
 | Practical/purchase intent | What's Included in a Styled Baby Shower Package? | whats-included-in-a-styled-baby-shower-package.html | **LIVE** — backdated 30 Apr 2026 |
-| Dessert table support | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | 🟡 Committed — orphan (publish 9 Jun 2026) |
+| Dessert table support | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | **LIVE** — 9 Jun 2026 |
 
 Existing live articles retrofitted with Luxe callout: `baby-shower-balloon-ideas.html` · `baby-shower-cupcake-ideas.html` · `what-decorations-do-you-need-for-a-baby-shower.html` · `teddy-bear-baby-shower-ideas.html`
 
@@ -73,6 +73,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 28 Apr 2026 | Princess Party Dessert Table Ideas | princess-party-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 28 Apr 2026 | What Is an Organic Balloon Garland? | what-is-an-organic-balloon-garland.html | Planning & Advice | LIVE |
 | 29 Apr 2026 | Princess Party Cupcake Ideas | princess-party-cupcake-ideas.html | Styling & Inspiration | LIVE |
+| 29 Apr 2026 | Unicorn Cupcake Ideas | unicorn-cupcake-ideas.html | Styling & Inspiration | LIVE |
 | 29 Apr 2026 | Unicorn Party Balloon & Dessert Table Ideas | unicorn-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 30 Apr 2026 | 10 Essential Piping Tips for Cupcakes: Beginner Guide | top-10-piping-tips-for-cupcakes.html | DIY & Tutorial | LIVE |
 | 30 Apr 2026 | What's Included in a Styled Baby Shower Package? | whats-included-in-a-styled-baby-shower-package.html | Planning & Advice | LIVE |
@@ -116,18 +117,20 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 
 ---
 
-## June 2026 — Target: 15
+## June 2026 — Target: 15 (+ 2 companion pages)
 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
-| 3 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | DIY & Tutorial | 🟡 Committed — orphan |
-| 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Planning & Advice | 🔵 Built — local only (hero: summer-party-dessert-table-balloon-garland-maidstone.webp) |
-| 9 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
-| 11 Jun | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
-| 12 Jun | How to Use the Cling Film Method for Multi-Coloured Buttercream | how-to-use-cling-film-buttercream-method.html | DIY & Tutorial | 🟡 Committed — orphan |
-| 13 Jun | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Planning & Advice | 🔵 Written — local only |
-| 15 Jun | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Planning & Advice | 🟡 Committed — orphan |
-| 17 Jun | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
+| 3 Jun | How to Match Cupcakes with Your Balloon Display | match-cupcakes-with-balloon-display.html | DIY & Tutorial | LIVE |
+| 4 Jun | Why Your Venue Choice Matters More Than Balloon Colour at a Baby Shower | baby-shower-venue-styling-kent.html | Planning & Advice | LIVE |
+| 6 Jun | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Trends | LIVE |
+| 7 Jun | Garden Party Balloon Styling: What Works Outdoors | garden-party-balloon-styling-outdoors.html | Planning & Advice | LIVE |
+| 9 Jun | Baby Shower Dessert Table Ideas with Balloons and Cupcakes | baby-shower-dessert-table-ideas.html | Styling & Inspiration | LIVE |
+| 11 Jun | Farm Party Balloon & Dessert Table Ideas | farm-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
+| 12 Jun | How to Use the Cling Film Method for Multi-Coloured Buttercream | cling-film-method-multi-coloured-buttercream.html | DIY & Tutorial | LIVE |
+| 13 Jun | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Planning & Advice | LIVE |
+| 15 Jun | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Planning & Advice | LIVE |
+| 17 Jun | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 19 Jun | Father's Day Dessert Table Ideas | fathers-day-dessert-table-ideas.html | Seasonal | 🟡 Committed — orphan |
 | 21 Jun | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 23 Jun | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
@@ -143,11 +146,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
 | 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Planning & Advice | 🔵 Written — local only |
-| 3 Jul | Why Your Venue Choice Matters More Than Balloon Colour at a Baby Shower | baby-shower-venue-styling-kent.html | Planning & Advice | 🔵 Built — local only (hero: baby-shower-venue-balloon-styling-kent.webp) |
-| 5 Jul | Trending Children's Birthday Party Themes for Balloons and Dessert Tables | trending-childrens-birthday-party-themes.html | Trends | 🟡 Committed — orphan |
 | 10 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Styling & Inspiration | 🟡 Committed — orphan |
-| 12 Jul | Dessert Table Ideas for Children's Parties | — | Styling & Inspiration | ⚪ Not started |
-| 14 Jul | Birthday Party Table Ideas: Balloons, Cupcakes & Backdrops | — | Styling & Inspiration | ⚪ Not started |
 | 16 Jul | How Much Does a Balloon Garland Cost? | — | Practical/FAQ | ⚪ Not started |
 | 17 Jul | How to Decorate a Venue with Balloons | — | Planning & Advice | ⚪ Not started |
 | 19 Jul | How to Make Fondant Cupcake Toppers for Beginners | — | DIY & Tutorial | ⚪ Not started |
@@ -155,7 +154,6 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 23 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | DIY & Tutorial | 🟠 Written — needs hero image |
 | 25 Jul | Balloon Colour Combinations That Always Work Together | balloon-colour-combinations-that-always-work-together.html | Styling & Inspiration | 🔵 Written — local only |
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | Styling & Inspiration | ⚪ Not started |
-| 29 Jul | Unicorn Cupcakes: Rainbow Swirls & Fondant Horns | unicorn-cupcake-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 30 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🔵 Written — local only |
 | 31 Jul | Small Party Styling Ideas That Still Look Impressive | — | Styling & Inspiration | ⚪ Not started |
 
@@ -166,14 +164,14 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
 | Aug 2026 | Back to School Celebration Ideas | — | Planning & Advice | ⚪ Not started |
+| Aug 2026 | Halloween Party Balloon & Dessert Table Ideas | halloween-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🔴 To write — companion to `halloween-cupcake-ideas.html`. Publish Aug for Oct traffic. |
+| Aug 2026 | Christmas Party Balloon & Dessert Table Ideas | christmas-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🔴 To write — companion to `christmas-cupcake-ideas.html`. Publish Aug for Nov/Dec traffic. |
 | Sep 2026 | Halloween Balloon Ideas That Aren't Tacky | — | Seasonal | ⚪ Not started — publish early for Oct traffic |
 | Sep 2026 | Football Cupcakes: Easy Designs for Match Day | — | Styling & Inspiration | ⚪ Not started — needs 3 images |
 | Sep 2026 | Bonfire Night Cupcakes: Firework Ideas | — | Seasonal | ⚪ Not started — needs 3 images |
-| Sep 2026 | Halloween Party Table Ideas with Balloons and Cupcakes | — | Seasonal | ⚪ Not started |
 | 1 Oct 2026 | Halloween Cupcake Ideas | halloween-cupcake-ideas.html | Seasonal | 🟡 Committed — orphan |
 | 10 Oct 2026 | Christmas Cupcake Ideas | christmas-cupcake-ideas.html | Seasonal | 🟡 Committed — orphan |
 | Nov 2026 | New Year's Eve Cupcakes: Gold, Black & Sparkle Designs | — | Seasonal | ⚪ Not started — needs 3 images |
-| Nov 2026 | Christmas Party Dessert Table Ideas | — | Seasonal | ⚪ Not started |
 | Nov 2026 | Gaming Cupcakes: Easy Controller & Pixel Designs | — | Styling & Inspiration | ⚪ Not started — needs 3 images |
 | Dec 2026 | Valentine's Cupcakes: 2 Romantic Designs | — | Seasonal | ⚪ Not started — publish Dec for Feb traffic; needs 3 images |
 | Dec 2026 | Barbie-Inspired Cupcakes: Pink Party Designs | — | Styling & Inspiration | ⚪ Not started — needs 3 images |
