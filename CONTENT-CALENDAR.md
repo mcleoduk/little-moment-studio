@@ -145,16 +145,16 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
-| 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Planning & Advice | 🔵 Written — local only |
+| 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Planning & Advice | 🟡 Committed — orphan |
 | 10 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 16 Jul | How Much Does a Balloon Garland Cost? | — | Practical/FAQ | ⚪ Not started |
 | 17 Jul | How to Decorate a Venue with Balloons | — | Planning & Advice | ⚪ Not started |
 | 19 Jul | How to Make Fondant Cupcake Toppers for Beginners | — | DIY & Tutorial | ⚪ Not started |
 | 20 Jul | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | Trends | 🟡 Committed — orphan |
 | 23 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | DIY & Tutorial | 🟠 Written — needs hero image |
-| 25 Jul | Balloon Colour Combinations That Always Work Together | balloon-colour-combinations-that-always-work-together.html | Styling & Inspiration | 🔵 Written — local only |
+| 25 Jul | Balloon Colour Combinations That Always Work Together | balloon-colour-combinations-that-always-work-together.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | Styling & Inspiration | ⚪ Not started |
-| 30 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🔵 Written — local only |
+| 30 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🟡 Committed — orphan |
 | 31 Jul | Small Party Styling Ideas That Still Look Impressive | — | Styling & Inspiration | ⚪ Not started |
 
 ---
