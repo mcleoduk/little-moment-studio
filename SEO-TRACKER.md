@@ -1,6 +1,6 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 17 May 2026
+Last updated: 4 June 2026
 
 ---
 
@@ -22,6 +22,9 @@ Supporting articles:
 - `/fondant-cupcake-ideas-baby-shower-birthday.html`
 - `/teddy-bear-baby-shower-dessert-table-ideas.html`
 - `/what-decorations-do-you-need-for-a-baby-shower.html`
+- `/neutral-baby-shower-ideas.html`
+- `/blue-baby-shower-ideas.html`
+- `/baby-shower-venues-tonbridge.html`
 
 Checklist:
 - [x] Pillar page links to every supporting article — updated 8 May 2026
@@ -879,6 +882,281 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### How Long Do Balloons Last? (how-long-do-balloons-last.html)
+
+**Status:** ✅ Live — 1 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | How Long Do Balloons Last? Your Questions Answered (50 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | how long do balloons last, latex balloon lifespan, helium balloon duration |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar) |
+
+---
+
+### Neutral Baby Shower Ideas (neutral-baby-shower-ideas.html)
+
+**Status:** ✅ Live — 10 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Neutral Baby Shower Ideas \| Soft & Elegant Styling in Kent (58 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Neutral Baby Shower Ideas for a Soft, Timeless Celebration |
+| **Target keywords** | neutral baby shower ideas, ivory baby shower, beige baby shower Kent |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Internal links** | Links to baby-shower-balloons-kent.html (pillar) |
+
+---
+
+### Baby Shower Venues Tonbridge (baby-shower-venues-tonbridge.html)
+
+**Status:** ✅ Live — 14 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Venues Tonbridge \| Little Moment Studio (51 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | The Best Baby Shower Venues Near Tonbridge: A Local Guide |
+| **Target keywords** | baby shower venues Tonbridge, baby shower venues Kent |
+| **Schema** | ✅ BlogPosting JSON-LD |
+
+---
+
+### Baby Shower Balloons Sittingbourne (baby-shower-balloons-sittingbourne.html)
+
+**Status:** ✅ Live — 16 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Sittingbourne \| Little Moment Studio (57 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Baby Shower Balloon Styling in Sittingbourne |
+| **Target keywords** | baby shower balloons Sittingbourne, baby shower decorations Sittingbourne |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Home location — studio based here, no delivery charge |
+
+---
+
+### Baby Shower Balloons Swale (baby-shower-balloons-swale.html)
+
+**Status:** ✅ Live — 16 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Swale \| Little Moment Studio (49 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Swale, balloon styling Swale district |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — covers Sittingbourne, Faversham, Whitstable. No delivery charge within Swale. |
+
+---
+
+### Baby Shower Balloons Rochester (baby-shower-balloons-rochester.html)
+
+**Status:** ✅ Live — 17 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Rochester \| Little Moment Studio (53 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Rochester, baby shower decorations Rochester |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — 15 miles from studio. Part of Medway cluster. |
+
+---
+
+### The Luxe Baby Shower (the-luxe-baby-shower.html)
+
+**Status:** ✅ Live — 17 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Luxe Baby Shower \| Signature Setup \| Little Moment Studio (57 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | The Luxe Baby Shower |
+| **Target keywords** | luxury baby shower Kent, baby shower styling Sittingbourne, signature baby shower setup |
+| **Schema** | ✅ Service JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/the-luxe-baby-shower.html |
+| **Sitemap** | ✅ Priority 0.8 |
+| **Notes** | Signature collection page. Three tiers: Mini, Signature, Grand Luxe. Palette: ivory, nude, champagne, sage. |
+
+---
+
+### Baby Shower Balloons Tonbridge (baby-shower-balloons-tonbridge.html)
+
+**Status:** ✅ Live — 18 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Tonbridge \| Little Moment Studio (53 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Tonbridge, baby shower decorations Tonbridge |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — 22 miles from studio. |
+
+---
+
+### Baby Shower Balloons Ashford (baby-shower-balloons-ashford.html)
+
+**Status:** ✅ Live — 18 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Ashford \| Little Moment Studio (51 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Ashford, baby shower decorations Ashford Kent |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — 17 miles from studio. |
+
+---
+
+### Baby Shower Balloons Canterbury (baby-shower-balloons-canterbury.html)
+
+**Status:** ✅ Live — 18 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Canterbury \| Little Moment Studio (54 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Canterbury, baby shower decorations Canterbury |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — ~25 miles from studio. |
+
+---
+
+### Berrylicious Cakes Partner (berrylicious-cakes-partner.html)
+
+**Status:** ✅ Live — 18 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Berrylicious Cakes Partner \| Little Moment Studio (49 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | bespoke cakes Medway, cupcakes Kent, cake maker near Sittingbourne |
+| **Schema** | ⬜ No schema |
+| **Notes** | Partner/referral page — Berrylicious (Cakes by Jacqui), Medway |
+
+---
+
+### Baby Shower Balloons Dartford (baby-shower-balloons-dartford.html)
+
+**Status:** ✅ Live — 19 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Dartford \| Little Moment Studio (52 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Dartford, baby shower decorations Dartford |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — 30 miles from studio. |
+
+---
+
+### Baby Shower Balloons Gravesend (baby-shower-balloons-gravesend.html)
+
+**Status:** ✅ Live — 19 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Balloons Gravesend \| Little Moment Studio (53 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | baby shower balloons Gravesend, baby shower decorations Gravesend |
+| **Schema** | ✅ Service JSON-LD |
+| **Notes** | Location page — 26 miles from studio. |
+
+---
+
+### Flowers by Beatrice (flowers-by-beatrice-kent.html)
+
+**Status:** ✅ Live — 19 May 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Flowers by Beatrice \| Our Recommended Florist in Sittingbourne, Kent (68 chars — ⚠️ over 60) |
+| **Meta description** | ✅ ≤160 chars |
+| **Target keywords** | florist Sittingbourne, fresh flowers Kent, bespoke floral arrangements Sittingbourne |
+| **Schema** | ⬜ No schema |
+| **Notes** | Partner/referral page. Title needs trimming — suggest: "Flowers by Beatrice \| Florist Sittingbourne" (43 chars) |
+
+---
+
+### Fondant Cupcake Ideas (fondant-cupcake-ideas-baby-shower-birthday.html)
+
+**Status:** ✅ Live — 22 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Fondant Cupcake Ideas for Baby Showers & Birthdays (50 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Fondant Cupcake Ideas for Baby Showers, Birthdays & Styled Events |
+| **Target keywords** | fondant cupcake ideas, fondant cupcake toppers, baby shower cupcakes Kent |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Internal links** | Links to baby-shower-balloons-kent.html, birthday-balloons-kent.html |
+
+---
+
+### How to Style a Dessert Table (how-to-style-dessert-table-childrens-party.html)
+
+**Status:** ✅ Live — 26 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | How to Style a Dessert Table for a Children's Party (51 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | How to Style a Dessert Table for a Children's Party |
+| **Target keywords** | how to style a dessert table, children's party dessert table, birthday dessert table ideas |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar) |
+
+---
+
+### Baby Shower Cupcake Ideas (baby-shower-cupcake-ideas.html)
+
+**Status:** ✅ Live — 1 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Baby Shower Cupcake Ideas: 2 Easy Designs for Beginners (55 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Baby Shower Cupcake Ideas: 2 Easy Designs for Beginners |
+| **Target keywords** | baby shower cupcake ideas, baby shower cupcakes, baby shower cake table |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Internal links** | Links to baby-shower-balloons-kent.html (pillar) |
+
+---
+
+### Easter Cupcake Ideas (easter-cupcake-ideas.html)
+
+**Status:** ✅ Live — 20 March 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Easter Cupcake Ideas: 2 Easy Designs for Beginners (50 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Easter Cupcake Ideas: 2 Easy Designs for a Spring Dessert Table |
+| **Target keywords** | Easter cupcake ideas, Easter cupcakes, Easter dessert table |
+| **Schema** | ✅ BlogPosting JSON-LD |
+
+---
+
+### Mermaid Cupcake Ideas (mermaid-cupcake-ideas.html)
+
+**Status:** ✅ Live — 27 April 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Mermaid Cupcake Ideas: 3 Easy Under-the-Sea Designs (51 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Mermaid Cupcake Ideas: 3 Easy Under-the-Sea Designs |
+| **Target keywords** | mermaid cupcake ideas, mermaid party cupcakes, under the sea birthday cupcakes |
+| **Schema** | ✅ BlogPosting JSON-LD |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar) |
+
+---
+
 ## Planned New Pages
 
 | Page | Target Keywords | Priority | Status |
@@ -888,6 +1166,14 @@ Work through these in order. Tick each off as done.
 | `baby-shower-balloons-faversham.html` | baby shower balloons Faversham, baby shower Faversham | 🔴 High | ✅ Live — 22 Apr 2026 |
 | `birthday-balloons-faversham.html` | birthday balloons Faversham, party balloons Faversham | 🔴 High | ✅ Live — 22 Apr 2026 |
 | `balloon-garlands-faversham.html` | balloon garland Faversham, balloon arch Faversham | 🔴 High | ✅ Live — 22 Apr 2026 |
+| `baby-shower-balloons-sittingbourne.html` | baby shower balloons Sittingbourne, baby shower decorations Sittingbourne | 🔴 High | ✅ Live — 16 May 2026 |
+| `baby-shower-balloons-swale.html` | baby shower balloons Swale, balloon styling Swale district | 🟡 Medium | ✅ Live — 16 May 2026 |
+| `baby-shower-balloons-rochester.html` | baby shower balloons Rochester, baby shower decorations Rochester | 🟡 Medium | ✅ Live — 17 May 2026 |
+| `baby-shower-balloons-tonbridge.html` | baby shower balloons Tonbridge, baby shower decorations Tonbridge | 🟡 Medium | ✅ Live — 18 May 2026 |
+| `baby-shower-balloons-ashford.html` | baby shower balloons Ashford, baby shower decorations Ashford | 🟡 Medium | ✅ Live — 18 May 2026 |
+| `baby-shower-balloons-canterbury.html` | baby shower balloons Canterbury, baby shower decorations Canterbury | 🟡 Medium | ✅ Live — 18 May 2026 |
+| `baby-shower-balloons-dartford.html` | baby shower balloons Dartford, baby shower decorations Dartford | 🟡 Medium | ✅ Live — 19 May 2026 |
+| `baby-shower-balloons-gravesend.html` | baby shower balloons Gravesend, baby shower decorations Gravesend | 🟡 Medium | ✅ Live — 19 May 2026 |
 | `balloon-styling-medway.html` | balloon styling Medway, balloons Rochester Chatham | 🟡 Medium | ⬜ Not started |
 | `balloon-styling-canterbury.html` | balloon styling Canterbury, balloons Canterbury Kent | 🟡 Medium | ⬜ Not started |
 | `balloon-styling-tonbridge.html` | balloon styling Tonbridge, Tunbridge Wells balloons | 🟢 Lower | ⬜ Not started |
