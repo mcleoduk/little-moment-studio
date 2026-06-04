@@ -4,6 +4,20 @@ Last updated: 4 June 2026
 
 ---
 
+## Page Templates
+
+| Template | Example | Purpose | Key sections |
+|---|---|---|---|
+| **Long-form article** | `baby-shower-dessert-table-ideas.html` | Journal guides, inspiration, how-tos. Builds topical authority. | Article header · hero image · body + sidebar · comparison tables · tip boxes · pull quotes · CTA |
+| **Kent pillar page** | `baby-shower-balloons-kent.html` | Main county-wide service pages. Commercial anchor for each cluster. | Intro · showcase cards · journal article grid · CTA strip |
+| **Location service page** | `baby-shower-balloons-maidstone.html` | Town-specific service pages. Captures local search. | Page-hero · intro · service cards · venues · FAQ · journal cards · CTA banner |
+| **Signature/package page** | `the-luxe-baby-shower.html` | Named packages with tiers and pricing. | Hero · package tiers · what's included · CTA |
+| **Partner page** | `flowers-by-beatrice-kent.html` | Referral pages for recommended local suppliers. | Simple editorial layout, supplier details, link out |
+| **Utility pages** | `gallery.html`, `faqs.html`, `journal.html` | One-off functional pages. Own format per page. | — |
+| **Homepage** | `index.html` | Single-page site with all main sections. | Top bar · nav · hero · services · packages · how it works · testimonials · contact · footer |
+
+---
+
 ## Pillar Structure
 
 Each pillar page is a main service page. Supporting articles build topical authority and funnel readers back to the pillar via internal links.
