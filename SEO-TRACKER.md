@@ -1157,6 +1157,25 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### Gender Reveal Balloons Maidstone (gender-reveal-balloons-maidstone.html)
+
+**Status:** ✅ Live — 4 June 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Gender Reveal Balloons Maidstone \| Little Moment Studio (55 chars) |
+| **Meta description** | ✅ ≤160 chars |
+| **H1** | Gender Reveal Balloons in Maidstone |
+| **Target keywords** | gender reveal balloons Maidstone, gender reveal styling Maidstone, gender reveal decorations Maidstone |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD + BreadcrumbList |
+| **Canonical** | https://littlemomentstudio.co.uk/gender-reveal-balloons-maidstone.html |
+| **Sitemap** | ✅ Priority 0.7 |
+| **Internal links** | Links to baby-shower-balloons-maidstone.html, gender-reveal-ideas-uk-guide.html, neutral-baby-shower-ideas.html |
+| **Inbound links** | baby-shower-balloons-maidstone.html, birthday-balloons-maidstone.html, balloon-garlands-maidstone.html, gender-reveal-ideas-uk-guide.html |
+| **Notes** | Location service page. Includes themes section with 5 palette cards, includes/approach section, journal cross-links. Hero: gallery/installations/gender-reveal-balloon-styling-maidstone.png |
+
+---
+
 ## Planned New Pages
 
 | Page | Target Keywords | Priority | Status |
