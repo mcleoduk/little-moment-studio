@@ -1190,6 +1190,24 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### Father's Day Dessert Table Ideas (fathers-day-dessert-table-ideas.html)
+**Status:** ✅ Live — 19 June 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Father's Day Dessert Table Ideas \| Little Moment Studio (55 chars) |
+| **Meta description** | ⚠️ 166 chars — over 160, consider trimming |
+| **H1** | Father's Day Dessert Table Ideas for a Stylish Celebration |
+| **Target keywords** | Father's Day dessert table, Father's Day balloon styling, Father's Day party ideas |
+| **Schema** | ✅ BlogPosting JSON-LD + FAQPage JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/fathers-day-dessert-table-ideas.html |
+| **Sitemap** | ✅ |
+| **Internal links** | Links to birthday-balloons-kent.html, football-party-balloon-dessert-table-ideas.html, berrylicious-cakes-partner.html, how-to-style-dessert-table-childrens-party.html, birthday-cupcake-ideas.html |
+| **Inbound links** | journal.html, index.html (homepage journal preview) |
+| **Notes** | Styling/inspiration article — six themed dessert table ideas (modern neutral, football, BBQ, coffee & chocolate, whisky lounge, fun cupcake). Hero: gallery/installations/fathers-day-dessert-table-sittingbourne.webp. Added to journal.html and homepage journal preview 20 June 2026. |
+
+---
+
 ## Planned New Pages
 
 | Page | Target Keywords | Priority | Status |
