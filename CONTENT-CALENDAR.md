@@ -110,6 +110,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 14 May | Baby Shower Venues in Swale | baby-shower-venues-swale.html | Planning & Advice | LIVE |
 | 15 May | Baby Shower Venues in Rochester | baby-shower-venues-rochester.html | Planning & Advice | LIVE |
 | 15 May | Summer Party Trends 2026 | summer-party-trends-2026.html | Trends | LIVE |
+| 16 May | Balloon Colour Combinations That Always Work Together | balloon-colour-combinations-that-always-work-together.html | Styling & Inspiration | LIVE |
 | 17 May | The Sky Celebration (Signature Collection) | the-sky-celebration.html | Signature Collection | LIVE |
 | 17 May | Cloud Theme Party Ideas for First Birthdays and Christenings | cloud-theme-party-ideas.html | Styling & Inspiration | LIVE |
 | 17 May | Blue Baby Shower Ideas for a Soft, Sky-Inspired Celebration | blue-baby-shower-ideas.html | Styling & Inspiration | LIVE |
@@ -131,8 +132,8 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 13 Jun | Gender Reveal Ideas: The Complete UK Guide | gender-reveal-ideas-uk-guide.html | Planning & Advice | LIVE |
 | 15 Jun | How to Choose a Colour Palette for Your Balloon Display | how-to-choose-balloon-colour-palette.html | Planning & Advice | LIVE |
 | 17 Jun | Puppy Party Balloon & Dessert Table Ideas | puppy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
-| 19 Jun | Father's Day Dessert Table Ideas | fathers-day-dessert-table-ideas.html | Seasonal | 🟡 Committed — orphan |
-| 21 Jun | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
+| 19 Jun | Father's Day Dessert Table Ideas | fathers-day-dessert-table-ideas.html | Seasonal | LIVE |
+| 21 Jun | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 23 Jun | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 25 Jun | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
@@ -152,7 +153,6 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 19 Jul | How to Make Fondant Cupcake Toppers for Beginners | — | DIY & Tutorial | ⚪ Not started |
 | 20 Jul | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | Trends | 🟡 Committed — orphan |
 | 23 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | DIY & Tutorial | 🟠 Written — needs hero image |
-| 25 Jul | Balloon Colour Combinations That Always Work Together | balloon-colour-combinations-that-always-work-together.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | Styling & Inspiration | ⚪ Not started |
 | 30 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🟡 Committed — orphan |
 | 31 Jul | Small Party Styling Ideas That Still Look Impressive | — | Styling & Inspiration | ⚪ Not started |

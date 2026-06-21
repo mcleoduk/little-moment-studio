@@ -1208,6 +1208,24 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### Fairy Party Balloon & Dessert Table Ideas (fairy-party-balloon-dessert-table-ideas.html)
+**Status:** ✅ Live — 21 June 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Fairy Party Balloon & Dessert Table Ideas \| Little Moment Studio (64 chars) — title tag was missing the brand suffix, added 21 June 2026 |
+| **Meta description** | ✅ 146 chars |
+| **H1** | Fairy Party Balloon & Dessert Table Ideas |
+| **Target keywords** | fairy party balloons, fairy party dessert table, fairy birthday party ideas |
+| **Schema** | ✅ BlogPosting JSON-LD + FAQPage JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/fairy-party-balloon-dessert-table-ideas.html |
+| **Sitemap** | ✅ |
+| **Internal links** | Links to birthday-cupcake-ideas.html, first-birthday-balloon-ideas.html, how-to-style-dessert-table-childrens-party.html, match-cupcakes-with-balloon-display.html, birthday-balloons-kent.html, balloon-garlands-kent.html, how-to-choose-balloon-colour-palette.html, princess-party-dessert-table-ideas.html, unicorn-party-balloon-dessert-table-ideas.html |
+| **Inbound links** | journal.html, index.html (homepage journal preview) |
+| **Notes** | Styling/inspiration article — fairy party balloon and dessert table styling with woodland, butterfly and first-birthday variations. Hero: gallery/installations/fairy-party-dessert-table-kent.webp. `datePublished` was wrongly set to 29 May 2026 (article was written then but never actually published — still "Committed — orphan" in CONTENT-CALENDAR). Corrected to 21 June 2026, its actual go-live date, when added to journal.html and homepage journal preview. |
+
+---
+
 ## Planned New Pages
 
 | Page | Target Keywords | Priority | Status |
