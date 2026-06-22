@@ -1226,6 +1226,24 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### 4th of July Cupcake Ideas: Red, White & Blue Designs (fourth-of-july-cupcake-ideas.html)
+**Status:** ✅ Live — 22 June 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | 4th of July Cupcake Ideas \| Little Moment Studio (49 chars) |
+| **Meta description** | ✅ 156 chars |
+| **H1** | 4th of July Cupcake Ideas: Red, White & Blue Designs |
+| **Target keywords** | 4th of July cupcakes, red white and blue cupcakes, buttercream swirl cupcakes |
+| **Schema** | ✅ BlogPosting JSON-LD + FAQPage JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/fourth-of-july-cupcake-ideas.html |
+| **Sitemap** | ✅ |
+| **Internal links** | Links to fondant-cupcake-ideas-baby-shower-birthday.html, index.html#contact, gallery.html |
+| **Inbound links** | journal.html, index.html (homepage journal preview) |
+| **Notes** | Styling/inspiration article — two beginner cupcake designs (red/white/blue buttercream swirl, navy rosette with white stars). Hero: gallery/cupcakes/fourth-of-july-cupcakes-kent.webp. Article file was written 21 June 2026 with `robots: noindex` and placeholder dates; corrected to `index, follow` and `datePublished`/`dateModified` set to 22 June 2026, its actual go-live date, when added to journal.html and homepage journal preview. |
+
+---
+
 ## Planned New Pages
 
 | Page | Target Keywords | Priority | Status |

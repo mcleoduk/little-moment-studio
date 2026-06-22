@@ -137,7 +137,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 23 Jun | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 25 Jun | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
-| 28 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Seasonal | 🟡 Committed — orphan |
+| 22 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Seasonal | LIVE |
 | 30 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Practical/FAQ | 🟡 Committed — orphan |
 
 ---
