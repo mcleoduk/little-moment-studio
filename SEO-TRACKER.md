@@ -1244,6 +1244,42 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### Space Party Balloon & Dessert Table Ideas (space-party-balloon-dessert-table-ideas.html)
+**Status:** ✅ Live — 25 June 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Space Party Balloon & Dessert Table Ideas \| Little Moment Studio (66 chars) — title tag was missing the brand suffix, added 25 June 2026 |
+| **Meta description** | ✅ 145 chars |
+| **H1** | Space Party Balloon & Dessert Table Ideas |
+| **Target keywords** | space party balloons, space party dessert table, galaxy birthday party ideas |
+| **Schema** | ✅ BlogPosting JSON-LD + FAQPage JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/space-party-balloon-dessert-table-ideas.html |
+| **Sitemap** | ✅ |
+| **Internal links** | Links to baby-shower-balloons-kent.html, balloon-garlands-kent.html, birthday-balloons-kent.html, birthday-cupcake-ideas.html, dinosaur-party-balloon-dessert-table-ideas.html, first-birthday-balloon-ideas.html, how-to-style-dessert-table-childrens-party.html, superhero-party-balloon-dessert-table-ideas.html, unicorn-party-balloon-dessert-table-ideas.html |
+| **Inbound links** | journal.html, index.html (homepage journal preview) |
+| **Notes** | Styling/inspiration article — galaxy balloons, rocket cake, planet cupcakes, moon cookies and metallic styling. Hero: gallery/installations/space-party-dessert-table-kent.webp. Article file had placeholder `datePublished` of 10 May 2026 and `robots: noindex` from when it was written; corrected to `index, follow` and dates set to 25 June 2026, its actual go-live date, when added to journal.html and homepage journal preview. |
+
+---
+
+### Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas (rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html)
+**Status:** ✅ Live — 25 June 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas \| Little Moment Studio (80 chars) — title tag was missing the brand suffix, added 25 June 2026 |
+| **Meta description** | ✅ 154 chars |
+| **H1** | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas |
+| **Target keywords** | rescue pup dinosaur party, puppy dinosaur party ideas, dinosaur and puppy birthday theme |
+| **Schema** | ✅ BlogPosting JSON-LD + FAQPage JSON-LD |
+| **Canonical** | https://littlemomentstudio.co.uk/rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html |
+| **Sitemap** | ✅ |
+| **Internal links** | Links to baby-shower-balloons-kent.html, balloon-garlands-kent.html, birthday-balloons-kent.html, birthday-cupcake-ideas.html, dinosaur-party-balloon-dessert-table-ideas.html, dinosaur-party-cupcake-ideas.html, farm-party-balloon-dessert-table-ideas.html, first-birthday-balloon-ideas.html, how-to-choose-balloon-colour-palette.html, match-cupcakes-with-balloon-display.html, puppy-party-balloon-dessert-table-ideas.html, top-10-piping-tips-for-cupcakes.html |
+| **Inbound links** | journal.html, index.html (homepage journal preview) |
+| **Notes** | Styling/inspiration article — jungle balloons, puppy cake, dinosaur cupcakes, paw-print cookies and dino egg treats. Hero: gallery/installations/rescue-pup-dinosaur-party-dessert-table-kent.webp. Originally scheduled 23 June 2026 in CONTENT-CALENDAR but never published — file had placeholder `datePublished` of 27 May 2026 and `robots: noindex`; corrected to `index, follow` and dates set to 25 June 2026, its actual go-live date, when added to journal.html and homepage journal preview. |
+
+---
+
 ## Planned New Pages
 
 | Page | Target Keywords | Priority | Status |
