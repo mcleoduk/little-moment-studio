@@ -99,6 +99,8 @@ These location terms have too little search volume to register in GSC's 28-day w
 
 **Structural gap spotted while compiling this:** "birthday balloons" and "balloon garlands" pages only exist for 4 towns (Kent, Maidstone, Faversham, Medway), while "baby shower balloons" covers 12. Sittingbourne, Canterbury, Ashford, Tonbridge, Dartford, Gravesend, Swale and Rochester have no dedicated birthday-balloons or balloon-garlands page — likely a bigger opportunity than chasing rank on existing pages.
 
+**In progress (28 Jun 2026):** the deeper cause for birthday balloons specifically is that baby shower has 11 town-specific venue-guide articles funnelling internal links down to the town pages, and birthday has none. Drafted two equivalent guides — `birthday-party-venues-maidstone.html` and `birthday-party-venues-medway.html` — researched against real local venues (Bredhurst Village Hall, Lower Grange Farm, Gymfinity Kids, Kent Life, Orida Hotels for Maidstone; The Fun Drum, Fun Science Medway, Lordswood Sports & Social Club/Leisure Centre, Holiday Inn Rochester-Chatham, Cineworld Rochester for Medway). Linked into `birthday-balloons-maidstone.html` and `birthday-balloons-medway.html`. Currently `noindex` and not yet added to journal.html/homepage/sitemap — orphans pending a publish date (see CONTENT-CALENDAR.md, July 2026, TBC).
+
 ---
 
 ## Page Templates

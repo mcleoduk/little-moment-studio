@@ -156,6 +156,8 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | Styling & Inspiration | ⚪ Not started |
 | 30 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🟡 Committed — orphan |
 | 31 Jul | Small Party Styling Ideas That Still Look Impressive | — | Styling & Inspiration | ⚪ Not started |
+| TBC | The Best Birthday Party Venues in Maidstone: A Local Guide | birthday-party-venues-maidstone.html | Planning & Advice | 🟡 Committed — orphan |
+| TBC | The Best Birthday Party Venues in Medway: A Local Guide | birthday-party-venues-medway.html | Planning & Advice | 🟡 Committed — orphan |
 
 ---
 
