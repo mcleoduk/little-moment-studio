@@ -138,10 +138,11 @@ Supporting articles:
 - `/neutral-baby-shower-ideas.html`
 - `/blue-baby-shower-ideas.html`
 - `/baby-shower-venues-tonbridge.html`
+- `/baby-shower-venues-kent.html` — added 28 Jun 2026, county-wide hub for all 11 town venue guides
 
 Checklist:
-- [x] Pillar page links to every supporting article — updated 8 May 2026
-- [x] Every supporting article links back to pillar page — confirmed 8 May 2026
+- [x] Pillar page links to every supporting article — updated 28 Jun 2026 (added "All Kent Venues" link)
+- [x] Every supporting article links back to pillar page — confirmed 28 Jun 2026
 - [x] Pillar page CTA prominent (book consultation) — CTA strip present
 - [x] Meta title ≤60 chars — "Baby Shower Balloons Kent | Little Moment Studio" (48 chars)
 - [x] Meta description ≤160 chars — 149 chars
@@ -171,10 +172,12 @@ Supporting articles:
 - `/how-far-in-advance-book-birthday-balloons.html`
 - `/how-much-do-birthday-balloons-cost.html`
 - `/can-you-have-balloons-at-an-outdoor-party.html`
+- `/birthday-party-venues-maidstone.html` — added 28 Jun 2026
+- `/birthday-party-venues-medway.html` — added 28 Jun 2026
 
 Checklist:
-- [x] Pillar page links to all supporting articles — updated 8 May 2026
-- [x] Every supporting article links back to pillar page — confirmed 8 May 2026
+- [x] Pillar page links to all supporting articles — updated 8 May 2026; two venue guides added and linked from the pillar page's mini-FAQ on 28 Jun 2026
+- [x] Every supporting article links back to pillar page — confirmed 28 Jun 2026
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Birthday Balloons Kent | Little Moment Studio" (44 chars)
 - [x] Meta description ≤160 chars — 158 chars
