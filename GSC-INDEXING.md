@@ -8,20 +8,24 @@ Track manual URL inspection requests here. Update status when Google confirms in
 
 *Checked against live GSC data via `mcp__gsc__inspect_url` on 25 Jun 2026. The 6 previously-pending Maidstone/Medway/Canterbury/Swale URLs had already been crawled and indexed — moved to "Already Indexed" below. Everything else below was confirmed NOT indexed and re-submitted via `mcp__gsc__submit_batch` on 25 Jun 2026.*
 
+*Re-checked 28 Jun 2026 as part of a full audit of all 31 location-pattern pages (baby-shower-balloons/birthday-balloons/balloon-garlands/baby-shower-venues/gender-reveal-balloons across every town). 11 of the 12 not-indexed pages found were already in this list from 25 Jun — still showing "Discovered/Crawled — not indexed", i.e. Google hasn't got to them yet, so not resubmitted again.*
+
+*`baby-shower-balloons-swale.html` was flagged not-indexed by the API and resubmitted, but a direct Google search the same day showed it ranking live in the SERP — the GSC API status was stale, same lag pattern as the Page Indexing report. Moved to "Already Indexed" below instead.*
+
 | URL | Submitted | Status |
 |-----|-----------|--------|
 | https://littlemomentstudio.co.uk/gallery.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/birthday-balloons-kent.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/gender-reveal-balloons-maidstone.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-venues-ashford.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-venues-dartford.html | 25 Jun 2026 | Pending — indexing status couldn't be checked (tool call interrupted), resubmitted to be safe |
-| https://littlemomentstudio.co.uk/baby-shower-venues-faversham.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-venues-gravesend.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/baby-shower-venues-rochester.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/balloon-garlands-faversham.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/balloon-garlands-medway.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/birthday-balloons-faversham.html | 25 Jun 2026 | Pending |
-| https://littlemomentstudio.co.uk/birthday-balloons-medway.html | 25 Jun 2026 | Pending |
+| https://littlemomentstudio.co.uk/birthday-balloons-kent.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/gender-reveal-balloons-maidstone.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/baby-shower-venues-ashford.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/baby-shower-venues-dartford.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/baby-shower-venues-faversham.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/baby-shower-venues-gravesend.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/baby-shower-venues-rochester.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/balloon-garlands-faversham.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/balloon-garlands-medway.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/birthday-balloons-faversham.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
+| https://littlemomentstudio.co.uk/birthday-balloons-medway.html | 25 Jun 2026 | Pending — still not indexed as of 28 Jun check |
 | https://littlemomentstudio.co.uk/are-latex-balloons-safe.html | 25 Jun 2026 | Pending |
 | https://littlemomentstudio.co.uk/best-balloon-colours-2025.html | 25 Jun 2026 | Pending |
 | https://littlemomentstudio.co.uk/birthday-cupcake-ideas.html | 25 Jun 2026 | Pending |
@@ -69,6 +73,7 @@ Only the 3 low-priority baking-technique how-tos are left — past pattern shows
 
 | URL | Last crawled |
 |-----|-----------|
+| https://littlemomentstudio.co.uk/baby-shower-balloons-swale.html | Confirmed via live SERP check 28 Jun 2026 — GSC API said not-indexed, search result said otherwise |
 | https://littlemomentstudio.co.uk/baby-shower-venues-maidstone.html | 18 Jun 2026 |
 | https://littlemomentstudio.co.uk/balloon-garlands-maidstone.html | 18 Jun 2026 |
 | https://littlemomentstudio.co.uk/birthday-balloons-maidstone.html | 18 Jun 2026 |

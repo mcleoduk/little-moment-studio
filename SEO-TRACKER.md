@@ -60,42 +60,42 @@ Last updated: 4 June 2026
 
 ### Location-term SERP checklist (manual check, not GSC)
 
-These location terms have too little search volume to register in GSC's 28-day window, so the only way to see actual current ranking is a direct incognito Google search — same method as the "baby shower balloons kent" check (confirmed position 3, 28 Jun 2026). Update the Position column as each is checked. Automated/bulk scraping of Google SERPs isn't done here — risk of CAPTCHAs/IP flags — so this is filled in manually over time.
+These location terms have too little search volume to register in GSC's 28-day window, so the only way to see actual current ranking is a direct incognito Google search — same method as the "baby shower balloons kent" check (confirmed position 3, 28 Jun 2026). Update the Position column as each is checked. Automated/bulk scraping of Google SERPs isn't done here — risk of CAPTCHAs/IP flags — so this is filled in manually over time. Indexed column confirmed live via `mcp__gsc__inspect_url` on 28 Jun 2026.
 
-| # | Search Term | Page Type | Position | Checked |
-|---|---|---|---|---|
-| 1 | baby shower balloons sittingbourne | Baby shower balloons | | |
-| 2 | baby shower balloons kent | Baby shower balloons | 3 | 28 Jun 2026 |
-| 3 | baby shower balloons maidstone | Baby shower balloons | | |
-| 4 | baby shower balloons faversham | Baby shower balloons | | |
-| 5 | baby shower balloons medway | Baby shower balloons | | |
-| 6 | baby shower balloons rochester | Baby shower balloons | | |
-| 7 | baby shower balloons canterbury | Baby shower balloons | | |
-| 8 | baby shower balloons ashford | Baby shower balloons | | |
-| 9 | baby shower balloons tonbridge | Baby shower balloons | | |
-| 10 | baby shower balloons dartford | Baby shower balloons | | |
-| 11 | baby shower balloons gravesend | Baby shower balloons | | |
-| 12 | baby shower balloons swale | Baby shower balloons | | |
-| 13 | birthday balloons kent | Birthday balloons | | |
-| 14 | birthday balloons maidstone | Birthday balloons | | |
-| 15 | birthday balloons faversham | Birthday balloons | | |
-| 16 | birthday balloons medway | Birthday balloons | | |
-| 17 | balloon garlands kent | Balloon garlands | | |
-| 18 | balloon garlands maidstone | Balloon garlands | | |
-| 19 | balloon garlands faversham | Balloon garlands | | |
-| 20 | balloon garlands medway | Balloon garlands | | |
-| 21 | baby shower venues sittingbourne | Baby shower venues | | |
-| 22 | baby shower venues kent | Baby shower venues | | |
-| 23 | baby shower venues maidstone | Baby shower venues | | |
-| 24 | baby shower venues faversham | Baby shower venues | | |
-| 25 | baby shower venues medway | Baby shower venues | | |
-| 26 | baby shower venues rochester | Baby shower venues | | |
-| 27 | baby shower venues canterbury | Baby shower venues | | |
-| 28 | baby shower venues ashford | Baby shower venues | | |
-| 29 | baby shower venues tonbridge | Baby shower venues | | |
-| 30 | baby shower venues dartford | Baby shower venues | | |
-| 31 | baby shower venues gravesend | Baby shower venues | | |
-| 32 | gender reveal balloons maidstone | Gender reveal balloons | | |
+| # | Search Term | Page Type | Indexed | Position | Checked |
+|---|---|---|---|---|---|
+| 1 | baby shower balloons sittingbourne | Baby shower balloons | ✅ | 3 | 28 Jun 2026 |
+| 2 | baby shower balloons kent | Baby shower balloons | ✅ | 3 | 28 Jun 2026 |
+| 3 | baby shower balloons maidstone | Baby shower balloons | ✅ | 2 | 28 Jun 2026 |
+| 4 | baby shower balloons faversham | Baby shower balloons | ✅ | 1 | 28 Jun 2026 |
+| 5 | baby shower balloons medway | Baby shower balloons | ✅ | 2 | 28 Jun 2026 |
+| 6 | baby shower balloons rochester | Baby shower balloons | ✅ | 1 | 28 Jun 2026 |
+| 7 | baby shower balloons canterbury | Baby shower balloons | ✅ | 1 | 28 Jun 2026 |
+| 8 | baby shower balloons ashford | Baby shower balloons | ✅ | 3 | 28 Jun 2026 |
+| 9 | baby shower balloons tonbridge | Baby shower balloons | ✅ | 1 | 28 Jun 2026 |
+| 10 | baby shower balloons dartford | Baby shower balloons | ✅ | 1 | 28 Jun 2026 |
+| 11 | baby shower balloons gravesend | Baby shower balloons | ✅ | 2 | 28 Jun 2026 |
+| 12 | baby shower balloons swale | Baby shower balloons | ✅ *(GSC API showed "not indexed" but live SERP confirms it's indexed and ranking — API lag, see screenshot 28 Jun)* | 1 | 28 Jun 2026 |
+| 13 | birthday balloons kent | Birthday balloons | ❌ | | |
+| 14 | birthday balloons maidstone | Birthday balloons | ✅ | 16 | 28 Jun 2026 |
+| 15 | birthday balloons faversham | Birthday balloons | ❌ | 19 | 28 Jun 2026 |
+| 16 | birthday balloons medway | Birthday balloons | ❌ | | |
+| 17 | balloon garlands kent | Balloon garlands | ✅ | 1 | 28 Jun 2026 |
+| 18 | balloon garlands maidstone | Balloon garlands | ✅ | 1 | 28 Jun 2026 |
+| 19 | balloon garlands faversham | Balloon garlands | ❌ | | |
+| 20 | balloon garlands medway | Balloon garlands | ❌ | 8 *(wrong page ranking — baby-shower-balloons-medway.html shows up instead of balloon-garlands-medway.html, since the latter isn't indexed)* | 28 Jun 2026 |
+| 21 | baby shower venues sittingbourne | Baby shower venues | ✅ | 2 | 28 Jun 2026 |
+| 22 | baby shower venues kent | Baby shower venues | — *(no dedicated page exists)* | | |
+| 23 | baby shower venues maidstone | Baby shower venues | ✅ | 3 | 28 Jun 2026 |
+| 24 | baby shower venues faversham | Baby shower venues | ❌ | | |
+| 25 | baby shower venues medway | Baby shower venues | ✅ | 1 | 28 Jun 2026 |
+| 26 | baby shower venues rochester | Baby shower venues | ❌ | | |
+| 27 | baby shower venues canterbury | Baby shower venues | ✅ | 2 | 28 Jun 2026 |
+| 28 | baby shower venues ashford | Baby shower venues | ❌ | | |
+| 29 | baby shower venues tonbridge | Baby shower venues | ✅ | 1 | 28 Jun 2026 |
+| 30 | baby shower venues dartford | Baby shower venues | ❌ | | |
+| 31 | baby shower venues gravesend | Baby shower venues | ❌ | | |
+| 32 | gender reveal balloons maidstone | Gender reveal balloons | ❌ | | |
 
 **Structural gap spotted while compiling this:** "birthday balloons" and "balloon garlands" pages only exist for 4 towns (Kent, Maidstone, Faversham, Medway), while "baby shower balloons" covers 12. Sittingbourne, Canterbury, Ashford, Tonbridge, Dartford, Gravesend, Swale and Rochester have no dedicated birthday-balloons or balloon-garlands page — likely a bigger opportunity than chasing rank on existing pages.
 
