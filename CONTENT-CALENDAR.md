@@ -139,6 +139,8 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 22 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Seasonal | LIVE |
 | 30 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Practical/FAQ | 🟡 Committed — orphan |
+| 28 Jun | The Best Birthday Party Venues in Maidstone: A Local Guide | birthday-party-venues-maidstone.html | Planning & Advice | LIVE |
+| 28 Jun | The Best Birthday Party Venues in Medway: A Local Guide | birthday-party-venues-medway.html | Planning & Advice | LIVE |
 
 ---
 
@@ -156,8 +158,6 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 27 Jul | First Birthday Cupcakes: Soft Pastel Ideas | — | Styling & Inspiration | ⚪ Not started |
 | 30 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🟡 Committed — orphan |
 | 31 Jul | Small Party Styling Ideas That Still Look Impressive | — | Styling & Inspiration | ⚪ Not started |
-| TBC | The Best Birthday Party Venues in Maidstone: A Local Guide | birthday-party-venues-maidstone.html | Planning & Advice | 🟡 Committed — orphan |
-| TBC | The Best Birthday Party Venues in Medway: A Local Guide | birthday-party-venues-medway.html | Planning & Advice | 🟡 Committed — orphan |
 
 ---
 
