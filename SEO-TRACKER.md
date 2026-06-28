@@ -15,7 +15,7 @@ Last updated: 4 June 2026
 | balloon colour combinations | 9.1–10.8 | 108 (+63, 36, 31 on close variants) | balloon-colour-combinations-that-always-work-together.html | Title/meta rewritten 28 Jun 2026 ("5 Balloon Colour Combinations That Always Work Together") to lift CTR — watch GSC over next few weeks |
 | best balloon colour combination | 9.1 | 108 | balloon-colour-combinations-that-always-work-together.html | Same page, variant query |
 | balloon colour themes | 12.3 | 21 | balloon-colour-combinations-that-always-work-together.html / how-to-choose-balloon-colour-palette.html | |
-| baby shower venues kent | 22.7 | 64 | baby-shower-venues-*.html (hub) | Page 3 — room to climb |
+| baby shower venues kent | 22.7→24.6 (pre-fix) | 64–109 | baby-shower-venues-kent.html | Was split across 5 town pages, none ranking well (14.7–48). New dedicated hub published 28 Jun 2026 to consolidate — watch GSC |
 | baby shower cupcakes | 32.6 | 33 | baby-shower-cupcake-ideas.html | Page 4 — needs work |
 | baby shower dessert table | 11.6 | 17 | baby-shower-dessert-table-ideas.html | Close to page 1 |
 | wedding balloon styling | 4 | 8 | wedding-balloon-styling-kent.html | Already ranking well — defend/expand |
@@ -85,7 +85,7 @@ These location terms have too little search volume to register in GSC's 28-day w
 | 19 | balloon garlands faversham | Balloon garlands | ❌ | | |
 | 20 | balloon garlands medway | Balloon garlands | ❌ | 8 *(wrong page ranking — baby-shower-balloons-medway.html shows up instead of balloon-garlands-medway.html, since the latter isn't indexed)* | 28 Jun 2026 |
 | 21 | baby shower venues sittingbourne | Baby shower venues | ✅ | 2 | 28 Jun 2026 |
-| 22 | baby shower venues kent | Baby shower venues | — *(no dedicated page exists)* | | |
+| 22 | baby shower venues kent | Baby shower venues | ✅ *(new hub page published 28 Jun 2026)* | | |
 | 23 | baby shower venues maidstone | Baby shower venues | ✅ | 3 | 28 Jun 2026 |
 | 24 | baby shower venues faversham | Baby shower venues | ❌ | | |
 | 25 | baby shower venues medway | Baby shower venues | ✅ | 1 | 28 Jun 2026 |

@@ -141,6 +141,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 30 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Practical/FAQ | 🟡 Committed — orphan |
 | 28 Jun | The Best Birthday Party Venues in Maidstone: A Local Guide | birthday-party-venues-maidstone.html | Planning & Advice | LIVE |
 | 28 Jun | The Best Birthday Party Venues in Medway: A Local Guide | birthday-party-venues-medway.html | Planning & Advice | LIVE |
+| 28 Jun | Baby Shower Venues in Kent: The Complete Local Guide | baby-shower-venues-kent.html | Planning & Advice | LIVE |
 
 ---
 
