@@ -4,6 +4,62 @@ Last updated: 4 June 2026
 
 ---
 
+## Priority Keywords to Chase
+
+*Compiled 28 Jun 2026. Position/impressions are live GSC data (`mcp__gsc__advanced_search_analytics`, last 28 days) where the term had enough search volume to register. Terms with no figures had too few impressions to appear in GSC — listed on conversion-value grounds, not search data.*
+
+### Already getting traction — worth doubling down on
+
+| Keyword | Position | Impressions | Target page | Note |
+|---|---|---|---|---|
+| balloon colour combinations | 9.1–10.8 | 108 (+63, 36, 31 on close variants) | balloon-colour-combinations-that-always-work-together.html | Title/meta rewritten 28 Jun 2026 ("5 Balloon Colour Combinations That Always Work Together") to lift CTR — watch GSC over next few weeks |
+| best balloon colour combination | 9.1 | 108 | balloon-colour-combinations-that-always-work-together.html | Same page, variant query |
+| balloon colour themes | 12.3 | 21 | balloon-colour-combinations-that-always-work-together.html / how-to-choose-balloon-colour-palette.html | |
+| baby shower venues kent | 22.7 | 64 | baby-shower-venues-*.html (hub) | Page 3 — room to climb |
+| baby shower cupcakes | 32.6 | 33 | baby-shower-cupcake-ideas.html | Page 4 — needs work |
+| baby shower dessert table | 11.6 | 17 | baby-shower-dessert-table-ideas.html | Close to page 1 |
+| wedding balloon styling | 4 | 8 | wedding-balloon-styling-kent.html | Already ranking well — defend/expand |
+| gender reveal ideas uk | 12.3 | 9 | gender-reveal-ideas-uk-guide.html | |
+| princess dessert table ideas | 5.7 | 3 | princess-party-dessert-table-ideas.html | Close to top 3 |
+| mermaid cupcake ideas | 16.8 | 4 | mermaid-cupcake-ideas.html | |
+
+### Core local money terms — low volume now, highest conversion value
+
+| Keyword | Target page |
+|---|---|
+| baby shower balloons Sittingbourne | baby-shower-balloons-sittingbourne.html |
+| balloon garland Sittingbourne | balloon-garlands-kent.html |
+| birthday balloons Sittingbourne | birthday-balloons-kent.html |
+| balloon styling Kent | index.html / balloon-garlands-kent.html |
+| baby shower balloons Kent | baby-shower-balloons-kent.html |
+| organic balloon garland Kent | what-is-an-organic-balloon-garland.html |
+| baby shower balloons Maidstone | baby-shower-balloons-maidstone.html |
+| baby shower balloons Canterbury | baby-shower-balloons-canterbury.html |
+| baby shower balloons Ashford | baby-shower-balloons-ashford.html |
+| baby shower venues Sittingbourne | baby-shower-venues-sittingbourne.html |
+
+### Practical/FAQ — proven demand pattern, snippet-friendly
+
+| Keyword | Target page |
+|---|---|
+| how much do birthday balloons cost | how-much-do-birthday-balloons-cost.html |
+| how long do balloons last | how-long-do-balloons-last.html |
+| are latex balloons safe | are-latex-balloons-safe.html |
+| how far in advance to book birthday balloons | how-far-in-advance-book-birthday-balloons.html |
+| what is a balloon garland | what-is-an-organic-balloon-garland.html |
+
+### Seasonal/thematic — recurring demand, content already live
+
+| Keyword | Target page |
+|---|---|
+| first birthday balloon ideas | first-birthday-balloon-ideas.html |
+| teddy bear baby shower ideas | teddy-bear-baby-shower-ideas.html |
+| cloud theme party ideas | cloud-theme-party-ideas.html |
+| baby shower dessert table ideas | baby-shower-dessert-table-ideas.html |
+| organic balloon garland | what-is-an-organic-balloon-garland.html |
+
+---
+
 ## Page Templates
 
 | Template | Example | Purpose | Key sections |
