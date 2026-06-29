@@ -136,9 +136,9 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 21 Jun | Fairy Party Balloon & Dessert Table Ideas | fairy-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 25 Jun | Rescue Pup Dinosaur Party Balloon & Dessert Table Ideas | rescue-pup-dinosaur-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 25 Jun | Space Party Balloon & Dessert Table Ideas | space-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
-| 26 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🟡 Committed — orphan |
+| 29 Jun | Circus Party Balloon & Dessert Table Ideas | circus-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE |
 | 22 Jun | 4th of July Cupcake Ideas | fourth-of-july-cupcake-ideas.html | Seasonal | LIVE |
-| 30 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Practical/FAQ | 🟡 Committed — orphan |
+| 29 Jun | What Size Balloon Garland Do I Need? | what-size-balloon-garland-do-i-need.html | Practical/FAQ | LIVE |
 | 28 Jun | The Best Birthday Party Venues in Maidstone: A Local Guide | birthday-party-venues-maidstone.html | Planning & Advice | LIVE |
 | 28 Jun | The Best Birthday Party Venues in Medway: A Local Guide | birthday-party-venues-medway.html | Planning & Advice | LIVE |
 | 28 Jun | Baby Shower Venues in Kent: The Complete Local Guide | baby-shower-venues-kent.html | Planning & Advice | LIVE |
