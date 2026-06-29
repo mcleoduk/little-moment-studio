@@ -17,7 +17,7 @@ Last updated: 4 June 2026
 | balloon colour themes | 12.3 | 21 | balloon-colour-combinations-that-always-work-together.html / how-to-choose-balloon-colour-palette.html | |
 | baby shower venues kent | 22.7→24.6 (pre-fix) | 64–109 | baby-shower-venues-kent.html | Was split across 5 town pages, none ranking well (14.7–48). New dedicated hub published 28 Jun 2026 to consolidate — watch GSC |
 | baby shower cupcakes | 32.6 | 33 | baby-shower-cupcake-ideas.html | Page 4 — needs work |
-| baby shower dessert table | 11.6 | 17 | baby-shower-dessert-table-ideas.html | Close to page 1 |
+| baby shower dessert table | 11.4 | 18 | baby-shower-dessert-table-ideas.html | Close to page 1. 30 query variants found 29 Jun 2026 (cake/sweet/treat table synonyms at position 6-12) but page never used those words — added a synonym sentence to the intro 29 Jun 2026 to pick up exact-phrase matches. Watch GSC |
 | wedding balloon styling | 4 | 8 | wedding-balloon-styling-kent.html | Already ranking well — defend/expand |
 | gender reveal ideas uk | 12.3 | 9 | gender-reveal-ideas-uk-guide.html | |
 | princess dessert table ideas | 5.7 | 3 | princess-party-dessert-table-ideas.html | Close to top 3 |
@@ -96,6 +96,7 @@ These location terms have too little search volume to register in GSC's 28-day w
 | 30 | baby shower venues dartford | Baby shower venues | ❌ | | |
 | 31 | baby shower venues gravesend | Baby shower venues | ❌ | | |
 | 32 | gender reveal balloons maidstone | Gender reveal balloons | ❌ | | |
+| 33 | baby shower venues swale | Baby shower venues | ✅ *(missed from original 32-term list — found 29 Jun 2026)* | 1 | 29 Jun 2026 |
 
 **Structural gap spotted while compiling this:** "birthday balloons" and "balloon garlands" pages only exist for 4 towns (Kent, Maidstone, Faversham, Medway), while "baby shower balloons" covers 12. Sittingbourne, Canterbury, Ashford, Tonbridge, Dartford, Gravesend, Swale and Rochester have no dedicated birthday-balloons or balloon-garlands page — likely a bigger opportunity than chasing rank on existing pages.
 
