@@ -149,7 +149,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
-| 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Planning & Advice | 🟡 Committed — orphan |
+| 1 Jul | How to Choose the Right Balloon Colours for Your Party | choose-balloon-colours-for-party.html | Planning & Advice | LIVE |
 | 3 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Styling & Inspiration | 🟡 Committed — orphan |
 | 7 Jul | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | Trends | 🟡 Committed — orphan |
 | 10 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | DIY & Tutorial | 🟠 Written — needs hero image |
