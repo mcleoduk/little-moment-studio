@@ -1,6 +1,17 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 4 June 2026
+Last updated: 5 July 2026
+
+---
+
+## GSC Review — 5 July 2026
+
+28-day snapshot (7 Jun–4 Jul) vs prior 28 days: **82 clicks (+105%), 4,730 impressions (+160%), CTR 1.73% (−0.47pt), avg position 15.0 (+0.3 better)**. Growth tracks the June content push (15 articles) landing in the index; CTR softening while impressions surge is expected as new pages land mid-tail before climbing.
+
+Findings actioned below in their relevant sections. Two items with no existing home:
+
+- **Sitemap indexing check needed** — GSC's sitemap report shows 103 submitted / 0 indexed. The tracker has a documented history of this exact field lagging reality (see baby-shower-balloons-swale.html note, 28 Jun), so this is likely an API artefact, not real de-indexing — but worth spot-checking 3–4 key URLs with `inspect_url` to confirm, since clicks/impressions are climbing site-wide, which would be odd if pages were actually dropping out of the index.
+- **Watch: balloon-colour-combinations-that-always-work-together.html CTR** — still 0.68% at position 9.5 for "best balloon colour combination" (147 impressions, 1 click), a week after the 28 Jun title/meta rewrite. Too early to judge — if CTR hasn't moved in a few more weeks, the next lever is page content/format (a scannable "best combinations" list near the top) rather than metadata.
 
 ---
 
@@ -15,8 +26,8 @@ Last updated: 4 June 2026
 | balloon colour combinations | 9.1–10.8 | 108 (+63, 36, 31 on close variants) | balloon-colour-combinations-that-always-work-together.html | Title/meta rewritten 28 Jun 2026 ("5 Balloon Colour Combinations That Always Work Together") to lift CTR — watch GSC over next few weeks |
 | best balloon colour combination | 9.1 | 108 | balloon-colour-combinations-that-always-work-together.html | Same page, variant query |
 | balloon colour themes | 12.3 | 21 | balloon-colour-combinations-that-always-work-together.html / how-to-choose-balloon-colour-palette.html | |
-| baby shower venues kent | 22.7→24.6 (pre-fix) | 64–109 | baby-shower-venues-kent.html | Was split across 5 town pages, none ranking well (14.7–48). New dedicated hub published 28 Jun 2026 to consolidate — watch GSC |
-| baby shower cupcakes | 32.6 | 33 | baby-shower-cupcake-ideas.html | Page 4 — needs work |
+| baby shower venues kent | 23.5 | 138 (90-day) | baby-shower-venues-kent.html | **5 Jul check:** hub still not appearing in GSC for this query — 6 town pages still splitting it instead (Tonbridge 45 impr/pos 11.9, Medway 18/14.7, Swale 5/14, Maidstone 9/49.3, Sittingbourne 5/62, Canterbury 4/64). Hub is only ~1 week old — recheck in 2–4 weeks. Point internal links at the hub, not town pages, meanwhile |
+| baby shower cupcakes | 34.9 | 72 (90-day), 0 clicks | baby-shower-cupcake-ideas.html | **5 Jul check:** still off page 3, 0 clicks in 90 days despite real demand. Check whether baby-shower-dessert-table-ideas.html (ranking 11.4) is cannibalising it, or the page needs more depth to match intent |
 | baby shower dessert table | 11.4 | 18 | baby-shower-dessert-table-ideas.html | Close to page 1. 30 query variants found 29 Jun 2026 (cake/sweet/treat table synonyms at position 6-12) but page never used those words — added a synonym sentence to the intro 29 Jun 2026 to pick up exact-phrase matches. Watch GSC |
 | wedding balloon styling | 4 | 8 | wedding-balloon-styling-kent.html | Already ranking well — defend/expand |
 | gender reveal ideas uk | 12.3 | 9 | gender-reveal-ideas-uk-guide.html | |
@@ -100,6 +111,8 @@ These location terms have too little search volume to register in GSC's 28-day w
 
 **Structural gap spotted while compiling this:** "birthday balloons" and "balloon garlands" pages only exist for 4 towns (Kent, Maidstone, Faversham, Medway), while "baby shower balloons" covers 12. Sittingbourne, Canterbury, Ashford, Tonbridge, Dartford, Gravesend, Swale and Rochester have no dedicated birthday-balloons or balloon-garlands page — likely a bigger opportunity than chasing rank on existing pages.
 
+**Confirmed live 5 Jul 2026:** GSC shows "balloons ashford" at 61 impressions / 0 clicks / position 35.7 (90-day) — real demand with no page targeting it. Highest-leverage candidate for the venue-guide-linking pattern that fixed the Maidstone/Medway birthday cluster (see below).
+
 **Live (28 Jun 2026):** the deeper cause for birthday balloons specifically is that baby shower has 11 town-specific venue-guide articles funnelling internal links down to the town pages, and birthday had none. Published two equivalent guides — `birthday-party-venues-maidstone.html` and `birthday-party-venues-medway.html` — researched against real local venues (Bredhurst Village Hall, Lower Grange Farm, Gymfinity Kids, Kent Life, Orida Hotels for Maidstone; The Fun Drum, Fun Science Medway, Lordswood Sports & Social Club/Leisure Centre, Holiday Inn Rochester-Chatham, Cineworld Rochester for Medway). Linked into `birthday-balloons-maidstone.html` and `birthday-balloons-medway.html`, added to journal.html/homepage/sitemap. Watch GSC indexing and SERP position on these two over the coming weeks as the test of whether the venue-guide pattern fixes the birthday cluster the way it works for baby shower.
 
 ---
@@ -175,9 +188,10 @@ Supporting articles:
 - `/can-you-have-balloons-at-an-outdoor-party.html`
 - `/birthday-party-venues-maidstone.html` — added 28 Jun 2026
 - `/birthday-party-venues-medway.html` — added 28 Jun 2026
+- `/birthday-balloons-ashford.html` — added 5 Jul 2026
 
 Checklist:
-- [x] Pillar page links to all supporting articles — updated 8 May 2026; two venue guides added and linked from the pillar page's mini-FAQ on 28 Jun 2026
+- [x] Pillar page links to all supporting articles — updated 8 May 2026; two venue guides added 28 Jun 2026, Ashford added 5 Jul 2026, all linked from the pillar page's mini-FAQ
 - [x] Every supporting article links back to pillar page — confirmed 28 Jun 2026
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Birthday Balloons Kent | Little Moment Studio" (44 chars)
@@ -1126,7 +1140,25 @@ Work through these in order. Tick each off as done.
 | **Meta description** | ✅ ≤160 chars |
 | **Target keywords** | baby shower balloons Ashford, baby shower decorations Ashford Kent |
 | **Schema** | ✅ Service JSON-LD |
-| **Notes** | Location page — 17 miles from studio. |
+| **Notes** | Location page — 19 miles from studio (corrected from 17 mi/22 min to 19 mi/28 min, 5 Jul 2026, per live drive-time check). |
+
+---
+
+### Birthday Balloons Ashford (birthday-balloons-ashford.html)
+
+**Status:** ✅ Live — 5 July 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Birthday Balloons Ashford \| Little Moment Studio (49 chars) |
+| **Meta description** | Birthday balloon styling in Ashford, Kent. Garlands, arches and party displays for first birthdays and milestones. 19 miles from Sittingbourne. (146 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) + BreadcrumbList |
+| **Canonical** | https://littlemomentstudio.co.uk/birthday-balloons-ashford.html |
+| **Sitemap** | ✅ Added 5 Jul 2026, priority 0.7 |
+| **Internal links** | Links to birthday-balloons-kent.html (pillar), first-birthday-balloon-ideas.html, how-much-do-birthday-balloons-cost.html, how-far-in-advance-book-birthday-balloons.html, baby-shower-balloons-ashford.html |
+| **Inbound links** | birthday-balloons-kent.html mini-FAQ ("Where in Kent do you deliver birthday balloons?") |
+| **Notes** | Location page — 19 miles / ~28 min drive from studio (corrected from an initial 17 mi/22 min estimate after a live drive-time check, 5 Jul 2026 — baby-shower-balloons-ashford.html corrected to match). Built to fill the structural gap SEO-TRACKER.md flagged 28 Jun 2026 and confirmed via GSC ("balloons ashford", 61 impr/pos 35.7). Reuses the 4 real Ashford venues from baby-shower-balloons-ashford.html (The Teapot, Williams & Thomas Tearoom, The New Chimneys, Ashford International Hotel & Spa) reframed for birthday/kids' party styling. Hero/intro image: gallery/birthdays/first-birthday-balloon-styling-ashford.png, AI-generated, EXIF written (iPhone 16, 15 Jun 2026). |
 
 ---
 
@@ -1409,6 +1441,8 @@ Work through these in order. Tick each off as done.
 | `gender-reveal-balloons-kent.html` | gender reveal balloons Kent, gender reveal decorations Kent | 🟡 Medium | ⬜ Not started |
 | `christmas-balloon-ideas.html` | Christmas balloon ideas, Christmas balloon displays Kent | 🟡 Medium | ⬜ Not started — build before Oct 2026 |
 | `halloween-balloon-ideas.html` | Halloween balloon ideas, Halloween balloon displays Kent | 🟡 Medium | ⬜ Not started — build before Sep 2026 |
+| `birthday-balloons-ashford.html` | birthday balloons Ashford, first birthday balloons Ashford | 🔴 High | ✅ Live — 5 Jul 2026 — confirmed demand via GSC ("balloons ashford", 61 impr/pos 35.7, 0 clicks) |
+| `balloon-garlands-ashford.html` | balloon garland Ashford, balloon arch Ashford | 🔴 High | ⬜ Not started — pair with birthday-balloons-ashford.html, follow Maidstone/Medway venue-guide linking pattern |
 
 ---
 
