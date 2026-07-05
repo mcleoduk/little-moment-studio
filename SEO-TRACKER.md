@@ -210,9 +210,10 @@ Supporting articles:
 - `/are-latex-balloons-safe.html`
 - `/how-to-style-cupcakes-on-dessert-table.html`
 - `/can-you-have-balloons-at-an-outdoor-party.html`
+- `/balloon-garlands-ashford.html` — added 5 Jul 2026
 
 Checklist:
-- [x] Pillar page links to all supporting articles — updated 8 May 2026
+- [x] Pillar page links to all supporting articles — updated 8 May 2026; Ashford added 5 Jul 2026 and linked from the pillar page's mini-FAQ
 - [x] Every supporting article links back to pillar page — confirmed 8 May 2026
 - [x] Pillar page CTA prominent — CTA strip present
 - [x] Meta title ≤60 chars — "Balloon Garlands & Arches Kent | Little Moment Studio" (53 chars)
@@ -1162,6 +1163,24 @@ Work through these in order. Tick each off as done.
 
 ---
 
+### Balloon Garlands Ashford (balloon-garlands-ashford.html)
+
+**Status:** ✅ Live — 5 July 2026
+
+| Element | Value |
+|---------|-------|
+| **Meta title** | Balloon Garlands Ashford \| Little Moment Studio (50 chars) |
+| **Meta description** | Balloon garlands and arches in Ashford, Kent. Organic displays for baby showers, birthdays and events. 19 miles from Sittingbourne. (133 chars) |
+| **Open Graph** | ✅ All five OG tags present |
+| **Schema** | ✅ Service JSON-LD + FAQPage JSON-LD (5 questions) + BreadcrumbList |
+| **Canonical** | https://littlemomentstudio.co.uk/balloon-garlands-ashford.html |
+| **Sitemap** | ✅ Added 5 Jul 2026, priority 0.7 |
+| **Internal links** | Links to balloon-garlands-kent.html (pillar), what-is-an-organic-balloon-garland.html, how-long-do-balloons-last.html, best-balloon-colours-2025.html, birthday-balloons-ashford.html |
+| **Inbound links** | balloon-garlands-kent.html mini-FAQ ("Can you install a garland at any venue in Kent?") |
+| **Notes** | Location page — 19 miles / ~28 min drive from studio. Paired with birthday-balloons-ashford.html to fill the structural gap flagged 28 Jun 2026. Reuses the 4 real Ashford venues (The Teapot, Williams & Thomas Tearoom, The New Chimneys, Ashford International Hotel & Spa) reframed for garland/arch installation. Hero/intro image: gallery/installations/balloon-garlands-ashford.png, AI-generated, EXIF written (iPhone 16, 15 Jun 2026). |
+
+---
+
 ### Baby Shower Balloons Canterbury (baby-shower-balloons-canterbury.html)
 
 **Status:** ✅ Live — 18 May 2026
@@ -1442,7 +1461,7 @@ Work through these in order. Tick each off as done.
 | `christmas-balloon-ideas.html` | Christmas balloon ideas, Christmas balloon displays Kent | 🟡 Medium | ⬜ Not started — build before Oct 2026 |
 | `halloween-balloon-ideas.html` | Halloween balloon ideas, Halloween balloon displays Kent | 🟡 Medium | ⬜ Not started — build before Sep 2026 |
 | `birthday-balloons-ashford.html` | birthday balloons Ashford, first birthday balloons Ashford | 🔴 High | ✅ Live — 5 Jul 2026 — confirmed demand via GSC ("balloons ashford", 61 impr/pos 35.7, 0 clicks) |
-| `balloon-garlands-ashford.html` | balloon garland Ashford, balloon arch Ashford | 🔴 High | ⬜ Not started — pair with birthday-balloons-ashford.html, follow Maidstone/Medway venue-guide linking pattern |
+| `balloon-garlands-ashford.html` | balloon garland Ashford, balloon arch Ashford | 🔴 High | ✅ Live — 5 Jul 2026 |
 
 ---
 
