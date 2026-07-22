@@ -153,7 +153,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | 3 Jul | Wedding Balloon Styling: Ideas Beyond the Arch | wedding-balloon-styling-kent.html | Styling & Inspiration | LIVE |
 | 7 Jul | Balloon Colour Trends for 2026 | balloon-colour-trends-2026.html | Trends | LIVE |
 | 10 Jul | How to Make a Fake Cake for Celebrations | how-to-make-fake-cake.html | DIY & Tutorial | 🟠 Written — needs hero image |
-| 14 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | 🟡 Committed — orphan |
+| 14 Jul | How to Transport Cupcakes Without Damaging Them | how-to-transport-cupcakes-without-damaging-them.html | Practical/FAQ | LIVE — published 22 Jul |
 | 17 Jul | How Much Does a Balloon Garland Cost? | — | Practical/FAQ | ⚪ Not started |
 | 20 Jul | How to Decorate a Venue with Balloons | — | Planning & Advice | ⚪ Not started |
 | 23 Jul | How to Make Fondant Cupcake Toppers for Beginners | — | DIY & Tutorial | ⚪ Not started |

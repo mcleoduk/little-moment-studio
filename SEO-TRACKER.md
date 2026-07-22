@@ -11,7 +11,7 @@ Last updated: 5 July 2026
 Findings actioned below in their relevant sections. Two items with no existing home:
 
 - **Sitemap indexing check needed** — GSC's sitemap report shows 103 submitted / 0 indexed. The tracker has a documented history of this exact field lagging reality (see baby-shower-balloons-swale.html note, 28 Jun), so this is likely an API artefact, not real de-indexing — but worth spot-checking 3–4 key URLs with `inspect_url` to confirm, since clicks/impressions are climbing site-wide, which would be odd if pages were actually dropping out of the index.
-- **Watch: balloon-colour-combinations-that-always-work-together.html CTR** — still 0.68% at position 9.5 for "best balloon colour combination" (147 impressions, 1 click), a week after the 28 Jun title/meta rewrite. Too early to judge — if CTR hasn't moved in a few more weeks, the next lever is page content/format (a scannable "best combinations" list near the top) rather than metadata.
+- **balloon-colour-combinations-that-always-work-together.html — root cause found, 21 Jul 2026.** The 28 Jun rewrite hadn't fixed CTR (still 0.8% vs 3.2% benchmark at position 8.4, confirmed recrawled 17 Jul) because the "fix" made the title 78 chars and meta 175 chars — both over Google's display limits and truncating. This is almost certainly why Google was showing an auto-rewritten "Timeless Balloon Colour Combinations" snippet instead of the real title. Fixed 21 Jul 2026: title trimmed to 55 chars (dropped the brand suffix, kept the exact hook/H1 phrase), meta trimmed to 158 chars. Watch GSC.
 
 ---
 
@@ -23,12 +23,12 @@ Findings actioned below in their relevant sections. Two items with no existing h
 
 | Keyword | Position | Impressions | Target page | Note |
 |---|---|---|---|---|
-| balloon colour combinations | 9.1–10.8 | 108 (+63, 36, 31 on close variants) | balloon-colour-combinations-that-always-work-together.html | Title/meta rewritten 28 Jun 2026 ("5 Balloon Colour Combinations That Always Work Together") to lift CTR — watch GSC over next few weeks |
+| balloon colour combinations | 8.4–8.6 | 622 (28-day, page total) | balloon-colour-combinations-that-always-work-together.html | 28 Jun rewrite left title/meta over-length and truncating (see note above) — properly fixed 21 Jul 2026, watch GSC over next few weeks |
 | best balloon colour combination | 9.1 | 108 | balloon-colour-combinations-that-always-work-together.html | Same page, variant query |
 | balloon colour themes | 12.3 | 21 | balloon-colour-combinations-that-always-work-together.html / how-to-choose-balloon-colour-palette.html | |
 | baby shower venues kent | 23.5 | 138 (90-day) | baby-shower-venues-kent.html | **5 Jul check:** hub still not appearing in GSC for this query — 6 town pages still splitting it instead (Tonbridge 45 impr/pos 11.9, Medway 18/14.7, Swale 5/14, Maidstone 9/49.3, Sittingbourne 5/62, Canterbury 4/64). Hub is only ~1 week old — recheck in 2–4 weeks. Point internal links at the hub, not town pages, meanwhile |
 | baby shower cupcakes | 34.9 | 72 (90-day), 0 clicks | baby-shower-cupcake-ideas.html | **5 Jul check:** still off page 3, 0 clicks in 90 days despite real demand. Check whether baby-shower-dessert-table-ideas.html (ranking 11.4) is cannibalising it, or the page needs more depth to match intent |
-| baby shower dessert table | 11.4 | 18 | baby-shower-dessert-table-ideas.html | Close to page 1. 30 query variants found 29 Jun 2026 (cake/sweet/treat table synonyms at position 6-12) but page never used those words — added a synonym sentence to the intro 29 Jun 2026 to pick up exact-phrase matches. Watch GSC |
+| baby shower dessert table | 7 | 206 (28-day) | baby-shower-dessert-table-ideas.html | Page 1, position 7 — but biggest CTR gap on the site (0.97% actual vs 5.1% benchmark, -4.13pt). Title/meta rewritten 21 Jul 2026 to "7 Baby Shower Dessert Table Ideas" (numbered listicle format) — watch GSC |
 | wedding balloon styling | 4 | 8 | wedding-balloon-styling-kent.html | Already ranking well — defend/expand |
 | gender reveal ideas uk | 12.3 | 9 | gender-reveal-ideas-uk-guide.html | |
 | princess dessert table ideas | 5.7 | 3 | princess-party-dessert-table-ideas.html | Close to top 3 |
@@ -1243,11 +1243,11 @@ Work through these in order. Tick each off as done.
 
 | Element | Value |
 |---------|-------|
-| **Meta title** | Flowers by Beatrice \| Our Recommended Florist in Sittingbourne, Kent (68 chars — ⚠️ over 60) |
-| **Meta description** | ✅ ≤160 chars |
+| **Meta title** | Flowers by Beatrice \| Florist in Sittingbourne (46 chars) — fixed 21 Jul 2026, was 68 chars and truncating |
+| **Meta description** | Flowers by Beatrice — bespoke fresh floral arrangements in Sittingbourne, Kent. Recommended by Little Moment Studio, paired beautifully with balloon styling. (157 chars) — fixed 21 Jul 2026, was 197 chars (tracker previously logged this as ✅ in error — it was truncating badly) |
 | **Target keywords** | florist Sittingbourne, fresh flowers Kent, bespoke floral arrangements Sittingbourne |
 | **Schema** | ⬜ No schema |
-| **Notes** | Partner/referral page. Title needs trimming — suggest: "Flowers by Beatrice \| Florist Sittingbourne" (43 chars) |
+| **Notes** | Partner/referral page. GSC showed 0% CTR at position 7.6 for "flowers by beatrice" (90 impressions, 28 days) — both title and meta were over length and truncating in the SERP, the likely cause. Watch GSC for CTR improvement. |
 
 ---
 
