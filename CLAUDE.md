@@ -4,7 +4,7 @@
 - **Name:** Little Moment Studio
 - **Industry:** Premium balloon styling and celebration installations
 - **Location:** Forum Shopping Centre, Sittingbourne, ME10 3DL, UK
-- **Phone:** 07864 940 864
+- **Phone:** 07762 549 648
 - **Email:** hello@littlemomentstudio.co.uk
 - **Domain:** littlemomentstudio.co.uk
 - **Speciality:** Luxury baby showers, first birthdays, children's celebration styling, balloon installations, backdrops, prop hire, helium balloons — local delivery and venue installation across Sittingbourne & Kent
@@ -161,6 +161,13 @@ The website visuals should align with rotating display themes such as:
 - Avoid overusing the word “balloons” in every line
 - Avoid anything that sounds discount-led or low-end
 - See `CONTENT-CALENDAR.md` for article scheduling and status
+
+## Article Dates
+
+- `datePublished` (schema) and the byline date = the actual date the article goes live — never a future date
+- `dateModified` (schema) = the date the file was last meaningfully edited
+- When writing an article ahead of publish, leave dates as a placeholder — do not pre-fill a future date
+- When updating an existing article, update `dateModified` only; leave `datePublished` unchanged
 
 ## Journal Articles
 
