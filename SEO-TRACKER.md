@@ -1082,7 +1082,7 @@ Work through these in order. Tick each off as done.
 | **Meta description** | ✅ ≤160 chars |
 | **Target keywords** | baby shower balloons Swale, balloon styling Swale district |
 | **Schema** | ✅ Service JSON-LD |
-| **Notes** | Location page — covers Sittingbourne, Faversham, Whitstable. No delivery charge within Swale. |
+| **Notes** | Location page — covers Sittingbourne, Faversham, Whitstable. No delivery charge within Swale. **3 Sep 2026 investigation:** page-level position averaging 47.8 despite 33 impressions (28-day), but title/meta/content all check out clean and no cannibalisation with sibling pages — GSC suppresses every individual query for this page (0 rows returned), so the actual drag cause is invisible. Was stale-crawled (last 19 Jul) — resubmitted via IndexNow 3 Sep 2026. Recheck position in 1-2 weeks once the fresh crawl lands; this is home-turf (covers Sittingbourne itself) so worth another look rather than deprioritising. |
 
 ---
 
@@ -1219,7 +1219,7 @@ Work through these in order. Tick each off as done.
 | **Meta description** | ✅ ≤160 chars |
 | **Target keywords** | baby shower balloons Dartford, baby shower decorations Dartford |
 | **Schema** | ✅ Service JSON-LD |
-| **Notes** | Location page — 30 miles from studio. |
+| **Notes** | Location page — 30 miles from studio. **3 Sep 2026 investigation:** position averaging 48.4 despite 122 impressions (28-day), but on-page (title/meta/content/venue count) and internal linking are identical to baby-shower-balloons-rochester.html, the best-performing sibling page — no fixable on-page cause found. Only one query is visible ("balloon shop dartford", 19 impr, position 26.7 — a legitimate but weak page-3 ranking); the rest of the impressions sit in a suppressed long tail dragging the average down. Most likely explanation is the 30-mile distance itself (vs ~12-15mi for the strongest town pages) — a genuine local-relevance gap, not something content can fix. **Deprioritised** — not worth further optimisation effort given the distance handicap and marginal delivery economics. |
 
 ---
 
