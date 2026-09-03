@@ -1504,3 +1504,4 @@ A verified GBP listing puts Little Moment Studio into the **map pack** (the 3 bu
 - Brand colours: Background #FAF7F2, Primary #DCEAF5, Secondary #F6DDE4, Accent #D8C4A5
 - Domain: littlemomentstudio.co.uk
 - Hosting: Vercel via GitHub auto-deploy
+- **IndexNow key**: `0801cc6b9180fe72f7703f313bf9e16f`, key file live at `/0801cc6b9180fe72f7703f313bf9e16f.txt`. Set up 3 Sep 2026 as a Bing recrawl channel while the Google Indexing API is blocked on a project-level config issue. Submit via `POST https://api.indexnow.org/indexnow` with `host`, `key`, `keyLocation` and `urlList`.
