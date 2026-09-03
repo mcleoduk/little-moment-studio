@@ -167,7 +167,7 @@ Permanent referral pages — not journal articles. `index, follow`, in sitemap, 
 | Date | Title | URL | Type | Status |
 |------|-------|-----|------|--------|
 | Aug 2026 | Back to School Celebration Ideas | — | Planning & Advice | ⚪ Not started |
-| Aug 2026 | Halloween Party Balloon & Dessert Table Ideas | halloween-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🔴 To write — companion to `halloween-cupcake-ideas.html`. Publish Aug for Oct traffic. |
+| Aug 2026 | Halloween Party Balloon & Dessert Table Ideas | halloween-party-balloon-dessert-table-ideas.html | Styling & Inspiration | LIVE — published 3 Sep 2026 |
 | Aug 2026 | Christmas Party Balloon & Dessert Table Ideas | christmas-party-balloon-dessert-table-ideas.html | Styling & Inspiration | 🔴 To write — companion to `christmas-cupcake-ideas.html`. Publish Aug for Nov/Dec traffic. |
 | Sep 2026 | Halloween Balloon Ideas That Aren't Tacky | — | Seasonal | ⚪ Not started — publish early for Oct traffic |
 | Sep 2026 | Football Cupcakes: Easy Designs for Match Day | — | Styling & Inspiration | ⚪ Not started — needs 3 images |
