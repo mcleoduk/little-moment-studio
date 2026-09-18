@@ -28,7 +28,9 @@ Two of the three main pillar pages and the gallery page have real indexing probl
 
 **Also found, needs manual cleanup:** GSC's Sitemaps list shows a bogus entry — a single HTML page (`birthday-party-venues-maidstone.html`, submitted 3 Sep, 1 error, 0 contents) registered as if it were a sitemap file. Not the real sitemap.xml, doesn't affect real indexing, but looks like a URL got pasted into the "Add a new sitemap" field in the GSC UI by mistake. Needs deleting from GSC's Sitemaps screen directly — no API tool available to remove it.
 
-**Recheck in 1-2 weeks:** watch whether baby-shower-balloons-kent.html, birthday-balloons-kent.html and gallery.html get crawled/indexed following the IndexNow + sitemap resubmission. If they're still unindexed after that, the next lever is fixing the underlying Google Cloud Indexing API project so direct reindex requests work again.
+**Resolved 18 Sep 2026:** Google Indexing API fixed for good. Root causes were (1) the "Web Search Indexing API" was never actually enabled on the `site-monitor-gsc-504316` Cloud project despite an earlier attempt — a click that silently didn't register — and (2) `mcleoduk@gmail.com` (the identity the integration authenticates as) only had "Full" permission in Search Console's Users and permissions, not "Owner". Fixed both; `submit_url` now succeeds. Resubmitted all three pages (baby-shower-balloons-kent.html, birthday-balloons-kent.html, gallery.html) directly via the Indexing API.
+
+**Recheck in 1-2 weeks:** confirm all three show as indexed via `inspect_url`.
 
 ---
 
