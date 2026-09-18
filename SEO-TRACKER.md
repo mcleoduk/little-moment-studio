@@ -1,6 +1,34 @@
 # Little Moment Studio — SEO Optimisation Tracker
 
-Last updated: 5 July 2026
+Last updated: 18 September 2026
+
+---
+
+## GSC Review — 18 September 2026
+
+**Ian reported "seems to have lost some pages" via GSC's Page Indexing report (screenshot): Indexed count dropped from 74 to 66 between roughly 3–14 Aug 2026, only partially recovering since.**
+
+Investigation: overall page-level search visibility is NOT shrinking (94 distinct URLs got impressions in the last 28 days, up from ~64 in July) and a broad `check_alerts` sweep found genuine but likely-external ranking volatility (2 critical + 7 warning position drops across unrelated pages/queries in the 4–17 Sep window — e.g. baby-shower-venues-medway.html "places to have a baby shower near me" 6→61, baby-shower-venues-ashford.html "baby shower venue" 10→52). All 4 spot-checked drop pages are indexed and healthy — this looks like a Google-side ranking shift, not a site fault.
+
+**But a real, serious problem was found by diffing the sitemap (108 URLs) against pages with zero search impressions in 28 days, then running `inspect_url` on the suspects:**
+
+| Page | Status | Last crawled |
+|---|---|---|
+| baby-shower-balloons-kent.html | ❌ **Not indexed** — "Crawled, currently not indexed" | 16 May 2026 — 4+ months stale, never recrawled |
+| birthday-balloons-kent.html | ❌ **Not indexed** — "Discovered, currently not indexed" | **Never crawled** |
+| gallery.html | ❌ **Not indexed** — "URL is unknown to Google" | Never |
+| balloon-garlands-kent.html | ✅ Indexed and healthy (control) | 17 Sep 2026 |
+
+Two of the three main pillar pages and the gallery page have real indexing problems, despite being live since April 2026 and heavily internally linked. Checked robots.txt (only blocks privacy-policy.html/terms.html, unrelated), per-page `<meta name="robots">` (all four say `index, follow`), and canonical tags (all four self-canonical correctly) — **no site-side misconfiguration found**. This is a Google crawl-budget/prioritisation issue, not a fixable bug in the code.
+
+**Action taken 18 Sep 2026:**
+- Attempted Google Indexing API resubmission on all three — still blocked on the same project-level config issue from 3 Sep (Indexing API disabled on Google Cloud project `529302107725`; someone with console access needs to visit https://console.developers.google.com/apis/api/indexing.googleapis.com/overview?project=529302107725 to enable it — this has now blocked reindexing requests twice)
+- Submitted all three via IndexNow instead (Bing + participants) — succeeded, HTTP 200
+- Resubmitted sitemap.xml to Google via `submit_sitemap` — succeeded
+
+**Also found, needs manual cleanup:** GSC's Sitemaps list shows a bogus entry — a single HTML page (`birthday-party-venues-maidstone.html`, submitted 3 Sep, 1 error, 0 contents) registered as if it were a sitemap file. Not the real sitemap.xml, doesn't affect real indexing, but looks like a URL got pasted into the "Add a new sitemap" field in the GSC UI by mistake. Needs deleting from GSC's Sitemaps screen directly — no API tool available to remove it.
+
+**Recheck in 1-2 weeks:** watch whether baby-shower-balloons-kent.html, birthday-balloons-kent.html and gallery.html get crawled/indexed following the IndexNow + sitemap resubmission. If they're still unindexed after that, the next lever is fixing the underlying Google Cloud Indexing API project so direct reindex requests work again.
 
 ---
 
